@@ -1,0 +1,81 @@
+{
+  "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_DECISIONS",
+  "n_cases": 82,
+  "n_system_rows": 246,
+  "case_class_counts": {
+    "ABANDONED": 23,
+    "REDIRECTED": 7,
+    "RESOLVED": 35,
+    "REJECTED": 6,
+    "OPEN": 11
+  },
+  "system_metrics": [
+    {
+      "system": "closure_aware",
+      "n": 82,
+      "judge_status_correct": 76,
+      "judge_hallucination": 6,
+      "mean_judge_faithfulness": 0.6402439024390244,
+      "known_positive_hit_at_1": 16,
+      "known_positive_gated_strict_success": 14,
+      "nonresolved_n": 36,
+      "nonresolved_judge_status_correct": 30,
+      "nonresolved_judge_hallucination": 1
+    },
+    {
+      "system": "raw_metadata",
+      "n": 82,
+      "judge_status_correct": 73,
+      "judge_hallucination": 1,
+      "mean_judge_faithfulness": 0.6463414634146342,
+      "known_positive_hit_at_1": 16,
+      "known_positive_gated_strict_success": 15,
+      "nonresolved_n": 36,
+      "nonresolved_judge_status_correct": 27,
+      "nonresolved_judge_hallucination": 0
+    },
+    {
+      "system": "binary_state",
+      "n": 82,
+      "judge_status_correct": 62,
+      "judge_hallucination": 4,
+      "mean_judge_faithfulness": 0.42073170731707316,
+      "known_positive_hit_at_1": 16,
+      "known_positive_gated_strict_success": 15,
+      "nonresolved_n": 36,
+      "nonresolved_judge_status_correct": 17,
+      "nonresolved_judge_hallucination": 2
+    }
+  ],
+  "action_routing": [
+    {
+      "action_dimension": "NEEDS_INFO_request",
+      "system": "closure_aware",
+      "realized": 16,
+      "n": 16,
+      "rate": 1.0
+    },
+    {
+      "action_dimension": "NEEDS_INFO_request",
+      "system": "raw_metadata",
+      "realized": 4,
+      "n": 16,
+      "rate": 0.25
+    },
+    {
+      "action_dimension": "REDIRECTED_route_elsewhere",
+      "system": "closure_aware",
+      "realized": 7,
+      "n": 7,
+      "rate": 1.0
+    },
+    {
+      "action_dimension": "REDIRECTED_route_elsewhere",
+      "system": "raw_metadata",
+      "realized": 0,
+      "n": 7,
+      "rate": 0.0
+    }
+  ],
+  "interpretation": "Automated-judge metrics are secondary; the blinded human endpoint is primary."
+}

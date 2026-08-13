@@ -1,0 +1,230 @@
+{
+  "snapshot_version": "0.1.0",
+  "public_data_boundary": "text-free derived evidence",
+  "human_primary": {
+    "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_DECISIONS",
+    "n_pairs": 36,
+    "n_responses": 72,
+    "by_system": {
+      "closure_aware": {
+        "correct": 34,
+        "n": 36,
+        "rate": 0.9444444444444444
+      },
+      "binary_state": {
+        "correct": 1,
+        "n": 36,
+        "rate": 0.027777777777777776
+      }
+    },
+    "paired_outcomes": {
+      "both_correct": 1,
+      "structured_only": 33,
+      "binary_only": 0,
+      "both_incorrect": 2
+    },
+    "exact_two_sided_mcnemar_p": 2.3283064365386963e-10,
+    "observed_paired_difference": 0.9166666666666666,
+    "by_closure_class": [
+      {
+        "l1_class": "ABANDONED",
+        "closure_aware_correct": 23,
+        "closure_aware_n": 23,
+        "binary_state_correct": 0,
+        "binary_state_n": 23
+      },
+      {
+        "l1_class": "REDIRECTED",
+        "closure_aware_correct": 7,
+        "closure_aware_n": 7,
+        "binary_state_correct": 1,
+        "binary_state_n": 7
+      },
+      {
+        "l1_class": "REJECTED",
+        "closure_aware_correct": 4,
+        "closure_aware_n": 6,
+        "binary_state_correct": 0,
+        "binary_state_n": 6
+      }
+    ],
+    "human_llm_agreement": {
+      "agreement_count": 48,
+      "n": 72,
+      "rate": 0.6666666666666666,
+      "cohen_kappa": 0.3389441469013007
+    }
+  },
+  "taxonomy_validation": {
+    "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_LABELS",
+    "correct": 117,
+    "n": 120,
+    "accuracy": 0.975,
+    "wilson_95": [
+      0.9290699666721339,
+      0.9914618252300978
+    ],
+    "macro_f1": 0.974679228478388,
+    "cohen_kappa": 0.9666666666666667,
+    "human_class_counts": {
+      "RESOLVED": 31,
+      "REJECTED": 32,
+      "ABANDONED": 27,
+      "REDIRECTED": 30
+    },
+    "confusion_matrix": {
+      "RESOLVED": {
+        "RESOLVED": 30,
+        "REJECTED": 0,
+        "ABANDONED": 1,
+        "REDIRECTED": 0
+      },
+      "REJECTED": {
+        "RESOLVED": 0,
+        "REJECTED": 30,
+        "ABANDONED": 2,
+        "REDIRECTED": 0
+      },
+      "ABANDONED": {
+        "RESOLVED": 0,
+        "REJECTED": 0,
+        "ABANDONED": 27,
+        "REDIRECTED": 0
+      },
+      "REDIRECTED": {
+        "RESOLVED": 0,
+        "REJECTED": 0,
+        "ABANDONED": 0,
+        "REDIRECTED": 30
+      }
+    },
+    "mismatch_case_ids": [
+      "T062",
+      "T063",
+      "T088"
+    ]
+  },
+  "generation_descriptive": {
+    "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_DECISIONS",
+    "n_cases": 82,
+    "n_system_rows": 246,
+    "case_class_counts": {
+      "ABANDONED": 23,
+      "REDIRECTED": 7,
+      "RESOLVED": 35,
+      "REJECTED": 6,
+      "OPEN": 11
+    },
+    "system_metrics": [
+      {
+        "system": "closure_aware",
+        "n": 82,
+        "judge_status_correct": 76,
+        "judge_hallucination": 6,
+        "mean_judge_faithfulness": 0.6402439024390244,
+        "known_positive_hit_at_1": 16,
+        "known_positive_gated_strict_success": 14,
+        "nonresolved_n": 36,
+        "nonresolved_judge_status_correct": 30,
+        "nonresolved_judge_hallucination": 1
+      },
+      {
+        "system": "raw_metadata",
+        "n": 82,
+        "judge_status_correct": 73,
+        "judge_hallucination": 1,
+        "mean_judge_faithfulness": 0.6463414634146342,
+        "known_positive_hit_at_1": 16,
+        "known_positive_gated_strict_success": 15,
+        "nonresolved_n": 36,
+        "nonresolved_judge_status_correct": 27,
+        "nonresolved_judge_hallucination": 0
+      },
+      {
+        "system": "binary_state",
+        "n": 82,
+        "judge_status_correct": 62,
+        "judge_hallucination": 4,
+        "mean_judge_faithfulness": 0.42073170731707316,
+        "known_positive_hit_at_1": 16,
+        "known_positive_gated_strict_success": 15,
+        "nonresolved_n": 36,
+        "nonresolved_judge_status_correct": 17,
+        "nonresolved_judge_hallucination": 2
+      }
+    ],
+    "action_routing": [
+      {
+        "action_dimension": "NEEDS_INFO_request",
+        "system": "closure_aware",
+        "realized": 16,
+        "n": 16,
+        "rate": 1.0
+      },
+      {
+        "action_dimension": "NEEDS_INFO_request",
+        "system": "raw_metadata",
+        "realized": 4,
+        "n": 16,
+        "rate": 0.25
+      },
+      {
+        "action_dimension": "REDIRECTED_route_elsewhere",
+        "system": "closure_aware",
+        "realized": 7,
+        "n": 7,
+        "rate": 1.0
+      },
+      {
+        "action_dimension": "REDIRECTED_route_elsewhere",
+        "system": "raw_metadata",
+        "realized": 0,
+        "n": 7,
+        "rate": 0.0
+      }
+    ],
+    "interpretation": "Automated-judge metrics are secondary; the blinded human endpoint is primary."
+  },
+  "training_manifest": {
+    "evidence_status": "REPRODUCED_CHECKPOINT_MANIFEST_AUDIT",
+    "seeds": [
+      13,
+      21,
+      42,
+      67,
+      100
+    ],
+    "n_checkpoints": 5,
+    "checkpoint_audit_passed": 5,
+    "all_dataset_hashes_equal": true,
+    "note": "Model weights and full-corpus per-query outputs are outside this public snapshot."
+  },
+  "paired_binary_sensitivity": [
+    {
+      "comparison": "Human closure-aware vs binary status",
+      "n": 36,
+      "a_only": 33,
+      "b_only": 0,
+      "status": "PRIMARY_HUMAN_ENDPOINT",
+      "discordant_pairs": 33,
+      "discordance_rate": 0.9166666666666666,
+      "observed_abs_paired_difference": 0.9166666666666666,
+      "mde_80pct_power_abs_paired_difference": 0.46046813108656237,
+      "alpha_two_sided": 0.05,
+      "target_power": 0.8
+    },
+    {
+      "comparison": "RRF vs BGE-ZS known-positive Hit@1",
+      "n": 82,
+      "a_only": 10,
+      "b_only": 2,
+      "status": "PRIMARY_RQ2_BINARY_ENDPOINT",
+      "discordant_pairs": 12,
+      "discordance_rate": 0.14634146341463414,
+      "observed_abs_paired_difference": 0.0975609756097561,
+      "mde_80pct_power_abs_paired_difference": 0.11888584086781247,
+      "alpha_two_sided": 0.05,
+      "target_power": 0.8
+    }
+  ]
+}

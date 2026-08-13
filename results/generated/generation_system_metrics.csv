@@ -1,0 +1,4 @@
+system,n,judge_status_correct,judge_hallucination,mean_judge_faithfulness,known_positive_hit_at_1,known_positive_gated_strict_success,nonresolved_n,nonresolved_judge_status_correct,nonresolved_judge_hallucination
+closure_aware,82,76,6,0.6402439024390244,16,14,36,30,1
+raw_metadata,82,73,1,0.6463414634146342,16,15,36,27,0
+binary_state,82,62,4,0.42073170731707316,16,15,36,17,2

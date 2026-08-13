@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "closure-aware-review-to-issue"
+version = "0.1.0"
+description = "Reproducible closure-aware analysis for review-to-issue retrieval and grounded response generation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+authors = [
+  {name = "Ogtay Hasanov"},
+  {name = "Saad Ezzini"},
+  {name = "Xunzhu Tang"},
+]
+
+[project.urls]
+Repository = "https://github.com/ogtayhasanov/closure-aware-review-to-issue"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

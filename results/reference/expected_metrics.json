@@ -1,0 +1,23 @@
+{
+  "human_primary": {
+    "closure_aware_correct": 34,
+    "binary_state_correct": 1,
+    "n_pairs": 36,
+    "structured_only": 33,
+    "binary_only": 0,
+    "exact_two_sided_mcnemar_p": 2.3283064365386963e-10
+  },
+  "taxonomy": {
+    "correct": 117,
+    "n": 120,
+    "accuracy": 0.975,
+    "macro_f1": 0.9747,
+    "cohen_kappa": 0.9667
+  },
+  "action_routing": {
+    "closure_aware_needs_info": "16/16",
+    "raw_metadata_needs_info": "4/16",
+    "closure_aware_redirected": "7/7",
+    "raw_metadata_redirected": "0/7"
+  }
+}

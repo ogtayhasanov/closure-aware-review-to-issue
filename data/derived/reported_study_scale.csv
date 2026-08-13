@@ -1,0 +1,6 @@
+component,metric,value,unit,evidence_status
+closure_prevalence,closed_issues,117695,count,reported_aggregate
+closure_prevalence,projects,9,count,reported_aggregate
+closure_prevalence,trackers,3,count,reported_aggregate
+closure_prevalence,explicit_nonresolution_minimum,28.6,percent,reported_aggregate
+closure_prevalence,project_rate_range,5.7-53.5,percent,reported_aggregate

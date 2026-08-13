@@ -1,0 +1,14 @@
+{
+  "evidence_status": "REPRODUCED_CHECKPOINT_MANIFEST_AUDIT",
+  "seeds": [
+    13,
+    21,
+    42,
+    67,
+    100
+  ],
+  "n_checkpoints": 5,
+  "checkpoint_audit_passed": 5,
+  "all_dataset_hashes_equal": true,
+  "note": "Model weights and full-corpus per-query outputs are outside this public snapshot."
+}

@@ -1,0 +1,49 @@
+{
+  "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_LABELS",
+  "correct": 117,
+  "n": 120,
+  "accuracy": 0.975,
+  "wilson_95": [
+    0.9290699666721339,
+    0.9914618252300978
+  ],
+  "macro_f1": 0.974679228478388,
+  "cohen_kappa": 0.9666666666666667,
+  "human_class_counts": {
+    "RESOLVED": 31,
+    "REJECTED": 32,
+    "ABANDONED": 27,
+    "REDIRECTED": 30
+  },
+  "confusion_matrix": {
+    "RESOLVED": {
+      "RESOLVED": 30,
+      "REJECTED": 0,
+      "ABANDONED": 1,
+      "REDIRECTED": 0
+    },
+    "REJECTED": {
+      "RESOLVED": 0,
+      "REJECTED": 30,
+      "ABANDONED": 2,
+      "REDIRECTED": 0
+    },
+    "ABANDONED": {
+      "RESOLVED": 0,
+      "REJECTED": 0,
+      "ABANDONED": 27,
+      "REDIRECTED": 0
+    },
+    "REDIRECTED": {
+      "RESOLVED": 0,
+      "REJECTED": 0,
+      "ABANDONED": 0,
+      "REDIRECTED": 30
+    }
+  },
+  "mismatch_case_ids": [
+    "T062",
+    "T063",
+    "T088"
+  ]
+}

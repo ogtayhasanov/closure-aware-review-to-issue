@@ -1,0 +1,15 @@
+{
+  "protocol": "blinded-structured-binary-human-status-audit-v1",
+  "population": "36 final-RRF non-resolved closed retrieved issues",
+  "n_pairs": 36,
+  "n_responses": 72,
+  "conditions": ["closure_aware", "binary_state"],
+  "row_randomization_seed": 20260808,
+  "condition_identity_hidden": true,
+  "pair_keys_hidden": true,
+  "primary_label": "human_status_correct",
+  "primary_test": "single two-sided exact McNemar test after frozen labels were unblinded",
+  "automated_judge_role": "post-unblinding agreement diagnostic only",
+  "annotation_scope": "whether the response correctly communicates the authoritative closure status/outcome"
+}
+

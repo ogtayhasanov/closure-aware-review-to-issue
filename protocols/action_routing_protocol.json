@@ -1,0 +1,13 @@
+{
+  "status": "post-hoc descriptive mechanism audit",
+  "population": "same 36 final-RRF non-resolved retrieved issues",
+  "systems_compared": [
+    "closure_aware",
+    "raw_metadata"
+  ],
+  "dimensions": {
+    "NEEDS_INFO_request": "Among the 16 NEEDS_INFO cases, response explicitly asks the user to provide/report further diagnostic information.",
+    "REDIRECTED_route_elsewhere": "Among the 7 REDIRECTED cases, response explicitly routes the user to elsewhere/related tracker or discussion; merely saying duplicate does not count."
+  },
+  "note": "This audit measures action realization, not status correctness, retrieval relevance, or end-to-end success."
+}

@@ -1,0 +1,3 @@
+comparison,n,a_only,b_only,status,discordant_pairs,discordance_rate,observed_abs_paired_difference,mde_80pct_power_abs_paired_difference,alpha_two_sided,target_power
+Human closure-aware vs binary status,36,33,0,PRIMARY_HUMAN_ENDPOINT,33,0.9166666666666666,0.9166666666666666,0.46046813108656237,0.05,0.8
+RRF vs BGE-ZS known-positive Hit@1,82,10,2,PRIMARY_RQ2_BINARY_ENDPOINT,12,0.14634146341463414,0.0975609756097561,0.11888584086781247,0.05,0.8

@@ -1,0 +1,52 @@
+{
+  "artifact_version": "1.0.0",
+  "external_haring": {
+    "projects": {"Firefox": 28, "VLC": 21, "Nextcloud": 33},
+    "positive_queries": 82,
+    "excluded_project": "Signal",
+    "interpretation": "known-positive rank diagnostic under pool-incomplete judgments"
+  },
+  "final_retriever": {
+    "method": "RRF",
+    "k": 60,
+    "inputs": ["BGE-ZS", "BM25"],
+    "document_field": "title",
+    "closure_metadata_used_for_ranking": false
+  },
+  "confidence": {
+    "primary": "mean reciprocal rank of the RRF top-1 document under BGE-ZS, BM25, and SPLADE-ZS",
+    "splade_role": "confidence corroboration only",
+    "target_coverages": [1.0, 0.75, 0.5, 0.25],
+    "trained_or_tuned": false
+  },
+  "taxonomy": {
+    "level1": ["RESOLVED", "REJECTED", "ABANDONED", "REDIRECTED"],
+    "priority": ["REDIRECTED", "EXPLICIT_REJECTED", "ABANDONED", "NOT_PLANNED_FALLBACK", "RESOLVED"]
+  },
+  "generation": {
+    "arms": ["closure_aware", "raw_metadata", "binary_state"],
+    "real_review_cases": 82,
+    "primary_human_population": "36 final-RRF non-resolved closed issues",
+    "primary_human_conditions": ["closure_aware", "binary_state"],
+    "raw_metadata_human_status": "post-hoc exploratory",
+    "automated_judge": "gpt-4o-mini alias; secondary descriptive evidence; immutable snapshot not retained"
+  },
+  "splade_training": {
+    "retained_queries": 7944,
+    "training_queries": 7150,
+    "validation_queries": 794,
+    "usable_triplets": 62515,
+    "split_seed": 42,
+    "seeds": [13, 21, 42, 67, 100],
+    "epochs_max": 3,
+    "learning_rate": 0.00002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_length": 128,
+    "effective_batch_size": 32,
+    "temperature": 1.0,
+    "l1_penalty": 0.0001,
+    "checkpoint_selection": "validation loss only"
+  }
+}
+

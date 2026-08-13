@@ -1,0 +1,41 @@
+name: Reproduce public snapshot
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Validate public-data boundary
+        run: python scripts/validate_public_snapshot.py
+
+      - name: Reproduce evidence
+        run: python scripts/reproduce_all.py
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Compile sources
+        run: python -m compileall -q src scripts tests
+
+      - name: Verify deterministic outputs
+        run: git diff --exit-code -- results/generated

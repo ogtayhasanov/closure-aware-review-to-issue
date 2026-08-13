@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this research snapshot, please cite the associated manuscript and repository."
+title: "Closure-Aware Review-to-Issue Intelligence"
+type: software
+version: 0.1.0
+date-released: 2026-08-13
+repository-code: "https://github.com/ogtayhasanov/closure-aware-review-to-issue"
+authors:
+  - family-names: Hasanov
+    given-names: Ogtay
+    affiliation: King Fahd University of Petroleum and Minerals
+  - family-names: Ezzini
+    given-names: Saad
+    affiliation: King Fahd University of Petroleum and Minerals
+  - family-names: Tang
+    given-names: Xunzhu
+    affiliation: University of Luxembourg / SnT TruX
+preferred-citation:
+  type: article
+  title: "From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues"
+  authors:
+    - family-names: Hasanov
+      given-names: Ogtay
+    - family-names: Ezzini
+      given-names: Saad
+    - family-names: Tang
+      given-names: Xunzhu
+  year: 2026

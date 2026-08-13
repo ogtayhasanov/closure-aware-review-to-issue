@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-09",
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "preregistration_claim": false,
+  "human_primary": {
+    "comparison": "closure-aware vs binary state",
+    "n_pairs": 36,
+    "endpoint": "frozen blinded human status correctness",
+    "test": "two-sided exact McNemar",
+    "multiplicity": "single primary test"
+  },
+  "mde_method": "Condition on the observed discordance rate q; D follows Binomial(n,q); direction among discordants follows theta=(q+delta)/(2q); solve the minimum absolute paired difference with unconditional exact two-sided McNemar power at least 0.80.",
+  "retrieval_families": {
+    "rrf_vs_bge_primary": "reciprocal rank, Hit@1, Hit@10; Holm across three paired Wilcoxon tests",
+    "rrf_vs_bge_binary_robustness": "Hit@1 and Hit@10; Holm across two exact McNemar tests",
+    "selective_enrichment": "75%, 50%, and 25% accepted-vs-abstained one-sided Fisher tests; Holm across three"
+  },
+  "raw_metadata_human_arm": "post-hoc exploratory; descriptive only"
+}
+

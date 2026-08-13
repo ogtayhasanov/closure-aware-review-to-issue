@@ -1,0 +1,54 @@
+{
+  "evidence_status": "REPRODUCED_FROM_TEXT_FREE_FROZEN_DECISIONS",
+  "n_pairs": 36,
+  "n_responses": 72,
+  "by_system": {
+    "closure_aware": {
+      "correct": 34,
+      "n": 36,
+      "rate": 0.9444444444444444
+    },
+    "binary_state": {
+      "correct": 1,
+      "n": 36,
+      "rate": 0.027777777777777776
+    }
+  },
+  "paired_outcomes": {
+    "both_correct": 1,
+    "structured_only": 33,
+    "binary_only": 0,
+    "both_incorrect": 2
+  },
+  "exact_two_sided_mcnemar_p": 2.3283064365386963e-10,
+  "observed_paired_difference": 0.9166666666666666,
+  "by_closure_class": [
+    {
+      "l1_class": "ABANDONED",
+      "closure_aware_correct": 23,
+      "closure_aware_n": 23,
+      "binary_state_correct": 0,
+      "binary_state_n": 23
+    },
+    {
+      "l1_class": "REDIRECTED",
+      "closure_aware_correct": 7,
+      "closure_aware_n": 7,
+      "binary_state_correct": 1,
+      "binary_state_n": 7
+    },
+    {
+      "l1_class": "REJECTED",
+      "closure_aware_correct": 4,
+      "closure_aware_n": 6,
+      "binary_state_correct": 0,
+      "binary_state_n": 6
+    }
+  ],
+  "human_llm_agreement": {
+    "agreement_count": 48,
+    "n": 72,
+    "rate": 0.6666666666666666,
+    "cohen_kappa": 0.3389441469013007
+  }
+}

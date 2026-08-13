@@ -1,0 +1,5 @@
+action_dimension,system,realized,n,rate
+NEEDS_INFO_request,closure_aware,16,16,1.0
+NEEDS_INFO_request,raw_metadata,4,16,0.25
+REDIRECTED_route_elsewhere,closure_aware,7,7,1.0
+REDIRECTED_route_elsewhere,raw_metadata,0,7,0.0
