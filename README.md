@@ -63,6 +63,6 @@ It intentionally excludes app-review text, issue titles and bodies, comments, ge
 
 This repository accompanies ongoing MSc research and a manuscript in preparation:
 
-> Ogtay Hasanov, Saad Ezzini, and Xunzhu Tang. *From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues.* 2026.
+> Ogtay Hasanov, Saad Ezzini, Hamzah Luqman and Xunzhu Tang. *From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues.* 2026.
 
 For citation metadata, see [CITATION.cff](CITATION.cff).
