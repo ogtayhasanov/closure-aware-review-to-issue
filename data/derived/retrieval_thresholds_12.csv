@@ -1,0 +1,13 @@
+signal,target_coverage,threshold_inclusive
+corroboration_rr,1.0,0.03677688129515372
+corroboration_rr,0.75,0.14166666666666666
+corroboration_rr,0.5,0.2611111111111111
+corroboration_rr,0.25,0.5
+rrf_relative_margin,1.0,0.0005120327700974626
+rrf_relative_margin,0.75,0.017075517075517018
+rrf_relative_margin,0.5,0.04952147525676948
+rrf_relative_margin,0.25,0.09706475182665678
+mean_top10_jaccard,1.0,0.0
+mean_top10_jaccard,0.75,0.05458089668615984
+mean_top10_jaccard,0.5,0.10087719298245613
+mean_top10_jaccard,0.25,0.15970072239422084

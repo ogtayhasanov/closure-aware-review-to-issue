@@ -1,0 +1,29 @@
+{
+  "scope": "SHA-256 of the local source files used to export the text-free evidence",
+  "files": {
+    "bge_ft_seed42_controlled.zip": "bb5e2a4d17bccad2f04bb5b57807656ea1ff7044a30d3803ba40d0b4ff35d14f",
+    "bot_test/judgments.jsonl": "e499db1bcab18f431b151c3e985019fe8bcdcad9e04b02aaca94af1592722f6c",
+    "combined_exp/scores_all_arms.csv": "199f1ab626060f19d68d90fff4af3e15eeee005e4be09863e5628f1d8537b8d8",
+    "combined_exp/switch_provenance.csv": "7d12e8932ac0c5f29b8e98cc959d661316350bb166af7315519b233d3bbac5a1",
+    "final_exp/audit_key.csv": "9842f64d21669d6d1afb2a266e0db4b2bc4608bd967cbad062a7b61e3281b4dc",
+    "final_exp/audit_primary_scores.csv": "57af5ba9c0f9eedd49aa437bc72124634795dd1a731bd50ea8ed4834b3bbe304",
+    "final_exp/generation_settings.json": "3dc09494432e56e9ebded8e63eb0b91d2595d15261d40ccaad53ade5bca29164",
+    "final_exp/judge_audit_prompt.txt": "f7ce0ba6312f120eb5f4a1d16dacc18c95cc0618569c30dd607f6e10ef9688a0",
+    "final_exp/judge_audit_routing_scores.jsonl": "3797c6b3fda8a7b20b7fa19c507d0230e51b194be420a30d64c1992cffc428b4",
+    "final_exp/judge_core_prompt.txt": "31fc1ebb53dd427882d3a972cbd19504b07551800d45cf78e4ec4e281bc201ef",
+    "final_exp/judge_routing_prompt.txt": "dfce1dfa4431496b6fff96ef634ac525a240fc4c31cb596a0c64fb2c3d31b282",
+    "final_exp/meaning_lines.json": "83bb8f7d24931afbdc0a604a0ec57197e5285cadbe0e2aa626eb71ba003ead8d",
+    "final_exp/outcome_lexical.py": "edb19456f09444edbe549eaa492131dbe438e3d3a33f5955c0d916819ca1de89",
+    "final_exp/prevalence_sensitivity.csv": "97fa2146a0fdd9441682c4f478ae702ded78490c941d0a0f05b520c0b2cf8ff9",
+    "final_exp/scripts/bot_lexical.py": "eaadfe6c2e914fd037d759e8c865c46fd1ce2ae9627dcfa74d4799dfbe566c2d",
+    "final_exp/scripts/routing_lexical.py": "6500dc562472e63c4670ece4d1091c488115cefba2c46a044fa850786c8168cc",
+    "final_exp/system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+    "final_exp/test1_human_check_joined.csv": "4aa2f617d4c241f9f7dded7c04297696dc1c8273de2adaa75bb20c11a1eb370d",
+    "haring_bge_bm25_rrf_results.zip": "10d1721cb72c248e7e30415c416d00d22cfbbc3c1d8846ccdfa1c4458cb2b6a6",
+    "haring_rrf_abstention_results.zip": "07837d267cf826047288e1e47bc66f4f65e261aaa4004cb4900dc0f44e70edfd",
+    "haring_rrf_selective_e2e/selective_strict_e2e_per_query.csv": "6908aded7cba9553ed8f903afffe20d8b4ac869945c75a5555595f89b5fb5db3",
+    "routing_test/case_registry.csv": "1aaa5c8ace870e8177eeb43dd318cac6b2687039c4889316f1844f9bdd33f61f",
+    "routing_test/lexical_scores.jsonl": "dd66274189da384d1ce30e0f95c1cd963dd78c632bd84e28adbc53c71bbcbf67",
+    "routing_test/true_status_registry.csv": "80ccee0d2ef0a8b51ec28875f8caf886c0dc8f444a992a1175fb6c9463c51335"
+  }
+}

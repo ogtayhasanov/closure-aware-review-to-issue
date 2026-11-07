@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -11,20 +12,18 @@ from closure_artifact.analysis import reproduce_all
 
 
 def main() -> None:
-    summary = reproduce_all(ROOT)
+    parser = argparse.ArgumentParser(description="Reproduce the frozen artifact results.")
+    parser.add_argument("--output", type=Path, default=ROOT / "results" / "generated")
+    args = parser.parse_args()
+    summary = reproduce_all(ROOT, args.output)
     human = summary["human_primary"]
-    taxonomy = summary["taxonomy_validation"]
     generation = summary["generation_descriptive"]
     print("PASS human primary:", human["by_system"])
     print("PASS exact McNemar p:", f"{human['exact_two_sided_mcnemar_p']:.12g}")
-    print(
-        "PASS taxonomy:",
-        f"{taxonomy['correct']}/{taxonomy['n']}",
-        f"macro-F1={taxonomy['macro_f1']:.4f}",
-        f"kappa={taxonomy['cohen_kappa']:.4f}",
-    )
     print("PASS generation rows:", generation["n_system_rows"])
-    print("Wrote results/generated/reproduction_summary.json")
+    print("PASS follow-up generation rows:", summary["generation_followup"]["generation_rows"])
+    print("PASS external retrieval queries:", summary["external_retrieval"]["queries"])
+    print(f"Wrote {args.output / 'reproduction_summary.json'}")
 
 
 if __name__ == "__main__":

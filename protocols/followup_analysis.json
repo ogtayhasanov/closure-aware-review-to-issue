@@ -1,0 +1,85 @@
+{
+  "models": {
+    "GPT": "gpt-4o-mini-2024-07-18",
+    "Gemma": "gemma-4-26b-a4b-it"
+  },
+  "cohorts": {
+    "BOT": 50, "HUMAN": 30, "fair82": 82, "fair81": 81,
+    "audit35": 35, "NEEDS_INFO": 16, "REDIRECTED": 7
+  },
+  "generated_arms": {
+    "bot_test": ["RAW", "RAW+CLOSER", "TAXONOMY-V1", "TAXONOMY-V2", "TAXONOMY-ONLY", "RAW+MEANING"],
+    "fair": ["BINARY", "RAW", "CLOSURE-AWARE", "TAXONOMY-ONLY", "RAW+MEANING"]
+  },
+  "comparison_fields": ["cohort", "score", "arm_a", "arm_b"],
+  "paired_families": [
+    {
+      "name": "bot_v2", "models": ["GPT", "Gemma"], "gpt_role": "primary", "correction": "holm",
+      "comparisons": [
+        ["BOT", "judge_declined", "TAXONOMY-V2", "RAW"],
+        ["BOT", "judge_declined", "TAXONOMY-V2", "RAW+CLOSER"],
+        ["BOT", "judge_declined", "TAXONOMY-V2", "TAXONOMY-V1"]
+      ]
+    },
+    {
+      "name": "taxonomy_only", "models": ["GPT"], "gpt_role": "primary", "correction": "holm",
+      "comparisons": [
+        ["audit35", "judge_states_outcome", "TAXONOMY-ONLY", "RAW"],
+        ["BOT", "judge_declined", "TAXONOMY-ONLY", "RAW"]
+      ]
+    },
+    {
+      "name": "taxonomy_only", "models": ["Gemma"], "gpt_role": "secondary", "correction": "none",
+      "comparisons": [["BOT", "judge_declined", "TAXONOMY-ONLY", "RAW"]]
+    },
+    {
+      "name": "raw_plus_meaning", "models": ["GPT"], "gpt_role": "primary", "correction": "holm",
+      "comparisons": [
+        ["BOT", "judge_declined", "RAW+MEANING", "RAW"],
+        ["audit35", "judge_states_outcome", "RAW+MEANING", "RAW"]
+      ]
+    },
+    {
+      "name": "raw_plus_meaning", "models": ["Gemma"], "gpt_role": "secondary", "correction": "none",
+      "comparisons": [
+        ["BOT", "judge_declined", "RAW+MEANING", "RAW"],
+        ["audit35", "judge_states_outcome", "RAW+MEANING", "RAW"]
+      ]
+    },
+    {
+      "name": "raw_plus_meaning_vs_taxonomy_only", "models": ["GPT", "Gemma"], "gpt_role": "secondary", "correction": "none",
+      "comparisons": [
+        ["BOT", "judge_declined", "RAW+MEANING", "TAXONOMY-ONLY"],
+        ["audit35", "judge_states_outcome", "RAW+MEANING", "TAXONOMY-ONLY"]
+      ]
+    },
+    {
+      "name": "shared_prompt_routing_judge", "models": ["GPT"], "gpt_role": "follow_up", "correction": "holm",
+      "comparisons": [
+        ["NEEDS_INFO", "judge_asks_details", "CLOSURE-AWARE", "RAW"],
+        ["REDIRECTED", "judge_says_duplicate", "CLOSURE-AWARE", "RAW"]
+      ]
+    },
+    {
+      "name": "shared_prompt_routing_lexical", "models": ["GPT", "Gemma"], "gpt_role": "secondary", "correction": "holm",
+      "comparisons": [
+        ["NEEDS_INFO", "lexical_asks_details", "CLOSURE-AWARE", "RAW"],
+        ["REDIRECTED", "lexical_says_duplicate", "CLOSURE-AWARE", "RAW"]
+      ]
+    },
+    {
+      "name": "shared_prompt_other", "models": ["GPT"], "gpt_role": "secondary", "correction": "none",
+      "comparisons": [
+        ["audit35", "judge_no_false_fix", "CLOSURE-AWARE", "RAW"],
+        ["audit35", "judge_states_outcome", "CLOSURE-AWARE", "RAW"]
+      ]
+    },
+    {
+      "name": "gemma_original_fix_claim", "models": ["Gemma"], "gpt_role": "secondary", "correction": "none",
+      "comparisons": [["fair82", "judge_fix_claim", "CLOSURE-AWARE", "RAW"]]
+    }
+  ],
+  "switch_rule": "Use TAXONOMY-ONLY if the GitHub issue is closed, its closer is a bot, and provenance records no linked fix. Use RAW otherwise. Select saved responses without generating new ones.",
+  "outcome_difference_interval": "Paired percentile bootstrap. The public reproducer enumerates the empirical distribution of case-level differences to obtain deterministic 2.5% and 97.5% quantiles.",
+  "human_check": "First-author labels for both responses in each of the 12 GPT judge-discordant RAW versus TAXONOMY-ONLY pairs. The combined-arm check has eight requested labels and no completed labels in this snapshot."
+}

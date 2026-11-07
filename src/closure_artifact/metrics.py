@@ -26,6 +26,16 @@ def exact_mcnemar_p(a_only: int, b_only: int) -> float:
     return min(1.0, 2.0 * lower)
 
 
+def holm_adjust(p_values: Sequence[float]) -> list[float]:
+    """Adjust a fixed family of p-values and return them in the input order."""
+    adjusted = [0.0] * len(p_values)
+    previous = 0.0
+    for rank, index in enumerate(sorted(range(len(p_values)), key=p_values.__getitem__)):
+        previous = max(previous, min(1.0, (len(p_values) - rank) * p_values[index]))
+        adjusted[index] = previous
+    return adjusted
+
+
 def cohen_kappa(actual: Sequence[object], predicted: Sequence[object]) -> float:
     if len(actual) != len(predicted):
         raise ValueError("Kappa inputs must have equal length")

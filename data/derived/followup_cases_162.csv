@@ -1,0 +1,163 @@
+case_id,dataset,project,tracker,probe_group,audit35,routing_cohort,tracker_supported_status,status_evidence_source,analysis_exclusion,switch_state,closer_type,linked_fix,switch
+F001,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F002,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F003,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F004,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F005,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F006,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F007,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F008,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F009,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F010,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F011,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F012,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F013,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F014,bot_test,Signal,GitHub,HUMAN,0,,,,,closed,human,0,0
+F015,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F016,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F017,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F018,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F019,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F020,fair,Firefox,Bugzilla,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F021,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F022,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F023,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F024,fair,Firefox,Bugzilla,,1,,NOT FIXED,retained_fields,,,,,0
+F025,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F026,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F027,fair,Nextcloud,GitHub,,1,,UNCERTAIN,retained_fields,,open,,,0
+F028,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F029,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F030,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F031,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F032,fair,Nextcloud,GitHub,,0,,FIXED,verified_merged_fix,verified_fixed_after_missing_closure,closed,human,,0
+F033,bot_test,Signal,GitHub,HUMAN,0,,,,,closed,human,0,0
+F034,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F035,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F036,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F037,fair,VLC,Trac,,1,,UNCERTAIN,retained_fields,,,,,0
+F038,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F039,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F040,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F041,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F042,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F043,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F044,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F045,fair,Nextcloud,GitHub,,1,,UNCERTAIN,retained_fields,,closed,bot,0,1
+F046,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F047,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F048,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F049,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F050,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F051,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F052,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F053,fair,VLC,Trac,,1,,NOT FIXED,retained_fields,,,,,0
+F054,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F055,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F056,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F057,fair,VLC,Trac,,1,,NOT FIXED,retained_fields,,,,,0
+F058,fair,Firefox,Bugzilla,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F059,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F060,fair,Nextcloud,GitHub,,1,NEEDS_INFO,UNCERTAIN,retained_fields,,closed,organization,,0
+F061,bot_test,Signal,GitHub,HUMAN,0,,,,,closed,human,0,0
+F062,fair,Nextcloud,GitHub,,1,,UNCERTAIN,refreshed_closing_comment,,closed,human,,0
+F063,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F064,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F065,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F066,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F067,fair,Nextcloud,GitHub,,1,,UNCERTAIN,retained_fields,,closed,bot,0,1
+F068,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F069,fair,VLC,Trac,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F070,fair,VLC,Trac,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F071,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F072,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F073,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F074,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F075,fair,Firefox,Bugzilla,,0,,UNCERTAIN,retained_fields,,,,,0
+F076,fair,Firefox,Bugzilla,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F077,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F078,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F079,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F080,fair,Firefox,Bugzilla,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F081,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F082,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F083,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F084,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F085,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F086,fair,Nextcloud,GitHub,,1,NEEDS_INFO,UNCERTAIN,retained_fields,,closed,human,,0
+F087,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F088,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,bot,0,1
+F089,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F090,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F091,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F092,fair,Firefox,Bugzilla,,1,REDIRECTED,NOT FIXED,retained_fields,,,,,0
+F093,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F094,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F095,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F096,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F097,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F098,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F099,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F100,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F101,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F102,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F103,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F104,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F105,fair,VLC,Trac,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F106,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F107,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F108,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F109,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F110,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F111,fair,VLC,Trac,,0,,UNCERTAIN,retained_fields,,,,,0
+F112,fair,Nextcloud,GitHub,,1,NEEDS_INFO,UNCERTAIN,retained_fields,,closed,human,,0
+F113,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F114,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F115,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F116,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F117,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F118,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F119,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F120,fair,Firefox,Bugzilla,,0,,UNCERTAIN,retained_fields,,,,,0
+F121,fair,Firefox,Bugzilla,,1,,NOT FIXED,retained_fields,,,,,0
+F122,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F123,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F124,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F125,fair,Nextcloud,GitHub,,1,,UNCERTAIN,retained_fields,,closed,bot,0,1
+F126,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F127,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F128,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F129,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F130,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F131,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F132,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F133,fair,Firefox,Bugzilla,,1,,NOT FIXED,retained_fields,,,,,0
+F134,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F135,fair,Nextcloud,GitHub,,1,NEEDS_INFO,UNCERTAIN,retained_fields,,closed,human,,0
+F136,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F137,fair,Nextcloud,GitHub,,1,,UNCERTAIN,retained_fields,,closed,bot,0,1
+F138,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F139,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F140,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F141,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F142,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F143,fair,VLC,Trac,,0,,FIXED,retained_fields,,,,,0
+F144,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F145,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F146,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F147,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F148,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F149,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F150,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F151,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F152,fair,Nextcloud,GitHub,,0,,UNCERTAIN,retained_fields,,closed,human,,0
+F153,bot_test,Jitsi,GitHub,HUMAN,0,,,,,closed,human,0,0
+F154,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F155,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F156,bot_test,Signal,GitHub,BOT,0,,,,,closed,bot,0,1
+F157,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F158,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F159,bot_test,Jitsi,GitHub,BOT,0,,,,,closed,bot,0,1
+F160,fair,VLC,Trac,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0
+F161,fair,Firefox,Bugzilla,,0,,FIXED,retained_fields,,,,,0
+F162,fair,Firefox,Bugzilla,,1,NEEDS_INFO,NOT FIXED,retained_fields,,,,,0

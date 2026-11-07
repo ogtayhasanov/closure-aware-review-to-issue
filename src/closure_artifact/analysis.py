@@ -6,7 +6,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 
+from .followups import analyze_followups
 from .metrics import cohen_kappa, exact_mcnemar_p, macro_f1, mde_80, parse_bool, wilson_interval
+from .retrieval import analyze_retrieval, analyze_synthetic_bge
 from .taxonomy import LEVEL1
 
 
@@ -20,14 +22,14 @@ def write_csv(path: Path, rows: Iterable[dict[str, Any]]) -> None:
     fields = list(materialized[0]) if materialized else []
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(materialized)
 
 
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
 def analyze_human_status(root: Path) -> dict[str, Any]:
@@ -252,6 +254,19 @@ def reproduce_all(root: Path, output: Path | None = None) -> dict[str, Any]:
     generation = analyze_generation(root)
     training = analyze_training(root)
     mde_rows = build_mde_rows()
+    derived = root / "data" / "derived"
+    followup = analyze_followups(
+        read_csv(derived / "followup_cases_162.csv"),
+        read_csv(derived / "followup_judgments_1780.csv"),
+        read_csv(derived / "followup_human_check_24.csv"),
+        read_csv(derived / "provenance_prevalence_7.csv"),
+        json.loads((root / "protocols" / "followup_analysis.json").read_text(encoding="utf-8")),
+    )
+    retrieval = analyze_retrieval(
+        read_csv(derived / "retrieval_query_scores_82.csv"),
+        read_csv(derived / "retrieval_thresholds_12.csv"),
+    )
+    synthetic = analyze_synthetic_bge(read_csv(derived / "synthetic_bge_ranks_794.csv"))
     summary = {
         "snapshot_version": "0.1.0",
         "public_data_boundary": "text-free derived evidence",
@@ -260,6 +275,9 @@ def reproduce_all(root: Path, output: Path | None = None) -> dict[str, Any]:
         "generation_descriptive": generation,
         "training_manifest": training,
         "paired_binary_sensitivity": mde_rows,
+        "generation_followup": followup["summary"],
+        "external_retrieval": retrieval["summary"],
+        "synthetic_bge_development": [row for row in synthetic if row["project"] == "all"],
     }
     write_json(output / "human_status_summary.json", human)
     write_json(output / "taxonomy_validation_summary.json", taxonomy)
@@ -268,5 +286,10 @@ def reproduce_all(root: Path, output: Path | None = None) -> dict[str, Any]:
     write_json(output / "generation_summary.json", generation)
     write_json(output / "training_manifest_summary.json", training)
     write_csv(output / "paired_binary_mde_sensitivity.csv", mde_rows)
+    for name in ("rates", "paired_tests", "agreement", "fix_by_status", "prevalence"):
+        write_csv(output / f"followup_{name}.csv", followup[name])
+    for name in ("rates", "paired_tests", "selective"):
+        write_csv(output / f"retrieval_{name}.csv", retrieval[name])
+    write_csv(output / "synthetic_bge_rates.csv", synthetic)
     write_json(output / "reproduction_summary.json", summary)
     return summary

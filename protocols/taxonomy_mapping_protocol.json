@@ -2,8 +2,6 @@
   "protocol": "deterministic-closure-taxonomy-v1",
   "level1_classes": ["RESOLVED", "REJECTED", "ABANDONED", "REDIRECTED"],
   "primary_priority": ["DUPLICATE_OR_REDIRECTION", "EXPLICIT_REJECTION", "ABANDONMENT", "NOT_PLANNED_FALLBACK", "COMPLETED_RESOLUTION"],
-  "abandonment_subtypes": ["STALE", "NEEDS_INFO", "UPSTREAM"],
-  "validation_sample_n": 120,
-  "sensitivity_priorities": ["D>E>A>F>R", "D>A>E>F>R", "E>A>D>F>R", "D>E>F>A>R"]
+  "abandonment_subtypes": ["STALE", "NEEDS_INFO", "UPSTREAM"]
 }
 

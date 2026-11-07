@@ -7,13 +7,6 @@
     "binary_only": 0,
     "exact_two_sided_mcnemar_p": 2.3283064365386963e-10
   },
-  "taxonomy": {
-    "correct": 117,
-    "n": 120,
-    "accuracy": 0.975,
-    "macro_f1": 0.9747,
-    "cohen_kappa": 0.9667
-  },
   "action_routing": {
     "closure_aware_needs_info": "16/16",
     "raw_metadata_needs_info": "4/16",

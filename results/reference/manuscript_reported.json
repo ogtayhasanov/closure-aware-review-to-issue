@@ -1,0 +1,44 @@
+{
+  "evidence_status": "MANUSCRIPT_REPORTED_AGGREGATES",
+  "source": "TOSEM manuscript draft with the DeepMatcher appendix",
+  "deepmatcher_known_positive": {
+    "queries": 82,
+    "known_positive_links": 123,
+    "cached_vectors": {"mrr": 0.633, "hit_at_1": 41, "hit_at_10": 70},
+    "released_top_three": {"mrr": 0.813, "hit_at_1": 55, "hit_at_3": 82},
+    "selection": "The positive subset was selected from the released DeepMatcher candidate pool. Released top-three Hit@3 is 100% by construction."
+  },
+  "deepmatcher_exploratory_ai_audit": {
+    "unique_pairs": 796,
+    "ranked_occurrences": 1066,
+    "pooled_labels": {"yes": 174, "no": 489, "unsure": 133},
+    "original_positive_link_labels": {"yes": 45, "no": 49, "unsure": 29},
+    "top1_queries_per_method": 82,
+    "top1_labels": [
+      {"method": "DeepMatcher cached", "yes": 23, "no": 48, "unsure": 11},
+      {"method": "DeepMatcher released", "yes": 25, "no": 41, "unsure": 16},
+      {"method": "RRF", "yes": 30, "no": 37, "unsure": 15},
+      {"method": "BGE-ZS", "yes": 32, "no": 28, "unsure": 22},
+      {"method": "BM25", "yes": 12, "no": 59, "unsure": 11}
+    ],
+    "interpretation": "One AI evaluator without independent human validation. The lower relevance bound counts Yes and the upper counts Yes plus Unsure. RRF has rank-one audit coverage."
+  },
+  "other_manuscript_references": {
+    "bge_ft_external": {"queries": 82, "mrr": 0.202, "hit_at_1": 9, "hit_at_10": 35, "median_rank": 20.5},
+    "query_expansion_original_plus_expansion": {"queries": 82, "mrr": 0.284, "hit_at_1": 16},
+    "query_expansion_three_way": {"queries": 82, "mrr": 0.276, "hit_at_1": 14},
+    "cross_encoder_top50": {"queries": 82, "mrr": 0.241, "hit_at_1": 13, "hit_at_10": 34},
+    "legacy_raw_metadata_human": {"correct": 34, "cases": 36},
+    "clean_cross_tracker_audit": {"correct": 77, "cases": 90, "macro_f1": 0.804, "kappa": 0.748},
+    "synthetic_hallucination": {
+      "cases": 175,
+      "rejected": {"cases": 35, "closure_aware": 0, "binary": 8, "holm_p": 0.0078},
+      "abandoned": {"cases": 35, "closure_aware": 2, "binary": 17, "holm_p": 0.0015}
+    },
+    "splade_external_pruning": {
+      "seeds": 5,
+      "firefox": {"unpruned_mrr": 0.115, "top64_mrr": 0.161, "unpruned_hit_at_10": 0.221, "top64_hit_at_10": 0.286},
+      "vlc": {"unpruned_mrr": 0.266, "top64_mrr": 0.310, "unpruned_hit_at_10": 0.495, "top64_hit_at_10": 0.581}
+    }
+  }
+}

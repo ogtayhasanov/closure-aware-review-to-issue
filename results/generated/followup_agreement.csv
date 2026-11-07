@@ -1,0 +1,21 @@
+scope,model,arm,endpoint,left,right,n,agree,agreement,cohen_kappa,both_positive,left_only,right_only,both_negative
+original_bot_probe,both,all_original,declined,judge,lexical,640,638,0.996875,0.9878493317132441,542,2,0,96
+original_bot_probe,both,all_original,fix_claim,judge,lexical,640,634,0.990625,-0.00418410041840621,0,2,4,634
+original_bot_probe,both,all_original,inactivity,judge,lexical,640,631,0.9859375,0.0,0,9,0,631
+original_bot_and_shared_prompt,both,all_original,declined,judge,lexical,1132,1112,0.9823321554770318,0.9646554846444941,544,2,18,568
+original_bot_and_shared_prompt,both,all_original,fix_claim,judge,lexical,1132,1108,0.9787985865724381,0.8695539443990971,89,10,14,1019
+original_bot_and_shared_prompt,both,all_original,inactivity,judge,lexical,1132,1102,0.9734982332155477,0.4135120198950004,11,29,1,1091
+probe_BOT,gpt-4o-mini-2024-07-18,TAXONOMY-ONLY,declined,judge,lexical,50,38,0.76,0.0,0,12,0,38
+probe_HUMAN,gpt-4o-mini-2024-07-18,TAXONOMY-ONLY,declined,judge,lexical,30,29,0.9666666666666667,0.0,29,0,1,0
+probe_all,gpt-4o-mini-2024-07-18,TAXONOMY-ONLY,declined,judge,lexical,80,67,0.8375,0.6770186335403727,29,12,1,38
+probe_BOT,gpt-4o-mini-2024-07-18,RAW+MEANING,declined,judge,lexical,50,50,1.0,,50,0,0,0
+probe_HUMAN,gpt-4o-mini-2024-07-18,RAW+MEANING,declined,judge,lexical,30,28,0.9333333333333333,0.0,28,2,0,0
+probe_all,gpt-4o-mini-2024-07-18,RAW+MEANING,declined,judge,lexical,80,78,0.975,0.0,78,2,0,0
+probe_BOT,gemma-4-26b-a4b-it,TAXONOMY-ONLY,declined,judge,lexical,50,50,1.0,,0,0,0,50
+probe_HUMAN,gemma-4-26b-a4b-it,TAXONOMY-ONLY,declined,judge,lexical,30,26,0.8666666666666667,0.2682926829268297,25,3,1,1
+probe_all,gemma-4-26b-a4b-it,TAXONOMY-ONLY,declined,judge,lexical,80,76,0.95,0.8882681564245809,25,3,1,51
+probe_BOT,gemma-4-26b-a4b-it,RAW+MEANING,declined,judge,lexical,50,49,0.98,0.0,0,0,1,49
+probe_HUMAN,gemma-4-26b-a4b-it,RAW+MEANING,declined,judge,lexical,30,25,0.8333333333333334,0.5714285714285715,20,5,0,5
+probe_all,gemma-4-26b-a4b-it,RAW+MEANING,declined,judge,lexical,80,74,0.925,0.817490494296578,20,5,1,54
+selected_human_check,gpt-4o-mini-2024-07-18,RAW+TAXONOMY-ONLY pair,states_outcome,human,judge,24,18,0.75,0.5,11,5,1,7
+selected_human_check,gpt-4o-mini-2024-07-18,RAW+TAXONOMY-ONLY pair,states_outcome,human,lexical,24,13,0.5416666666666666,0.05714285714285716,9,7,4,4
