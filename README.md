@@ -2,8 +2,6 @@
 
 Research code and reproducible evidence for linking app reviews to software issues and generating responses that distinguish **resolved**, **rejected**, **abandoned**, and **redirected** closures.
 
-[![Reproduce](https://github.com/ogtayhasanov/closure-aware-review-to-issue/actions/workflows/reproduce.yml/badge.svg)](https://github.com/ogtayhasanov/closure-aware-review-to-issue/actions/workflows/reproduce.yml)
-
 This work studies a traceability failure that matters for AI-assisted software maintenance: a closed issue is often treated as a fixed issue, even when it was rejected, abandoned for missing information, or redirected elsewhere. The pipeline retrieves candidate issues, interprets closure evidence, and conditions a grounded response on the inferred outcome.
 
 ```mermaid
@@ -22,22 +20,26 @@ flowchart TD
 | Closure taxonomy validation | 117/120 correct; macro-F1 0.9747; Cohen's kappa 0.9667 |
 | Blinded human status evaluation | Closure-aware 34/36 vs binary-state 1/36 |
 | Paired significance | Exact two-sided McNemar p = 2.33e-10 |
-| NEEDS_INFO action realization | Closure-aware 16/16 vs raw-metadata 4/16 |
-| REDIRECTED action realization | Closure-aware 7/7 vs raw-metadata 0/7 |
+| Original post-hoc action audit | NEEDS_INFO 16/16 vs 4/16 and REDIRECTED 7/7 vs 0/7, closure-aware vs raw |
+| Shared-prompt outcome audit, GPT-4o-mini | Raw 33/35, closure-aware 30/35, binary 20/35 |
+| Bot-closure probe, GPT-4o-mini | Judge-coded false declines 50/50 raw, 49/50 V2, 50/50 raw + meaning, 12/50 taxonomy only |
+| Bot-closure probe, Gemma | Judge-coded false declines 23/50 raw, 0/50 raw + meaning or taxonomy only |
+| Shared-prompt switch, GPT-4o-mini | 12/50 bot-probe declines and 29/35 specific fair-audit outcomes |
+| External retrieval and abstention | RRF MRR 0.289 vs BGE-ZS 0.205. At 50% coverage, 12/14 strict successes are retained |
 
 The broader study covers 117,695 closed issues from nine projects across GitHub, Bugzilla, and Trac. At least 28.6% were explicit rejections, abandonments, or redirections rather than completed resolutions. A second central result is negative: synthetic-validation gains for a fine-tuned retriever did not reliably transfer to real human-labeled retrieval.
 
 ## Reproduce the public evidence
 
-The reproducer uses only the Python standard library and normally finishes in under one minute.
+Use Python 3.10 or later. The verifier uses the standard library, runs offline, and normally finishes in under one minute.
 
 ```bash
-python scripts/validate_public_snapshot.py
-python scripts/reproduce_all.py
-python -m unittest discover -s tests -v
+python scripts/verify_submission.py
 ```
 
-The first command checks row counts, secrets, prohibited raw-text columns, binary files, and unexpectedly long data cells. The second regenerates the metrics under `results/generated/` from text-free, case-level evidence.
+The verifier checks the data boundary, regenerates the archived metrics in a temporary directory, compares the results, and runs the tests. The supplement ZIP includes `MANIFEST.sha256` and `RELEASE.json` to identify and verify its exact contents. [Reviewer guide](docs/REVIEWER_GUIDE.md)
+
+The follow-up ledger contains 1,780 responses represented by their decisions, covering the shared-prompt replication, all six bot-probe arms, taxonomy only, and raw + meaning for both generators. The switch is recomputed by selecting saved arm decisions per case. [Follow-up methods and results](docs/FOLLOW_UP.md) gives the arm definitions, score sources, and caveats. [Evidence coverage](docs/RESULTS.md) distinguishes reproduced and manuscript-reported results, including the DeepMatcher appendix.
 
 ## Repository scope
 
@@ -45,7 +47,7 @@ This is a public research snapshot, not the complete internal evidence archive. 
 
 - the closure taxonomy and statistical implementation;
 - frozen protocols and the experiment contract;
-- opaque case identifiers, categorical labels, judgments, and scores;
+- opaque case and query identifiers, categorical labels, judgments, scores, and ranks;
 - deterministic reproduction scripts, tests, and continuous integration.
 
 It intentionally excludes app-review text, issue titles and bodies, comments, generated responses, and annotation workbooks while redistribution terms are being reviewed. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the exact boundary.
@@ -63,6 +65,6 @@ It intentionally excludes app-review text, issue titles and bodies, comments, ge
 
 This repository accompanies ongoing MSc research and a manuscript in preparation:
 
-> Ogtay Hasanov, Saad Ezzini, Hamzah Luqman and Xunzhu Tang. *From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues.* 2026.
+> Ogtay Hasanov, Saad Ezzini, Hamzah Luqman, and Xunzhu Tang. *From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues.* 2026.
 
 For citation metadata, see [CITATION.cff](CITATION.cff).

@@ -9,4 +9,5 @@ reproduce:
 test:
 	python -m unittest discover -s tests -v
 
-check: validate reproduce test
+check:
+	python scripts/verify_submission.py
