@@ -1,0 +1,3 @@
+﻿test,model,arm_a,arm_b,cohort,question,pairs,a_positive,b_positive,a_only,b_only,p_exact_two_sided,p_holm
+1: BOT false DECLINED,gpt-4o-mini-2024-07-18,RAW+MEANING,RAW,BOT,DECLINED,50,50,50,0,0,1.0,1.0
+2: audit STATES_OUTCOME,gpt-4o-mini-2024-07-18,RAW+MEANING,RAW,audit35,STATES_OUTCOME,35,31,33,1,3,0.625,1.0

@@ -1,0 +1,108 @@
+{
+  "preregistration_commit": "fce3086081968dc950d972e24a57bcd5def70699",
+  "meaning_lines_commit": "f8f329f76c0c5cd772d9f704763ba99b55d22c0c",
+  "source_files": {
+    "bot_manifest": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\run_manifest.json",
+      "sha256": "367b507b6b33a57c75dc52da9a8338dab7d1ca0539ba64de245924c1ff5c5ecb",
+      "unchanged_after_preparation": true
+    },
+    "bot_inputs": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\inputs.jsonl",
+      "sha256": "584f97bb99e08a386c796dcd8c004d96f913538003ecf12b8f8c8f18c00370e9",
+      "unchanged_after_preparation": true
+    },
+    "bot_sample": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\sample_records.jsonl",
+      "sha256": "7d52d4c525c9debc3cde77bc5ccd0c5fcc6313d8bb17dc5c95bf93e237b73a51",
+      "unchanged_after_preparation": true
+    },
+    "system": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\system_prompt_exact_utf8.txt",
+      "sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+      "unchanged_after_preparation": true
+    },
+    "routing_setup_manifest": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\routing_test\\setup_manifest.json",
+      "sha256": "4fc199c2c6bd2401b62334607113e9a7b896349befebfb403c25f36bba6cf49e",
+      "unchanged_after_preparation": true
+    },
+    "fair_cases": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\real_82_native_staged.jsonl",
+      "sha256": "0a70ea5f5c8b603fc391924d79cb7447db5facc2bce8f597927344430b89d8f7",
+      "unchanged_after_preparation": true
+    },
+    "fair_inputs": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\fair_prompts_246_dryrun.jsonl",
+      "sha256": "d7af79360aa94f77e89ebd79aa723013d14779134080319bbf4caf5770f3d639",
+      "unchanged_after_preparation": true
+    },
+    "fair_responses": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\new_responses_246.jsonl",
+      "sha256": "2726140f560b0fe36bf83e7f1f0be7ff4819dae68b90009ee5613215c541640b",
+      "unchanged_after_preparation": true
+    },
+    "meaning_lines": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\meaning_lines.json",
+      "sha256": "83bb8f7d24931afbdc0a604a0ec57197e5285cadbe0e2aa626eb71ba003ead8d",
+      "unchanged_after_preparation": true
+    },
+    "preregistration": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\final_experiments.md",
+      "sha256": "8b2ec66e0600d393f8739c8059286f8cb9ebf752c148a73462a441825f8f930a",
+      "unchanged_after_preparation": true
+    }
+  },
+  "input_counts": {
+    "bot_test": 80,
+    "BOT": 50,
+    "HUMAN": 30,
+    "fair": 82,
+    "total": 162
+  },
+  "all_162_outside_closure_blocks_utf8_identical": true,
+  "binary_state_lines_preserved": 162,
+  "meaning_usage": {
+    "REJECTED": 36,
+    "ABANDONED/bot-closed (V2)": 50,
+    "RESOLVED": 35,
+    "REDIRECTED": 7,
+    "ABANDONED/NEEDS_INFO": 16,
+    "OPEN": 11,
+    "ABANDONED/STALE": 5,
+    "ABANDONED/OTHER": 2
+  },
+  "generation_exclusions": 0,
+  "analysis_exclusions": [
+    {
+      "input_id": "fair:fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+      "dataset": "fair",
+      "case_id": "fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "2131",
+      "received_class": "ABANDONED",
+      "received_subtype": "OTHER",
+      "excluded_from_all_analyses": true,
+      "exclusion_reason": "Nextcloud #2131 was fixed by merged PR #4470; user explicitly excludes it from every analysis"
+    }
+  ],
+  "fair_human_audit_cases": 35,
+  "fair_human_audit_responses_after_generation": 140,
+  "new_responses_generated": 0,
+  "new_scores_generated": 0,
+  "system_sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+  "example_input_ids": [
+    "bot_test:jitsi/jitsi-meet#1209",
+    "bot_test:jitsi/jitsi-meet#568",
+    "fair:0cb29cb1e1a3eada6ca71a95e3ba3b0545f54127953f10aaf66ca816aca54f8c"
+  ],
+  "outputs_sha256": {
+    "inputs_taxonomy_only.jsonl": "dffa06203329e8cd2b9a09d961f3fef1ee9ea0501d652d5c35ad976d3a3d5b80",
+    "raw_reference_messages.jsonl": "21277a6fab9a2fc1a468d9a452c101a82bea3bbee3df126691a3bc948c8156ca",
+    "input_integrity.csv": "97279c03247d6e2e9cdc935359cc2ca82bf3fe93abffdc149cb5834a372b01e0",
+    "analysis_exclusions.json": "57218877ec85494ee9f788593219814148c3b9446351ac57012c2517fdce151a",
+    "generation_settings.json": "3dc09494432e56e9ebded8e63eb0b91d2595d15261d40ccaad53ade5bca29164",
+    "system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+    "checkpoint1.md": "a4f41c19aee280f8f5a32a64ab8e1bc8f9ae1dd8e639db5eab4d4d8365ea8ed3"
+  }
+}

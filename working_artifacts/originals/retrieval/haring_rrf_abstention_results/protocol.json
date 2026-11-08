@@ -1,0 +1,35 @@
+{
+  "experiment": "Confidence-aware abstention diagnostic for frozen RRF60",
+  "queries": 82,
+  "external_apps": [
+    "Firefox",
+    "VLC",
+    "Nextcloud"
+  ],
+  "signal_excluded": true,
+  "final_retriever": "RRF60(BGE-ZS + BM25)",
+  "confidence_rankers": [
+    "BAAI/bge-base-en-v1.5",
+    "BM25",
+    "naver/splade-cocondenser-ensembledistil"
+  ],
+  "document_representation": "issue title only",
+  "primary_confidence_signal": "Equal-weight mean reciprocal rank of the final RRF top-1 issue under BGE, BM25, and SPLADE-ZS",
+  "secondary_confidence_signals": [
+    "RRF relative rank1-rank2 score margin",
+    "mean pairwise top-10 Jaccard overlap",
+    "exact/top3/top10 support counts"
+  ],
+  "target_coverages": [
+    1.0,
+    0.75,
+    0.5,
+    0.25
+  ],
+  "tie_policy": "At each target coverage, include all queries tied at the Nth confidence score; realized coverage may exceed target.",
+  "gold_usage": "Gold is used only after all confidence features are computed, to measure enrichment of originally judged positive top-1 issues.",
+  "no_training": true,
+  "no_threshold_tuning": true,
+  "no_model_selection": true,
+  "interpretation_guard": "A benchmark-confirmed hit means the selected issue was one of the originally human-judged positive H\u00e4ring issues. An unconfirmed top-1 is not necessarily semantically wrong because the original judgment pool is incomplete."
+}

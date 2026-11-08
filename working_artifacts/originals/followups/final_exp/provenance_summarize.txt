@@ -1,0 +1,82 @@
+
+== ankidroid/Anki-Android  (9,318 closed issues)
+  Non-resolved: v1 2,577 (27.7%) -> v2 2,604 (27.9%)
+  v1: RESOLVED 6,741 | REJECTED 485 | ABANDONED 1,458 | REDIRECTED 634
+  v2: RESOLVED 6,714 | REJECTED 475 | ABANDONED 1,495 | REDIRECTED 634
+  Explicit reject label (v1 REJECTED by label): 103
+     label added by a bot: 0 (0.0%); closed by a bot with no linked fix: 4 (3.9%)
+  v1 RESOLVED: 6,741; linked commit/PR: 2,651 (39.3%); closed by a bot, no fix: 27 (0.4%)
+  Labels changed by v2: 37 (0.4%)
+     RESOLVED -> ABANDONED: 27
+     REJECTED -> ABANDONED: 10
+  Top closers: hssm (User) 2,499; mikehardy (User) 2,092; david-allison (User) 1,250; github-actions (Bot, bot) 968; BrayanDSO (User) 714; timrae (User) 535; lukstbit (User) 373; eginhard (User) 100
+
+== brave/brave-browser  (45,558 closed issues)
+  Non-resolved: v1 10,780 (23.7%) -> v2 10,789 (23.7%)
+  v1: RESOLVED 34,778 | REJECTED 4,512 | ABANDONED 3,601 | REDIRECTED 2,667
+  v2: RESOLVED 34,769 | REJECTED 4,512 | ABANDONED 3,610 | REDIRECTED 2,667
+  Explicit reject label (v1 REJECTED by label): 3,594
+     label added by a bot: 0 (0.0%); closed by a bot with no linked fix: 0 (0.0%)
+  v1 RESOLVED: 34,778; linked commit/PR: 18,627 (53.6%); closed by a bot, no fix: 9 (0.0%)
+  Labels changed by v2: 9 (0.0%)
+     RESOLVED -> ABANDONED: 9
+  Top closers: ? (?) 13,224; kjozwiak (User) 2,007; bsclifton (User) 1,924; tmancey (User) 1,479; bbondy (User) 1,275; rebron (User) 1,221; LaurenWags (User) 1,087; simonhong (User) 1,078
+
+== hrydgard/ppsspp  (9,077 closed issues)
+  Non-resolved: v1 1,020 (11.2%) -> v2 1,020 (11.2%)
+  v1: RESOLVED 8,057 | REJECTED 490 | ABANDONED 437 | REDIRECTED 93
+  v2: RESOLVED 8,057 | REJECTED 490 | ABANDONED 437 | REDIRECTED 93
+  Explicit reject label (v1 REJECTED by label): 41
+     label added by a bot: 0 (0.0%); closed by a bot with no linked fix: 0 (0.0%)
+  v1 RESOLVED: 8,057; linked commit/PR: 1,955 (24.3%); closed by a bot, no fix: 0 (0.0%)
+  Labels changed by v2: 0 (0.0%)
+  Top closers: hrydgard (User) 4,359; unknownbrackets (User) 2,294; LunaMoo (User) 218; sum2012 (User) 163; ghost (Deleted) 150; xsacha (User) 146; daniel229 (User) 110; thedax (User) 86
+
+== jitsi/jitsi-meet  (6,959 closed issues)
+  Non-resolved: v1 2,959 (42.5%) -> v2 2,963 (42.6%)
+  v1: RESOLVED 4,000 | REJECTED 1,790 | ABANDONED 921 | REDIRECTED 248
+  v2: RESOLVED 3,996 | REJECTED 446 | ABANDONED 2,269 | REDIRECTED 248
+  Explicit reject label (v1 REJECTED by label): 1,670
+     label added by a bot: 1,477 (88.4%); closed by a bot with no linked fix: 1,344 (80.5%)
+  v1 RESOLVED: 4,000; linked commit/PR: 319 (8.0%); closed by a bot, no fix: 4 (0.1%)
+  Labels changed by v2: 1,348 (19.4%)
+     REJECTED -> ABANDONED: 1,344
+     RESOLVED -> ABANDONED: 4
+  Top closers: saghul (User) 1,949; stale (Bot, bot) 1,346; damencho (User) 1,091; github-actions (Bot, bot) 720; l3d00m (User) 174; Echolon (User) 143; bgrozev (User) 125; jallamsetty1 (User) 90
+
+== nextcloud/android  (7,224 closed issues)
+  Non-resolved: v1 3,072 (42.5%) -> v2 3,076 (42.6%)
+  v1: RESOLVED 4,152 | REJECTED 329 | ABANDONED 1,529 | REDIRECTED 1,214
+  v2: RESOLVED 4,148 | REJECTED 329 | ABANDONED 1,533 | REDIRECTED 1,214
+  Explicit reject label (v1 REJECTED by label): 32
+     label added by a bot: 0 (0.0%); closed by a bot with no linked fix: 0 (0.0%)
+  v1 RESOLVED: 4,152; linked commit/PR: 1,067 (25.7%); closed by a bot, no fix: 4 (0.1%)
+  Labels changed by v2: 4 (0.1%)
+     RESOLVED -> ABANDONED: 4
+  Top closers: tobiasKaminsky (User) 1,774; AndyScherzinger (User) 1,319; joshtrichards (User) 953; AlvaroBrey (User) 682; stale (Bot, bot) 603; github-actions (Bot, bot) 354; alperozturk96 (User) 338; mario (User) 191
+
+== signalapp/Signal-Android  (11,331 closed issues)
+  Non-resolved: v1 2,114 (18.7%) -> v2 3,222 (28.4%)
+  v1: RESOLVED 9,217 | REJECTED 2,074 | ABANDONED 0 | REDIRECTED 40
+  v2: RESOLVED 8,109 | REJECTED 335 | ABANDONED 2,847 | REDIRECTED 40
+  Explicit reject label (v1 REJECTED by label): 1,982
+     label added by a bot: 1,976 (99.7%); closed by a bot with no linked fix: 1,739 (87.7%)
+  v1 RESOLVED: 9,217; linked commit/PR: 1,214 (13.2%); closed by a bot, no fix: 1,108 (12.0%)
+  Labels changed by v2: 2,847 (25.1%)
+     REJECTED -> ABANDONED: 1,739
+     RESOLVED -> ABANDONED: 1,108
+  Top closers: moxie0 (User) 2,411; greyson-signal (User) 1,730; stale (Bot, bot) 1,692; automated-signal (User, bot) 1,103; mcginty (User) 741; 2-4601 (User) 378; cody-signal (User) 254; rhodey (User) 249
+
+== thunderbird/thunderbird-android  (5,161 closed issues)
+  Non-resolved: v1 1,052 (20.4%) -> v2 1,115 (21.6%)
+  v1: RESOLVED 4,109 | REJECTED 116 | ABANDONED 295 | REDIRECTED 641
+  v2: RESOLVED 4,046 | REJECTED 116 | ABANDONED 358 | REDIRECTED 641
+  Explicit reject label (v1 REJECTED by label): 0
+     label added by a bot: 0 (n/a); closed by a bot with no linked fix: 0 (n/a)
+  v1 RESOLVED: 4,109; linked commit/PR: 1,262 (30.7%); closed by a bot, no fix: 63 (1.5%)
+  Labels changed by v2: 63 (1.2%)
+     RESOLVED -> ABANDONED: 63
+  Top closers: cketti (User) 2,992; wmontwe (User) 522; rafaeltonholo (User) 295; kewisch (User) 269; philipwhiuk (User) 264; Valodim (User) 97; dani-zilla (User) 67; asoucar (User) 38
+
+Saved provenance_out/summary_by_repo.csv and provenance_out/v1_to_v2_changes.csv
+Check the top closers: add any automation account that is not marked as a bot with --extra-bots name1,name2 and run summarize again.

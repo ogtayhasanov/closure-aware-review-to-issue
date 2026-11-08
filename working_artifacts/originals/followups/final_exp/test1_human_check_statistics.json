@@ -1,0 +1,52 @@
+{
+  "source_filename": "audit_test1_pairs_labeled.csv",
+  "source_sha256": "68e461da8284683006807a701332bf5cf52a31b67311bd04481774507d8f0d79",
+  "rows": 24,
+  "pairs": 12,
+  "missing": 0,
+  "unsure": 0,
+  "exclusions": [],
+  "context_and_response_match": true,
+  "human_labels": {
+    "YES": 16,
+    "NO": 8
+  },
+  "judge_human": {
+    "n": 24,
+    "agree": 18,
+    "agreement_pct": 75.0,
+    "kappa": 0.5,
+    "human_yes_auto_yes": 11,
+    "human_yes_auto_no": 5,
+    "human_no_auto_yes": 1,
+    "human_no_auto_no": 7
+  },
+  "lexical_human": {
+    "n": 24,
+    "agree": 13,
+    "agreement_pct": 54.166666666666664,
+    "kappa": 0.05714285714285716,
+    "human_yes_auto_yes": 9,
+    "human_yes_auto_no": 7,
+    "human_no_auto_yes": 4,
+    "human_no_auto_no": 4
+  },
+  "human_by_arm": {
+    "raw_metadata": {
+      "yes": 12,
+      "n": 12
+    },
+    "TAXONOMY-ONLY": {
+      "yes": 4,
+      "n": 12
+    }
+  },
+  "human_paired_selected_subset": {
+    "both_yes": 4,
+    "taxonomy_only_yes": 0,
+    "raw_only_yes": 8,
+    "both_no": 0,
+    "exact_mcnemar_p_unadjusted": 0.0078125
+  },
+  "limitation": "Selected on judge discordance in test 1. Agreement and paired results describe these 24 responses/12 cases only, not the full 35-case population. Primary automated scores and tests remain unchanged."
+}

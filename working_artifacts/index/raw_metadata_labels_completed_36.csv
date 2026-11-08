@@ -1,0 +1,681 @@
+﻿Annotation ID,App,User review,Issue / tracker evidence,Expected closure outcome,Raw-metadata response,Human status correct,Human notes
+RM-691DBF26FE,Firefox,"App stopped working just a couple days ago and keeps crashing when opened. Tried everything - cleared cache, force stopping, and reinstalling. Nothing has worked.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1317269 — Firefox iinadvertently and frequently ceases to work. Force stopping doesnt show up. Reinstalling the app has not helped so far.
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2018-08-07T12:01:56Z
+Body excerpt: 254632    User Agent: Mozilla/5.0 (Linux; U; Android 4.2...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","I'm sorry to hear that you're experiencing crashes with the app. There was a related issue (Bug #1317269) where Firefox was reported to frequently cease working, but it was resolved with a ""WORKSFORME"" status. Unfortunately, this means that the issue may not have been fully addressed for all users. If you haven't already, consider checking for any updates or reaching out to support for further assistance.",TRUE,
+RM-CC7D36292F,VLC,It's crashing when I am streaming a video from youtube! 🙄,"Tracker: VLC Android (Trac)
+Issue: 9834 — A particular file cause crashing the player (Android)
+State: closed
+Resolution: Trac resolution=worksforme
+Labels: (none)
+Closed at: (not available)
+Body excerpt: While startup indexing, player stalls on a particular mp3 file and then crashes. This makes player impossible to open by taping the icon. However this same file plays without any problem on other android players, desktop VLC player, and even in the VLC for android after some minor edit on meta tags (Using kid3-qt). Tried on three different devices, Samsung galaxy Trend (android 4.1.2), Galaxy S duos (4.0.4), Galaxy fame, and failed on all.
+
+file attached","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that you're experiencing crashes while streaming videos on VLC for Android. There is a related issue, #9834, where the player crashes due to a specific file during startup indexing. This issue has been marked as ""worksforme,"" indicating it may not affect all users. Unfortunately, we don't have a direct URL for this issue. We appreciate your patience as we continue to improve the app.",TRUE,
+RM-A40F79C2FC,Nextcloud,"Can not login, after i enter my password i keep looping back to the login menu","Tracker: nextcloud/android (GitHub)
+Issue: 548929038 — can't login
+State: closed
+Resolution: needs-info/cannot-reproduce label=needs info/discussion
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}]
+Closed at: 2020-01-23T17:39:14Z
+Body excerpt: ### Steps to reproduce
+1.installed nextcloud app
+2. Enter the server address
+3. Crashed
+
+### Expected behaviour
+- Authorize login
+
+### Actual behaviour
+- crashed
+
+### Environment data
+Android version: 9
+
+Device model:Huawei  p20 lite
+
+Stock or customized system: custom rom.(Omni 9.2 from openkirin
+
+Nextcloud app version: 
+
+Nextcloud server version:
+
+************ CAUSE OF ERROR ************
+
+android.view.InflateException: Binary XML file line #7: Binary XML file line #7: Error inflating class android.webkit.WebView
+Caused by: android.view.InflateException: Binary XML file line #7: Error inflating class android.webkit.WebView
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:720)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:788)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+	at android.view.LayoutIn","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that you're experiencing login issues. There was a related issue (#548929038) reported about login problems, but it was marked as needing more information and could not be reproduced. You can view the details here: [Issue #5174](https://github.com/nextcloud/android/issues/5174). If you continue to face this problem, please consider providing additional details to help us investigate further.",TRUE,
+RM-7BB5591AD7,Firefox,"Not the best browser, struggles to download, display video properly in player, ect unlike chrome does. Only reason I'll keep using it is adblock support","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1511562 — video player at my firefox seems to be error when i open in other browser working
+State: closed
+Resolution: Bugzilla resolution=INCOMPLETE
+Labels: (none)
+Closed at: 2018-12-21T15:17:40Z
+Body excerpt: 303442    User Agent: Mozilla/5.0 (Windows NT 10.0; Win6...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand you're experiencing issues with video playback in Firefox. There was a related issue (Bug #1511562) regarding video player errors, but it was marked as incomplete and closed in December 2018. We appreciate your patience as we continue to improve the browser.",TRUE,
+RM-7C077806B2,VLC,"Occasionally glitches in terms of playback and refreshing new content added to my phone, but otherwise works well. Been using it for years.","Tracker: VLC Android (Trac)
+Issue: 20548 — Audio playback stops when phone locks
+State: closed
+Resolution: Trac resolution=notvlc
+Labels: (none)
+Closed at: (not available)
+Body excerpt: Android 8.0
+Huawei honor 9
+Microsoft launcher
+VLC stops audio playback after a few seconds when screen turns off or phone is locked, playback resumes when unlocked, but not from the same point that it stopped at. Occurs every time.","L1: REJECTED
+Subtype: notvlc
+Action: REJECTED","Thank you for your feedback. I understand that you're experiencing occasional glitches with playback. There was a related issue (Issue #20548) regarding audio playback stopping when the phone locks, which has been closed. However, it appears that this specific issue may not have been addressed in VLC. We appreciate your long-term support and will continue to work on improving the app.",TRUE,
+RM-DE92F64711,Firefox,"There is no Home button and Menu buttons anywhere in the opened web pages. Also, pulling down page is not reloading the web page.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1388188 — I can not slide the menu bar in yahoo web page(desktop mode)
+State: closed
+Resolution: Bugzilla resolution=DUPLICATE
+Labels: (none)
+Closed at: 2018-11-19T23:52:20Z
+Body excerpt: 276281    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...
+Name: raw_text, dtype: object","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback. I understand your frustration regarding the absence of Home and Menu buttons, as well as the page reload issue. There was a related issue, Bug #1388188, which was marked as a duplicate and closed on November 19, 2018. While this specific issue may not have been directly addressed, we appreciate your input and encourage you to check for updates or further support.",TRUE,
+RM-C54F2F8471,Firefox,Videos or songs don't stop playing after you shut down the app. Have to force stop or turn volume off to stop.,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 756915 — Video plays only sound, can't pause or stop
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2012-05-22T14:01:42Z
+Body excerpt: 45453    Web page or screen you were on when you saw th...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand the frustration with videos or songs continuing to play after shutting down the app. There was a related issue (Bug #756915) that was closed with a resolution of ""WORKSFORME"" on May 22, 2012. While this may not directly address your experience, we appreciate your input and will continue to monitor similar reports.",TRUE,
+RM-D2CF5380EA,Firefox,"Good app when it works, but it constantly crashes when starting up.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1085326 — Constantly closes/crashes
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2015-03-01T22:58:24Z
+Body excerpt: 174949    User Agent: Mozilla/5.0 (Linux; Android 4.2.2;...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that crashes can be frustrating. There was a related issue, Bug #1085326, regarding constant crashes, which has been marked as ""WORKSFORME"" and closed as of March 1, 2015. While this issue was resolved in that context, we appreciate your report and encourage you to check for updates or provide more details for further assistance.",FALSE,
+RM-F89641A69D,Firefox,"Restore tabs are buggy, my tabs won't close properly and they always come back next time I open Firefox.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1028740 — Always restore tabs doesn't always work
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2017-01-31T09:47:55Z
+Body excerpt: 159331    User Agent: Mozilla/5.0 (Android; Mobile; rv:3...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback regarding the tab restore feature in Firefox. I understand how frustrating it can be when tabs do not close properly. There is a related issue, #1028740, which was marked as ""works for me"" and closed on January 31, 2017. While this may not directly address your experience, it indicates that similar concerns have been noted. We appreciate your input and encourage you to report any ongoing issues.",TRUE,
+RM-634967C5DA,VLC,"Actually expect better than this from VLC. Mainly, issues with playlists make this a less than ideal choice. For one LARGE list, all entries were duplicated! I could just remove one but it removes both, thinking they are the same. Plays them all twice tho. Other glitches too like not remembering random play order etc make it frustrating to use. Oh yes, apparently a database is used for the playlists too so no easy way to manage or backup or transfer. And, no answers from support.","Tracker: VLC Android (Trac)
+Issue: 20777 — VLC should behave the same for audio and video playlists
+State: closed
+Resolution: Trac resolution=duplicate
+Labels: (none)
+Closed at: (not available)
+Body excerpt: When playing audio files the back button sends VLC to the background and continues playing.
+
+When video files are played, the back button stops playing and makes it difficult to resume playing at the same position. It would be better if VLC would also continue playing music videos in the background and for example switch to audio playing mode. Unfortunately the audio mode switch is deeply hidden in the menu. It would also be good if this option was more obvious.","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback regarding playlist issues in VLC. I understand how frustrating it can be to deal with duplicated entries and the challenges with random play order. I want to let you know that there is an existing issue related to playlist behavior, specifically Issue #20777, which has been marked as a duplicate. While I can't provide a direct solution, your concerns are noted, and I encourage you to keep an eye on future updates for improvements.",TRUE,
+RM-09739DBC13,VLC,Audio stops all of a sudden. Problem occurs while playing high quality and high FPS videos.,"Tracker: VLC Android (Trac)
+Issue: 9456 — While playing files, either mp4 or flv, the player randomly stops
+State: closed
+Resolution: Trac resolution=incomplete
+Labels: (none)
+Closed at: (not available)
+Body excerpt: Randomly the player stops playing files (mp4 or flv tried so far) and goes back to main screen. It does not remember the point in time being played, which it does when stopped manually.
+Running VLC for Android v0.1.3 (2013-07-29) on Asus Transformer TF700T (Android v4.0.3)NVIDIA® Tegra® 3 Quad-core CPU","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. We understand that audio can stop unexpectedly while playing high-quality videos. There is a related issue, #9456, where the player randomly stops and returns to the main screen. However, this issue was marked as incomplete, indicating that it may not have been fully resolved. We appreciate your patience as we continue to improve the VLC experience.",TRUE,
+RM-7A23F6F1F6,VLC,"The subtitles barely works, keeps saying an error occured, try again in few seconds. Sad","Tracker: VLC Android (Trac)
+Issue: 17037 — VLC encountered an error with this media. Please try refreshing the media library
+State: closed
+Resolution: Trac resolution=invalid
+Labels: (none)
+Closed at: (not available)
+Body excerpt: I have this error ""'''VLC encountered an error with this media. Please try refreshing the media library'''"" with [https://github.com/theScrabi/NewPipe NewPipe] and VLC as external player. I think I saw this error too when I tried to open a media.
+
+Seem related to this one https://trac.videolan.org/vlc/ticket/14451 that is supposed to be fixed.
+
+https://github.com/theScrabi/NewPipe/issues/263
+
+Motorola Razr i (x86)
+CM11 (Kitkat 4.4)
+VLC 1.9.0
+
+Thanks !","L1: REJECTED
+Subtype: invalid
+Action: REJECTED","Thank you for your feedback. I understand that you're experiencing issues with subtitles in VLC. There is a related issue, #17037, which mentioned encountering an error with media playback. However, it was marked as invalid, indicating it may not be a recognized bug. For further assistance, please consider checking the VLC support forums or updating to the latest version. Your experience is important to us!",TRUE,
+RM-629CD2F7FD,VLC,"always shows nortification of scanning media file library, and hangs when i open it stops working and says it isn't responding.","Tracker: VLC Android (Trac)
+Issue: 11913 — VLC for Android hangs when focused for huge audio library and fast scrolling is glitchy
+State: closed
+Resolution: Trac resolution=duplicate
+Labels: (none)
+Closed at: (not available)
+Body excerpt: VLC for Android hangs whenever focused (device unlocked into VLC window, back button pressed to come back from preferences window, opening application from launcher).
+
+This happen when the VLC window loads a big audio library (3000+ mp3/flac/wav files). Does not happen when the active VLC window list videos or directories (since the list is way smaller I suspect).
+
+When scrolling quickly a huge library, the list glitches while scrolling (it scrolls but not fluently).
+
+Information:
+Operating system: Android 4.4.2
+VLC Version: VLC for Android revision 85f562c (v0.9.8)
+Phone Model Number: SGH-T999V (Samsung Galaxy S3)
+
+There are no logs since it does not crash and only hangs.
+
+First time submitting a bug report here, notify me if you need anything.","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback. We understand that VLC for Android can hang when dealing with large audio libraries, as noted in issue #11913. This issue has been marked as a duplicate and is closed, indicating that it has been acknowledged. We appreciate your patience as we work to improve the app's performance.",TRUE,
+RM-0B5119D212,Firefox,"The browser always crash for no reason, this version is whacked I swear.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 927492 — I am currently using firefox 24 it always crashes
+State: closed
+Resolution: Bugzilla resolution=INCOMPLETE
+Labels: (none)
+Closed at: 2013-10-21T03:44:41Z
+Body excerpt: 120116    User Agent: Mozilla/5.0 (Linux; U; Android 4.1...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that you're experiencing crashes with the browser. There was a related issue, Bug #927492, which reported crashes in Firefox 24. However, it was marked as incomplete and closed on October 21, 2013. If you continue to face this problem, please consider reporting it with more details to help us investigate further.",TRUE,
+RM-2F64A10D8A,Firefox,Hurry up and wait. This app is incredibly slow. Photos and videos take forever to load and when they do load the quality is very poor.,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1290694 — All drag and swipe interaction are very slow
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2016-08-04T22:58:27Z
+Body excerpt: 246193    User Agent: Mozilla/5.0 (X11; Linux x86_64; rv...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that you're experiencing slow performance with the app. There was a related issue, #1290694, regarding slow drag and swipe interactions, which has been closed with a resolution of ""WORKSFORME."" While this may not directly address your concerns, we appreciate your input and are always looking to improve performance.",TRUE,
+RM-713E51F303,Nextcloud,"Auto Upload hasn't worked in quite some time.  Even manually moving files to the InstantShared folders has no effect.  Those files aren't even viewable in the app, but are seen there by a file manager.  Would be nice if that was fixed.  Great overall platform though.","Tracker: nextcloud/android (GitHub)
+Issue: 2131 — Auto-uploaded files that are moved to app folder are deleted from local storage the next time the folder is viewed in the app
+State: closed
+Resolution: Historical snapshot closed; GitHub enrichment unavailable (GitHub API 403 for #2131; remaining=0; body='{""message"":""API rate limit exceeded for 104.28.162.241. (But here\'s the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)"",""documentation_url"":""'); no confirmed resolution in historical evidence.
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}]
+Closed at: 2019-10-01T09:15:30Z
+Body excerpt: exactly the same issue like described in #735 and fixed by @tobiasKaminsky 
+### Actual behaviour
+After images are taken and auto-uploaded, they are moved to the app folder as expected. However, the next time the folder containing those images are viewed in the Nextcloud app, the images are deleted.
+
+### Expected behaviour
+The images should not be deleted and should appear with a green checkmark as with all other locally-available files.
+
+### Steps to reproduce
+1. Enable auto upload for e.g. the camera
+2. Change ""Original file will be..."" to ""moved to app folder""
+3. Take a picture
+4. View the upload subfolder of the app folder in a file explorer and notice that the image has been moved there
+5. Open the upload folder in the app and notice that the newly-uploaded image has a green checkmark, then see the checkmark is gone and file is deleted in file system
+6. View the upload subfolder of the app folder in a file explorer again and notice that the image is gone
+
+## Environment data
+Android version:
+
+Device model: 
+Redmi 4x
+
+Stock or customized system:
+LineageOS
+
+Nextcloud app version: 3.0.0
+
+Nextcloud server version: 13.0.0","L1: ABANDONED
+Subtype: OTHER
+Action: ABANDONED","Thank you for your feedback! We understand that the auto-upload feature has been problematic. There was a related issue, [#2131](https://github.com/nextcloud/android/issues/2131), where auto-uploaded files were deleted from local storage when viewed in the app. This issue was closed in October 2019, but it seems the problem may still persist for some users. We appreciate your patience and will continue to work on improving the platform.",TRUE,
+RM-74BCCF1676,Nextcloud,"Hello, Autoupload doesn't work. I manually created folder on the server using web browser, and checked in the app to create year folder and month. It gives ""connection error"" in uploads queue. So the app is almost useless for me","Tracker: nextcloud/android (GitHub)
+Issue: 320672817 — Autoupload is failing - UPLOAD_FAILED and result:FOLDER_ERROR
+State: closed
+Resolution: stale label=stale
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 1355031879, 'node_id': 'MDU6TGFiZWwxMzU1MDMxODc5', 'url': 'https://api.github.com/repos/nextcloud/android/labels/stale', 'name': 'stale', 'color': 'ffffff', 'default': False, 'description': None}]
+Closed at: 2019-05-24T03:23:18Z
+Body excerpt: ### Actual behaviour
+Images are not being uploaded into nwe 2018/05 subfolder (error message server not found, folder error).
+
+### Expected behaviour
+Images should be uploaded into corresponding subfolder 
+ 
+### Steps to reproduce
+1. take a photo
+2.  wait for sync with server
+3. check on web if image has been uploaded
+
+
+### Environment data
+Android version: 8.1.0
+
+Device model: 
+Oneplus 5T
+Stock or customized system:
+stock rooted
+Nextcloud app version:
+3.1.0
+Nextcloud server version:
+13
+### Logs
+#### Nextcloud log (data/nextcloud.log)
+2018/05/07 06:41:01
+UploadFileOperation : Checking name collision in server
+
+2018/05/07 06:41:01
+UploadsStorageManager : Updating /storage/emulated/0/DCIM/Camera/IMG_20180506_115558.jpg with status=UPLOAD_IN_PROGRESS
+
+2018/05/07 06:41:01
+UploadsStorageManager : updateUpload returns with: 1 for file: /storage/emulated/0/DCIM/Camera/IMG_20180506_115558.jpg
+
+2018/05/07 06:41:01
+UploadsStorageManager : notifyObserversNow
+
+2018/05/07 06:41:01
+OwnCloudClient #1 : REQUEST PUT /nextcloud/remote.php/webdav/SofortUpload/DCIM/2018/05/IMG_20180506_115558.jpg-chunking-199888553-3-0
+
+2018/05/07 06:41:01
+ChunkedUploadRemoteFileOperation : Upload of /storage/emulated/0/DCIM/Camera/IMG_20180506_115558.jpg to /SofortUpload/DCIM/2018/05/IMG_20180506_115558.jpg, chunk index 0, count 3, HTTP result status 404
+
+2018/05/07 06:4","L1: ABANDONED
+Subtype: STALE
+Action: ABANDONED","Thank you for your feedback. I understand that you're experiencing issues with the Autoupload feature, specifically a ""connection error"" when trying to upload images. This issue has been previously reported as Issue #320672817, which is now closed. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). While the issue is marked as closed, it may not have been fully resolved for all users. We appreciate your patience as we work to improve the app.",TRUE,
+RM-B06D829DAD,Nextcloud,Stopped working all of a sudden. Asking for pattern or fingerprint. Neither my real device pattern nor my fingerprints are working. Fresh install. Only added one account. Did not change any settings. All prior versions worked. Cannot send any debug data as the app does not let me start. Please fix this.,"Tracker: nextcloud/android (GitHub)
+Issue: 349898476 — App is not asking for fingerprint (pin only)
+State: closed
+Resolution: needs-info/cannot-reproduce label=needs info/discussion
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}]
+Closed at: 2018-10-31T19:37:19Z
+Body excerpt: ### Actual behaviour
+With device credentials set to fingerprint unlocking, the app always asks for the pin code.
+
+### Expected behaviour
+It should ask for a fingerprint. Pin could be fallback solution
+ 
+### Steps to reproduce
+1. Turn on fingerprint verification
+2. Start app
+3. Notice pin request
+
+
+### Environment data
+Android version: 8
+
+Device model: Huawei P9
+
+Stock or customized system: stock
+
+Nextcloud app version: latest development version
+
+Nextcloud server version: 13.0.5","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that you're experiencing issues with the app not recognizing your fingerprint or pattern. There was a related issue (#2879) where the app was not asking for fingerprint verification and only requested a pin code. This issue is marked as closed, but it was labeled as needing more information for further discussion. You can view it here: [Issue #2879](https://github.com/nextcloud/android/issues/2879). We appreciate your patience as we work to improve the app.",TRUE,
+RM-6EFB800ABD,Firefox,Good browser with great features. The scrolling speed is slow compared to chrome while also dropping fps count.but i use Firefox it Will be great if u cold fix these issues because this will make it perfect,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1056619 — Maximal scrolling speed is too low, making the browser feel slow
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2015-01-12T18:39:28Z
+Body excerpt: 166333    http://www.reddit.com/r/firefox/comments/2dx2r...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback! We understand that scrolling speed can impact your browsing experience. There was a reported issue regarding low maximal scrolling speed in Firefox (Issue #1056619), which has been marked as ""WORKSFORME"" and closed since January 2015. While we appreciate your input, we encourage you to check for any updates or settings that might enhance your experience.",TRUE,
+RM-FCB8DCC0F7,Firefox,"Firefox great as always in personal control, but horrible slow in the android departure.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1272867 — slow and laggy tab animation in Firefox mobile
+State: closed
+Resolution: Bugzilla resolution=WORKSFORME
+Labels: (none)
+Closed at: 2018-07-19T13:10:14Z
+Body excerpt: 241035    User Agent: Mozilla/5.0 (Android 5.1; Mobile; ...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback on Firefox for Android. I understand your concerns about performance. There was a related issue, #1272867, regarding slow and laggy tab animations in Firefox mobile, which was closed with a resolution of ""WORKSFORME"" on July 19, 2018. While this issue has been addressed, we appreciate your input and are always looking to improve the experience.",FALSE,
+RM-70EF64E6BD,Nextcloud,"Not working for me, I can log, manual upload but if I want tu upload more then 10 photos, after a few stops uploading them. Auto upload is not working as well. I disable battery performance, I added all the permissions, etc. I am on android 9.","Tracker: nextcloud/android (GitHub)
+Issue: 3425 — Auto Upload not working
+State: closed
+Resolution: Historical snapshot closed; GitHub enrichment unavailable (GitHub API 403 for #3425; remaining=0; body='{""message"":""API rate limit exceeded for 104.28.162.241. (But here\'s the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)"",""documentation_url"":""'); no confirmed resolution in historical evidence.
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 637385520, 'node_id': 'MDU6TGFiZWw2MzczODU1MjA=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/feature:AutoUpload', 'name': 'feature:AutoUpload', 'color': 'C2E0C6', 'default': False, 'description': ''}]
+Closed at: 2019-01-14T06:48:34Z
+Body excerpt: Dear all,
+
+I have NC in Version 14.0.4 running with two Accounts. One Moto G5 with Android 8.1. This works without any Issues. The other Samsung J5 with Android 7.1.1. On thus Smartphone the Auto Upload doesn't work always. I reinstalled the NC App abd renew the Auto-Upload settings bit it doesn't work the most time. Sometimes when I search in the NC App the upload starts...but rhe most time auto-upload doesnt work. What can I do? 
+
+Rainer","L1: ABANDONED
+Subtype: OTHER
+Action: ABANDONED","Thank you for your feedback. I understand that you're experiencing issues with auto-upload and uploading multiple photos on Android 9. There was a related issue, #3425, regarding auto-upload not working, which has been closed but does not confirm a resolution. You can view it here: [Issue #3425](https://github.com/nextcloud/android/issues/3425). We appreciate your patience as we work to improve the app.",TRUE,
+RM-18CEA7CC36,Nextcloud,Absolutely destroys battery life. Phone always lasts all day well past midnight. Had it installed for 3 days and will now go from fully charged at 7am to dead at 5pm with hardly any phone use and no phone calls. Android reporting app responsible for 19% of battery drain. Can't keep it installed like that.,"Tracker: nextcloud/android (GitHub)
+Issue: 256058894 — Battery drain
+State: closed
+Resolution: needs-info/cannot-reproduce label=needs info/discussion
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 637385520, 'node_id': 'MDU6TGFiZWw2MzczODU1MjA=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/feature:AutoUpload', 'name': 'feature:AutoUpload', 'color': 'C2E0C6', 'default': False, 'description': ''}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}]
+Closed at: 2018-01-15T06:24:45Z
+Body excerpt: ### Actual behaviour
+-Tell us what happens
+It never stop uploading the same photo
+### Expected behaviour
+-Tell us what should happen
+upload the  the photo once
+### Steps to reproduce
+1. Use autophoto upload
+2. Never stops upload the same photo
+
+
+### Environment data
+Android version:
+
+Device model: 
+
+Stock or customized system:
+
+Nextcloud app version:
+
+Nextcloud server version:12.02
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback regarding battery drain. We understand how frustrating this can be. There was a related issue (#1514) about battery drain due to the auto-upload feature, which has been closed but marked as needing more information. You can view it here: [Issue #1514](https://github.com/nextcloud/android/issues/1514). We recommend checking for any updates or adjustments to the app settings that may help improve battery performance. Your experience is important to us, and we appreciate your input.",TRUE,
+RM-0C6EF281AD,Firefox,"Good for privacy as it allows privacy minded extensions but the UI is absolutely terrible from a poweruser's perspective. Simple gestures like drag to reload is missing. No way to copy only the text portion of a link. No way to open a new tab from the detailed context menu when inside the tabs view (can only launch new tab with the + icon), and more.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 751651 — No way to access tabs from other devices except from about:home with only 1 tab open.
+State: closed
+Resolution: Bugzilla resolution=DUPLICATE
+Labels: (none)
+Closed at: 2012-05-04T02:48:31Z
+Body excerpt: 41402    User Agent: Mozilla/5.0 (Android; Mobile; rv:1...
+Name: raw_text, dtype: object","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback regarding the UI experience. I understand your frustration with missing features like drag to reload and text copying options. While I can't address those specific issues directly, I want to let you know that there have been discussions around related usability concerns, such as issue #751651, which was marked as a duplicate and closed in 2012. Your input is valuable, and I encourage you to share your suggestions with the development team for future improvements.",TRUE,
+RM-823D5F3D00,Nextcloud,"App works only few hours, next - problems with login. Can't login, must reinstall app again, and again!😠","Tracker: nextcloud/android (GitHub)
+Issue: 505670569 — App crashes on login
+State: closed
+Resolution: stale label=stale
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 1355031879, 'node_id': 'MDU6TGFiZWwxMzU1MDMxODc5', 'url': 'https://api.github.com/repos/nextcloud/android/labels/stale', 'name': 'stale', 'color': 'ffffff', 'default': False, 'description': None}]
+Closed at: 2020-01-05T18:35:40Z
+Body excerpt: ### Actual behaviour
+Keeps crashing afer I logged in on my Nextcloud server. Worked fine before I updated the server from 16 to 17.
+
+Note:
+Dev version also crashes
+
+### Expected behaviour
+I hoped it would not crash
+ 
+### Steps to reproduce
+1.  Install android app
+2.  Login into your account
+3. Wait for 1-2 sec
+
+### Environment data
+Android version:
+9
+Device model: 
+Xiaomi Redmi 7
+Stock or customized system:
+Stock
+Nextcloud app version:
+3.8.0
+Nextcloud server version:
+Stable17
+
+### Logs
+#### Web server error log
+```
+There was nothing in the logs
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Nothing of relevance here either
+```
+
+App crash report
+```
+************ CAUSE OF ERROR ************
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String java.lang.String.substring(int, int)' on a null object reference
+	at com.owncloud.android.datamodel.OCFile.getLocalId(OCFile.java:493)
+	at com.owncloud.android.utils.EncryptionUtils.downloadFolderMetadata(EncryptionUtils.java:221)
+	at com.owncloud.android.operations.RefreshFolderOperation.getDecryptedFolderMetadata(RefreshFolderOperation.java:450)
+	at com.owncloud.android.operations.RefreshFolderOperation.synchronizeData(RefreshFolderOperation.java:395)
+	at com.owncloud.android.operations.RefreshFolderOperation.fetchAndSyncRemoteFolder(RefreshFolderOperation.java:","L1: ABANDONED
+Subtype: STALE
+Action: ABANDONED","I'm sorry to hear you're experiencing login issues with the app. There was a related issue (#505670569) where the app crashed on login, which has been marked as stale and closed. You can view it here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). While this issue is closed, it may not have been fully resolved for all users. We appreciate your feedback and encourage you to check for any updates or further assistance.",TRUE,
+RM-6A28F15297,Nextcloud,"Autoupload not working, android 7, otherwise all seems good. Happy with app and will increase stars to 5 when auto upload is working.","Tracker: nextcloud/android (GitHub)
+Issue: 220295421 — Autoupload not working
+State: closed
+Resolution: needs-info/cannot-reproduce label=needs info/discussion
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 637385520, 'node_id': 'MDU6TGFiZWw2MzczODU1MjA=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/feature:AutoUpload', 'name': 'feature:AutoUpload', 'color': 'C2E0C6', 'default': False, 'description': ''}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}]
+Closed at: 2017-09-25T13:24:35Z
+Body excerpt: ### Actual behaviour
+-Tell us what happens
+The files act as if they are being transferred and even show a file size but are unviewable once on the server. Occurs when you select the option to delete after move.
+### Expected behaviour
+-Tell us what should happen
+ The files transfer are deleted are available and viewable from the server.
+### Steps to reproduce
+1. Open the auto upload
+2. Select to delete the original file after it has been uploaded
+3. 
+
+
+### Environment data
+Android version:
+Multiple versions
+Device model: 
+Multiple models
+Stock or customized system:
+Stock image
+Nextcloud app version:
+Official version and nightly
+Nextcloud server version:
+11.0.2
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback! We understand that the autoupload feature is not working as expected on your device. There was a related issue (#220295421) that has been closed, but it was marked as needing more information and could not be reproduced. You can view the details here: [Issue #220295421](https://github.com/nextcloud/android/issues/815). We appreciate your patience and hope to resolve this for you soon!",TRUE,
+RM-B58FD20125,Firefox,"Been using Firefox since version 3 on windows and was happy to see they made the Android version as I rather stick to a browser I already know and trust. Best thing about this is being able to sync my tabs between my PC and smartphone and it's as fast on my phone even with multiple tabs open and does not drain my battery. Disappointed that no add-ons I installed works so far, but maybe that will improve in the future.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 920918 — firefox for android mobile is not working as good as desktop version.
+State: closed
+Resolution: Bugzilla resolution=INVALID
+Labels: (none)
+Closed at: 2013-09-26T08:46:16Z
+Body excerpt: 118214    User Agent: Mozilla/5.0 (Windows NT 5.1) Apple...
+Name: raw_text, dtype: object","L1: REJECTED
+Subtype: invalid
+Action: REJECTED","Thank you for your feedback on Firefox for Android. We understand your disappointment regarding add-on compatibility. The issue you mentioned, related to performance compared to the desktop version, was tracked as issue #920918, which was marked as invalid. We appreciate your patience as we continue to improve the experience.",TRUE,
+RM-0DE09C25E0,Nextcloud,"After repeatedly reporting the issue, it still does not auto-upload my photos unless I manually take the phone out of medium power-saving mode (suicide for any Galaxy S8 owner).","Tracker: nextcloud/android (GitHub)
+Issue: 391346967 — Galaxy S8 still not auto-uploading in power save
+State: closed
+Resolution: stale label=stale
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}, {'id': 1355031879, 'node_id': 'MDU6TGFiZWwxMzU1MDMxODc5', 'url': 'https://api.github.com/repos/nextcloud/android/labels/stale', 'name': 'stale', 'color': 'ffffff', 'default': False, 'description': None}]
+Closed at: 2019-05-23T23:23:22Z
+Body excerpt: My galaxy S8 still does not auto-upload unless I completely disable power save mode. Mid-power save will not allow me to upload.","L1: ABANDONED
+Subtype: STALE
+Action: ABANDONED","Thank you for your feedback regarding the auto-upload issue on the Galaxy S8. We understand how frustrating it can be. The issue you mentioned, #391346967, was marked as stale and closed on May 23, 2019. You can view it here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). While we strive to improve our app, we appreciate your patience and encourage you to keep an eye on future updates for potential resolutions.",TRUE,
+RM-6DE38DF5D7,Firefox,Latest update started consuming over 80% battery. Had to uninstall to even charge the phone!,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1336784 — Phone restarts while updating to latest stable version (v51)
+State: closed
+Resolution: Bugzilla resolution=DUPLICATE
+Labels: (none)
+Closed at: 2017-02-07T13:16:30Z
+Body excerpt: 260495    User Agent: Mozilla/5.0 (Windows NT 6.1; Win64...
+Name: raw_text, dtype: object","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback. I understand that the latest update has caused significant battery drain. There is a related issue, #1336784, which was marked as a duplicate and closed on February 7, 2017. While I can't provide a direct solution, your experience is important, and I encourage you to keep an eye on future updates for improvements.",TRUE,
+RM-9D4A383257,Firefox,"Extremely high battery drain on my device. There are multiple people on forums everywhere complaining about this, I tried reinstalling, but that was a waste of time and, lost all my FF data because Sync didn't really synchronize my data. Back to finding another browser ffs.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1381369 — Sync service drain battery if after change something big of my synced profile on desktop
+State: closed
+Resolution: Bugzilla resolution=INVALID
+Labels: (none)
+Closed at: 2017-07-31T18:25:33Z
+Body excerpt: 274848    This is related to bug 1124369.\n\nI sync my o...
+Name: raw_text, dtype: object","L1: REJECTED
+Subtype: invalid
+Action: REJECTED","Thank you for your feedback. I understand that you're experiencing high battery drain, which has been a concern for others as well. There was a related issue, Bug #1381369, regarding battery drain due to the Sync service, but it was marked as invalid and closed on July 31, 2017. Unfortunately, we don't have a solution for this specific problem at this time. We appreciate your patience and hope you find a suitable alternative.",TRUE,
+RM-419AFBAD45,Firefox,crashes nearly every time I use it for an extended period.,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 700842 — Crashes almost every time I run today's birch build
+State: closed
+Resolution: Bugzilla resolution=DUPLICATE
+Labels: (none)
+Closed at: 2011-11-09T14:56:56Z
+Body excerpt: 4833    Crashes almost every time I ran today's birch ...
+Name: raw_text, dtype: object","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback. I understand that crashes can be frustrating. There was a related issue, Bug #700842, which reported crashes occurring frequently. This issue has been marked as a duplicate and was closed on November 9, 2011. While I can't provide a direct solution, I recommend checking for updates or support resources that may address your concerns.",TRUE,
+RM-0002094084,Nextcloud,I have a nextcloud server and the way I access my server is via OpenVPN. The problem now is the nextcloud native app doesn't work through vpn. It is an odd behavior. I highly recommend to use owncloud app instead.,"Tracker: nextcloud/android (GitHub)
+Issue: 446486605 — hello nextcloud crashes when i upload something , my phone is ASUS znefone max pro m1, android 8.1, thanks
+State: closed
+Resolution: stale label=stale
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 1355031879, 'node_id': 'MDU6TGFiZWwxMzU1MDMxODc5', 'url': 'https://api.github.com/repos/nextcloud/android/labels/stale', 'name': 'stale', 'color': 'ffffff', 'default': False, 'description': None}]
+Closed at: 2019-07-11T05:40:54Z
+Body excerpt: ### Actual behaviour
+- Tell us what happens
+
+### Expected behaviour
+- Tell us what should happen
+ 
+### Steps to reproduce
+1. 
+2. 
+3. 
+
+
+### Environment data
+Android version:
+
+Device model: 
+
+Stock or customized system:
+
+Nextcloud app version:
+
+Nextcloud server version:
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate","L1: ABANDONED
+Subtype: STALE
+Action: ABANDONED","Thank you for your feedback regarding the Nextcloud app's performance over VPN. We understand that this can be frustrating. While there is a closed issue related to app crashes (Issue #4054) on GitHub, it has been marked as stale and may not directly address your specific concern. You can view it here: [Issue #4054](https://github.com/nextcloud/android/issues/4054). We appreciate your recommendation to use the ownCloud app as an alternative.",TRUE,
+RM-9D1DF6E382,Nextcloud,new update has broken auto upload. all that happens is I get an error about local storage being full!!! EDIT: Thanks for responding. I have 128gb local storage and a 512gb sd card which is where my pictures are saved to. I'm only using 30gb or so on local storage currently so I should have the space for any images/videos I take. I try to keep at least 10gb of local storage free at any one time for things like updates so I'd have thought that would be more than enough as I mostly take pictures.,"Tracker: nextcloud/android (GitHub)
+Issue: 604172268 — Local storage being used for uploads from sdcard
+State: closed
+Resolution: stale label=stale
+Labels: [{'id': 388626761, 'node_id': 'MDU6TGFiZWwzODg2MjY3NjE=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/bug', 'name': 'bug', 'color': 'ee0701', 'default': True, 'description': None}, {'id': 392415919, 'node_id': 'MDU6TGFiZWwzOTI0MTU5MTk=', 'url': 'https://api.github.com/repos/nextcloud/android/labels/needs%20info/discussion', 'name': 'needs info/discussion', 'color': '006b75', 'default': False, 'description': None}, {'id': 1355031879, 'node_id': 'MDU6TGFiZWwxMzU1MDMxODc5', 'url': 'https://api.github.com/repos/nextcloud/android/labels/stale', 'name': 'stale', 'color': 'ffffff', 'default': False, 'description': None}]
+Closed at: 2020-07-04T05:07:39Z
+Body excerpt: ### Steps to reproduce
+Preconditions: 
+- Only approx. 1GB space left on the internal storage.
+- Big video file with approx. 800MB on SDCard.
+- I am currently beta tester of the Android App using 3.11.1 RC1 (April, 16, 2020).
+- Same issue has already been closed without action: https://github.com/nextcloud/android/issues/351
+
+Set up auto-upload for the directory containing the 800MB video file using ""Upload already existing data"". (I did this unintentionally. Actually I have already uploaded all the file before...)
+
+
+
+### Expected behaviour
+Uploads gets done.
+
+### Actual behaviour
+Uploads fails with message: ""File XYZ could not be copied to nextcloud local folder""
+
+
+## Server configuration detail
+
+**Operating system:** Linux 4.12.14-lp151.28.44-default #1 SMP Fri Mar 20 18:20:20 UTC 2020 (dbf1aea) x86_64
+
+**Webserver:** nginx/1.14.2 (fpm-fcgi)
+
+**Database:** mysql 10.2.31
+
+**PHP version:** 
+
+7.2.5
+Modules loaded: Core, date, libxml, pcre, filter, hash, Reflection, SPL, session, SimpleXML, standard, xml, mysqlnd, cgi-fcgi, apcu, bz2, ctype, curl, dom, mbstring, fileinfo, gd, gettext, iconv, imagick, intl, json, exif, mysqli, openssl, pcntl, PDO, pdo_mysql, pdo_sqlite, posix, redis, sqlite3, tokenizer, xmlreader, xmlwriter, zip, zlib, Zend OPcache
+
+**Nextcloud version:** 18.0.3 - 18.0.3.0
+
+**Updated from an older Nextcloud/ownCloud or fresh install","L1: ABANDONED
+Subtype: STALE
+Action: ABANDONED","Thank you for your feedback regarding the auto-upload issue. We understand that you're experiencing an error related to local storage. There was a similar issue documented in our tracker (Issue #604172268) that has been closed, but it may not have been resolved for all scenarios. You can view it here: [Issue #5910](https://github.com/nextcloud/android/issues/5910). We appreciate your patience as we continue to improve the app.",TRUE,
+RM-12C6B3513E,Firefox,Good browser but it is not possible tochange default download folder to external sd. Too bad.,"Tracker: Mozilla Firefox (Bugzilla)
+Issue: 1096638 — No option to choose default download folder
+State: closed
+Resolution: Bugzilla resolution=DUPLICATE
+Labels: (none)
+Closed at: 2014-11-10T23:54:06Z
+Body excerpt: 178729    There doesn't seem to be an option in Firefox ...
+Name: raw_text, dtype: object","L1: REDIRECTED
+Subtype: duplicate
+Action: REDIRECTED","Thank you for your feedback. I understand the frustration regarding the inability to change the default download folder to an external SD card. This issue has been documented in Bugzilla as issue #1096638, which is marked as closed and categorized as a duplicate. Unfortunately, it seems that this feature is still not available in Firefox. We appreciate your input and will continue to work on improving the browser.",TRUE,
+RM-8A7A817125,Firefox,"I enjoy using it when it is working, it freezes and crashes quite often","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 927492 — I am currently using firefox 24 it always crashes
+State: closed
+Resolution: Bugzilla resolution=INCOMPLETE
+Labels: (none)
+Closed at: 2013-10-21T03:44:41Z
+Body excerpt: 120116    User Agent: Mozilla/5.0 (Linux; U; Android 4.1...
+Name: raw_text, dtype: object","L1: ABANDONED
+Subtype: NEEDS_INFO
+Action: ABANDONED_NEEDS_INFO","Thank you for your feedback. I understand that experiencing freezes and crashes can be frustrating. I found a related issue, Bug #927492, which reported crashes in Firefox 24. However, it was marked as INCOMPLETE and closed on October 21, 2013. If you continue to face these issues, please consider checking for updates or reporting your experience for further assistance.",TRUE,
+RM-64B26F64C2,VLC,Sometimes app is not working so you need to close it completly and reopen it. Video thumbnails is always wrong and video name is also not showing.,"Tracker: VLC Android (Trac)
+Issue: 19811 — Video not showing
+State: closed
+Resolution: Trac resolution=invalid
+Labels: (none)
+Closed at: (not available)
+Body excerpt: When start video its only sound no video[[Image()]]","L1: REJECTED
+Subtype: invalid
+Action: REJECTED","Thank you for your feedback. I understand that you're experiencing issues with video playback and thumbnails in the app. I found an issue related to video not showing (Issue #19811), but it was marked as invalid. Unfortunately, this means it may not have been addressed. We appreciate your input and encourage you to keep us updated on your experience.",TRUE,
+RM-EFD4B9EB23,Firefox,"When I type into the search box's it type's random words on it's own even when I delete the random words it adds words in, it's not my prediction keyboard that's messing up it only happens on Firefox. Also can't arrange your pinned top sites in the order you want.","Tracker: Mozilla Firefox (Bugzilla)
+Issue: 825487 — I am able to type words in Firefox search bar but unable to type anything in the websites
+State: closed
+Resolution: Bugzilla resolution=INVALID
+Labels: (none)
+Closed at: 2012-12-30T10:03:08Z
+Body excerpt: 79280    User Agent: Mozilla/5.0 (Linux; Android 4.1.1;...
+Name: raw_text, dtype: object","L1: REJECTED
+Subtype: invalid
+Action: REJECTED","Thank you for your feedback. I understand your frustration with typing issues in Firefox. There was a related issue (Bug #825487) regarding typing in the search bar, but it was marked as invalid and closed in December 2012. Unfortunately, this means it may not have been addressed. We appreciate your input and encourage you to report any ongoing problems directly to Mozilla for further assistance.",TRUE,

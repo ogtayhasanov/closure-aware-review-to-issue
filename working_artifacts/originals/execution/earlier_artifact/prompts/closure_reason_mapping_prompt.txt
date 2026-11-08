@@ -1,0 +1,13 @@
+Optional LLM-assistance prompt for proposing closure-reason mappings.
+
+The final mapping must remain explicit and auditable. Do not use LLM output directly as the production classifier.
+
+Input:
+- repository label names and descriptions
+- state/state_reason values
+- closure comments or examples
+- duplicate/stale/upstream workflow conventions
+
+Task:
+Suggest candidate mappings into RESOLVED, REJECTED, ABANDONED, and REDIRECTED. Provide evidence for each mapping and list ambiguous labels separately.
+

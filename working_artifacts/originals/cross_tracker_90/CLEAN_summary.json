@@ -1,0 +1,201 @@
+{
+  "created_at_utc": "2026-08-08T12:25:20.108576+00:00",
+  "scores": [
+    {
+      "tracker": "Firefox",
+      "n_total": 30,
+      "llm_adjudicable_n": 30,
+      "rule_adjudicable_n": 30,
+      "both_adjudicable_n": 30,
+      "both_adjudicable_coverage": 1.0,
+      "agreement_on_both_adjudicable": 0.8333333333333334,
+      "macro_f1_observed_classes": 0.6666666666666666,
+      "cohen_kappa": 0.7382198952879581,
+      "conservative_all_case_exact_agreement": 0.8333333333333334,
+      "discordant_cases": 5,
+      "llm_unresolved": 0,
+      "rule_unresolved": 0,
+      "observed_classes": "ABANDONED|REDIRECTED|REJECTED|RESOLVED"
+    },
+    {
+      "tracker": "Nextcloud",
+      "n_total": 30,
+      "llm_adjudicable_n": 30,
+      "rule_adjudicable_n": 30,
+      "both_adjudicable_n": 30,
+      "both_adjudicable_coverage": 1.0,
+      "agreement_on_both_adjudicable": 0.7666666666666667,
+      "macro_f1_observed_classes": 0.6103896103896104,
+      "cohen_kappa": 0.28571428571428586,
+      "conservative_all_case_exact_agreement": 0.7666666666666667,
+      "discordant_cases": 7,
+      "llm_unresolved": 0,
+      "rule_unresolved": 0,
+      "observed_classes": "ABANDONED|RESOLVED"
+    },
+    {
+      "tracker": "VLC",
+      "n_total": 30,
+      "llm_adjudicable_n": 30,
+      "rule_adjudicable_n": 30,
+      "both_adjudicable_n": 30,
+      "both_adjudicable_coverage": 1.0,
+      "agreement_on_both_adjudicable": 0.9666666666666667,
+      "macro_f1_observed_classes": 0.9365079365079365,
+      "cohen_kappa": 0.9479166666666666,
+      "conservative_all_case_exact_agreement": 0.9666666666666667,
+      "discordant_cases": 1,
+      "llm_unresolved": 0,
+      "rule_unresolved": 0,
+      "observed_classes": "ABANDONED|REDIRECTED|REJECTED|RESOLVED"
+    },
+    {
+      "tracker": "POOLED",
+      "n_total": 90,
+      "llm_adjudicable_n": 90,
+      "rule_adjudicable_n": 90,
+      "both_adjudicable_n": 90,
+      "both_adjudicable_coverage": 1.0,
+      "agreement_on_both_adjudicable": 0.8555555555555555,
+      "macro_f1_observed_classes": 0.8035585585585586,
+      "cohen_kappa": 0.7481162540365984,
+      "conservative_all_case_exact_agreement": 0.8555555555555555,
+      "discordant_cases": 13,
+      "llm_unresolved": 0,
+      "rule_unresolved": 0,
+      "observed_classes": "ABANDONED|REDIRECTED|REJECTED|RESOLVED"
+    }
+  ],
+  "llm_class_distribution": {
+    "ABANDONED": 6,
+    "REDIRECTED": 16,
+    "REJECTED": 7,
+    "RESOLVED": 61
+  },
+  "rule_class_distribution": {
+    "ABANDONED": 19,
+    "REDIRECTED": 16,
+    "REJECTED": 5,
+    "RESOLVED": 50
+  },
+  "discordant_cases": [
+    {
+      "audit_id": "TAX-010",
+      "tracker": "VLC",
+      "issue_id": "14309",
+      "llm_l1_class": "REJECTED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was closed with a resolution of 'worksforme', indicating it was deliberately closed without a planned fix."
+    },
+    {
+      "audit_id": "TAX-011",
+      "tracker": "Nextcloud",
+      "issue_id": "503057061",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 0.9,
+      "llm_rationale": "The issue was closed with a state reason of 'completed', indicating that the problem was addressed and resolved."
+    },
+    {
+      "audit_id": "TAX-018",
+      "tracker": "Firefox",
+      "issue_id": "1433811",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was marked as RESOLVED with a resolution status of INACTIVE, indicating that it has been addressed."
+    },
+    {
+      "audit_id": "TAX-020",
+      "tracker": "Nextcloud",
+      "issue_id": "621227469",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was closed with a reason indicating it was completed, suggesting that the problem was addressed."
+    },
+    {
+      "audit_id": "TAX-021",
+      "tracker": "Nextcloud",
+      "issue_id": "263227364",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was closed with a state reason of 'completed', indicating that it was fixed or resolved."
+    },
+    {
+      "audit_id": "TAX-040",
+      "tracker": "Nextcloud",
+      "issue_id": "373225375",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 0.9,
+      "llm_rationale": "The issue was closed with a state reason of 'completed', indicating that the issue was fixed or resolved."
+    },
+    {
+      "audit_id": "TAX-042",
+      "tracker": "Firefox",
+      "issue_id": "822033",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was marked as RESOLVED with a resolution status of WORKSFORME, indicating that the problem was addressed or no longer reproducible."
+    },
+    {
+      "audit_id": "TAX-051",
+      "tracker": "Firefox",
+      "issue_id": "1505672",
+      "llm_l1_class": "REJECTED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 0.9,
+      "llm_rationale": "The issue was closed with a resolution status of 'INCOMPLETE', indicating it was deliberately closed without a planned fix."
+    },
+    {
+      "audit_id": "TAX-056",
+      "tracker": "Nextcloud",
+      "issue_id": "506217204",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 0.9,
+      "llm_rationale": "The issue was closed with a reason indicating it was completed, and the historical snapshot labels include 'bug', suggesting it was addressed."
+    },
+    {
+      "audit_id": "TAX-062",
+      "tracker": "Nextcloud",
+      "issue_id": "168804642",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was closed with a reason indicating it was completed, suggesting that the problem was addressed and resolved."
+    },
+    {
+      "audit_id": "TAX-063",
+      "tracker": "Nextcloud",
+      "issue_id": "506230055",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was closed with a state reason of 'completed', indicating that the problem was fixed or resolved."
+    },
+    {
+      "audit_id": "TAX-077",
+      "tracker": "Firefox",
+      "issue_id": "1238517",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 0.9,
+      "llm_rationale": "The issue was marked as RESOLVED with a resolution status of INCOMPLETE, indicating that it was addressed but may not have been fully resolved."
+    },
+    {
+      "audit_id": "TAX-080",
+      "tracker": "Firefox",
+      "issue_id": "1187168",
+      "llm_l1_class": "RESOLVED",
+      "rule_l1_class": "ABANDONED",
+      "llm_confidence": 1.0,
+      "llm_rationale": "The issue was marked as RESOLVED with a resolution of WORKSFORME, indicating that the problem was addressed and confirmed as not an issue."
+    }
+  ],
+  "important_limitation": "Blinded LLM-vs-deterministic-mapping audit; not human validation."
+}

@@ -1,0 +1,19 @@
+{
+  "new_final_responses": 324,
+  "responses_per_generator": 162,
+  "core_judge_scores": 324,
+  "routing_judge_scores": 324,
+  "audit_judge_scores": 140,
+  "audit_routing_judge_scores": 140,
+  "all_new_responses_scored": true,
+  "analysis_exclusion_rows": 2,
+  "excluded_case": "nextcloud/android#2131 (one response per generator; retained but excluded from all analyses)",
+  "missing_responses": 0,
+  "missing_scores": 0,
+  "human_label_analysis": "pending; no primary tests performed",
+  "files": {
+    "auto_scores.csv": "f667d66c32cd392fc007336f3312108351a55dc6f1c6463d83bd6e775a86e96c",
+    "audit_auto_scores.csv": "aa9fa2f63787bd29ef9559f4d9fd342414a8af7ad3cab41bf877e6e4d92cda28",
+    "api_usage.csv": "2c34a830d36435d7708ca774c03f137be505ed48616f274bc2d1749117a896db"
+  }
+}

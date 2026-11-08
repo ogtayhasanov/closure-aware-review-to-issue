@@ -1,0 +1,113 @@
+﻿sheet_id,issue_url,tracker_evidence,response,STATES_OUTCOME
+C001,https://github.com/nextcloud/android/issues/4660,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4660
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-01-05T18:35:40Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2020-01-05T18:35:40Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is to experience login issues with the app. The issue you mentioned is tracked as Issue #4660 on GitHub, but it has been closed as it is considered stale. You can view it here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). If you have additional details or reproduction steps, please share them, as they could help in addressing the problem.",
+C002,https://github.com/nextcloud/android/issues/5910,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #5910
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-07-04T05:07:39Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding auto-upload and local storage has been closed as it was previously discussed without action. It appears that more information is needed to investigate further. If you could provide reproduction steps, your app version, device details, and any relevant logs, it would be greatly appreciated. You can also refer to the closed issue here: [Issue #5910](https://github.com/nextcloud/android/issues/5910).",
+C003,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand that you're experiencing playback glitches. The issue you mentioned is similar to Issue #20548, which has been closed as it was deemed out of scope. Unfortunately, there isn't a fix available for this specific problem. If you have more details about your experience, such as reproduction steps, app version, device, and logs, please share them, and we can look into it further.",
+C004,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it can be when features don't work as expected. The issue you reported regarding the Galaxy S8 not auto-uploading in medium power-saving mode is tracked under issue #3376 on GitHub. Unfortunately, it has been closed as abandoned, meaning it hasn't been addressed and no further action is planned at this time. You can view the issue here: [Issue #3376](https://github.com/nextcloud/android/issues/3376).",
+C005,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue you mentioned regarding slow and laggy tab animation in Firefox mobile was tracked under issue #1272867, which has been closed with a resolution of ""WORKSFORME."" If you're still experiencing performance issues, please consider providing more details about your device and app version so we can better understand the situation.",
+C006,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #825487
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-12-30T10:03:08Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding typing in the search box in Firefox is tracked under issue #825487, which has been closed as invalid. Unfortunately, we cannot provide further assistance on this specific issue. If you have additional details or if the problem persists, please consider reporting it again with reproduction steps, your app version, device, and logs.",
+C007,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It appears that your issue is similar to a previously reported one (Issue #9834) regarding crashes while streaming. This issue has been closed as ""works for me,"" indicating it may not be a widespread problem. If you're still experiencing crashes, please provide reproduction steps, your app version, device details, and any logs. Your input can help us understand the issue better.",
+C008,https://github.com/nextcloud/android/issues/4054,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4054
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-07-11T05:40:54Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-07-11T05:40:54Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback regarding the Nextcloud app's performance over OpenVPN. I understand how frustrating this can be. The issue you mentioned is tracked under issue #4054 on GitHub, which is currently closed due to a lack of information. If you could provide reproduction steps, your app version, device model, and any relevant logs, it would greatly help in addressing this behavior. You can view the issue here: [Issue #4054](https://github.com/nextcloud/android/issues/4054).",
+C009,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1381369
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-07-31T18:25:33Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding battery drain has been tracked under Bug #1381369, but it was closed as ""invalid"" on July 31, 2017. Unfortunately, this means it won't be addressed further. If you have additional details or specific reproduction steps, please share them, as they could help us understand the issue better. We appreciate your patience.",
+C010,https://github.com/nextcloud/android/issues/4054,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4054
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-07-11T05:40:54Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-07-11T05:40:54Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback regarding the Nextcloud app's performance over OpenVPN. I understand how frustrating this can be. The issue you mentioned is currently open and tracked under issue #4054 on GitHub. Unfortunately, it was closed due to inactivity and is not being actively addressed. You can view it here: [Issue #4054](https://github.com/nextcloud/android/issues/4054). If you have any additional details or reproduction steps, please share them, as they could help in further investigations.",
+C011,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #756915
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-22T14:01:42Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is tracked under Mozilla Firefox Bug #756915, which has been closed as abandoned due to a lack of information needed for reproduction. If you could provide steps to reproduce the issue, your app version, device details, and any logs, it would be helpful for further investigation.",
+C012,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! It seems that your issue is related to audio playback stopping when the phone locks, which is tracked under issue #20548 in the VLC Android tracker. This issue has been closed with a resolution of ""not VLC."" If you have any additional details or specific reproduction steps, please share them, as they could help us understand your experience better.",
+C013,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand that you're experiencing crashes while streaming videos from YouTube. The issue you mentioned is similar to one we have tracked (Issue #9834), but it has been closed because we need more information to investigate further. Could you please provide the app version, your device model, and any logs if possible? This will help us better understand the problem. Thank you!",
+C014,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is when the autoupload feature isn't working as expected. The issue you mentioned is tracked under issue #2555 on GitHub, but it has been closed due to inactivity and is not currently being addressed. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). If you have any additional details or reproduction steps, please share them, as they could help in further investigations.",
+C015,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1381369
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-07-31T18:25:33Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating high battery drain can be, especially after losing your data. The issue you mentioned is tracked as Bug #1381369, but it has been closed as rejected, meaning it was deemed out of scope. If you have further details or specific reproduction steps, please share them, as they could help in addressing similar concerns in the future.",
+C016,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #756915
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-22T14:01:42Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is similar to a previously reported one (Issue #756915) that was closed as ""Works for Me."" Unfortunately, it seems that this specific problem is tracked elsewhere. If you continue to experience this issue, please provide more details such as reproduction steps, app version, device, and any logs. Your input can help us understand the situation better.",
+C017,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue regarding scrolling speed has been closed as ""Works for Me"" in our tracking system. Unfortunately, we cannot make changes based on this report alone. If you have specific details about your experience, such as reproduction steps, app version, device, and logs, please share them. Your input could help us investigate further.",
+C018,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #825487
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-12-30T10:03:08Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you reported regarding typing in the Firefox search box has been closed as rejected, meaning it was deemed invalid or out of scope. Unfortunately, we cannot provide a fix for this at this time. If you have further details or specific reproduction steps, please share them, as they could help us understand the issue better.",
+C019,https://github.com/nextcloud/android/issues/5910,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #5910
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-07-04T05:07:39Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when auto-upload isn't working as expected. The issue you mentioned is tracked under issue #5910 on GitHub, but it has been closed as abandoned without a fix. You can view it here: [Issue #5910](https://github.com/nextcloud/android/issues/5910). If you have any additional details or reproduction steps, please share them, as they could help in addressing the problem.",
+C020,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand that you're experiencing slow scrolling speeds and dropped FPS in Firefox. The issue you mentioned is tracked under issue #1056619, but it has been closed as abandoned due to a lack of information. If you could provide reproduction steps, your app version, device details, and any logs, it would help us investigate further. Your input is valuable, and we appreciate your support!",
+C021,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you're experiencing with autoupload has been previously reported and is tracked under issue #2555 on GitHub. Unfortunately, this issue has been closed as it was marked stale. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). If you have additional details or reproduction steps, please share them, and we can look into it further.",
+C022,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback on Firefox for Android. I understand your frustration with the slow performance. The issue you mentioned, related to slow and laggy tab animations, is currently closed as abandoned because more information was needed to reproduce it. If you could provide reproduction steps, your app version, device details, and any logs, it would be helpful for further investigation. Your input is valuable to us!",
+C023,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you reported regarding the Galaxy S8 not auto-uploading photos in medium power-saving mode is tracked as Issue #3376 on GitHub. It was closed due to being stale and needing further information. You can view it here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). If you have additional details or reproduction steps, please share them, as they could help in further discussions.",
+C024,https://github.com/nextcloud/android/issues/4660,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4660
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-01-05T18:35:40Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2020-01-05T18:35:40Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is to experience login issues with the app. The issue you mentioned is tracked under issue #4660 on GitHub, but it has been closed as abandoned and is not currently being addressed. You can view it here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). If you have any additional details or reproduction steps, please share them, as they could help in understanding the problem better.",

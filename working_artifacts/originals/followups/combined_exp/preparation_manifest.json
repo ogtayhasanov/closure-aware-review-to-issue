@@ -1,0 +1,26 @@
+{
+  "preregistration_commit": "48d8b42",
+  "total": 162,
+  "bot": 80,
+  "fair": 82,
+  "all_required_checks_passed": true,
+  "analysis_exclusions": [
+    {
+      "input_id": "fair:fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+      "reason": "Nextcloud #2131 was fixed by merged PR #4470; user explicitly excludes it from every analysis"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\inputs.jsonl": "584f97bb99e08a386c796dcd8c004d96f913538003ecf12b8f8c8f18c00370e9",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\inputs_taxonomy_only.jsonl": "dffa06203329e8cd2b9a09d961f3fef1ee9ea0501d652d5c35ad976d3a3d5b80",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\raw_reference_messages.jsonl": "21277a6fab9a2fc1a468d9a452c101a82bea3bbee3df126691a3bc948c8156ca",
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\fair_prompts_246_dryrun.jsonl": "d7af79360aa94f77e89ebd79aa723013d14779134080319bbf4caf5770f3d639",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\generation_settings.json": "3dc09494432e56e9ebded8e63eb0b91d2595d15261d40ccaad53ade5bca29164",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e"
+  },
+  "outputs_sha256": {
+    "inputs_raw_meaning.jsonl": "1700c1c93cce2fa45b7d7ec013b8b1e0274bd9124b7b3650e7828116be798396",
+    "generation_settings.json": "3dc09494432e56e9ebded8e63eb0b91d2595d15261d40ccaad53ade5bca29164",
+    "system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e"
+  }
+}

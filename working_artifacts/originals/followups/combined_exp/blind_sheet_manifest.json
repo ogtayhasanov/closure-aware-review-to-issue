@@ -1,0 +1,11 @@
+{
+  "discordant_cases": 4,
+  "response_rows": 8,
+  "required_answers": 8,
+  "questions": [
+    "STATES_OUTCOME"
+  ],
+  "arm_hidden": true,
+  "seed": 20261024,
+  "human_labels": "pending"
+}

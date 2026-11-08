@@ -19,6 +19,7 @@ flowchart TD
 | --- | ---: |
 | Closure taxonomy validation | 117/120 correct; macro-F1 0.9747; Cohen's kappa 0.9667 |
 | Blinded human status evaluation | Closure-aware 34/36 vs binary-state 1/36 |
+| Historical RAW METADATA human audit | 34/36 correct across the Table 8 cases |
 | Paired significance | Exact two-sided McNemar p = 2.33e-10 |
 | Original post-hoc action audit | NEEDS_INFO 16/16 vs 4/16 and REDIRECTED 7/7 vs 0/7, closure-aware vs raw |
 | Shared-prompt outcome audit, GPT-4o-mini | Raw 33/35, closure-aware 30/35, binary 20/35 |
@@ -37,20 +38,13 @@ Use Python 3.10 or later. The verifier uses the standard library, runs offline, 
 python scripts/verify_submission.py
 ```
 
-The verifier checks the data boundary, regenerates the archived metrics in a temporary directory, compares the results, and runs the tests. The supplement ZIP includes `MANIFEST.sha256` and `RELEASE.json` to identify and verify its exact contents. [Reviewer guide](docs/REVIEWER_GUIDE.md)
+The verifier checks the text-free tables and the working-artifact checksums, regenerates the archived metrics in a temporary directory, compares the results, and runs the tests. [Reviewer guide](docs/REVIEWER_GUIDE.md)
 
 The follow-up ledger contains 1,780 responses represented by their decisions, covering the shared-prompt replication, all six bot-probe arms, taxonomy only, and raw + meaning for both generators. The switch is recomputed by selecting saved arm decisions per case. [Follow-up methods and results](docs/FOLLOW_UP.md) gives the arm definitions, score sources, and caveats. [Evidence coverage](docs/RESULTS.md) distinguishes reproduced and manuscript-reported results, including the DeepMatcher appendix.
 
 ## Repository scope
 
-This is a public research snapshot, not the complete internal evidence archive. It includes:
-
-- the closure taxonomy and statistical implementation;
-- frozen protocols and the experiment contract;
-- opaque case and query identifiers, categorical labels, judgments, scores, and ranks;
-- deterministic reproduction scripts, tests, and continuous integration.
-
-It intentionally excludes app-review text, issue titles and bodies, comments, generated responses, and annotation workbooks while redistribution terms are being reviewed. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for the exact boundary.
+The text-free snapshot in `data/derived/` contains the frozen scores and decisions used by the reproduction scripts. The working artifacts include original generation and judge logs, recovered execution scripts, the completed Table 8 workbook, the BGE-FT full ranks, and the Appendix C DeepMatcher archives. [Working artifacts inventory](working_artifacts/README.md) · [Data availability](DATA_AVAILABILITY.md)
 
 ## Layout
 
@@ -60,6 +54,7 @@ It intentionally excludes app-review text, issue titles and bodies, comments, ge
 - `scripts/`: validation and one-command reproduction.
 - `tests/`: regression tests for the reported headline values.
 - `docs/`: methodology and evidence-status notes.
+- `working_artifacts/`: original run files, case-level crosswalks, and the source checksum inventory.
 
 ## Research status
 

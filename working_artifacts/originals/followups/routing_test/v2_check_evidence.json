@@ -1,0 +1,124 @@
+{
+  "preregistration_commit": "0b83e2c",
+  "source_directory": "C:\\Users\\Ogtay\\Desktop\\test\\bot_test",
+  "sha256": {
+    "inputs.jsonl": "584f97bb99e08a386c796dcd8c004d96f913538003ecf12b8f8c8f18c00370e9",
+    "sample_records.jsonl": "7d52d4c525c9debc3cde77bc5ccd0c5fcc6313d8bb17dc5c95bf93e237b73a51",
+    "responses_gpt-4o-mini-2024-07-18.jsonl": "c6c87412b3bbe6d02847a2e2fe96f4f65542048a24ceffdfdb407fa83832a253",
+    "judgments.jsonl": "e499db1bcab18f431b151c3e985019fe8bcdcad9e04b02aaca94af1592722f6c",
+    "lexical.py": "eaadfe6c2e914fd037d759e8c865c46fd1ce2ae9627dcfa74d4799dfbe566c2d",
+    "system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e"
+  },
+  "sampling": {
+    "seed": 20261024,
+    "population": 50,
+    "ordering": [
+      "repo",
+      "number_numeric"
+    ],
+    "method": "random.Random(seed).sample(population,5)"
+  },
+  "v2_raw_wontfix_count": 50,
+  "v2_identical_taxonomy_block_count": 50,
+  "exclusions": [],
+  "selected": [
+    {
+      "repo": "signalapp/Signal-Android",
+      "number": 11910,
+      "response": "Thank you for your feedback. The issue you mentioned, \"Auto-play audio stopped by text message,\" has been closed as it was marked with a \"wontfix\" label. You can view the details [here](https://github.com/signalapp/Signal-Android/issues/11910). If you have further concerns or need assistance, please feel free to reach out.",
+      "judge_declined": true,
+      "lexical_declined": true,
+      "supporting_sentences": [
+        "The issue you mentioned, \"Auto-play audio stopped by text message,\" has been closed as it was marked with a \"wontfix\" label."
+      ],
+      "lexical_matches": [
+        {
+          "pattern": "\\b(?:wontfix|won['’]?t[ _-]fix|not[ _-]planned|by[ _-]design|out of scope|not a bug|invalid)\\b",
+          "match": "wontfix"
+        }
+      ]
+    },
+    {
+      "repo": "jitsi/jitsi-meet",
+      "number": 4913,
+      "response": "Thank you for your suggestion regarding the \"start audio/video muted\" setting. This feature request has been closed as it was marked \"wontfix\" by the team, meaning it will not be implemented. You can view the details of the issue here: [Issue #4913](https://github.com/jitsi/jitsi-meet/issues/4913). We appreciate your input and encourage you to share any other ideas you may have!",
+      "judge_declined": true,
+      "lexical_declined": true,
+      "supporting_sentences": [
+        "This feature request has been closed as it was marked \"wontfix\" by the team, meaning it will not be implemented."
+      ],
+      "lexical_matches": [
+        {
+          "pattern": "\\b(?:won['’]?t|will not|would not|not going to)\\s+(?:be\\s+)?(?:fix(?:ed)?|implement(?:ed)?|address(?:ed)?|support(?:ed)?|pursue(?:d)?|develop(?:ed)?)\\b",
+          "match": "will not be implemented"
+        },
+        {
+          "pattern": "\\b(?:wontfix|won['’]?t[ _-]fix|not[ _-]planned|by[ _-]design|out of scope|not a bug|invalid)\\b",
+          "match": "wontfix"
+        }
+      ]
+    },
+    {
+      "repo": "signalapp/Signal-Android",
+      "number": 13795,
+      "response": "Thank you for your feedback. The issue you reported about not being able to play audio messages on Android is tracked as issue #13795 on GitHub, which has been closed with a \"wontfix\" status. You can view it here: [Issue #13795](https://github.com/signalapp/Signal-Android/issues/13795). Unfortunately, it seems this issue will not be addressed further. If you have any additional details or specific reproduction steps, please share them, and we can look into it further.",
+      "judge_declined": true,
+      "lexical_declined": true,
+      "supporting_sentences": [
+        "The issue you reported about not being able to play audio messages on Android is tracked as issue #13795 on GitHub, which has been closed with a \"wontfix\" status.",
+        "Unfortunately, it seems this issue will not be addressed further."
+      ],
+      "lexical_matches": [
+        {
+          "pattern": "\\b(?:won['’]?t|will not|would not|not going to)\\s+(?:be\\s+)?(?:fix(?:ed)?|implement(?:ed)?|address(?:ed)?|support(?:ed)?|pursue(?:d)?|develop(?:ed)?)\\b",
+          "match": "will not be addressed"
+        },
+        {
+          "pattern": "\\b(?:wontfix|won['’]?t[ _-]fix|not[ _-]planned|by[ _-]design|out of scope|not a bug|invalid)\\b",
+          "match": "wontfix"
+        }
+      ]
+    },
+    {
+      "repo": "jitsi/jitsi-meet",
+      "number": 2134,
+      "response": "Thank you for your feedback! The issue regarding the invite button over the filmstrip has been closed as \"wontfix\" and is tracked under issue #2134. You can view it here: [Issue #2134](https://github.com/jitsi/jitsi-meet/issues/2134). Unfortunately, it seems that this option will not be addressed. If you have any further questions or need assistance, feel free to reach out!",
+      "judge_declined": true,
+      "lexical_declined": true,
+      "supporting_sentences": [
+        "The issue regarding the invite button over the filmstrip has been closed as \"wontfix\" and is tracked under issue #2134.",
+        "Unfortunately, it seems that this option will not be addressed."
+      ],
+      "lexical_matches": [
+        {
+          "pattern": "\\b(?:won['’]?t|will not|would not|not going to)\\s+(?:be\\s+)?(?:fix(?:ed)?|implement(?:ed)?|address(?:ed)?|support(?:ed)?|pursue(?:d)?|develop(?:ed)?)\\b",
+          "match": "will not be addressed"
+        },
+        {
+          "pattern": "\\b(?:wontfix|won['’]?t[ _-]fix|not[ _-]planned|by[ _-]design|out of scope|not a bug|invalid)\\b",
+          "match": "wontfix"
+        }
+      ]
+    },
+    {
+      "repo": "jitsi/jitsi-meet",
+      "number": 7299,
+      "response": "Thank you for your feedback regarding the startAudioOnly feature in the mobile app. This issue has been closed as it was marked with a \"wontfix\" label, indicating that it will not be addressed further. You can view the details of the issue here: [Issue #7299](https://github.com/jitsi/jitsi-meet/issues/7299). If you have any other concerns or need assistance, please feel free to reach out.",
+      "judge_declined": true,
+      "lexical_declined": true,
+      "supporting_sentences": [
+        "This issue has been closed as it was marked with a \"wontfix\" label, indicating that it will not be addressed further."
+      ],
+      "lexical_matches": [
+        {
+          "pattern": "\\b(?:won['’]?t|will not|would not|not going to)\\s+(?:be\\s+)?(?:fix(?:ed)?|implement(?:ed)?|address(?:ed)?|support(?:ed)?|pursue(?:d)?|develop(?:ed)?)\\b",
+          "match": "will not be addressed"
+        },
+        {
+          "pattern": "\\b(?:wontfix|won['’]?t[ _-]fix|not[ _-]planned|by[ _-]design|out of scope|not a bug|invalid)\\b",
+          "match": "wontfix"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿model,arm,false_fix_claims,NOT_FIXED_n,missed_fixes,FIXED_n,UNCERTAIN_n,uncertain_fix_claim_occurrences
+gpt-4o-mini-2024-07-18,TAXONOMY-ONLY,0,24,0,15,42,20
+gemma-4-26b-a4b-it,TAXONOMY-ONLY,0,24,2,15,42,19

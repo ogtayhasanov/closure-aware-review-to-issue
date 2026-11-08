@@ -1,0 +1,13 @@
+system_a,system_b,metric,pairs,a_only_successes,b_only_successes,exact_mcnemar_p,subset,analysis_status
+closure_aware,binary_state,judge_status_correct,82,16,2,0.001312255859375,all_82,DESCRIPTIVE_SECONDARY
+closure_aware,binary_state,no_hallucination,82,3,5,0.7265625,all_82,DESCRIPTIVE_SECONDARY
+closure_aware,raw_metadata,judge_status_correct,82,5,2,0.453125,all_82,POST_HOC_EXPLORATORY_CONFOUND_CHECK
+closure_aware,raw_metadata,no_hallucination,82,0,5,0.0625,all_82,POST_HOC_EXPLORATORY_CONFOUND_CHECK
+raw_metadata,binary_state,judge_status_correct,82,11,0,0.0009765625,all_82,POST_HOC_EXPLORATORY_MECHANISM_CHECK
+raw_metadata,binary_state,no_hallucination,82,4,1,0.375,all_82,POST_HOC_EXPLORATORY_MECHANISM_CHECK
+closure_aware,binary_state,judge_status_correct,36,15,2,0.002349853515625,nonresolved_closed,DESCRIPTIVE_SECONDARY
+closure_aware,binary_state,no_hallucination,36,2,1,1.0,nonresolved_closed,DESCRIPTIVE_SECONDARY
+closure_aware,raw_metadata,judge_status_correct,36,5,2,0.453125,nonresolved_closed,POST_HOC_EXPLORATORY_CONFOUND_CHECK
+closure_aware,raw_metadata,no_hallucination,36,0,1,1.0,nonresolved_closed,POST_HOC_EXPLORATORY_CONFOUND_CHECK
+raw_metadata,binary_state,judge_status_correct,36,10,0,0.001953125,nonresolved_closed,POST_HOC_EXPLORATORY_MECHANISM_CHECK
+raw_metadata,binary_state,no_hallucination,36,2,0,0.5,nonresolved_closed,POST_HOC_EXPLORATORY_MECHANISM_CHECK

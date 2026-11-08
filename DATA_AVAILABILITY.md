@@ -1,8 +1,8 @@
 # Data availability
 
-This public snapshot follows a data-minimization boundary.
+The repository provides a text-free reproduction snapshot and a separate working-artifact collection.
 
-## Included
+## Text-free reproduction snapshot
 
 - author-created source code and protocols;
 - opaque case identifiers;
@@ -12,17 +12,8 @@ This public snapshot follows a data-minimization boundary.
 - opaque paired retrieval ranks and frozen confidence scores;
 - sanitized follow-up decisions and actor-category provenance, plus the shared system and judge instructions authored for the experiment.
 
-## Not redistributed
+The text-free tables in `data/derived/` preserve the pairings and decisions used to recompute the headline statistics. [Evidence coverage](docs/RESULTS.md)
 
-- app-review text or source review identifiers;
-- issue titles, bodies, or comments;
-- generated developer-facing responses;
-- filled user prompts, evidence bundles, raw tracker timelines, and provider request/response logs;
-- annotation workbooks that reproduce any of that text;
-- model weights or external platform exports.
+## Working artifacts
 
-The omitted source records originate from public software and app-review platforms, but public accessibility does not by itself establish a blanket downstream redistribution license. The complete internal evidence archive is retained for controlled verification; any later release will depend on source terms, author approval, and an appropriate acquisition or access mechanism.
-
-The text-free tables in `data/derived/` preserve the pairings and decisions needed to recompute the public headline statistics without reconstructing or exposing the underlying text.
-
-The reproduction commands recalculate statistics from archived scores, ranks, and labels. Verification of individual source texts, fresh judging, and end-to-end model runs require controlled access to the internal archives and source data. The manuscript's DeepMatcher appendix counts have a separate reported-only record. [Evidence coverage](docs/RESULTS.md)
+The `working_artifacts/` directory contains original run outputs, including source text, generated responses, prompts, judge logs, and annotation workbooks. It also contains recovered execution scripts and case-level tables, with source checksums and coverage for each requested result. Third-party material is subject to the terms of its original sources. [Working artifacts inventory](working_artifacts/README.md)

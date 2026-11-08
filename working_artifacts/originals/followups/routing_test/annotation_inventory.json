@@ -1,0 +1,273 @@
+[
+  {
+    "path": "C:\\Users\\Ogtay\\Desktop\\test\\taxonomy_annotation_pack_FORMATTED.xlsx",
+    "sheets": [
+      {
+        "sheet": "Annotation",
+        "nonempty_rows": 121,
+        "first_rows": [
+          {
+            "A1": "human_l1",
+            "B1": "human_subtype",
+            "C1": "notes",
+            "D1": "app",
+            "E1": "number",
+            "F1": "state_reason",
+            "G1": "labels",
+            "H1": "title",
+            "I1": "body",
+            "J1": "closed_at"
+          },
+          {
+            "A2": "RESOLVED",
+            "D2": "Signal",
+            "E2": "10999",
+            "F2": "completed",
+            "H2": "Use of Recaptcha when google play services disabled breaks expectation of Google-free privacy",
+            "I2": "<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue.\nYou can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case.\n\nBefore we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests.\n\nIf you would like to discuss a new feature or submit suggestions, please visit the community forum:\nhttps://community.signalusers.org\n\nIf you are looking for support, please visit our support center:\nhttps://support.signal.org/\nor email support@signal.org\n\nLet's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",
+            "J2": "2022-03-28 15:46:41+00:00"
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 121,
+          "B": 1,
+          "C": 1,
+          "D": 121,
+          "E": 121,
+          "F": 121,
+          "G": 92,
+          "H": 121,
+          "I": 119,
+          "J": 121
+        }
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\Ogtay\\Downloads\\taxonomy_annotation_pack_FORMATTED (1).xlsx",
+    "sheets": [
+      {
+        "sheet": "Annotation",
+        "nonempty_rows": 121,
+        "first_rows": [
+          {
+            "A1": "human_l1",
+            "B1": "human_subtype",
+            "C1": "notes",
+            "D1": "app",
+            "E1": "number",
+            "F1": "state_reason",
+            "G1": "labels",
+            "H1": "title",
+            "I1": "body",
+            "J1": "closed_at"
+          },
+          {
+            "A2": "RESOLVED",
+            "D2": "Signal",
+            "E2": "10999",
+            "F2": "completed",
+            "H2": "Use of Recaptcha when google play services disabled breaks expectation of Google-free privacy",
+            "I2": "<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue.\nYou can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case.\n\nBefore we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests.\n\nIf you would like to discuss a new feature or submit suggestions, please visit the community forum:\nhttps://community.signalusers.org\n\nIf you are looking for support, please visit our support center:\nhttps://support.signal.org/\nor email support@signal.org\n\nLet's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",
+            "J2": "2022-03-28 15:46:41+00:00"
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 121,
+          "B": 1,
+          "C": 1,
+          "D": 121,
+          "E": 121,
+          "F": 121,
+          "G": 92,
+          "H": 121,
+          "I": 119,
+          "J": 121
+        }
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\Ogtay\\Downloads\\closure_taxonomy_second_annotator_pack.xlsx",
+    "sheets": [
+      {
+        "sheet": "Instructions",
+        "nonempty_rows": 12,
+        "first_rows": [
+          {
+            "A1": "Closure Taxonomy — Independent Second Annotation"
+          },
+          {
+            "A3": "Purpose",
+            "B3": "Independently assign one Level-1 closure outcome to each of the 120 frozen issues. Do not use or try to infer the first annotator's labels or any automated classifier output."
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 12,
+          "B": 10
+        }
+      },
+      {
+        "sheet": "Annotation",
+        "nonempty_rows": 121,
+        "first_rows": [
+          {
+            "A1": "case_id",
+            "B1": "app",
+            "C1": "number",
+            "D1": "state_reason",
+            "E1": "labels",
+            "F1": "title",
+            "G1": "body",
+            "H1": "closed_at",
+            "I1": "annotator_2_l1",
+            "J1": "annotator_2_subtype",
+            "K1": "confidence",
+            "L1": "notes"
+          },
+          {
+            "A2": "C001",
+            "B2": "AnkiDroid",
+            "C2": "16005",
+            "D2": "not_planned",
+            "E2": "Bug, Priority-Low, Needs Triage, Stale",
+            "F2": "[BUG]: LeakCanary - Deck Downloads",
+            "G2": "### Checked for duplicates?\n\n- [X] This issue is not a duplicate\n\n### Does it also happen in the desktop version?\n\n- [x] This bug does not occur in the latest version of Anki\n\n### What are the steps to reproduce this bug?\n\nHow to reproduce_x000D_\n> 1. Launch AnkiDroid App_x000D_\n> 2. Select + button_x000D_\n> 3. Click on \"Select Shared Decks\"_x000D_\n> 4. Select a category (anyone)_x000D_\n> 4. Select a random deck_x000D_\n> 5. Download it_x000D_\n> 6. Import it_x000D_\n> 7. After import, error message appears: LeakCanary is dumping memory to investigate leaks_x000D_\n\n\n### Expected behaviour\n\nAfter import there shouldn't be any leak.\n\n### Actual behaviour\n\n_x000D_\nhttps://github.com/ankidroid/Anki-Android/assets/36805808/581fed36-133c-47bc-9dec-5e65674bc080_x000D_\n_x000D_\nLogs_x000D_\n`_x000D_\n┬───_x000D_\n│ GC Root: System class_x000D_\n│_x000D_\n├─ android.view.WindowManagerGlobal class_x000D_\n│    Leak",
+            "H2": "2024-07-03 13:36:35+00:00"
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 121,
+          "B": 121,
+          "C": 121,
+          "D": 121,
+          "E": 92,
+          "F": 121,
+          "G": 119,
+          "H": 121,
+          "I": 1,
+          "J": 1,
+          "K": 1,
+          "L": 1
+        }
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\Ogtay\\Downloads\\blinded_status_annotation_72_FORMATTED.xlsx",
+    "sheets": [
+      {
+        "sheet": "Annotation",
+        "nonempty_rows": 73,
+        "first_rows": [
+          {
+            "A1": "Annotation ID",
+            "B1": "App",
+            "C1": "User review",
+            "D1": "Issue / tracker evidence",
+            "E1": "Expected closure outcome",
+            "F1": "Generated response",
+            "G1": "Human status correct",
+            "H1": "Human notes"
+          },
+          {
+            "A2": "HS-C9FF33320B",
+            "B2": "Firefox",
+            "C2": "There is no Home button and Menu buttons anywhere in the opened web pages. Also, pulling down page is not reloading the web page.",
+            "D2": "Tracker: Mozilla Firefox (Bugzilla)\nIssue: 1388188 — I can not slide the menu bar in yahoo web page(desktop mode)\nState: closed\nResolution: Bugzilla resolution=DUPLICATE\nLabels: (none)\nClosed at: 2018-11-19T23:52:20Z\nBody excerpt: 276281    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...\nName: raw_text, dtype: object",
+            "E2": "L1: REDIRECTED\nSubtype: duplicate\nAction: REDIRECTED",
+            "F2": "Thank you for your feedback. It seems that the issue you are experiencing may be related to a previously reported problem regarding the menu bar in desktop mode, which has been resolved (Issue #1388188). While I understand this may not address your specific concerns, I encourage you to check for any updates or further assistance.",
+            "G2": "1"
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 73,
+          "B": 73,
+          "C": 73,
+          "D": 73,
+          "E": 73,
+          "F": 73,
+          "G": 73,
+          "H": 1
+        }
+      },
+      {
+        "sheet": "Instructions",
+        "nonempty_rows": 9,
+        "first_rows": [
+          {
+            "A1": "Blinded Status-Correctness Annotation"
+          },
+          {
+            "A3": "What to judge",
+            "B3": "Only whether the generated response correctly communicates the authoritative closure status/outcome of the retrieved issue."
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 9,
+          "B": 8
+        }
+      },
+      {
+        "sheet": "Raw data",
+        "nonempty_rows": 73,
+        "first_rows": [
+          {
+            "A1": "annotation_id",
+            "B1": "app",
+            "C1": "user_review",
+            "D1": "retrieved_issue_tracker",
+            "E1": "retrieved_issue_id",
+            "F1": "retrieved_issue_title",
+            "G1": "retrieved_issue_body_excerpt",
+            "H1": "binary_state",
+            "I1": "resolution_signal",
+            "J1": "labels",
+            "K1": "closed_at",
+            "L1": "authoritative_l1_class",
+            "M1": "authoritative_subtype",
+            "N1": "authoritative_action",
+            "O1": "generated_response",
+            "P1": "human_status_correct",
+            "Q1": "human_notes"
+          },
+          {
+            "A2": "HS-C9FF33320B",
+            "B2": "Firefox",
+            "C2": "There is no Home button and Menu buttons anywhere in the opened web pages. Also, pulling down page is not reloading the web page.",
+            "D2": "Mozilla Firefox (Bugzilla)",
+            "E2": "1388188",
+            "F2": "I can not slide the menu bar in yahoo web page(desktop mode)",
+            "G2": "276281    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...\nName: raw_text, dtype: object",
+            "H2": "closed",
+            "I2": "Bugzilla resolution=DUPLICATE",
+            "K2": "43423.994675925926",
+            "L2": "REDIRECTED",
+            "M2": "duplicate",
+            "N2": "REDIRECTED",
+            "O2": "Thank you for your feedback. It seems that the issue you are experiencing may be related to a previously reported problem regarding the menu bar in desktop mode, which has been resolved (Issue #1388188). While I understand this may not address your specific concerns, I encourage you to check for any updates or further assistance."
+          }
+        ],
+        "column_nonempty_counts": {
+          "A": 73,
+          "B": 73,
+          "C": 73,
+          "D": 73,
+          "E": 73,
+          "F": 73,
+          "G": 73,
+          "H": 73,
+          "I": 73,
+          "J": 23,
+          "K": 59,
+          "L": 73,
+          "M": 73,
+          "N": 73,
+          "O": 73,
+          "P": 1,
+          "Q": 1
+        }
+      }
+    ]
+  }
+]

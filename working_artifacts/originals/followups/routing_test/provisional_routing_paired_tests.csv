@@ -1,0 +1,5 @@
+﻿model,question,pairs,taxonomy_only,raw_only,p_exact_two_sided,p_holm
+GPT-4o-mini,ASKS_DETAILS,16,3,1,0.625,1.0
+GPT-4o-mini,SAYS_DUPLICATE,7,0,0,1.0,1.0
+Gemma,ASKS_DETAILS,16,1,0,1.0,1.0
+Gemma,SAYS_DUPLICATE,7,0,0,1.0,1.0

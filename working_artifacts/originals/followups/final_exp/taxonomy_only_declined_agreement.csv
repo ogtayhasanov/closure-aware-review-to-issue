@@ -1,0 +1,7 @@
+﻿model,group,n,judge_yes_lexical_yes,judge_yes_lexical_no,judge_no_lexical_yes,judge_no_lexical_no,judge_positive,lexical_positive,agree,agreement_pct,agreement_wilson95_lower,agreement_wilson95_upper,cohen_kappa,kappa_note
+gpt-4o-mini-2024-07-18,BOT,50,0,12,0,38,12,0,38,76.0,0.6258731624205708,0.8570260860300828,0.0,
+gpt-4o-mini-2024-07-18,HUMAN,30,29,0,1,0,29,30,29,96.66666666666667,0.8332960900859082,0.9940914096183874,0.0,
+gpt-4o-mini-2024-07-18,ALL_BOT_TEST,80,29,12,1,38,41,30,67,83.75,0.7415709565930229,0.9025018059704963,0.6770186335403727,
+gemma-4-26b-a4b-it,BOT,50,0,0,0,50,0,0,50,100.0,0.9286524008666414,1,,"Undefined: both scorers constant, expected agreement=1"
+gemma-4-26b-a4b-it,HUMAN,30,25,3,1,1,28,26,26,86.66666666666667,0.703186733179637,0.9469034451594526,0.2682926829268297,
+gemma-4-26b-a4b-it,ALL_BOT_TEST,80,25,3,1,51,28,26,76,95.0,0.8783772379535698,0.9803864454644556,0.8882681564245809,

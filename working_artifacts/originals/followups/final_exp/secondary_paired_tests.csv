@@ -1,0 +1,6 @@
+﻿test,a,b,pairs,a_only,b_only,p_exact_two_sided
+closure_aware vs raw_metadata: NO_FALSE_FIX,closure_aware success,raw_metadata success,35,0,0,1.0
+closure_aware vs raw_metadata: STATES_OUTCOME,closure_aware success,raw_metadata success,35,1,4,0.375
+closure_aware vs raw_metadata: ASKS_DETAILS,closure_aware success,raw_metadata success,16,1,0,1.0
+closure_aware vs raw_metadata: SAYS_DUPLICATE,closure_aware success,raw_metadata success,7,0,0,1.0
+Gemma BOT false DECLINED: TAXONOMY-ONLY vs RAW,TAXONOMY-ONLY false DECLINED,RAW false DECLINED,50,0,23,2.384185791015625e-07

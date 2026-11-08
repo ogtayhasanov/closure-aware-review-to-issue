@@ -1,0 +1,10 @@
+{
+  "RESOLVED": "Closed as fixed or completed.",
+  "REJECTED": "Closed by a maintainer without a fix: declined, invalid or out of scope.",
+  "ABANDONED/NEEDS_INFO": "Closed because more information was needed or it could not be reproduced. Not fixed.",
+  "ABANDONED/STALE": "Closed after a period of inactivity. Not fixed, and no maintainer decided against it.",
+  "ABANDONED/bot-closed (V2)": "Closed automatically by a bot. Not fixed, and no maintainer decided against it.",
+  "ABANDONED/OTHER": "Closed without a fix. The reason is not recorded.",
+  "REDIRECTED": "Closed as a duplicate. It is tracked in another issue.",
+  "OPEN": "Still open."
+}

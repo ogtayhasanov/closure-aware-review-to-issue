@@ -1,0 +1,13 @@
+# Execution and interpretation notes
+
+The generator settings and all actual request payloads are retained. The Google runner was resumed once from completed response IDs to overlap up to four slow requests, with globally spaced request starts of at least 2.1 seconds. Model, message, temperature, token limit and thinking settings did not change. The OpenAI generator completed before that resume and made no duplicate generator calls on resumption. Transient Google HTTP 500 and minute-quota HTTP 429 responses were retried and recorded in request_failures.jsonl. Both final response files contain exactly 162 unique, valid, stop-finished responses; no case was dropped.
+
+The primary expected reduction in GPT false DECLINED was not observed: RAW+MEANING and RAW both score 50/50, and automatic/inactivity statements remain 0/50. In contrast, Gemma’s secondary comparison drops from 23/50 to 0/50. The effect therefore differs by generator.
+
+On the fair audit, GPT RAW+MEANING scores 31/35 versus RAW 33/35. The difference is -5.71 percentage points, with paired-bootstrap 95% CI [-17.14, +5.71]. Gemma scores 31/35 in both arms, with CI [-11.43, +11.43]. Neither result establishes equivalence. RAW in fair-case tables means the original raw_metadata arm.
+
+The provenance switch retains the bot-test TAXONOMY-ONLY results by construction, since all 50 BOT cases switch. It loses supported detail in four fair audit cases: GPT and Gemma both score 29/35 under switching, compared with their RAW scores of 33/35 and 31/35 respectively. The raw metadata can contain a specific reason even when a bot performed the final closure; bot provenance alone does not guarantee the class/meaning-only response preserves that reason. This is a descriptive policy result, not a newly corrected primary comparison.
+
+The conditional eight-response form asks only STATES_OUTCOME and uses the same one-key answer/automatic-next workflow as the previously accepted check. Human validation remains pending. The existing human labels for the earlier RAW versus TAXONOMY-ONLY comparison are preserved and are not applied to these new responses.
+
+All combined and switch responses have all requested core/routing scores; every required audit comparator has STATES_OUTCOME and routing scores. The comprehensive comparison ledger also retains 102 original RAW response rows whose routing judgments were not needed for these comparisons or switch selections. Their unavailable routing judgments are explicitly NA, not false; their frozen lexical and core scores are present. STATES_OUTCOME is explicitly NA outside the 35-case audit. No row is omitted for either reason.

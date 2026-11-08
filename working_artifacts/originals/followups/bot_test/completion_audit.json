@@ -1,0 +1,40 @@
+{
+  "A": {
+    "n": 320,
+    "expected": 320,
+    "duplicates": 0,
+    "missing": [],
+    "invalid": [],
+    "finish_reasons": {
+      "stop": 320
+    }
+  },
+  "B": {
+    "n": 320,
+    "expected": 320,
+    "duplicates": 0,
+    "missing": [],
+    "invalid": [],
+    "finish_reasons": {
+      "stop": 320
+    }
+  },
+  "main": {
+    "n": 246,
+    "expected": 246,
+    "missing": [],
+    "duplicates": 0,
+    "invalid": [],
+    "finish_reasons": {
+      "stop": 246
+    }
+  },
+  "google_transport": {
+    "records": 566,
+    "successful": 566,
+    "expected_successful": 566,
+    "matches_all_prompts": true
+  },
+  "unresolved_stages": [],
+  "recorded_failures": 5
+}

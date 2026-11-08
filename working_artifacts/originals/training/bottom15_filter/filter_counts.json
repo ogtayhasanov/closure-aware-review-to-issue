@@ -1,0 +1,55 @@
+{
+  "filter": "bottom15_llm",
+  "model": "gpt-4o-mini",
+  "input_mode": "auto_detect_kaggle",
+  "input_files": {
+    "brave": {
+      "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_brave (1).csv",
+      "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/brave_issues.csv",
+      "review_rows": "4700",
+      "issue_rows": "556"
+    },
+    "signal": {
+      "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_signal.csv",
+      "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/Signal-Android_Mistral_Ready.csv",
+      "review_rows": "2977",
+      "issue_rows": "2977"
+    },
+    "ankidroid": {
+      "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv13/synthetic_reviews_anki.csv",
+      "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/Anki-Android_Mistral_Ready.csv",
+      "review_rows": "2967",
+      "issue_rows": "2967"
+    },
+    "k9": {
+      "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_k9.csv",
+      "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/k-9_Mistral_Ready.csv",
+      "review_rows": "2935",
+      "issue_rows": "2935"
+    }
+  },
+  "pre_limit_balanced_query_count": 9349,
+  "limit": null,
+  "original_query_count": 9349,
+  "scored_query_count": 9349,
+  "failed_query_count": 0,
+  "retained_query_count": 7944,
+  "removed_query_count": 1405,
+  "removed_percentage": 15.0283,
+  "removed_count_by_app": {
+    "ankidroid": 446,
+    "brave": 71,
+    "k9": 441,
+    "signal": 447
+  },
+  "missing_issue_link_count": 0,
+  "missing_issue_ids": [],
+  "seed": 42,
+  "bm25_depth": 50,
+  "within_app_negatives_per_query": 5,
+  "cross_app_negatives_per_query": 3,
+  "brave_downsampling": "one review per Brave issue, seed 42",
+  "score_cache": "/kaggle/working/filter_ablation/llm_scores/alignment_scores_9348_plus_dummy.jsonl",
+  "error_log": "/kaggle/working/filter_ablation/llm_scores/errors.jsonl",
+  "body_truncation_chars": 3000
+}

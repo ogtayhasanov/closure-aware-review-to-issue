@@ -1,0 +1,233 @@
+[
+  {
+    "case_id": "050acb8dd3c97b5986fdea61841c35ae67180718eac21706c688a1b131b77a8b",
+    "repository": "nextcloud/android",
+    "number": "2885",
+    "url": "https://github.com/nextcloud/android/issues/2885",
+    "excluded": false
+  },
+  {
+    "case_id": "0cb29cb1e1a3eada6ca71a95e3ba3b0545f54127953f10aaf66ca816aca54f8c",
+    "repository": "nextcloud/android",
+    "number": "1514",
+    "url": "https://github.com/nextcloud/android/issues/1514",
+    "excluded": false
+  },
+  {
+    "case_id": "1a1bd10b8666f7f25e4ad67915103d578425fa5960c4c9b209813c15b7e541db",
+    "repository": "nextcloud/android",
+    "number": "5244",
+    "url": "https://github.com/nextcloud/android/issues/5244",
+    "excluded": false
+  },
+  {
+    "case_id": "1e6e5562d862a4be45c36fbc4de827d57b2004a5add6afc5f3404515466c02c0",
+    "repository": "nextcloud/android",
+    "number": "4130",
+    "url": "https://github.com/nextcloud/android/issues/4130",
+    "excluded": false
+  },
+  {
+    "case_id": "25076daa4b1b4f8e784fd568f5ee5edfbca1a92c5e3920004e4ee79e05172813",
+    "repository": "nextcloud/android",
+    "number": "2879",
+    "url": "https://github.com/nextcloud/android/issues/2879",
+    "excluded": false
+  },
+  {
+    "case_id": "2e6e8b6eb0f3073ee86a0bf51048ed9285eaa8d42cf9a4fc1ae338d5abbad34d",
+    "repository": "nextcloud/android",
+    "number": "5506",
+    "url": "https://github.com/nextcloud/android/issues/5506",
+    "excluded": false
+  },
+  {
+    "case_id": "2f45d9faaa4c91d2b3a64c88448b4fe9af94a17fe12bc3f99acf65786fd34b1d",
+    "repository": "nextcloud/android",
+    "number": "3376",
+    "url": "https://github.com/nextcloud/android/issues/3376",
+    "excluded": false
+  },
+  {
+    "case_id": "37afd2f137d3f816b50995cea7d78deee5d16e8b7f745a8d84eba94569cbfb47",
+    "repository": "nextcloud/android",
+    "number": "5910",
+    "url": "https://github.com/nextcloud/android/issues/5910",
+    "excluded": false
+  },
+  {
+    "case_id": "39f5274e99c3b4b3b22fecaf420c3d576fce7c13db741643f4fa9ccb1cfb27fb",
+    "repository": "nextcloud/android",
+    "number": "5454",
+    "url": "https://github.com/nextcloud/android/issues/5454",
+    "excluded": false
+  },
+  {
+    "case_id": "472bde4ac60812da5a1f8934752660e3ae68733a3baf38b4c38f776e8a7a822f",
+    "repository": "nextcloud/android",
+    "number": "2555",
+    "url": "https://github.com/nextcloud/android/issues/2555",
+    "excluded": false
+  },
+  {
+    "case_id": "59d06ea6bcdbbe1e868c546b44d8d69bbe6fcf9ab39af03881ccfbd600bd74fe",
+    "repository": "nextcloud/android",
+    "number": "5199",
+    "url": "https://github.com/nextcloud/android/issues/5199",
+    "excluded": false
+  },
+  {
+    "case_id": "6218daef3339b9324ad340345b9c9727f67c7961238100ed958d514f83e0dead",
+    "repository": "nextcloud/android",
+    "number": "4709",
+    "url": "https://github.com/nextcloud/android/issues/4709",
+    "excluded": false
+  },
+  {
+    "case_id": "690e046a4edea4a68034d2445b52d6c86d0a61d690208e4f4a575877054dc9c3",
+    "repository": "nextcloud/android",
+    "number": "4984",
+    "url": "https://github.com/nextcloud/android/issues/4984",
+    "excluded": false
+  },
+  {
+    "case_id": "6ee7f192659aa2a280d5041ad86a387a23d16819b4ea716b08ba48186cc593d2",
+    "repository": "nextcloud/android",
+    "number": "5454",
+    "url": "https://github.com/nextcloud/android/issues/5454",
+    "excluded": false
+  },
+  {
+    "case_id": "781a0500387873a17d6082ca21e68d8ba80ece8ca0cb3e10397f54b53ba6be92",
+    "repository": "nextcloud/android",
+    "number": "5454",
+    "url": "https://github.com/nextcloud/android/issues/5454",
+    "excluded": false
+  },
+  {
+    "case_id": "7db4456d397729305abb6f839dc112b924743e32df7b13afd7e16cc3cf82f8ec",
+    "repository": "nextcloud/android",
+    "number": "4054",
+    "url": "https://github.com/nextcloud/android/issues/4054",
+    "excluded": false
+  },
+  {
+    "case_id": "838789a4171c3c899c1c21395175d0406820944a0b26749acaf299d7d095350d",
+    "repository": "nextcloud/android",
+    "number": "815",
+    "url": "https://github.com/nextcloud/android/issues/815",
+    "excluded": false
+  },
+  {
+    "case_id": "875ca75cabd8dada229274cc08c0f2f9482609ad1275e7b745a1351e1ce0a9c2",
+    "repository": "nextcloud/android",
+    "number": "2152",
+    "url": "https://github.com/nextcloud/android/issues/2152",
+    "excluded": false
+  },
+  {
+    "case_id": "87831fab6bcb4385370984002df5fd01c47237340bab72d52d0ffc1be943515d",
+    "repository": "nextcloud/android",
+    "number": "3425",
+    "url": "https://github.com/nextcloud/android/issues/3425",
+    "excluded": false
+  },
+  {
+    "case_id": "8fef2fe2beaf2ff9134ac14539c4679913106db4956aa8ecefc9ba9931e330d5",
+    "repository": "nextcloud/android",
+    "number": "6499",
+    "url": "https://github.com/nextcloud/android/issues/6499",
+    "excluded": false
+  },
+  {
+    "case_id": "92a1b4b5c533844d8f67cc38b0b0d93091a20b6c01d697376a2f87b4027d7d84",
+    "repository": "nextcloud/android",
+    "number": "4660",
+    "url": "https://github.com/nextcloud/android/issues/4660",
+    "excluded": false
+  },
+  {
+    "case_id": "9e104b4da62d3cb6c0176b6c64ac5e9392a8e68c000b275f85be731a1b467f3d",
+    "repository": "nextcloud/android",
+    "number": "6606",
+    "url": "https://github.com/nextcloud/android/issues/6606",
+    "excluded": false
+  },
+  {
+    "case_id": "a3c5f6209e8a2863eb5f1020e690bd3512c8d5d8f6e4cfb4d10a19a201da14a4",
+    "repository": "nextcloud/android",
+    "number": "2011",
+    "url": "https://github.com/nextcloud/android/issues/2011",
+    "excluded": false
+  },
+  {
+    "case_id": "ad8720b19ef5ffb11172050f3ef7993a6bb1c91fbed9679e6e793ebf740ecbf4",
+    "repository": "nextcloud/android",
+    "number": "5713",
+    "url": "https://github.com/nextcloud/android/issues/5713",
+    "excluded": false
+  },
+  {
+    "case_id": "aecf037d88c7a3930eb427e5aba2158fee9184eac5d017fa539a5dbccf0741af",
+    "repository": "nextcloud/android",
+    "number": "5454",
+    "url": "https://github.com/nextcloud/android/issues/5454",
+    "excluded": false
+  },
+  {
+    "case_id": "b21a5a73c9feaba7e06134f111015d2672facadff3472a2dafc82b17cd0c54dc",
+    "repository": "nextcloud/android",
+    "number": "6443",
+    "url": "https://github.com/nextcloud/android/issues/6443",
+    "excluded": false
+  },
+  {
+    "case_id": "bec1b47d56be63d8f28c77a65598d8d0ef896479757fc81973ecb3fa830c3911",
+    "repository": "nextcloud/android",
+    "number": "5174",
+    "url": "https://github.com/nextcloud/android/issues/5174",
+    "excluded": false
+  },
+  {
+    "case_id": "bf5f4ac6db981f7f7e3abb42f848877763ce9ae548a9dfe76f50076630f86812",
+    "repository": "nextcloud/android",
+    "number": "5613",
+    "url": "https://github.com/nextcloud/android/issues/5613",
+    "excluded": false
+  },
+  {
+    "case_id": "c123850cdfe873ce91b37c1958cb2bd9a4ac85d0ab8421c72b90c281b90ae7dc",
+    "repository": "nextcloud/android",
+    "number": "4462",
+    "url": "https://github.com/nextcloud/android/issues/4462",
+    "excluded": false
+  },
+  {
+    "case_id": "ddf790d912223c26c387cafee4a40f2581594003f50ec6d8a9ac7f96d3e67817",
+    "repository": "nextcloud/android",
+    "number": "4463",
+    "url": "https://github.com/nextcloud/android/issues/4463",
+    "excluded": false
+  },
+  {
+    "case_id": "defb75f1f6079e7cc2816cb6c4a519ee7b38c6a677b94b60f30bf5aa36e0aebe",
+    "repository": "nextcloud/android",
+    "number": "2152",
+    "url": "https://github.com/nextcloud/android/issues/2152",
+    "excluded": false
+  },
+  {
+    "case_id": "f750070550dd525b63820608f0f25f77f9077662a27192303a7be50f20ba07bf",
+    "repository": "nextcloud/android",
+    "number": "4792",
+    "url": "https://github.com/nextcloud/android/issues/4792",
+    "excluded": false
+  },
+  {
+    "case_id": "fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+    "repository": "nextcloud/android",
+    "number": "2131",
+    "url": "https://github.com/nextcloud/android/issues/2131",
+    "excluded": true
+  }
+]

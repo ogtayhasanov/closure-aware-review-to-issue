@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-08-08T13:14:18.190857+00:00",
+  "experiment": "Häring LLM query expansion",
+  "queries": 82,
+  "model_requested": "gpt-4o-mini",
+  "temperature": 0,
+  "prompt_version": "haring-query-expansion-v1-2026-08-08",
+  "max_expansion_words": 45,
+  "model_inputs": [
+    "original review text only"
+  ],
+  "model_never_receives": [
+    "issue IDs",
+    "gold labels",
+    "candidate issues",
+    "issue titles/bodies",
+    "retrieval scores/ranks"
+  ],
+  "expanded_query_construction": "original review + space + expansion",
+  "no_prompt_or_model_sweep": true,
+  "validation_repair_policy": "If a candidate violates a mechanical output constraint, retry only that query with the validation error stated explicitly. No issue, gold, candidate, score, or rank information is ever supplied.",
+  "system_prompt": "You rewrite short mobile-app reviews into developer-oriented\nretrieval language for searching software issue trackers.\n\nPreserve ONLY information entailed by the original review.\n\nAllowed:\n- concise technical synonyms for actions and symptoms explicitly described\n- equivalent developer-facing wording\n- short search terms restating the same observed behavior\n\nForbidden:\n- adding a root cause or diagnosis\n- inventing a module, component, API, class, file, function, or feature\n- inventing a version, device, operating system, error code, issue number, date, or URL\n- inventing reproduction steps that are not stated\n- inventing a fix, workaround, or developer action\n- adding facts merely because they are plausible\n- mentioning the app/product name unless the review itself names it\n\nKeep the expansion at most 45 words. Do not repeat filler or sentiment.\nReturn ONLY a JSON object with exactly one field:\n{\"expansion\": \"...\"}\n"
+}

@@ -1,0 +1,15 @@
+# Exact targets required before the artifact can support the manuscript's current claim-complete wording.
+data/human_status/raw_metadata_labels_completed_36.csv
+data/retrieval/rrf_known_positive_per_query_82.csv
+data/retrieval/rrf_confidence_per_query_82.csv
+data/retrieval/selective_strict_e2e_per_query_82.csv
+data/retrieval/query_expansion_per_query_82.csv
+data/retrieval/ce_top50_per_query_82.csv
+data/retrieval/bge_control_per_query_82.csv
+data/prevalence/closure_prevalence_9_projects_summary.csv
+data/prevalence/closure_prevalence_9_projects_issue_level.csv
+data/taxonomy/clean_cross_tracker_frozen_annotations_90.csv
+data/taxonomy/clean_cross_tracker_scored_90.csv
+data/generation/synthetic_generation_per_case_175.csv
+data/training/splade_external_pruning_per_query.csv
+

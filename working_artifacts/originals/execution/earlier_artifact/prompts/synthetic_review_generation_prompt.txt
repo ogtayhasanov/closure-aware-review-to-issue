@@ -1,0 +1,16 @@
+Template prompt for generating user-style app reviews from issue metadata.
+
+Input fields:
+- application
+- issue title
+- issue body
+- labels
+- state / closure metadata
+- persona
+
+Instruction:
+Rewrite the issue as a realistic app-store style user complaint. Preserve the user-visible symptom and avoid developer-internal details unless they are visible to an end user. Do not invent fix versions, dates, stack traces, or unsupported behavior.
+
+Note:
+The full APPRISE prompt/resource is released separately. This file documents the TOSEM experiment prompt shape without duplicating the APPRISE dataset artifact.
+

@@ -1,0 +1,14 @@
+Closure-reason-aware response generation template.
+
+System constraints:
+- Ground the response only in retrieved issue metadata.
+- Cite the issue number when available.
+- Do not fabricate release versions, dates, files, pull requests, or developer actions.
+- If the issue is not resolved, do not imply that it was fixed.
+
+Action-specific instruction:
+- RESOLVED: state that the issue was resolved only when metadata supports it.
+- REJECTED: state that developers declined or marked the issue as not planned/wontfix when labels support it.
+- ABANDONED: state that the issue was closed without confirmed resolution; ask for missing information when appropriate.
+- REDIRECTED: state that the issue was redirected/duplicated and point to the canonical issue when available.
+

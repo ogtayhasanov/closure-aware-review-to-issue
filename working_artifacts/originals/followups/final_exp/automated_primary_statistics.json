@@ -1,0 +1,559 @@
+{
+  "amendment_commit": "dbfeb186e02996c4749b1ef67caf54e5d01fff18",
+  "audit_rates": [
+    {
+      "arm": "binary_state",
+      "question": "NO_FALSE_FIX",
+      "positive": 35,
+      "n": 35,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9010990076755959,
+      "wilson95_upper": 0.9999999999999999,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "binary_state",
+      "question": "STATES_OUTCOME",
+      "positive": 20,
+      "n": 35,
+      "percentage": 57.142857142857146,
+      "wilson95_lower": 0.4085741114397492,
+      "wilson95_upper": 0.7201543182281931,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "binary_state",
+      "question": "ASKS_DETAILS",
+      "positive": 14,
+      "n": 16,
+      "percentage": 87.5,
+      "wilson95_lower": 0.639771727342413,
+      "wilson95_upper": 0.9650225122567595,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "binary_state",
+      "question": "SAYS_DUPLICATE",
+      "positive": 1,
+      "n": 7,
+      "percentage": 14.285714285714286,
+      "wilson95_lower": 0.02567962434474355,
+      "wilson95_upper": 0.5131278292743189,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "raw_metadata",
+      "question": "NO_FALSE_FIX",
+      "positive": 35,
+      "n": 35,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9010990076755959,
+      "wilson95_upper": 0.9999999999999999,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "raw_metadata",
+      "question": "STATES_OUTCOME",
+      "positive": 33,
+      "n": 35,
+      "percentage": 94.28571428571429,
+      "wilson95_lower": 0.8139294257983507,
+      "wilson95_upper": 0.9841868381428913,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "raw_metadata",
+      "question": "ASKS_DETAILS",
+      "positive": 15,
+      "n": 16,
+      "percentage": 93.75,
+      "wilson95_lower": 0.7167126242970107,
+      "wilson95_upper": 0.9888806552353576,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "raw_metadata",
+      "question": "SAYS_DUPLICATE",
+      "positive": 7,
+      "n": 7,
+      "percentage": 100.0,
+      "wilson95_lower": 0.6456695649333126,
+      "wilson95_upper": 1,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "closure_aware",
+      "question": "NO_FALSE_FIX",
+      "positive": 35,
+      "n": 35,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9010990076755959,
+      "wilson95_upper": 0.9999999999999999,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "closure_aware",
+      "question": "STATES_OUTCOME",
+      "positive": 30,
+      "n": 35,
+      "percentage": 85.71428571428571,
+      "wilson95_lower": 0.7062444591340484,
+      "wilson95_upper": 0.9373976892056628,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "closure_aware",
+      "question": "ASKS_DETAILS",
+      "positive": 16,
+      "n": 16,
+      "percentage": 100.0,
+      "wilson95_lower": 0.8063923194655637,
+      "wilson95_upper": 1,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "closure_aware",
+      "question": "SAYS_DUPLICATE",
+      "positive": 7,
+      "n": 7,
+      "percentage": 100.0,
+      "wilson95_lower": 0.6456695649333126,
+      "wilson95_upper": 1,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "TAXONOMY-ONLY",
+      "question": "NO_FALSE_FIX",
+      "positive": 35,
+      "n": 35,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9010990076755959,
+      "wilson95_upper": 0.9999999999999999,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "TAXONOMY-ONLY",
+      "question": "STATES_OUTCOME",
+      "positive": 23,
+      "n": 35,
+      "percentage": 65.71428571428571,
+      "wilson95_lower": 0.4915194951399626,
+      "wilson95_upper": 0.7916830501295105,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "TAXONOMY-ONLY",
+      "question": "ASKS_DETAILS",
+      "positive": 16,
+      "n": 16,
+      "percentage": 100.0,
+      "wilson95_lower": 0.8063923194655637,
+      "wilson95_upper": 1,
+      "primary_source": "judge"
+    },
+    {
+      "arm": "TAXONOMY-ONLY",
+      "question": "SAYS_DUPLICATE",
+      "positive": 7,
+      "n": 7,
+      "percentage": 100.0,
+      "wilson95_lower": 0.6456695649333126,
+      "wilson95_upper": 1,
+      "primary_source": "judge"
+    }
+  ],
+  "bot_rates": [
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW",
+      "question": "DECLINED",
+      "positive": 50,
+      "n": 50,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9286524008666414,
+      "wilson95_upper": 1
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW",
+      "question": "INACTIVITY",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW+CLOSER",
+      "question": "DECLINED",
+      "positive": 50,
+      "n": 50,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9286524008666414,
+      "wilson95_upper": 1
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW+CLOSER",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "RAW+CLOSER",
+      "question": "INACTIVITY",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V1",
+      "question": "DECLINED",
+      "positive": 50,
+      "n": 50,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9286524008666414,
+      "wilson95_upper": 1
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V1",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V1",
+      "question": "INACTIVITY",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V2",
+      "question": "DECLINED",
+      "positive": 49,
+      "n": 50,
+      "percentage": 98.0,
+      "wilson95_lower": 0.8950455641036219,
+      "wilson95_upper": 0.9964607407283539
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V2",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-V2",
+      "question": "INACTIVITY",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-ONLY",
+      "question": "DECLINED",
+      "positive": 12,
+      "n": 50,
+      "percentage": 24.0,
+      "wilson95_lower": 0.1429739139699173,
+      "wilson95_upper": 0.3741268375794292
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-ONLY",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-ONLY",
+      "question": "INACTIVITY",
+      "positive": 39,
+      "n": 50,
+      "percentage": 78.0,
+      "wilson95_lower": 0.6475845041874634,
+      "wilson95_upper": 0.8724608402978559
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW",
+      "question": "DECLINED",
+      "positive": 23,
+      "n": 50,
+      "percentage": 46.0,
+      "wilson95_lower": 0.3296965219222435,
+      "wilson95_upper": 0.5960112860084253
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW",
+      "question": "FIX_CLAIM",
+      "positive": 2,
+      "n": 50,
+      "percentage": 4.0,
+      "wilson95_lower": 0.011038884327619805,
+      "wilson95_upper": 0.1346009068750702
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW",
+      "question": "INACTIVITY",
+      "positive": 2,
+      "n": 50,
+      "percentage": 4.0,
+      "wilson95_lower": 0.011038884327619805,
+      "wilson95_upper": 0.1346009068750702
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW+CLOSER",
+      "question": "DECLINED",
+      "positive": 24,
+      "n": 50,
+      "percentage": 48.0,
+      "wilson95_lower": 0.34797135286578046,
+      "wilson95_upper": 0.6148825510995539
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW+CLOSER",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "RAW+CLOSER",
+      "question": "INACTIVITY",
+      "positive": 1,
+      "n": 50,
+      "percentage": 2.0,
+      "wilson95_lower": 0.003539259271646236,
+      "wilson95_upper": 0.10495443589637815
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V1",
+      "question": "DECLINED",
+      "positive": 50,
+      "n": 50,
+      "percentage": 100.0,
+      "wilson95_lower": 0.9286524008666414,
+      "wilson95_upper": 1
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V1",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V1",
+      "question": "INACTIVITY",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V2",
+      "question": "DECLINED",
+      "positive": 21,
+      "n": 50,
+      "percentage": 42.0,
+      "wilson95_lower": 0.2937500335471198,
+      "wilson95_upper": 0.5576655823142176
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V2",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-V2",
+      "question": "INACTIVITY",
+      "positive": 4,
+      "n": 50,
+      "percentage": 8.0,
+      "wilson95_lower": 0.03154951408859298,
+      "wilson95_upper": 0.18838246918342838
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-ONLY",
+      "question": "DECLINED",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-ONLY",
+      "question": "FIX_CLAIM",
+      "positive": 0,
+      "n": 50,
+      "percentage": 0.0,
+      "wilson95_lower": 6.938893903907228e-18,
+      "wilson95_upper": 0.07134759913335872
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-ONLY",
+      "question": "INACTIVITY",
+      "positive": 20,
+      "n": 50,
+      "percentage": 40.0,
+      "wilson95_lower": 0.27608389730256544,
+      "wilson95_upper": 0.5381856225241064
+    }
+  ],
+  "primary_tests_holm_family_of_two": [
+    {
+      "test": "1: STATES_OUTCOME, TAXONOMY-ONLY vs raw_metadata",
+      "a": "TAXONOMY-ONLY success",
+      "b": "raw_metadata success",
+      "pairs": 35,
+      "a_only": 1,
+      "b_only": 11,
+      "p_exact_two_sided": 0.00634765625,
+      "p_holm": 0.00634765625
+    },
+    {
+      "test": "2: BOT false DECLINED, TAXONOMY-ONLY vs RAW, GPT-4o-mini",
+      "a": "TAXONOMY-ONLY false DECLINED",
+      "b": "RAW false DECLINED",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 38,
+      "p_exact_two_sided": 7.275957614183426e-12,
+      "p_holm": 1.4551915228366852e-11
+    }
+  ],
+  "secondary_tests_uncorrected": [
+    {
+      "test": "closure_aware vs raw_metadata: NO_FALSE_FIX",
+      "a": "closure_aware success",
+      "b": "raw_metadata success",
+      "pairs": 35,
+      "a_only": 0,
+      "b_only": 0,
+      "p_exact_two_sided": 1.0
+    },
+    {
+      "test": "closure_aware vs raw_metadata: STATES_OUTCOME",
+      "a": "closure_aware success",
+      "b": "raw_metadata success",
+      "pairs": 35,
+      "a_only": 1,
+      "b_only": 4,
+      "p_exact_two_sided": 0.375
+    },
+    {
+      "test": "closure_aware vs raw_metadata: ASKS_DETAILS",
+      "a": "closure_aware success",
+      "b": "raw_metadata success",
+      "pairs": 16,
+      "a_only": 1,
+      "b_only": 0,
+      "p_exact_two_sided": 1.0
+    },
+    {
+      "test": "closure_aware vs raw_metadata: SAYS_DUPLICATE",
+      "a": "closure_aware success",
+      "b": "raw_metadata success",
+      "pairs": 7,
+      "a_only": 0,
+      "b_only": 0,
+      "p_exact_two_sided": 1.0
+    },
+    {
+      "test": "Gemma BOT false DECLINED: TAXONOMY-ONLY vs RAW",
+      "a": "TAXONOMY-ONLY false DECLINED",
+      "b": "RAW false DECLINED",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 23,
+      "p_exact_two_sided": 2.384185791015625e-07
+    }
+  ],
+  "fix_by_true_status": [
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "arm": "TAXONOMY-ONLY",
+      "false_fix_claims": 0,
+      "NOT_FIXED_n": 24,
+      "missed_fixes": 0,
+      "FIXED_n": 15,
+      "UNCERTAIN_n": 42,
+      "uncertain_fix_claim_occurrences": 20
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "arm": "TAXONOMY-ONLY",
+      "false_fix_claims": 0,
+      "NOT_FIXED_n": 24,
+      "missed_fixes": 2,
+      "FIXED_n": 15,
+      "UNCERTAIN_n": 42,
+      "uncertain_fix_claim_occurrences": 19
+    }
+  ],
+  "human_agreement": "pending; use short sheet and report enriched selection explicitly"
+}

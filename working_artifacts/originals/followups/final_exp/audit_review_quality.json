@@ -1,0 +1,14 @@
+{
+  "rows": 140,
+  "order_preserved": true,
+  "blinding_preserved": true,
+  "original_csv_sha256": "170da195b6073ac6b0e1e670c66a1ef0f2dbb11a47002828c759ae698e8eb410",
+  "workbook_sha256": "ba00c4c76f1cd10d973ac1ef7192c9f7baee94d65272a2e8690afcbb52d15701",
+  "dropdown_cells": 372,
+  "unlocked_answer_and_notes_cells": 512,
+  "source_hyperlinks": 40,
+  "formula_errors": 0,
+  "initial_completed_count": 0,
+  "visual_review": "Main view, Guide, and longest evidence entry inspected; no clipping",
+  "authoring": "Artifact Tool; native XML only for unsupported sheet protection, hyperlinks, and view settings"
+}

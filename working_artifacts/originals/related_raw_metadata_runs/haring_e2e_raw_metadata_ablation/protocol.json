@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-08-08T12:02:10.372662+00:00",
+  "arm": "raw_metadata",
+  "n_cases": 45,
+  "subset": [
+    "REJECTED",
+    "ABANDONED",
+    "REDIRECTED"
+  ],
+  "model": "gpt-4o-mini",
+  "temperature": 0,
+  "raw_metadata_fields_visible": [
+    "binary_state",
+    "resolution_signal/state_reason-equivalent",
+    "labels",
+    "closed_at",
+    "issue title",
+    "issue body",
+    "issue number",
+    "issue URL"
+  ],
+  "explicitly_hidden_from_raw_arm": [
+    "l1_class",
+    "subtype",
+    "action_l1",
+    "ACTION_INSTRUCTIONS"
+  ],
+  "raw_generation_system_prompt": "You are a developer-support assistant.\nWrite a concise response to a real user review using only the retrieved software\nissue evidence supplied below.\n\nYou are given raw tracker metadata, but no normalized closure taxonomy and no\naction-specific policy template. Infer what can safely be said from the raw\nmetadata itself.\n\nRules:\n- Use only facts present in the supplied metadata.\n- Cite the retrieved issue number, and include its URL when one is supplied.\n- Never invent versions, releases, dates, commits, file paths, technical causes,\n  fixes, canonical issue numbers, or developer promises.\n- Do not assume that every closed issue was fixed.\n- Be empathetic and factual.\n- Keep the response below 100 words.\n",
+  "judge_system_prompt": "You are evaluating a generated app-support response.\n\nThe authoritative outcome is defined by l1_class, subtype, and action_l1.\nTracker-specific resolution signals and labels are supporting metadata and are\nnot authoritative when the normalized taxonomy encodes a more specific outcome.\n\nTaxonomy:\n- OPEN: the issue remains open.\n- RESOLVED: fixed/resolved/completed.\n- REJECTED: not planned, wontfix, invalid, by-design, or not-a-bug.\n- ABANDONED: stale, inactive, needs information, cannot reproduce, upstream, or\n  closed without confirmed resolution.\n- REDIRECTED: duplicate or tracked elsewhere.\n\nEvaluate:\n- faithfulness: 0.0-1.0, factual support from the retrieved metadata.\n- hallucination: true only for unsupported versions, dates, paths, causes,\n  canonical issue numbers, fixes, or similarly specific factual claims.\n- status_correct: whether the response communicates l1_class/subtype/action_l1.\n- specificity: 0.0-1.0, whether it uses the specific retrieved issue rather than\n  only generic advice.\n- usefulness: 0.0-1.0.\n- empathy: 0.0-1.0.\n- actionability: 0.0-1.0.\n- relevant_to_review: whether the response addresses the complaint as written.\n\nReturn only one JSON object with exactly these fields:\n{\"faithfulness\": 0.0, \"hallucination\": false, \"status_correct\": true,\n\"specificity\": 0.0, \"usefulness\": 0.0, \"empathy\": 0.0,\n\"actionability\": 0.0, \"relevant_to_review\": true,\n\"reasoning\": \"brief explanation\"}\n",
+  "note": "Existing closure-aware and binary-state responses/judgments are reused exactly from the completed frozen E2E run."
+}

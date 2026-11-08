@@ -1,0 +1,6 @@
+system_a,system_b,metric,pairs,mean_a,mean_b,mean_difference_a_minus_b,median_difference_a_minus_b,a_higher,b_higher,ties,wilcoxon_statistic,wilcoxon_two_sided_p,analysis_status
+closure_aware,raw_metadata,judge_faithfulness,82,0.7621951219512195,0.725609756097561,0.036585365853658534,0.0,12,9,61,93.0,0.417983931458604,POST_HOC_EXPLORATORY
+closure_aware,raw_metadata,judge_specificity,82,0.6682926829268292,0.5573170731707318,0.11097560975609758,0.0,27,10,45,172.5,0.00499782267615188,POST_HOC_EXPLORATORY
+closure_aware,raw_metadata,judge_usefulness,82,0.5195121951219511,0.4695121951219512,0.04999999999999998,0.0,26,10,46,231.5,0.10883456659830602,POST_HOC_EXPLORATORY
+closure_aware,raw_metadata,judge_empathy,82,0.4987804878048781,0.46463414634146344,0.03414634146341463,0.0,28,15,39,402.0,0.3874733714968016,POST_HOC_EXPLORATORY
+closure_aware,raw_metadata,judge_actionability,82,0.44756097560975605,0.3890243902439024,0.058536585365853655,0.0,26,14,42,282.5,0.08169963592462304,POST_HOC_EXPLORATORY

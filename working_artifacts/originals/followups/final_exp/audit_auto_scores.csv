@@ -1,0 +1,141 @@
+﻿sheet_id,response_sha256,lexical_NO_FALSE_FIX,lexical_STATES_OUTCOME,evidence_kind,outcome_match,lexical_ASKS_DETAILS,lexical_SAYS_DUPLICATE,judge_NO_FALSE_FIX,judge_STATES_OUTCOME,judge_model,judge_ASKS_DETAILS,judge_SAYS_DUPLICATE
+A001,cc2011647d87d4b929133d37e069f14be81b70e9215b5315702aeb6b5b638c8d,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A002,f23785b0f3ce2cbd5848818f4c5878c06aff2871cb819ce8c3d07a1fecdd8e36,True,True,inactivity,closed as it is considered stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A003,05d08a3578d96f278d8dc7491733ca6094effef978cdf675388737e73361c8d6,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A004,902964e495be8fcb689c817e4f4ee4ff0d0c0d0f39afcfce2d7e4695c5a966b7,True,True,duplicate,tracked elsewhere,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A005,ee9066f408ddbc13860c10772cf5bc7b696ca52b68d19e2ed7a0975a1731bd02,True,True,inactivity,closed as stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A006,2d3c36b4ef4453ef7dcaf9ca2ea66fb14625e4bcffbc8d82f5031eab5725dd0e,True,False,needs_info,,False,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A007,dc2ab1cb85d4c987d98d64a6c562677faec136ce1c65a04281feed20999e6cee,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A008,5e43e34758ff4b6058cc0a30d1fd1a8088888ffa649bdd01d0cee3df7edf7955,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A009,51c8c21fb7b7e7d75f3f502d9fa8588d771ddea52d5163a023d004a2811771bf,True,True,needs_info,"closed as ""incomplete,"" meaning more information",True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A010,0c6b076a3d2d6c00d54d55c080115ea07537fd0505218048e19255eab94f0361,True,True,inactivity,closed as it is considered stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A011,3641bf528a95fc12bcd72148b91edff2532dc99e10964999029f3862e4fc6d6f,True,False,needs_info,,False,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A012,a079fc7f1db51db845b38dd400d6c3ae2047f6e318419f0d05497465cfc2d431,True,True,duplicate,tracked elsewhere,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A013,2813f1a443fb964cff7451cb19da58169a4ea20ce241721e6d571a9697942505,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A014,bfc31963612ccaa0de1b36b439d9d8f017e41ec1e9667b73f553fb666acffa00,True,True,duplicate,tracked elsewhere,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A015,3abee29eb121c66ec6598462b21128ff8523d18fb3180ebb56f0c71f27d5ff5e,True,False,needs_info,,False,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A016,0d43075c39e0ce744ee709d1b1dc52b7f823d15f3aeaafbd5fba733834da57ce,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A017,e1ff6ad00608b4539e99e61679a4b31813ee366189b058249e70b54441751448,False,False,invalid,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A018,bdfb10b140a00f755de8205d73b236f7521c449c406b581193976d4f17279e85,True,False,duplicate,,NA,False,True,True,gpt-5.4-nano-2026-03-17,NA,False
+A019,9a0d2ec0c06542fd106af002875e035e110a68426c2c253d6f85b44a2693361c,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A020,5653cdde77afb0855f46715617050bf9a11a8a34d3c740dcb120bb4b4fa896ac,True,True,needs_info,"closed as ""incomplete,"" meaning more information",True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A021,af56da69fc25c8cd712bd866884eb047ee1f8204c487e945abee6ce248fe3d8c,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A022,754ddbd04debaf621b4af0c81469ae555fcb8561b3751c238e2c7b996392a131,True,False,needs_info,,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A023,b5900f4cd995490583265b023b2863995bdeed75417fe68e8d867c5a9acbd3e4,True,True,inactivity,closed as stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A024,e6bf4675f210ef5c81cc91f4ef91f84eae6d4eb07c02703cf4d1e2c02af9b1e7,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A025,758c84f7905b7dde296b0a20befe7d38f1b2fa591cc39e32791f9951b20e0d51,True,False,duplicate,,NA,False,True,False,gpt-5.4-nano-2026-03-17,NA,False
+A026,6635ffe2dddd65e4f5b6f8b609df8add669eb82f1f4e6572730f22ea7fe7f7b7,True,False,inactivity,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A027,153323177060cd56e621481fa9ac73e4c86337a7eaf320cdef59f0d814c6ac04,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A028,b3cab2e44c69ab914270d0e11ca9bfde27e36c18e791abb535fa39fea8f0e1e8,True,True,needs_info,closed as abandoned due to a lack of information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A029,00caa5056343cb4b4acb1a66714ed67d30e72d9385570efae3110ec8f28db6a7,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A030,1cc94b762ea183e9f12490c07f37939e27594dfa629cc2e227e6398adda4edd8,True,True,needs_info,closed due to a lack of information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A031,dc6131f6be9ec12a0af8dc15c4d6545c78b766370b0f7555cbb9e026bec6ad94,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A032,6bc2d30f5046d1c17705644a458af1e2d2eeef049535435f41d597b488ea594a,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A033,77705ff1c78777c00a608c69b36fcde4b7eef436c0349e40bb4290fb90f45d19,True,False,configuration_advice,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A034,f9edd602dbbfaa19708ca5ce640ceeab98c359c9dd680575d3e9a9c8e8ca79c7,True,False,notvlc,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A035,b227c23a2c54438e0518c8089a121ec83186747298538ccfadde8c8ae6d406a2,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A036,4c80bf23d076ad993cd76f2fb8ca19ab5bc309328bec68d0e9378ae0900fb459,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A037,c37fc2fda43ffa1cb8c015d9da992bfe398d435358ad79aed38092c4e1eb5f89,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A038,9f112a4b6138e06ada375b227513c398a1f644fd02dd2be963e718091fd8865b,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A039,91042c28fb47c2c41b383fad8e7042fc270f6197cb2d9dac429c7a0e8647b98d,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A040,fcabb7ef9e08176d2316c008b3c91f27e8af94b775917949fdcfb793dcc8c170,True,False,configuration_advice,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A041,c72f8b2e744948d54aa3f36708ec2483452c28a4749fe8a7050a1b706b69fb47,True,True,needs_info,closed because we need more information,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A042,e3151503934ec13ce718e4d154dd91786bd9f9c3f03b0d9cc31e5830ea913e7b,True,False,inactivity,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A043,af6dacddc4af5ce87a3e132b5da1a4ea82f524b559fa6a1e44929bcb78a91940,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A044,e5ae0796a993bc3d29582efef94b92ee92772e1f655d2bcca94bd3fe073a83f3,True,True,inactivity,closed due to being stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A045,32d9a2093000b1525a6aab6e8d5ab69a82aebd386c1e545ccd8cd31785eeb477,True,False,inactivity,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A046,9ca671b0dc5709c7b4a23fb41d4e96e12335045268fadea86d4cb332ff790f03,True,False,duplicate,,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,False
+A047,b13c25c7f96493efa048c736c9cb5291375f64bd40e495761fbc7ffae43f129f,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,False,NA
+A048,e8a1c73d832c9664401d9b472b16bc92831b8cf09418d49ab35ac52fae3932b0,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A049,9a39d0abe093e9e5b6816d7bc394d7ecd94fda19cca0426515ec2b157b91bcb8,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A050,8880466c309668642d440274e05422399c152348a25f4dd38e784e0e66b884d5,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A051,7028664161858c4a0284b503ab82810d0466a9775bf1d83d402939bdb3eaea0f,True,False,invalid,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A052,52cce3b60d76c4eb6157857dc498a7dc6f6bf48501925dea70885259889f32b0,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A053,9e6e34562e20cb8a4fd172f831d82f45cc75dfb3a4786d1504082d5054603042,True,False,duplicate,,NA,False,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A054,c83d6863644fbc3e668499d42b078a3c63ab245333b4ff9a9f0fb061360b64eb,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A055,b6be319694d7053c7184c5ac7d92032b0936da405b6945d5bc196d4f39b890d4,True,True,needs_info,closed as it requires more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A056,f07dd2711bc4262ae0f971fd473b4de845a019b120e48fa7ed3c686806eef90a,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A057,dc2ab1cb85d4c987d98d64a6c562677faec136ce1c65a04281feed20999e6cee,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A058,4139bc5c9ded62e7d2aebf9278ae3cfe879f619aaf81a420602ad8238ad251e9,True,False,needs_info,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A059,a7536a7812cd7fe6e2786a73f1d9161e9645b4ea9da54d2481f651af2f04478c,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A060,e65be4504c4ddfd14e29a3e3db6a7f0e3893bff2c3a8ac76aa2dfab1fec2d679,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A061,f5229cb3c9d26ea29653548dbbd04dd3eeeb0f8c9dc84982748175d38432fec4,True,True,duplicate,tracked elsewhere,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A062,9aee0fce7222a2164cc1999950be0f080f4264fee2ece551b00cc992348c0a71,True,False,duplicate,,NA,False,True,True,gpt-5.4-nano-2026-03-17,NA,False
+A063,dee53369b3a019ad77fb6afcecd80a482c080998460c273dbdca1400ac5cd581,True,False,needs_info,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A064,bad00d8a2f486e144fdce79925332aada2d2787d8fca71f48f6516c4fbf0523f,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A065,8973692dc3b08db69b688137fd07ce0f67228d42eeb70686a0cf6cf47dc97adb,True,False,duplicate,,NA,False,True,True,gpt-5.4-nano-2026-03-17,NA,False
+A066,3a7b30baa075dbbb7e54eee7f9ada56b9f7430ca9b53d63c43c515b764a8896e,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,False,NA
+A067,4f1276dd6d542fbf5601cab13327b105b50e569a483e6a190713fa8a1989e43e,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A068,468395000190a2ee4922f65771f51b7f1b9986545a113d6b986184336f240570,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A069,0274978aca7b28ac3351b0a014664c91af42841ac9efa8b22e7c4a833198632c,True,True,needs_info,"closing properly was tracked as issue #1028740, which was closed with a resolution of ""Works for Me."" Unfortunately, it seems that more information",True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A070,1786f177b1030070bc30d6cff629807a1e0bc6025c9fa70500b9e143f4a87160,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A071,084b64f191b04fe4655f6ee88bdd244c30837d3147396f12fd2f6d4b62c289ab,True,True,inactivity,closed due to inactivity,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A072,fc9192933b8e212a3de2ba649eae1c2a4ea70a68c768def25fd07aee68e69295,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A073,02db598a48e63c9a654cd0fb3160e6ee8fe9d6dd72b63cd063523f2e583119ff,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A074,487fa4a58469cae2c6499632dc7ec46dd787c377cf2fe292d5e0f44ec492b406,True,True,needs_info,"closed with a ""WORKSFORME"" resolution. This means that more information",True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A075,04306fb4d18c11db84b9583dd0af3781298eb13e482c550e58f74e301afd4b3f,True,False,duplicate,,NA,False,True,True,gpt-5.4-nano-2026-03-17,NA,False
+A076,4bb97a6c589d3f327fb783c957eed2616eb097e60232c955f96d47c855fe610f,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A077,f305728f6a78bd9dd0818cc54c0096aa7f14dc949b44e0a6d7c29f647d4df6d8,True,True,needs_info,closed due to being marked as incomplete,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A078,834f18f955f931c894ecfeaf38d882bc39c5552223a894485c1017ef645fd86d,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A079,116a8e117b06e8d78cd2bdad4476bfbce13f2538db66e8bec0963cb10a7333e2,True,False,configuration_advice,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A080,3e25296bb83566c0e5412f77e3efc6f7f3bbda94633163e3fb5b056c1ea27070,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A081,eeb3a9bd2efcb22479ec3aeb837301074326da64ba9b55a1d68411168de7bbf2,True,True,inactivity,closed due to inactivity,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A082,85af69f1f3f9ada3f0d37e5738e25021b3cb161e7f38f75a6307594b70e59c75,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A083,ba50422b6a0c3ce7b1b0114e4a8af781341d14f83d696b81e1a5b6af231cf9cc,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A084,57de30af52c4aa620209be28d2e5e8b139b32fc6ed166e8fa8254d3b4508d105,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A085,1bdf21734187824fd9bb2f74a394457fc82e0956f6e693cf3cffaadfa5094b87,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A086,1067968879e5116923c9ac535512f33a24475d620485dd3f9574b75b37f2a1cd,True,False,notvlc,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A087,34c5ce5bc68b09c7e78911b8f5bf1b053fdf51b17ae3cc80dc55effd56b0e19c,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A088,c61372772835e1d8294776f38a5e3e1d5bfe50b45cbfdf4557bfe6a903443b4e,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A089,1aa5aca202c4880b9381cc55b0ce760aa95769bb36d2f6fc9dc0a04dd593e50e,True,True,needs_info,closed report (#1511562) but was marked as INCOMPLETE,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A090,a807d2f0ba231aad4a9059b01bab5302c0b83abace2a7689f9ea05f8ba258388,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A091,e9ad8991708af51483870f1c4fe3c5456e652ad908a7ebcb43b173dbcc5a152e,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A092,4aaf119e8d5d10afabc229bd8a793bca31faeefa065184a7383248d3c582f506,True,True,needs_info,"closed as it was determined to work for some users. However, it seems more information",True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A093,a0feeae5b4c43dcd66542c85e236df62d6d9ed0161f4e5d89e43e390ee664c64,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A094,9e830817eea296773440a42954c20c83d4eacc6f5e154dbf82c705a48631d52c,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A095,de3a8395d02b810fed2b3097fcf5bc6db6c14801076d9d838c3ad3c777c457e3,True,False,inactivity,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A096,bb332ffbed885aa8d53ef2d83ddd984946b7c04057a4de159b948fb7711bab84,True,True,needs_info,closed as abandoned because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A097,069fc643631f779cc560581e835411fe67e13ce79e2f55278a587846c53a0bd0,True,True,needs_info,closed as abandoned because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A098,6d99cb8d7c19decafe4ce11678250261b029f0e88b2f93e09337d86842fe853b,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A099,b4aa348f52701bc35c2228e7f9f8f1fa45f900d1c16d7ef5a21dec4a75c487ea,True,True,duplicate,tracked elsewhere,NA,True,True,False,gpt-5.4-nano-2026-03-17,NA,True
+A100,3284164cd5d1bd31f755feac754d60746371319dc2784ca2ef49aeddab02b558,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A101,61549c86033ea3ce1ea9b516c95a18dceb47106c8052344a683aa42d0c71e840,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A102,c692e2e0fd30b073fc7e193ec958e5f2da6ec496554629d180999a59498367c3,True,True,invalid,INVALID,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A103,4961d7c125cc15e3ab0350d5d3019823dac63f4cc95ff16ff7c12ada5e95bf97,True,False,needs_info,,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A104,335442c778576b60e4dda18f231e97fee7fd6178b9d12002035782bc6b88eac5,True,True,needs_info,closed as abandoned because more information,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A105,7d7dd3550da2fb8aa64d71ec0e057b4198f3a023455ee6ac9b11be56c27567be,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A106,a4cb5b79b22bb22a4d8be678fc6281304d2995d3f464290e3dfba018023f1b54,True,True,invalid,invalid,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A107,4f83db0a4c7addf838d6ca1adffc1ce38c5a91fec0ab0319fd82733d4a4212a4,True,True,needs_info,closed due to a lack of information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A108,9214823ac8e946c8910ae345780a7f5ed4351fa6965b5460e8aacc3fc2a10db6,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A109,a7cc5993b41bddf01ef382de534b0655256801148ba3dabc1f022d7bd9e56a17,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A110,3c97b6041a42d3b21a4738eed3cd9be87102a3f0685a268deb74b986ca945136,True,False,inactivity,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A111,27c26219e55662fb7441f7ade1cf3a8ddd4b31da78003917da21fa91db65f6dd,True,False,needs_info,,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A112,3f6e100993adca71959a89ca44d2d9c4b7f4b861683c957ff19f3290f3295056,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,False,NA
+A113,bb2145a59714e7065c09762751a811668df95e841f2a0545e1abc7d6c7c7c492,True,True,invalid,invalid,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A114,d8c82067716c67ee66b40d6b23409d8010ac32353f03bf18ceaa782e608a089d,True,False,needs_info,,False,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A115,55d37fb4fb54bc46cd7745ae59ccaa2e52e51ad7665ed83d42d17e70c3ae6fe9,True,True,needs_info,closed due to a lack of information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A116,8208fd53588919fa78a2e70d389c730b9d3a92695839ccf5c1f157976b2b265e,True,True,inactivity,closed due to being stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A117,88354494fa1f4060341e94f21cce2b2450421af011647495d2bc4998f87399f4,True,True,needs_info,closed as it was previously discussed without action. It appears that more information,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A118,6a50b72ad40a15c875218d094c70cf2356509211c4a702901e2411f6f1fdbdd8,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A119,309bd38f3d0266d536c8d7e23934b94e606c25bd6fe0054bafa3e48b144a6303,True,True,duplicate,duplicate,NA,True,True,False,gpt-5.4-nano-2026-03-17,NA,True
+A120,0ddafa2f7809facd8d6415a5722103414cdb206fa06534fc908890ddfe0ed3e9,True,True,needs_info,"closed as ""works for me."" Unfortunately, it appears that more information",True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A121,fb755869bbc97c13e5196384688f6c6a51b09803965812c43486ec2362752897,True,True,duplicate,duplicate,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A122,f9969ba31d3646ce34191e028abec849346df9bf7b7107e57de8798421450ab8,True,False,notvlc,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A123,c3c362500b0bc0952d6ae6b720a4bf34cd2541258331e495cc617ea410c7528a,True,False,needs_info,,False,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A124,75391505769b5dde5bc40b0622c41ce194d14e65904575109a41a0b504ff3f21,True,True,inactivity,closed as it was marked stale,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A125,c1b45952e2af39722e778496474797e5d0b6b41b3d6d09f85a7df850c2c70d82,True,False,notvlc,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A126,84b3abe10b30f743aed8a8e5e6d8ba6cf6e91059e08469075336ae56e97e5877,True,True,needs_info,closed as abandoned because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A127,ff2dcf222c1e3b94e72233c3c4f43d9c8a90ebb64a9a0d530e07795c4d7f9224,True,False,inactivity,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A128,e5f95c12ef51c1343f2fcadf4441437de8868bd0987a0e707b39bc0a50a3dc04,True,False,inactivity,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A129,53bb88734e46aaf6e7f000dc8d4702cb8e361de7cec695ed12a00b76f1c97139,True,True,duplicate,tracked elsewhere,NA,True,True,True,gpt-5.4-nano-2026-03-17,NA,True
+A130,02f1c9f61618db1b4e770df19ff886f23b00a4271a90236ea48d9d2aff6909df,True,True,needs_info,closed because more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A131,b6b7feb35799e37cdf830cd59f18e14fe888659c14bbf056b5dec24f85d9d4dc,True,False,invalid,,NA,NA,True,True,gpt-5.4-nano-2026-03-17,NA,NA
+A132,6caf37b31a60fbe9ca67455e0da5b93acc33d20ae7b33746c11263c46638c54f,True,False,configuration_advice,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA
+A133,800549755f690c7fb5c1e40e04c3b153b092145cf714acd7ca513e2fff0d0697,True,False,needs_info,,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A134,15367454513d87149568578cbae2673096e29b17bbca1cc8f686a191d4bd16be,True,True,needs_info,closed due to needing more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A135,e743d08de2dcb8f07e505fc3e58564c8037ca5782341e1fb424f11e635ed02d8,True,True,needs_info,"closed as ""incomplete"" because more information",True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A136,14f19eedac2046a3ce7ff2230752332ea7c5b964d8d197d1d97e7ed6c8c9d530,True,False,needs_info,,False,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A137,b1bbbbdbdd7ef60ab87c090ea1ef4ecc9920101fbcf10e8cb0c8ac52510237fc,True,True,needs_info,closed as abandoned due to a lack of information,True,NA,True,False,gpt-5.4-nano-2026-03-17,True,NA
+A138,85ef8eff78adfe04ca0c35e534141630f1b2c9560026f1b199da009edb678408,True,True,needs_info,closed as it requires more information,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A139,81f89628dcfa7d28b8c2362aea7331401c1cb9c16f5f003f3eebc3fef5936d56,True,True,needs_info,closed due to being marked as incomplete,True,NA,True,True,gpt-5.4-nano-2026-03-17,True,NA
+A140,842fe8aecd1b77dccdabf8f6cbd42c34e95b5d3edee8e53fbd3e9dc95e795f2f,True,False,needs_info,,NA,NA,True,False,gpt-5.4-nano-2026-03-17,NA,NA

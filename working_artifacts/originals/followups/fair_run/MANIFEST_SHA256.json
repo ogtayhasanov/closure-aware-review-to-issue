@@ -1,0 +1,20 @@
+{
+  "START_HERE_WITH_REAL_CSV.md": "667751cf3150afc08f3c0ad991da5eb1bb442f1dbe978bf1746fe862edbfcd9b",
+  "README.md": "b3224cff7467f6efb500c860fb180b186db5805ded4db9957c159bef88b841f7",
+  "RUBRIC_FROZEN.md": "b0e378034aff918b82ab945ff6bbbbaf26bd4004c28e7091b56f400c46b65767",
+  "APPENDIX_A3_DRAFT.tex": "1f7ed0d63cf64722aeb7efcb0ef3352bfe9c7ff8568251fd6bae7931c4c06c13",
+  "rq3_protocol.py": "dbc9600ba450bef4e9cc86dcecbc69c17dbee7b2c2201d3aa5fd44227dc989a5",
+  "run_rq3.py": "5eb7eee50939ac4f5d88f5d92f9d307f4dea705274f3356767949553e40e2bb7",
+  "prepare_staged_native.py": "44218718a76e8d4b11f16d9ad4b42e570f9f5c72111b1b22130bf61a03c6d8d8",
+  "import_legacy_csv.py": "1448e6fc23aa8e1f494806b591007fd227d2b3abaeab7f2395634b34f744148c",
+  "finalize_verified_evidence.py": "6d4d42ff10e10c782f9b4e6ae66311ba5be0a48d28623c954cbd5c4a09f32938",
+  "blind_and_score.py": "c3071ea0e7ce70f9edd81741644afaacc2eda8a5c0303496bd309a2966ef5ef8",
+  "lexical_checks.py": "ef39daa160e701ebbc33e0fcfaffc571717e8f08ce19ff71d35022da67085f58",
+  "tests/test_protocol.py": "3a3f0049f1ac6a2cd3838ffaf4affefeb4138dd5c03554df3c139b9ee011f502",
+  "examples/cases_SYNTHETIC_DEMO.jsonl": "3eba80aed99b730b04153f4cf66cf27aa715e9d37e2ada254a10730c68e68295",
+  "private_working/real_82_native_staged.jsonl": "0a70ea5f5c8b603fc391924d79cb7447db5facc2bce8f597927344430b89d8f7",
+  "private_working/fair_prompts_246_dryrun.jsonl": "d7af79360aa94f77e89ebd79aa723013d14779134080319bbf4caf5770f3d639",
+  "private_working/audit36_verification_worklist.csv": "d028d2cb2b98743836273110f2d972d0f9dd8967017d4877969f2cf843d9585d",
+  "private_working/quality_review_82.csv": "1c84c5cccfcf5f615e20b0e99d1ceae9b34112b166d18f345b662edc7e5df2d7",
+  "private_working/preflight_quality_report.json": "b3b2157e1b1c598e199202fa901bd165b4135cc00bda5a853c8c7fc8a112dcfe"
+}

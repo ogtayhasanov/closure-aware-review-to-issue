@@ -1,0 +1,23 @@
+rejected:
+  - wontfix
+  - wont-fix
+  - by-design
+  - invalid
+  - not-a-bug
+abandoned:
+  - stale
+  - no-response
+  - needs-info
+  - insufficient-information
+  - upstream
+redirected:
+  - duplicate
+  - duplicate-of
+resolved_state_reasons:
+  - completed
+priority_order:
+  - REDIRECTED
+  - REJECTED
+  - ABANDONED
+  - RESOLVED
+

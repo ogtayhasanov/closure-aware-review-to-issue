@@ -1,0 +1,44 @@
+{
+  "status": "checkpoint_1_awaiting_ok",
+  "prepared_at_utc": "2026-10-24T17:43:15.593966+00:00",
+  "preregistration_commit": "e0bf6d9",
+  "generation_settings": {
+    "temperature": 0,
+    "max_tokens": 220,
+    "seed": 20261020,
+    "model_requested": "gpt-4o-mini-2024-07-18"
+  },
+  "system_sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+  "historical_requests_verified": 246,
+  "sample_seed": 20261024,
+  "sample_count": 80,
+  "input_count": 320,
+  "new_model_calls": 0,
+  "source_sha256": {
+    "C:\\Users\\Ogtay\\Desktop\\test\\bot_closure_test.md": "7fbc73b33e275229faafe2581dfe49cf4551fded508cb1cbf9c7099099efe429",
+    "C:\\Users\\Ogtay\\Desktop\\test\\closure_provenance.py": "4123a9596ecf37979089de88523078c888a0a2cf8034fbe99a7445b96d88b20b",
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\rq3_protocol.py": "dbc9600ba450bef4e9cc86dcecbc69c17dbee7b2c2201d3aa5fd44227dc989a5",
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\run_rq3.py": "5eb7eee50939ac4f5d88f5d92f9d307f4dea705274f3356767949553e40e2bb7",
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\new_responses_246.jsonl": "2726140f560b0fe36bf83e7f1f0be7ff4819dae68b90009ee5613215c541640b",
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\real_82_native_staged.jsonl": "0a70ea5f5c8b603fc391924d79cb7447db5facc2bce8f597927344430b89d8f7",
+    "C:\\Users\\Ogtay\\Downloads\\run_haring_rrf_frozen_e2e.py": "d687302d6e05a8c4b89af3350cb5e05abc38cd93d39a87dcec5d4332cd903d58"
+  },
+  "output_sha256": {
+    "build_sample.py": "eb358b9eda2e08d23b4da76e7eb7180880f171555db0c3ceb502c1d512db27dd",
+    "checkpoint1.md": "2c3e551aec6c032338d30debf205168876becd381355d82a5eabb5d2a684b8b5",
+    "duplicate_scan_rows.csv": "868747c6d4bce37b4bb4a2ded968000aa03adb2c8d52deb24a479d605f0ab129",
+    "exclusions.csv": "683bef0ce867babbbbf82d9363b4ce11b09d6bf770fab8f34e944f33a2629bab",
+    "fetch_failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "inputs.jsonl": "584f97bb99e08a386c796dcd8c004d96f913538003ecf12b8f8c8f18c00370e9",
+    "issue_bodies.jsonl": "b74ab2d418957b56faae061b43ce67fd5d56f4304c49eb56a29b0e156c0d656c",
+    "metadata_drift.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "prepare_inputs.py": "f0c555be0686a25efc5440bce8fa32b3b14f1e9c56c64602dec6d1e747aefe2c",
+    "provenance_summary.txt": "c9b490ba68171e999895fddfaaac6855b54b066d456e359d813bea4bd241f06c",
+    "sample.csv": "834413ce68b6664945dd66fe3994a295b6df49cbc0954cf61e61378a915b16ef",
+    "sample_records.jsonl": "7d52d4c525c9debc3cde77bc5ccd0c5fcc6313d8bb17dc5c95bf93e237b73a51",
+    "sample_report.json": "2edbc744c45a76fa80276022882db56ed85b3ed12dba6916700e8b39bedee6f1",
+    "summary_by_repo.csv": "81184202d92a0c786df74d9fd64ae53d3585a4f978db7a90b5e5695e1f0969a6",
+    "system_prompt.txt": "146b76447ec81dde7926af605d53db03254716854bb061e14d140843f152c4d9",
+    "v1_to_v2_changes.csv": "8673a287bba751ab7c005608ae678a6173545ac894133cfe6092cd6e75073d2f"
+  }
+}

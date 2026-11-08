@@ -1,0 +1,43 @@
+{
+  "seed": 20261024,
+  "extra_bots": [
+    "automated-signal"
+  ],
+  "scan_counts": {
+    "signalapp/Signal-Android": 11331,
+    "jitsi/jitsi-meet": 6959
+  },
+  "eligible": {
+    "BOT": {
+      "signalapp/Signal-Android": 1687,
+      "jitsi/jitsi-meet": 1290
+    },
+    "HUMAN": {
+      "signalapp/Signal-Android": 3,
+      "jitsi/jitsi-meet": 27
+    }
+  },
+  "sample": {
+    "BOT": {
+      "signalapp/Signal-Android": 25,
+      "jitsi/jitsi-meet": 25
+    },
+    "HUMAN": {
+      "signalapp/Signal-Android": 3,
+      "jitsi/jitsi-meet": 27
+    }
+  },
+  "excluded_issue_count": 18210,
+  "exclusion_reasons_nonexclusive": {
+    "no_wontfix_label": 14800,
+    "close_count_not_one": 674,
+    "reopened": 632,
+    "linked_fix": 1544,
+    "v1_redirected": 288,
+    "mixed_bot_human": 348,
+    "actor_not_known_bot_or_user": 1,
+    "eligible_not_sampled_BOT": 2927
+  },
+  "duplicates": [],
+  "class_exceptions": []
+}

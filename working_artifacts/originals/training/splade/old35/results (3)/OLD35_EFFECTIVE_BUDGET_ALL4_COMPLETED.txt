@@ -1,0 +1,10 @@
+Old-35 effective-budget replication completed successfully.
+Seeds: (42,)
+Bottom-15 root: /kaggle/input/datasets/oqtayhasanov/trivlet/kaggle/working/filter_ablation/bottom15_llm
+Original worker SHA-256: 2e8e336be1dee8acfb3f600540d3ec6def275a7512e8881e748039eab55dc48b
+Effective-budget worker SHA-256: 4536153eaf2dbe12116a5ddb4b05e2e7b620de09ed7e8c710d29b1f6386f0bb8
+Effective stop step: 1600.
+Fixed train/validation split seed: 42.
+Original LR schedule horizon preserved: 4,506 optimizer steps.
+Expected reconstruction: 53,375 used / 9,140 skipped.
+Expected split per seed: 48,038 train / 5,337 validation.

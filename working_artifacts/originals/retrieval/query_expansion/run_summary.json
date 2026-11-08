@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-08-08T13:14:27.162341+00:00",
+  "status": "complete",
+  "rows": 82,
+  "app_counts": {
+    "Firefox": 28,
+    "Nextcloud": 33,
+    "VLC": 21
+  },
+  "model_requested": "gpt-4o-mini",
+  "models_returned": [
+    "gpt-4o-mini-2024-07-18"
+  ],
+  "mean_expansion_words": 14.524390243902438,
+  "max_expansion_words_observed": 36,
+  "output_csv": "C:\\Users\\Ogtay\\Downloads\\haring_query_expansion_20260808\\query_expansions_82.csv"
+}

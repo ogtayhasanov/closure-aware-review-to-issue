@@ -1,0 +1,4 @@
+system_a,system_b,metric,pairs,a_only_successes,b_only_successes,exact_mcnemar_p,analysis_status
+raw_metadata,binary_state,judge_status_correct,82,19,1,4.00543212890625e-05,POST_HOC_EXPLORATORY
+raw_metadata,binary_state,no_hallucination,82,2,3,1.0,POST_HOC_EXPLORATORY
+raw_metadata,binary_state,judge_relevant_to_review,82,0,0,1.0,POST_HOC_EXPLORATORY

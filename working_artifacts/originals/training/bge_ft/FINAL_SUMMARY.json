@@ -1,0 +1,24 @@
+{
+  "model": "BAAI/bge-base-en-v1.5",
+  "seed": 42,
+  "best_epoch": 2,
+  "best_internal_dev_MRR": 0.8351395954814675,
+  "bge_zs_internal": {
+    "n": 794,
+    "H@1": 0.4508816120906801,
+    "H@5": 0.6183879093198993,
+    "H@10": 0.6889168765743073,
+    "MRR": 0.5312600903532159,
+    "median_rank": 2.0
+  },
+  "bge_ft_best_internal": {
+    "n": 794,
+    "H@1": 0.7821158690176322,
+    "H@5": 0.8979848866498741,
+    "H@10": 0.9319899244332494,
+    "MRR": 0.8351395954814675,
+    "median_rank": 1.0
+  },
+  "elapsed_minutes": 1.7952392935752868,
+  "IMPORTANT": "Do not conclude real-world improvement from this internal result. Next evaluate the frozen best_model once on the existing real repository-scale test sets against the unchanged BGE-ZS baseline."
+}

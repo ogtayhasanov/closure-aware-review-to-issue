@@ -1,0 +1,13 @@
+[
+  {
+    "input_id": "fair:fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+    "dataset": "fair",
+    "case_id": "fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97",
+    "repository": "nextcloud/android (GitHub)",
+    "number": "2131",
+    "received_class": "ABANDONED",
+    "received_subtype": "OTHER",
+    "excluded_from_all_analyses": true,
+    "exclusion_reason": "Nextcloud #2131 was fixed by merged PR #4470; user explicitly excludes it from every analysis"
+  }
+]

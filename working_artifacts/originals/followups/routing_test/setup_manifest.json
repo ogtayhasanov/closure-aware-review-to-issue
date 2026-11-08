@@ -1,0 +1,183 @@
+{
+  "preregistration_commit": "0b83e2c",
+  "stage": "CHECKPOINT 2",
+  "no_new_generation": true,
+  "source_files": {
+    "cases": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\real_82_native_staged.jsonl",
+      "sha256": "0a70ea5f5c8b603fc391924d79cb7447db5facc2bce8f597927344430b89d8f7",
+      "unchanged_after_inspection": true
+    },
+    "fair_responses": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\new_responses_246.jsonl",
+      "sha256": "2726140f560b0fe36bf83e7f1f0be7ff4819dae68b90009ee5613215c541640b",
+      "unchanged_after_inspection": true
+    },
+    "fair_saved_inputs": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\fair_prompts_246_dryrun.jsonl",
+      "sha256": "d7af79360aa94f77e89ebd79aa723013d14779134080319bbf4caf5770f3d639",
+      "unchanged_after_inspection": true
+    },
+    "protocol": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\rq3_protocol.py",
+      "sha256": "dbc9600ba450bef4e9cc86dcecbc69c17dbee7b2c2201d3aa5fd44227dc989a5",
+      "unchanged_after_inspection": true
+    },
+    "quality_review": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\quality_review_82.csv",
+      "sha256": "1c84c5cccfcf5f615e20b0e99d1ceae9b34112b166d18f345b662edc7e5df2d7",
+      "unchanged_after_inspection": true
+    },
+    "audit_worklist": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\audit36_verification_worklist.csv",
+      "sha256": "d028d2cb2b98743836273110f2d972d0f9dd8967017d4877969f2cf843d9585d",
+      "unchanged_after_inspection": true
+    },
+    "preflight": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\preflight_quality_report.json",
+      "sha256": "b3b2157e1b1c598e199202fa901bd165b4135cc00bda5a853c8c7fc8a112dcfe",
+      "unchanged_after_inspection": true
+    },
+    "staging_code": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\prepare_staged_native.py",
+      "sha256": "44218718a76e8d4b11f16d9ad4b42e570f9f5c72111b1b22130bf61a03c6d8d8",
+      "unchanged_after_inspection": true
+    },
+    "historical_diagnostic": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\haring_rrf_final_diagnostic_20260808\\nonresolved_36_case_diagnostic.csv",
+      "sha256": "ec77e6d647b517196e0e411ad2657ff0494d858ca2c00312d16e513b8e349bfb",
+      "unchanged_after_inspection": true
+    },
+    "human_taxonomy": {
+      "path": "C:\\Users\\Ogtay\\Desktop\\test\\taxonomy_annotation_pack_FORMATTED.xlsx",
+      "sha256": "c609f8150604772bb8952a5b1253246625e65c212248b239c6c07c937487d7b2",
+      "unchanged_after_inspection": true
+    },
+    "human_taxonomy_copy": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\taxonomy_annotation_pack_FORMATTED (1).xlsx",
+      "sha256": "c609f8150604772bb8952a5b1253246625e65c212248b239c6c07c937487d7b2",
+      "unchanged_after_inspection": true
+    },
+    "second_annotator": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\closure_taxonomy_second_annotator_pack.xlsx",
+      "sha256": "823d5ccca41b2848fce22fdbd3d56ef73e9838f786bc764eb79ff00d6502d74b",
+      "unchanged_after_inspection": true
+    },
+    "human_status_72": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\blinded_status_annotation_72_FORMATTED.xlsx",
+      "sha256": "57e23a83375e8e787a2cba813f002c2f5b8ecddbc951e0073e7b43459f0cda93",
+      "unchanged_after_inspection": true
+    },
+    "paper_archive": {
+      "path": "C:\\Users\\Ogtay\\Downloads\\TOSEM_Overleaf_ready_2026-08-09.zip",
+      "sha256": "ebaeb8d80de310a757f0b89270c1a1bb2673b36cd960ed7f68cf7203af77e019",
+      "unchanged_after_inspection": true
+    },
+    "gemma_responses": {
+      "path": "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\bot_test\\main_responses_gemma.jsonl",
+      "sha256": "ee4295cb6a799247080a9a18b594a41b1a4d2d0dcce833124b5860c246cfdfc9",
+      "unchanged_after_inspection": true
+    }
+  },
+  "cases": 82,
+  "responses_per_model": 246,
+  "complete_matched_case_arm_pairs": 246,
+  "class_sources": {
+    "taxonomy_arm_input_fallback": 82,
+    "human_audited_class": 0
+  },
+  "routing_cohorts": {
+    "REDIRECTED": 7,
+    "NEEDS_INFO": 16
+  },
+  "routing_exclusions": 59,
+  "input_evidence_summaries": [
+    {
+      "cohort": "ALL",
+      "arm": "binary_state",
+      "cases": 82,
+      "missing_info_or_cannot_reproduce_closure_signal": 0,
+      "duplicate_closure_signal": 0,
+      "incomplete_template_fields_hint": 9,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "ALL",
+      "arm": "raw_metadata",
+      "cases": 82,
+      "missing_info_or_cannot_reproduce_closure_signal": 19,
+      "duplicate_closure_signal": 7,
+      "incomplete_template_fields_hint": 9,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "ALL",
+      "arm": "closure_aware",
+      "cases": 82,
+      "missing_info_or_cannot_reproduce_closure_signal": 19,
+      "duplicate_closure_signal": 7,
+      "incomplete_template_fields_hint": 9,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "NEEDS_INFO",
+      "arm": "binary_state",
+      "cases": 16,
+      "missing_info_or_cannot_reproduce_closure_signal": 0,
+      "duplicate_closure_signal": 0,
+      "incomplete_template_fields_hint": 3,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "NEEDS_INFO",
+      "arm": "raw_metadata",
+      "cases": 16,
+      "missing_info_or_cannot_reproduce_closure_signal": 16,
+      "duplicate_closure_signal": 0,
+      "incomplete_template_fields_hint": 3,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "NEEDS_INFO",
+      "arm": "closure_aware",
+      "cases": 16,
+      "missing_info_or_cannot_reproduce_closure_signal": 16,
+      "duplicate_closure_signal": 0,
+      "incomplete_template_fields_hint": 3,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "REDIRECTED",
+      "arm": "binary_state",
+      "cases": 7,
+      "missing_info_or_cannot_reproduce_closure_signal": 0,
+      "duplicate_closure_signal": 0,
+      "incomplete_template_fields_hint": 0,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "REDIRECTED",
+      "arm": "raw_metadata",
+      "cases": 7,
+      "missing_info_or_cannot_reproduce_closure_signal": 0,
+      "duplicate_closure_signal": 7,
+      "incomplete_template_fields_hint": 0,
+      "canonical_duplicate_target_present": 0
+    },
+    {
+      "cohort": "REDIRECTED",
+      "arm": "closure_aware",
+      "cases": 7,
+      "missing_info_or_cannot_reproduce_closure_signal": 0,
+      "duplicate_closure_signal": 7,
+      "incomplete_template_fields_hint": 0,
+      "canonical_duplicate_target_present": 0
+    }
+  ],
+  "uncertain_closure_fallbacks": [
+    "87831fab6bcb4385370984002df5fd01c47237340bab72d52d0ffc1be943515d",
+    "fdb3e658e38d05422ec9cd14d85214590bc61d1b87394fc6d434493865fcfa97"
+  ],
+  "prior_34_case_selection_rule_found": false,
+  "canonical_target_test_eligible": false
+}

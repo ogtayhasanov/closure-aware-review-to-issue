@@ -1,0 +1,7 @@
+﻿stage,recorded_returned_attempts,prompt_tokens,completion_tokens,total_tokens
+A,162,80909,13727,94636
+B,162,89904,12272,102176
+core,324,72083,8424,80507
+routing,324,78239,6804,85043
+audit,140,60597,2800,63397
+reference_routing,187,45607,3927,49534

@@ -1,0 +1,20 @@
+{
+  "cases": 82,
+  "audit_cases": 36,
+  "requests": 246,
+  "protocol": "fair-rq3-v1-2026-10-20",
+  "system_sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+  "source_csv_sha256": "e85f05c8206c3bff431aa1b76ba6b61aa4a28d471d824ad413fd9abb08b41e72",
+  "qa_flags": {
+    "TRUNCATED_PANDAS_SERIES_ISSUE_BODY": 28,
+    "MISSING_ISSUE_URL": 49,
+    "DERIVED_LABEL_REASON_STATE_REASON_NOT_RETAINED": 9,
+    "ISSUE_ID_CORRECTED_FROM_URL": 11,
+    "CLOSING_REASON_UNAVAILABLE_API_RATE_LIMIT": 2,
+    "UNKNOWN_CLOSING_REASON_AS_ABANDONED_OTHER_GOLD": 2
+  },
+  "reference_evidence_verified": 0,
+  "source_field_status": "RECONSTRUCTED_NOT_VERIFIED",
+  "issue_text_status": "LEGACY_EXPORT_28_PANDAS_REPR_TRUNCATION",
+  "recommendation": "Verify original metadata and independently write reference_evidence before live generation/annotation. Do not silently assume old taxonomy is gold."
+}

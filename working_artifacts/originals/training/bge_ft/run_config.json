@@ -1,0 +1,52 @@
+{
+  "experiment": "BGE-FT controlled synthetic adaptation",
+  "model_name": "BAAI/bge-base-en-v1.5",
+  "pooling": "CLS(last_hidden_state[:,0]) + L2 normalization",
+  "query_prefix": null,
+  "seed": 42,
+  "split_seed": 42,
+  "dev_fraction": 0.1,
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "temperature": 0.05,
+  "max_length": 128,
+  "objective": "InfoNCE over batch positives + one rotating existing hard negative per query; duplicate-positive columns masked",
+  "checkpoint_selection": "highest internal issue-disjoint full-app-corpus pooled synthetic-dev MRR",
+  "external_data_used_for_selection": false,
+  "train_queries": 7150,
+  "dev_queries": 794,
+  "train_positive_issues": 7150,
+  "dev_positive_issues": 794,
+  "data_provenance": {
+    "bottom15_dir": "/tmp/bge_ft_training_input/bottom15_llm",
+    "pairs_path": "/tmp/bge_ft_training_input/bottom15_llm/synthetic_pairs_filtered.csv",
+    "triplets_path": "/tmp/bge_ft_training_input/bottom15_llm/training_triplets.csv",
+    "pairs_sha256": "c476252bff38472094ae36b6f22e7c4aad00ebfdce5c4059b2769fd59303db24",
+    "triplets_sha256": "0f2ea63e8532efd2e90e11cfd8835a9b96290b2f1e9321de92e8bc9610c32de1"
+  },
+  "corpus_provenance": {
+    "signal": {
+      "path": "/tmp/bge_ft_training_input/Signal-Android_Mistral_Ready.csv",
+      "sha256": "79bba0a97b0c4f8db5f9664c0985d3c044991b2ab074b376044e7994b6dc8d16",
+      "issues": 2977
+    },
+    "ankidroid": {
+      "path": "/tmp/bge_ft_training_input/Anki-Android_Mistral_Ready.csv",
+      "sha256": "addbf5a8480019e8a520768f1b8b1d08ddc105cf41f492ed6acd0e941da873d0",
+      "issues": 2967
+    },
+    "k9": {
+      "path": "/tmp/bge_ft_training_input/k-9_Mistral_Ready.csv",
+      "sha256": "0c7ce23be71987205761a80a788d988034f5ec91368da3f686c903d40f0efcb2",
+      "issues": 2935
+    },
+    "brave": {
+      "path": "/tmp/bge_ft_training_input/brave_issues.csv",
+      "sha256": "33064cfe0224646bb342168e7542a4f21509778a1030eb1f21e550cd24c89779",
+      "issues": 556
+    }
+  }
+}

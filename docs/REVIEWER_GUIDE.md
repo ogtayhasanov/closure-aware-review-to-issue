@@ -2,13 +2,13 @@
 
 This supplement accompanies *From User Reviews to Grounded Responses: Closure-Reason-Aware Response Generation over Retrieved Software Issues*. It reproduces statistical analyses from frozen categorical decisions, scores and ranks.
 
-Extract the ZIP and open a terminal in the extracted `tosem-artifact` folder. Run the command below with Python 3.10 or later on Windows, macOS or Linux. It uses the standard library, needs a writable temporary directory, and requires no network, model weights or API credentials.
+Run the command below from the repository root with Python 3.10 or later on Windows, macOS or Linux. It uses the standard library, needs a writable temporary directory, and runs offline.
 
 ```sh
-python scripts/verify_submission.py --require-manifest
+python scripts/verify_submission.py
 ```
 
-A successful run reports verified SHA-256 checksums, the data boundary, matching generated results and passing tests. It leaves the packaged tables intact. To retain separate copies of the recomputed results, run the following command.
+A successful run verifies the working-artifact checksums, the text-free data boundary, the generated results and the tests. For the separately packaged snapshot ZIP, add `--require-manifest` after extracting it. To retain separate copies of the recomputed results, run the following command.
 
 ```sh
 python scripts/reproduce_all.py --output ../tosem-recomputed
@@ -23,4 +23,4 @@ python scripts/reproduce_all.py --output ../tosem-recomputed
 | Switch and selected human check | [Reproduction summary](../results/generated/reproduction_summary.json), [agreement](../results/generated/followup_agreement.csv) | Five fair inputs switched. The 24 selected responses give 18/24 judge–human agreement |
 | GitHub provenance sensitivity | [Prevalence results](../results/generated/followup_prevalence.csv) | V1 and V2 aggregate rates for seven GitHub projects |
 
-The [evidence coverage table](RESULTS.md) marks the results that can be recomputed from this snapshot. The DeepMatcher appendix and certain legacy comparisons are included as [manuscript-reported aggregates](../results/reference/manuscript_reported.json). The original human audit, selected follow-up human check and judge-only comparisons are separate endpoints. The [data statement](../DATA_AVAILABILITY.md) describes the source material held outside the package.
+The original human audit, selected follow-up human check and judge-only comparisons are separate endpoints. The evidence coverage table identifies the files supporting each result. The working artifacts include the original DeepMatcher archives, the completed RAW METADATA audit, and the 82 BGE-FT ranks. [Evidence coverage](RESULTS.md) · [Working artifacts inventory](../working_artifacts/README.md)

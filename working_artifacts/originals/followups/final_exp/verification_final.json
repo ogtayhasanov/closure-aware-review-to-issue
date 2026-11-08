@@ -1,0 +1,15 @@
+{
+  "final_generation_responses": 324,
+  "exact_generation_requests_verified": 324,
+  "non_stop_or_blank_final_responses": 0,
+  "core_scores": 324,
+  "routing_scores": 324,
+  "audit_outcome_scores": 140,
+  "audit_routing_scores": 140,
+  "audit_rows": 140,
+  "source_files_unchanged": true,
+  "original_scans_unchanged": true,
+  "gemma_thinking_tokens": 0,
+  "human_sheet_text_preserved": true,
+  "human_labels_analysis": "pending"
+}

@@ -1,0 +1,45 @@
+﻿sheet_id,issue_url,tracker_evidence,response,STATES_OUTCOME
+M001,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it can be when features don't work as expected. The issue you reported regarding the Galaxy S8 not auto-uploading in medium power-saving mode is tracked as Issue #3376 on GitHub. Unfortunately, it was closed due to inactivity and is not currently being addressed. You can view it here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). If you have any additional details or reproduction steps, please share them, as they could help in future discussions.",
+M002,https://github.com/nextcloud/android/issues/4660,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4660
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-01-05T18:35:40Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2020-01-05T18:35:40Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is to experience login issues with the app. The issue you mentioned is tracked as Issue #4660 on GitHub, but it has been closed as it is considered stale. You can view it here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). If you have additional details or reproduction steps, please share them, as they could help in addressing the problem.",
+M003,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is when the autoupload feature doesn't work as expected. The issue you mentioned is tracked as issue #2555 on GitHub, but it has been closed due to inactivity and is not currently being addressed. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). If you have any additional details or reproduction steps, please share them, as they could help in further investigations.",
+M004,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #756915
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-22T14:01:42Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is similar to a previously reported one (Issue #756915) that was closed as ""Works for Me."" Unfortunately, it seems that this specific problem is tracked elsewhere. If you continue to experience this issue, please provide more details such as reproduction steps, app version, device, and any logs. Your input can help us understand the situation better.",
+M005,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #756915
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-22T14:01:42Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you described is similar to a previously reported one (Issue #756915) that was closed as ""works for me"" due to insufficient information for reproduction. We would appreciate it if you could provide more details, such as reproduction steps, your app version, device, and any logs. This will help us investigate further.",
+M006,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you reported regarding the Galaxy S8 not auto-uploading photos in medium power-saving mode is tracked as Issue #3376 on GitHub. It was closed due to being stale and needing further information. You can view it here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). If you have additional details or reproduction steps, please share them, as they could help in further discussions.",
+M007,https://github.com/nextcloud/android/issues/4660,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4660
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-01-05T18:35:40Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2020-01-05T18:35:40Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is to experience login issues with the app. The issue you mentioned, related to app crashes on login, is tracked under issue #4660 on GitHub, but it has been closed as abandoned and not fixed. You can view it here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). If you have additional details or reproduction steps, please share them, as they could help in addressing the problem.",
+M008,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you're experiencing with autoupload has been previously reported and is tracked under issue #2555 on GitHub. Unfortunately, this issue has been closed as it was marked stale. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). If you have additional details or reproduction steps, please share them, and we can look into it further.",

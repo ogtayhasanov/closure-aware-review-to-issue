@@ -1,0 +1,14 @@
+{
+  "seed": 20261024,
+  "audit_cases": 35,
+  "response_rows": 140,
+  "responses_per_arm": 35,
+  "ASKS_DETAILS_applicable_rows": 64,
+  "SAYS_DUPLICATE_applicable_rows": 28,
+  "issue_url_missing_rows": 100,
+  "taxonomy_class_used_as_correctness_gold": false,
+  "excluded_issue": "nextcloud/android#2131",
+  "sheet_sha256_before_labels": "170da195b6073ac6b0e1e670c66a1ef0f2dbb11a47002828c759ae698e8eb410",
+  "key_sha256": "9842f64d21669d6d1afb2a266e0db4b2bc4608bd967cbad062a7b61e3281b4dc",
+  "lexical_score_sha256": "9f5907aa2d87be11da472da6da77adf4cd6f4133f547f1fd0da14ae5747bf9e6"
+}

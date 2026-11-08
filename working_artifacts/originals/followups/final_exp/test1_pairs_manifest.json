@@ -1,0 +1,29 @@
+{
+  "selection_plan_commit": "45b12fd8ae8df5978d68f326a17f992a35cc9f61",
+  "seed": 20261024,
+  "test": "1: TAXONOMY-ONLY versus raw_metadata on primary-judge STATES_OUTCOME",
+  "discordant_pairs": 12,
+  "response_rows": 24,
+  "required_human_answers": 24,
+  "label_columns": [
+    "STATES_OUTCOME"
+  ],
+  "arm_hidden": true,
+  "original_text_preserved": true,
+  "prior_sheets_and_scores_unchanged": true,
+  "response_rows_per_arm": 12,
+  "excluded_case": "nextcloud/android#2131",
+  "new_model_calls": 0,
+  "sheet_sha256": "1708efb8da45038c98965c5bc337a8f36d43826293645244faa3e9cff765e244",
+  "key_sha256": "cc8631779525d07c48c11b5738445224f8f79ffa4be88b66ba18f5666dd4ccc8",
+  "source_sha256": {
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\audit_sheet.csv": "170da195b6073ac6b0e1e670c66a1ef0f2dbb11a47002828c759ae698e8eb410",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\audit_key.csv": "9842f64d21669d6d1afb2a266e0db4b2bc4608bd967cbad062a7b61e3281b4dc",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\audit_primary_scores.csv": "57af5ba9c0f9eedd49aa437bc72124634795dd1a731bd50ea8ed4834b3bbe304",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\primary_paired_tests.csv": "cff2471a514c0c6a7bce8ef753c898cfd81cba001d9165e01975ac473517080f",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\auto_scores.csv": "f667d66c32cd392fc007336f3312108351a55dc6f1c6463d83bd6e775a86e96c",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\responses_taxonomy_only_gpt-4o-mini-2024-07-18.jsonl": "7c2d41850b7db1c66444b31df8b990061f2847946fc84d78d7d84cefb824e5fd",
+    "C:\\Users\\Ogtay\\Documents\\Codex\\2026-10-24\\check-x20\\outputs\\final_exp\\responses_taxonomy_only_gemma-4-26b-a4b-it.jsonl": "d4983cf09c875d499d3029f0a280b9b71e3b4fcc599143ab74dcfc1c6cbcbdcc"
+  },
+  "selection_limitation": "Judge-discordant subset only; not a representative full-population check."
+}

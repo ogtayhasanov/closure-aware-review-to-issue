@@ -1,0 +1,12 @@
+# Optional dependencies used by retained full-compute scripts.
+pandas>=2.2,<3
+numpy>=2,<3
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+torch>=2.4,<3
+transformers>=4.50,<6
+sentence-transformers>=3,<6
+rank-bm25>=0.2.2,<1
+openai>=1.50,<3
+modal>=1,<2
+

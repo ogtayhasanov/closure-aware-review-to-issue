@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Riyadh",
+  "written_at_utc": "2026-10-24T18:54:14.979376+00:00",
+  "preregistration_commit": "e0bf6d93f8c5447d2e5ff1d782228c8204490867",
+  "git_commit": "e639c1edcc04a28ef802ba69c08b04bde3d5e988",
+  "model_ids_returned": {
+    "A": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "B": [
+      "gemma-4-26b-a4b-it"
+    ],
+    "judge": [
+      "gpt-5.4-nano-2026-03-17"
+    ]
+  },
+  "models_requested": {
+    "A": "gpt-4o-mini-2024-07-18",
+    "B": "gemma-4-26b-a4b-it",
+    "judge": "gpt-5.4-nano"
+  },
+  "providers": {
+    "A": "OpenAI",
+    "B": "Google AI Studio native API",
+    "judge": "OpenAI"
+  },
+  "generation_settings": {
+    "A": {
+      "temperature": 0,
+      "max_tokens": 220,
+      "seed": 20261020
+    },
+    "B": {
+      "temperature": 0,
+      "max_tokens": 220,
+      "seed": null,
+      "seed_requested_by_original_script": 20261020,
+      "seed_supported_by_openai_compatibility_endpoint": false,
+      "thinking_level": "minimal",
+      "transport_adapter": "Google native API; identical message texts, temperature and output limit"
+    }
+  },
+  "judge_settings": {
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_completion_tokens": 80
+  },
+  "main_rerun_transport_note": "Original main script byte-unchanged; its seed log is the requested seed. Actual Google API seed is null; native request ledger is authoritative.",
+  "sample_seed": 20261024,
+  "blind_seed": 20261024,
+  "generation_order_seed": 20261024,
+  "system_prompt_sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+  "source_files_unchanged": {
+    "C:\\Users\\Ogtay\\Desktop\\test\\bot_closure_test.md": true,
+    "C:\\Users\\Ogtay\\Desktop\\test\\closure_provenance.py": true,
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\rq3_protocol.py": true,
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\run_rq3.py": true,
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\new_responses_246.jsonl": true,
+    "C:\\Users\\Ogtay\\Downloads\\TOSEM_RQ3_Run\\tosem_rq3_fair\\private_working\\real_82_native_staged.jsonl": true,
+    "C:\\Users\\Ogtay\\Downloads\\run_haring_rrf_frozen_e2e.py": true
+  },
+  "system_prompt_exact_file": "system_prompt_exact_utf8.txt",
+  "judge_prompt_exact_file": "judge_prompt_exact_utf8.txt",
+  "counts_per_jsonl": {
+    "attempts_A.jsonl": 320,
+    "attempts_B.jsonl": 323,
+    "execution_sources.jsonl": 1,
+    "google_transport_ledger.jsonl": 566,
+    "inputs.jsonl": 320,
+    "issue_bodies.jsonl": 80,
+    "judge_attempts.jsonl": 1132,
+    "judgments.jsonl": 1132,
+    "main_rerun_invocations.jsonl": 1,
+    "main_responses_gemma.jsonl": 246,
+    "request_failures.jsonl": 5,
+    "responses_gemma-4-26b-a4b-it.jsonl": 320,
+    "responses_gpt-4o-mini-2024-07-18.jsonl": 320,
+    "sample_records.jsonl": 80
+  },
+  "counts_per_file": {
+    ".gitignore": {
+      "bytes": 29,
+      "lines": 3
+    },
+    "amendment_20261024.md": {
+      "bytes": 3346,
+      "lines": 19
+    },
+    "analyze.py": {
+      "bytes": 12549,
+      "lines": 175
+    },
+    "attempts_A.jsonl": {
+      "bytes": 724528,
+      "lines": 320,
+      "records": 320
+    },
+    "attempts_B.jsonl": {
+      "bytes": 842611,
+      "lines": 323,
+      "records": 323
+    },
+    "blind_key.csv": {
+      "bytes": 53814,
+      "lines": 340,
+      "records": 339
+    },
+    "blind_sheet.csv": {
+      "bytes": 131529,
+      "lines": 446,
+      "records": 339
+    },
+    "build_sample.py": {
+      "bytes": 6052,
+      "lines": 114
+    },
+    "checkpoint1.md": {
+      "bytes": 19983,
+      "lines": 650
+    },
+    "completion_audit.json": {
+      "bytes": 701,
+      "lines": 40
+    },
+    "duplicate_scan_rows.csv": {
+      "bytes": 23,
+      "lines": 1,
+      "records": 0
+    },
+    "exclusions.csv": {
+      "bytes": 884331,
+      "lines": 18211,
+      "records": 18210
+    },
+    "execution_sources.jsonl": {
+      "bytes": 495,
+      "lines": 1,
+      "records": 1
+    },
+    "fetch_failures.json": {
+      "bytes": 3,
+      "lines": 1
+    },
+    "finalize.py": {
+      "bytes": 7528,
+      "lines": 121
+    },
+    "follow_judging.py": {
+      "bytes": 1327,
+      "lines": 36
+    },
+    "google_transport.py": {
+      "bytes": 3373,
+      "lines": 57
+    },
+    "google_transport_ledger.jsonl": {
+      "bytes": 1773625,
+      "lines": 566,
+      "records": 566
+    },
+    "human_audit_readme.md": {
+      "bytes": 1318,
+      "lines": 15
+    },
+    "inputs.jsonl": {
+      "bytes": 469356,
+      "lines": 320,
+      "records": 320
+    },
+    "issue_bodies.jsonl": {
+      "bytes": 152832,
+      "lines": 80,
+      "records": 80
+    },
+    "judge_attempts.jsonl": {
+      "bytes": 950195,
+      "lines": 1132,
+      "records": 1132
+    },
+    "judge_prompt.txt": {
+      "bytes": 601,
+      "lines": 4
+    },
+    "judge_prompt_exact_utf8.txt": {
+      "bytes": 598,
+      "lines": 4
+    },
+    "judgments.jsonl": {
+      "bytes": 1247546,
+      "lines": 1132,
+      "records": 1132
+    },
+    "lexical.py": {
+      "bytes": 2825,
+      "lines": 49
+    },
+    "main_rerun_invocations.jsonl": {
+      "bytes": 130,
+      "lines": 1,
+      "records": 1
+    },
+    "main_responses_gemma.jsonl": {
+      "bytes": 272247,
+      "lines": 246,
+      "records": 246
+    },
+    "metadata_drift.json": {
+      "bytes": 2,
+      "lines": 1
+    },
+    "preparation_manifest.json": {
+      "bytes": 3136,
+      "lines": 44
+    },
+    "prepare_inputs.py": {
+      "bytes": 13392,
+      "lines": 178
+    },
+    "provenance_summary.txt": {
+      "bytes": 5609,
+      "lines": 82
+    },
+    "provider_probe.json": {
+      "bytes": 1560,
+      "lines": 62
+    },
+    "provider_probe.py": {
+      "bytes": 1509,
+      "lines": 33
+    },
+    "rates.csv": {
+      "bytes": 3470,
+      "lines": 49,
+      "records": 48
+    },
+    "request_failures.jsonl": {
+      "bytes": 1879,
+      "lines": 5,
+      "records": 5
+    },
+    "responses_gemma-4-26b-a4b-it.jsonl": {
+      "bytes": 834799,
+      "lines": 320,
+      "records": 320
+    },
+    "responses_gpt-4o-mini-2024-07-18.jsonl": {
+      "bytes": 724528,
+      "lines": 320,
+      "records": 320
+    },
+    "results.md": {
+      "bytes": 7053,
+      "lines": 97
+    },
+    "run_experiment.py": {
+      "bytes": 13518,
+      "lines": 262
+    },
+    "sample.csv": {
+      "bytes": 17178,
+      "lines": 81,
+      "records": 80
+    },
+    "sample_records.jsonl": {
+      "bytes": 63523,
+      "lines": 80,
+      "records": 80
+    },
+    "sample_report.json": {
+      "bytes": 953,
+      "lines": 43
+    },
+    "statistics.json": {
+      "bytes": 2456,
+      "lines": 108
+    },
+    "summary_by_repo.csv": {
+      "bytes": 1099,
+      "lines": 8,
+      "records": 7
+    },
+    "system_prompt.txt": {
+      "bytes": 848,
+      "lines": 11
+    },
+    "system_prompt_exact_utf8.txt": {
+      "bytes": 838,
+      "lines": 11
+    },
+    "v1_to_v2_changes.csv": {
+      "bytes": 439,
+      "lines": 10,
+      "records": 9
+    }
+  },
+  "sha256_per_output_file": {
+    ".gitignore": "978c021e19a20b2bfd2c428304c145f23e41118c6b9f33a1776334a66db8d587",
+    "amendment_20261024.md": "eb1abbeaf6adade1b35248a44ceabc831b582f5c7dd83bccb60558c68bdc88fb",
+    "analyze.py": "8961bee400aacf86b1074473b3e9075ed5f0e7fc8766e9de59f9d64becd791d5",
+    "attempts_A.jsonl": "b190a82382cf373b858ad10cd479477b1e5297f945897c4a13479306381e75c7",
+    "attempts_B.jsonl": "940280f89ccda52d432efa83f959f1590a043614b6e98d7e87a3822920a06ccf",
+    "blind_key.csv": "edde642cc3c9f39e5a321604559669c9ee0e650fde0e470669224987f4369270",
+    "blind_sheet.csv": "7d635b0f41f7311b86648f232eac0ed0ed7ee3e7193fe769d9f056d93880c276",
+    "build_sample.py": "eb358b9eda2e08d23b4da76e7eb7180880f171555db0c3ceb502c1d512db27dd",
+    "checkpoint1.md": "2c3e551aec6c032338d30debf205168876becd381355d82a5eabb5d2a684b8b5",
+    "completion_audit.json": "f781a7c75cca955a623db15e2069652e4e5edbfef87306c975bbd897eb68ac9f",
+    "duplicate_scan_rows.csv": "868747c6d4bce37b4bb4a2ded968000aa03adb2c8d52deb24a479d605f0ab129",
+    "exclusions.csv": "683bef0ce867babbbbf82d9363b4ce11b09d6bf770fab8f34e944f33a2629bab",
+    "execution_sources.jsonl": "f4496758d669c959a2de7e77e87b1f09cfabca7369d0d69ee334b95c8afaa3d8",
+    "fetch_failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "finalize.py": "3ec26e4dd6fa70170d7b530b23f34dbb6a3d6cf62a6ddddf56df90c51a6a7479",
+    "follow_judging.py": "e8ac89772fb5e7409b17838d7ed1c44bdd7c1291be78fd4a0caac4ea02fc5859",
+    "google_transport.py": "e33786a2af4162464334522bae74094fe1f93f11ca16fe90dc5c59ade55a29af",
+    "google_transport_ledger.jsonl": "0dbebe006125bc18bd40e721c8a315ccca2575b16e5d0356b5c2a2267efc5c4a",
+    "human_audit_readme.md": "0211271b5cc05ccc5bb3d1b44b48aacdeecb1d159c9ca5f36c7476ea94b6856b",
+    "inputs.jsonl": "584f97bb99e08a386c796dcd8c004d96f913538003ecf12b8f8c8f18c00370e9",
+    "issue_bodies.jsonl": "b74ab2d418957b56faae061b43ce67fd5d56f4304c49eb56a29b0e156c0d656c",
+    "judge_attempts.jsonl": "f209864a8d8bb2f31f782d8eae9509fc969d09b2c43706eaa163261469385293",
+    "judge_prompt.txt": "029841fb2271e19a48c285f7b5f170494c1335ee8190fb06073dc5c32c55d68c",
+    "judge_prompt_exact_utf8.txt": "31fc1ebb53dd427882d3a972cbd19504b07551800d45cf78e4ec4e281bc201ef",
+    "judgments.jsonl": "e499db1bcab18f431b151c3e985019fe8bcdcad9e04b02aaca94af1592722f6c",
+    "lexical.py": "eaadfe6c2e914fd037d759e8c865c46fd1ce2ae9627dcfa74d4799dfbe566c2d",
+    "main_rerun_invocations.jsonl": "73f00f125664bfc9c729131418da68e20c8e3e91374e1cc42a0c576f0ed98837",
+    "main_responses_gemma.jsonl": "ee4295cb6a799247080a9a18b594a41b1a4d2d0dcce833124b5860c246cfdfc9",
+    "metadata_drift.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "preparation_manifest.json": "7fce4957b64ce308b8fade2c464ed32c6bab89cecef4096a59bd8f12fc70fd11",
+    "prepare_inputs.py": "f0c555be0686a25efc5440bce8fa32b3b14f1e9c56c64602dec6d1e747aefe2c",
+    "provenance_summary.txt": "c9b490ba68171e999895fddfaaac6855b54b066d456e359d813bea4bd241f06c",
+    "provider_probe.json": "6ede80d695fb6fdfc06e15b1e58fdcd77cba4584866066361be9a835f19a20db",
+    "provider_probe.py": "12d3d40359eaebafedc75a79966507650a32adfc831acb9fdc79283fbcf69d88",
+    "rates.csv": "6c9dcdd20d80df78587558120bd6cc077e4f2ba7a9525caf8cfc4ad3a60f57b5",
+    "request_failures.jsonl": "f1a1adb50ace5cb004f72960c77702b1918177c7acfa973c63510a96edb06663",
+    "responses_gemma-4-26b-a4b-it.jsonl": "7e974e250ca24057bbb7bb5780ca904c42cf0968963e3f7627d3dcc37770ca29",
+    "responses_gpt-4o-mini-2024-07-18.jsonl": "c6c87412b3bbe6d02847a2e2fe96f4f65542048a24ceffdfdb407fa83832a253",
+    "results.md": "56c77a490f1bf589bd70f916fd26f362c9a006b8527a8b4f8dd4c44d9780358f",
+    "run_experiment.py": "a4ade585dda90d5a4a3272f98931afa4e19a3ddd48c20178aeddf430b72e3d2f",
+    "sample.csv": "834413ce68b6664945dd66fe3994a295b6df49cbc0954cf61e61378a915b16ef",
+    "sample_records.jsonl": "7d52d4c525c9debc3cde77bc5ccd0c5fcc6313d8bb17dc5c95bf93e237b73a51",
+    "sample_report.json": "2edbc744c45a76fa80276022882db56ed85b3ed12dba6916700e8b39bedee6f1",
+    "statistics.json": "ec5cfec40ad72097a8873e22917afd1b1ecc381ff3d864ab9594ec7d7b467a89",
+    "summary_by_repo.csv": "81184202d92a0c786df74d9fd64ae53d3585a4f978db7a90b5e5695e1f0969a6",
+    "system_prompt.txt": "146b76447ec81dde7926af605d53db03254716854bb061e14d140843f152c4d9",
+    "system_prompt_exact_utf8.txt": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+    "v1_to_v2_changes.csv": "8673a287bba751ab7c005608ae678a6173545ac894133cfe6092cd6e75073d2f"
+  },
+  "costs": {
+    "A": {
+      "input_tokens": 160953,
+      "output_tokens": 28225,
+      "estimated_usd_without_cache_discount": 0.041077949999999995
+    },
+    "judge": {
+      "input_tokens": 254673,
+      "output_tokens": 29432,
+      "estimated_usd_without_cache_discount": 0.0877246
+    }
+  },
+  "total_estimated_openai_usd_without_cache_discount": 0.12880255,
+  "limitations": [
+    "Human blind audit pending; automated results provisional.",
+    "Judge and Model A share OpenAI as provider, per approved amendment.",
+    "Original specific-closure-reason-conveyed checker not located; endpoint remains unavailable."
+  ],
+  "private_files": "Encrypted credentials are excluded from Git, hashes, copies and manifests."
+}

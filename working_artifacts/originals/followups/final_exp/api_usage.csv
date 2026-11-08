@@ -1,0 +1,7 @@
+﻿stage,billed_attempts_recorded,prompt_tokens,completion_tokens,total_tokens
+generation_A,162,74056,13500,87556
+generation_B,162,81910,13156,95066
+judge_core,324,72772,8424,81196
+judge_routing,324,78928,6804,85732
+judge_audit,140,60736,2800,63536
+judge_audit_routing,105,25567,2205,27772

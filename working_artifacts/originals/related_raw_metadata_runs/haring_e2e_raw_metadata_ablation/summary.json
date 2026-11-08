@@ -1,0 +1,101 @@
+{
+  "created_at_utc": "2026-08-08T12:04:11.484680+00:00",
+  "n_cases": 45,
+  "three_arm_metrics": [
+    {
+      "system": "closure_aware",
+      "n": 45,
+      "status_correct": 0.9555555555555556,
+      "hallucination": 0.0,
+      "relevant_to_review": 1.0,
+      "mean_faithfulness": 0.6555555555555556,
+      "mean_specificity": 0.5444444444444444,
+      "mean_usefulness": 0.3488888888888889,
+      "mean_empathy": 0.3888888888888889,
+      "mean_actionability": 0.3
+    },
+    {
+      "system": "raw_metadata",
+      "n": 45,
+      "status_correct": 0.8,
+      "hallucination": 0.022222222222222223,
+      "relevant_to_review": 1.0,
+      "mean_faithfulness": 0.6,
+      "mean_specificity": 0.4111111111111111,
+      "mean_usefulness": 0.33999999999999997,
+      "mean_empathy": 0.3933333333333333,
+      "mean_actionability": 0.25555555555555554
+    },
+    {
+      "system": "binary_state",
+      "n": 45,
+      "status_correct": 0.37777777777777777,
+      "hallucination": 0.044444444444444446,
+      "relevant_to_review": 1.0,
+      "mean_faithfulness": 0.18888888888888888,
+      "mean_specificity": 0.1,
+      "mean_usefulness": 0.08888888888888889,
+      "mean_empathy": 0.2711111111111111,
+      "mean_actionability": 0.07777777777777778
+    }
+  ],
+  "raw_vs_closure": [
+    {
+      "system_a": "closure_aware",
+      "system_b": "raw_metadata",
+      "metric": "judge_status_correct",
+      "pairs": 45,
+      "a_only_successes": 9,
+      "b_only_successes": 2,
+      "exact_mcnemar_p": 0.0654296875
+    },
+    {
+      "system_a": "closure_aware",
+      "system_b": "raw_metadata",
+      "metric": "no_hallucination",
+      "pairs": 45,
+      "a_only_successes": 1,
+      "b_only_successes": 0,
+      "exact_mcnemar_p": 1.0
+    },
+    {
+      "system_a": "closure_aware",
+      "system_b": "raw_metadata",
+      "metric": "judge_relevant_to_review",
+      "pairs": 45,
+      "a_only_successes": 0,
+      "b_only_successes": 0,
+      "exact_mcnemar_p": 1.0
+    }
+  ],
+  "raw_vs_binary": [
+    {
+      "system_a": "raw_metadata",
+      "system_b": "binary_state",
+      "metric": "judge_status_correct",
+      "pairs": 45,
+      "a_only_successes": 19,
+      "b_only_successes": 0,
+      "exact_mcnemar_p": 3.814697265625e-06
+    },
+    {
+      "system_a": "raw_metadata",
+      "system_b": "binary_state",
+      "metric": "no_hallucination",
+      "pairs": 45,
+      "a_only_successes": 2,
+      "b_only_successes": 1,
+      "exact_mcnemar_p": 1.0
+    },
+    {
+      "system_a": "raw_metadata",
+      "system_b": "binary_state",
+      "metric": "judge_relevant_to_review",
+      "pairs": 45,
+      "a_only_successes": 0,
+      "b_only_successes": 0,
+      "exact_mcnemar_p": 1.0
+    }
+  ],
+  "interpretation_rule": "If closure-aware substantially outperforms raw_metadata on status correctness, the gain cannot be attributed merely to exposing raw tracker metadata; it supports the value of the normalized closure abstraction plus action policy."
+}

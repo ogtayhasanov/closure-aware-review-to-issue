@@ -1,0 +1,10 @@
+﻿cohort,arm,cases,missing_info_or_cannot_reproduce_closure_signal,duplicate_closure_signal,incomplete_template_fields_hint,canonical_duplicate_target_present
+ALL,binary_state,82,0,0,9,0
+ALL,raw_metadata,82,19,7,9,0
+ALL,closure_aware,82,19,7,9,0
+NEEDS_INFO,binary_state,16,0,0,3,0
+NEEDS_INFO,raw_metadata,16,16,0,3,0
+NEEDS_INFO,closure_aware,16,16,0,3,0
+REDIRECTED,binary_state,7,0,0,0,0
+REDIRECTED,raw_metadata,7,0,7,0,0
+REDIRECTED,closure_aware,7,0,7,0,0

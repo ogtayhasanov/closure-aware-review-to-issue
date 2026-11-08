@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-08-08T15:00:25.426455+00:00",
+  "experiment": "Final-RRF same-evidence three-way generation comparison",
+  "retriever": "frozen RRF60(BGE-ZS + BM25), issue title retrieval",
+  "queries": 82,
+  "systems": [
+    "closure_aware",
+    "raw_metadata",
+    "binary_state"
+  ],
+  "closure_arm": "reused exactly from completed RRF closure-aware run",
+  "new_arms": [
+    "raw_metadata",
+    "binary_state"
+  ],
+  "model": "gpt-4o-mini",
+  "temperature": 0,
+  "new_model_calls_expected": 328,
+  "primary_status_family": {
+    "subset": "RRF-retrieved non-resolved closed evidence",
+    "tests": [
+      "closure_aware vs binary_state"
+    ],
+    "metric": "judge_status_correct",
+    "test": "two-sided exact McNemar",
+    "multiplicity": "single primary endpoint; no adjustment required",
+    "frozen_before_new_binary_arm_generated": true
+  },
+  "raw_metadata_status": "POST-HOC EXPLORATORY confound check; retain this status even though the RRF-evidence replication is frozen before generating the new arm",
+  "all_82_rates": "descriptive final-configuration comparison",
+  "hallucination": "secondary/descriptive on real reviews",
+  "note": "This run exists to remove the evidence-retriever mismatch in the manuscript. It does not rerun retrieval or tune prompts after outcomes."
+}

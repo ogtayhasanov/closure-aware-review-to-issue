@@ -1,0 +1,2102 @@
+human_l1,human_subtype,notes,app,number,state_reason,labels,title,body,closed_at
+RESOLVED,,,Signal,10999,completed,,Use of Recaptcha when google play services disabled breaks expectation of Google-free privacy,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue.
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case.
+
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests.
+
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:
+https://community.signalusers.org
+
+If you are looking for support, please visit our support center:
+https://support.signal.org/
+or email support@signal.org
+
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-03-28 15:46:41+00:00
+RESOLVED,,,AnkiDroid,19785,completed,,New study screen: add option to put toolbar on top in big screens,,2026-01-09 22:25:58+00:00
+RESOLVED,,,Signal,9600,completed,,Unsafe cryptographic encryption patterns in method deriveAccessKeyFrom,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2020-05-21 13:28:42+00:00
+RESOLVED,,,Signal,12753,completed,,"Filtered view is not dismissed when there are no more ""unread"" messages ","<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2023-01-27 16:33:45+00:00
+RESOLVED,,,Signal,14430,completed,,Cannot mark messages from group chats as read from notification,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+For most chats, I can mark messages as read directly from the notification. Except for group chats in which only admins can send messages. For those, I have to open the chat to mark messages as read.
+
+It makes sense that the reply button is missing (since I can't send messages to this group chat), but I think the ""Mark as read"" button should still be there.
+
+### Screenshots
+
+<img width=""1024"" height=""1468"" alt=""Image"" src=""https://github.com/user-attachments/assets/61910ca5-40b5-4603-b15d-ae5aff501e0c"" />
+
+### Device
+
+Samsung Galaxy S23
+",2026-03-20 12:22:11+00:00
+RESOLVED,,,Signal,13853,completed,,Camera/Gallery Screens can be added to Stack Multiple Times.,"### Guidelines
+
+- [X] I have searched searched open and closed issues for duplicates
+- [X] I am submitting a bug report for existing functionality that does not work as intended
+- [X] This isn't a feature request or a discussion topic
+
+### Bug description
+
+Steps to reproduce:_x000D_
+1. Click on Camera from Chats Screen_x000D_
+2. In camera screen Click on Gallery Option._x000D_
+3. In, gallery Option, Click on Top right Corner's Camera Icon._x000D_
+4. This will navigate the user to the same Camera screen._x000D_
+_x000D_
+Possible solutions:_x000D_
+1. Do not show the Camera Icon in the galley, if the navigation was done from the Camera screen itself. Can be easily Implemented with a Flag. Same needs to be done for the camera screen, if the user is navigated to the camera screen FROM the Gallery screen then DO not show the gallery opti",2025-04-14 00:20:25+00:00
+RESOLVED,,,Signal,13754,completed,,Cannot get reproducible build to match,"### Guidelines
+
+- [X] I have searched searched open and closed issues for duplicates
+- [X] I am submitting a bug report for existing functionality that does not work as intended
+- [X] This isn't a feature request or a discussion topic
+
+### Bug description
+
+I tried checking that my installed android app (from Play Store) matches a local reproducible build. It didn't seem to match._x000D_
+_x000D_
+I might be overlooking something obvious, please bear with me if that is the case. I'm not very experienced with apks._x000D_
+_x000D_
+The app on the device reports version 7.20.2. The pulled base apk and git repo are:_x000D_
+```_x000D_
+❯ sha256sum play/base.apk_x000D_
+d17bc0f622d72a1ad65388814e50eaa2167288bc5cb6f4bd3f1f9110e32d44cc  play/base.apk_x000D_
+❯ git describe_x000D_
+v7.20.2_x000D_
+```_x000D_
+_x000D_
+The build worked fine. When I compared the result with apkdiff",2024-10-31 17:27:06+00:00
+RESOLVED,,,Signal,12150,completed,,Speakerphon only,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-04-12 11:44:47+00:00
+RESOLVED,,,Signal,10404,completed,,#000000 not available for dark mode,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2021-01-11 04:56:36+00:00
+RESOLVED,,,Signal,10256,completed,,"Can't send messages to contact after ""Safety Number Changes""","<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2021-08-09 21:36:43+00:00
+RESOLVED,,,Signal,14102,completed,,"Deleting chats, messages, or media results in hang and unable to send messages","### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+7.40.2 on Pixel 5 with Android UP1A.231105.001.B2.
+
+When I try to delete a conversion, or an individual message, or any media (from Settings -> Storage), I see a pop-up with a spinner and ""Deleting"". After a few seconds it just hangs.
+
+I have to restart the app but the content is still not deleted.
+
+This is NOT transient and I can repro it very consistently.
+
+### Screenshots
+
+_No response_
+
+### Device
+
+Pixel 5
+
+### Android version
+
+14
+
+### Signal version
+
+7.40.2
+
+### Link to debug log
+
+Unable to get these. I just see a spinner from the d",2025-04-26 16:12:23+00:00
+RESOLVED,,,Signal,14386,completed,,Message to a single contact can't be sent even after AWS recovery,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+After this morning’s AWS outage, most of my pending messages were sent successfully.
+However, messages to one specific contact remain stuck in the ""pending"" state (displayed as ""Ausstehend"" in German). 
+
+Strangely, one of these pending messages were received by the contact, while most were not.
+Messages sent from my PC are sending and syncing to my mobile device as usual, and I can receive new messages from this contact without any issues. The problem only affects outgoing messages to this particular contact from my phone.
+
+Stopping the ",2025-10-20 17:04:26+00:00
+RESOLVED,,,Signal,13194,completed,,Signal chrashes when I try to select a sticker,"Hi,_x000D_
+_x000D_
+Signal crashes when I want to send a sticker._x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ones [x] accordingly. -->_x000D_
+_x000D_
+- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+Since I installed some sticker packs, signal crashes shortly after I open the sticker picker._x000D_
+It also crashes when a sticker is suggested according to the smiley which I chose._x000D_
+_x000D_
+### Steps to reproduce_x000D_
+Open sticker picker_x000D_
+_x000D_
+**Actual result:** Sticker ",2023-09-28 16:49:50+00:00
+RESOLVED,,,Signal,14709,completed,,Signal can't access media when trying to post a status,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+I just upgraded signal to 8.7.0. When I try to post a new status (media) signal says it has limited access to the media and it can't show any media file. (and there's manage button which does nothing when clicking on it). 
+P.S: I can access the media on chat. 
+
+### Screenshots
+
+_No response_
+
+### Device
+
+Xiaomi 13t 
+
+### Android version
+
+15
+
+### Signal version
+
+8.7.0
+
+### Link to debug log
+
+_No response_",2026-04-13 20:16:25+00:00
+RESOLVED,,,Signal,12408,completed,acknowledged,Turning off display stops voice message recording ,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-12-20 15:08:34+00:00
+RESOLVED,,,AnkiDroid,17693,completed,Needs Triage,Audio Plays Automatically When it Shouldn't,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. Turn off audio playing automatically in deck options.
+2. View a note with audio in note editor and open it in previewer. (I've tried the preview option from the browser's menu but can't reproduce the issue there.)
+
+### Expected behaviour
+
+Audio plays automatically when it shouldn't.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.21alpha4 (ce369b478238f93e3a47d7a7f4753729fa934c0c)
+
+Backend Version = 0.1.48-anki24.11 (24.11 c47638ca36f99dd4f3b81ae82d964aec66e392e0)
+
+Android Version = 11 (SDK 30)
+
+ProductFlavor = full
+
+Manufacturer = realme
+
+Model = RMX2193
+
+Hard",2025-01-06 13:17:11+00:00
+RESOLVED,,,Signal,14010,completed,,Outdated copyrights in ReadMe file,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [ ] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+Hello,
+Just wanted to warn you about the fact that in the [Licence section](https://github.com/signalapp/Signal-Android/?tab=readme-ov-file#license) of the ReadMe of this project (Signal-Android), the copyrights years stop to 2024.
+
+### Screenshots
+
+_No response_
+
+### Device
+
+_No response_
+
+### Android version
+
+_No response_
+
+### Signal version
+
+_No response_
+
+### Link to debug log
+
+_No response_",2025-02-24 18:40:57+00:00
+RESOLVED,,,Signal,13708,completed,,Sending Images does not work,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2024-09-24 18:24:12+00:00
+RESOLVED,,,Signal,11437,completed,,Downgrade,"How do I downgrade to previous versions of signal? Recent changes to inserting gifs and using the gallery are awful. Please stop changing the UI, it just keeps getting worse. ",2021-07-06 13:25:23+00:00
+RESOLVED,,,AnkiDroid,16517,completed,Priority-Low,[Enhancement] Extract magic build numbers to Version Catalog,"idle thought - is there a way to use the gradle version catalog to contain these magic numbers? (compileSdk / minSdk / targetSdk / compileOptions compatibility / kotlinOptions jvmTarget)_x000D_
+_x000D_
+They are repeated a bunch_x000D_
+_x000D_
+_Originally posted by @mikehardy in https://github.com/ankidroid/Anki-Android/pull/16498#discussion_r1621067466__x000D_
+            ",2024-06-16 08:37:37+00:00
+RESOLVED,,,AnkiDroid,18555,completed,"UI, 2.20",Template editor buttons disappear when having more than 3 card types,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. Have at least 4 card types in a note type.
+2. Tap on the card names (e.g ""Card 5"") to switch between them.
+3. The buttons flicker and sometimes they just disappear.
+
+![Image](https://github.com/user-attachments/assets/93ba7fb4-8611-4d05-8db6-ed0baa7982f5)
+
+### Expected behaviour
+
+No flickering nor disappearing buttons.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.21alpha21 (8d0083c75200857df2811474bc1fa774b1a788e1)  
+Backend Version = 0.1.54-anki25.02.7 (25.02.7 98253c81cb3c4d203acec48d6eae6b488bf484d0)  
+Android Version = 13 (SDK 33)  
+ProductFlavor = full ",2026-01-03 16:38:18+00:00
+RESOLVED,,,AnkiDroid,18596,completed,2.21,Tags dialog is too big,"v2.21alpha22 vs v2.20.1:
+
+![Image](https://github.com/user-attachments/assets/fd474b1c-522d-46fd-ae2d-949588647cac)
+
+Edit: the same is true for the change column dialog.
+
+![Image](https://github.com/user-attachments/assets/ec963da6-1861-4dbd-a766-5a6dab0f7af4)",2025-06-26 12:36:01+00:00
+RESOLVED,,,AnkiDroid,19768,completed,Needs Triage,[New Study Screen]: On-screen timer does not pause when AnkiDroid is in the background,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+The on-screen timer works as expected if AnkiDroid is in use when the maximum answer seconds is reached. It does not pause if the Recent Apps or Home buttons are pressed during a review and AnkiDroid is left running in the background. 
+
+The total study time doesn't appear to be affected by the seemingly longer review times, so this might be a visual bug.
+
+<img width=""478"" height=""1035"" alt=""Image"" src=""https://github.com/user-attachments/assets/962defbe-7cf1-4979-a0c0-ef5038b15f7e"" />
+
+Here's an instance where I stepped away from AnkiDroid and came back to a 90 m",2025-12-14 00:07:16+00:00
+RESOLVED,,,Signal,9512,completed,,Country changed its name,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2021-10-08 13:56:10+00:00
+RESOLVED,,,Signal,11883,completed,,Crash when clicking on a message with text and sticker,"- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+Third party clients can send messages to Signal-Android, that contain a message text and a sticker._x000D_
+That message is displayed with only the text (no sticker image) and without a bubble background, which is probably fine as this isn't supported by official Signal clients._x000D_
+_x000D_
+But when clicking on the message, Signal-Android crashes, which shouldn't happen:_x000D_
+```_x000D_
+2022-01-03 11:38:15.332 14717-14717/? E/SignalUncaughtExce",2022-01-03 16:19:40+00:00
+RESOLVED,,,AnkiDroid,15790,completed,"Bug, Needs Triage, 2.17","[BUG]: Deck options shows blank screen - impossible to edit deck options, AnkiDroid ignores deck options synchronized through AnkiWeb.","### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### What are the steps to reproduce this bug?
+
+Run AnkiDroid, enter any deck, open top right menu, select Deck Options.
+
+### Expected behaviour
+
+I can edit options.
+
+### Actual behaviour
+
+Screen is blank.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.17.1 (dd2f3762fb214f9dd51162b215974b23cc809713)_x000D_
+_x000D_
+Backend Version = 0.1.34-anki23.12.1 (23.12.1 1a1d4d5419c6b57ef3baf99c9d2d9cf85d36ae0a)_x000D_
+_x000D_
+Android Version = 6.0 (SDK 23)_x000D_
+_x000D_
+ProductFlavor = play_x000D_
+_x000D_
+Manufacturer = HUAWEI_x000D_
+_x000D_
+Model = ALE-L21_x000D_
+_x000D_
+Hardware = hi6210sft_x000D_
+_x000D_
+Webview User Agent = Mozilla/5.0 (Linux; Android 6.0; ALE-L21 Build/HuaweiALE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/106.0.5249.126 Mobile Safari/537.36_x000D_
+_x000D_
+ACRA UUID = 8962faad-c74a-4c1c",2024-03-29 17:45:59+00:00
+RESOLVED,,,Signal,11508,completed,,Freezes a lot on LOS 17.1 (Tissot),"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2021-11-05 18:21:58+00:00
+RESOLVED,,,AnkiDroid,18586,completed,"Home Screen, 2.21","2.21: When an empty filtered deck is opened, the message “this deck is empty add” appears",https://forums.ankiweb.net/t/ankidroid-2-21-beta-feedback/62992/5,2025-06-22 09:39:58+00:00
+RESOLVED,,,Signal,9256,completed,,Android 4.51.0 installed via Play Store (Aurora Store) causes constant crashes,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2019-12-09 05:38:46+00:00
+RESOLVED,,,AnkiDroid,20003,completed,Needs Triage,Whiteboard doesn't clear changing cards while hidden,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+If the whiteboard is shown and you move to the next card it clears. But if it was hidden, it shows the previous entry when enabled, and I have to clear it for answering the new card. Perhaps this is how some people want it to behave, if so, perhaps it could be configurable?
+
+### Expected behaviour
+
+Whiteboard clears going to the next card, whether it's shown or not.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.23.2 (250313087304b98facfc4219c4db10311e91ea69)  
+Backend Version = 0.1.62-anki25.09.2 (25.09.2 3890e12c9e48c028c3f12aa58cb64bd9f8895e30)  
+Android Versi",2026-01-04 15:33:57+00:00
+REJECTED,,,Signal,11403,completed,wontfix,"Incorrect ""Available on Signal"" notification","- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+From a person who made a Signal account around a year ago and did not use it anymore I received suddenly the notification that he is available on Signal. However, when I look at the chat, I could not send a Signal message only text messages. So, I refreshed my contact list in which there was no sign of the person in blue and the person came back and I received the notification again. Thus, now going back to my conversa",2022-02-02 08:59:06+00:00
+REJECTED,,,Signal,12381,completed,wontfix,Clicking quote very slow response time on large chat history,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2023-04-09 13:46:32+00:00
+REJECTED,,,Signal,10773,completed,wontfix,UI bug in stable 5.2.9 Reaction emoji missing or causes big grey background effect.,"Hi Greyson, clearly abnormal looking UI bug in current Signal Android stable 5.2.3 playstore_x000D_
+Android version 10_x000D_
+Samsung Galaxy A01_x000D_
+To reproduce switch off screen lock with black screen power button and open to app again (directly)._x000D_
+Part 2 (Reproducible- though slightly different 'refer' to part 2)_x000D_
+Screenshot below with debug log 😕_x000D_
+_x000D_
+![Screenshot_20210123-200708_Signal](https://user-images.githubusercontent.com/69250176/105575582-6ed8ce00-5db8-11eb-932c-da74e58cb2a1.jpg)_x000D_
+_x000D_
+https://debuglogs.org/fc40403c546e7a41825e2652e155b1d13ea8057ca3a26bf6b5b23d5adba4ad01_x000D_
+_x000D_
+Part 2 (Reproducible- though slightly different 'refer' to screenshot below with debug log)_x000D_
+_x000D_
+![Screenshot_20210123-204520_Signal](https://user-images.githubusercontent.com/69250176/105576441-861aba00-5dbe-11eb-96ec-548312705",2022-02-03 05:47:55+00:00
+REJECTED,,,Signal,13503,completed,wontfix,Unable to pan a zoomed image,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2025-03-02 21:49:58+00:00
+REJECTED,,,Signal,11385,completed,wontfix,"signal permissions ""warning"" window shown every time when granting permission ""only this time""","<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-02-02 08:58:53+00:00
+REJECTED,,,Signal,13048,completed,wontfix,"Very long GC waits, app freezes very often for a minute or so","- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+_x000D_
+All the following tasks take on the order of a minute to complete almost consistently. During this time the signal app is frozen, and sometimes the whole system freezes with it:_x000D_
+_x000D_
+- Opening signal_x000D_
+- Opening a chat in signal_x000D_
+- Sending a message_x000D_
+_x000D_
+Notes:_x000D_
+_x000D_
+1. Relevant section from `adb logcat` shows it spends most of the time waiting for GC (see log below)._x000D_
+2. I have very few chats in Signal, and yet it takes 1.5",2024-03-03 04:36:40+00:00
+REJECTED,,,Signal,10684,completed,wontfix,Links won't open in new tabs on stock chrome on Android,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-06-04 16:44:05+00:00
+REJECTED,,,Signal,14183,completed,wontfix,Shake to Debug Constantly Gets Set Off,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+When typing or otherwise handling my phone while on the app, the shake-to-send-debug-log pop-up appears at the slightest twitch of my hand. I'm using a brand-new Pixel phone, and while this might be considered a literal 'you're holding the phone wrong' issue, I can only imagine how annoying this could be for people with actual resting tremors, etc. Usually I trigger it by tapping the power button as I pick up the phone while the Signal app is active. There doesn't seem to be an obvious workaround to disable or dampen the sensitivity. My ",2025-08-12 22:48:59+00:00
+REJECTED,,,Signal,10310,completed,wontfix,Issues with attachments,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-02-03 14:26:08+00:00
+REJECTED,,,Signal,10037,completed,wontfix,TOO_LONG. The string supplied is too long to be a phone number - causing Signal unusable?,"Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ones [x] accordingly. -->_x000D_
+_x000D_
+- [x ] I have searched open and closed issues for duplicates_x000D_
+- [ x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [ x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+Seems to be similar to https://github.com/signalapp/Signal-Android/issues/3268_x000D_
+but consequences are more critical as it seem to cause signal to be unusable. Same happened indepedently on 2x S9 notes, and S9+ after last XEO firmware update. This CAN but DOES NOT HAVE to be connected to issue of resetting sa",2022-02-03 17:52:09+00:00
+REJECTED,,,Signal,13707,completed,wontfix,"When groups are deleted, custom notification settings are left in place and cannot be removed","- [X] I have searched open and closed issues for duplicates_x000D_
+- [X] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [X] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [X] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+If you have previously set up a custom notification rule for a group, and subsequently deleted the group, Android continues to display the custom notification rule in the Conversations section, or in Notifications for the app if you have told Android something is not a conversation._x000D_
+_x000D_
+It is not possible to remove these because there is no entry in Signal to edit, making it impossible to remove these. This issue persis",2025-02-14 05:01:30+00:00
+REJECTED,,,AnkiDroid,16119,not_planned,,"""UNDO"" and ""BACK"" (undo the last note's review) should be separate… they're different concepts","Not sure if this is a feature request or a bug as I only started noticing this problem. Did something change?_x000D_
+_x000D_
+**Is your feature request related to a problem? Please describe.**_x000D_
+I often use the Back button to undo a review and change an answer. Sometimes I might go back three notes because I decide that I should have selected ""Forgot""._x000D_
+_x000D_
+The problem is that if I've edited any notes between the current one and the one where I need to change the answer, all the edits are lost! Any pictures added, any text... Just by going back a few cards to change an answer, all of that is completely lost._x000D_
+_x000D_
+Maybe I'm wrong, but I don't recall this ever happening before three months ago._x000D_
+It's like a whole lot of UNDO features have been rolled into the BACK buton._x000D_
+_x000D_
+**Describe the solution you'd like*",2024-04-06 21:08:53+00:00
+REJECTED,,,Signal,13858,completed,wontfix,Unable to Switch to a New Phone Number via Call Verification,"### Guidelines
+
+- [X] I have searched searched open and closed issues for duplicates
+- [X] I am submitting a bug report for existing functionality that does not work as intended
+- [X] This isn't a feature request or a discussion topic
+
+### Bug description
+
+**Description:**  _x000D_
+It is not possible to switch to a new phone number using call verification._x000D_
+_x000D_
+**Steps to Reproduce:**_x000D_
+1. Navigate to `Settings`._x000D_
+2. Select `Account`._x000D_
+3. Click on `Change phone number`._x000D_
+_x000D_
+The screen displays the following message:  _x000D_
+> ""Use this to change your current phone number to a new phone number. You can't undo this change. Before continuing, make sure your new number can receive SMS **or calls**.""_x000D_
+_x000D_
+I am using a VoIP number that is capable of receiving calls._x000D_
+_x000D_
+Upon following the process, there is no opt",2025-03-07 14:24:39+00:00
+REJECTED,,,Signal,14139,not_planned,,white text with white accent color,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+If the accent color is white on Android and dynamic colors are activated in DarkMode, then the text can't be read in some settings. white text behind white accent color.
+
+### Screenshots
+
+_No response_
+
+### Device
+
+_No response_
+
+### Android version
+
+_No response_
+
+### Signal version
+
+_No response_
+
+### Link to debug log
+
+_No response_",2025-06-27 14:37:40+00:00
+REJECTED,,,Signal,9233,completed,wontfix,Doesn't respect metered WiFis,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-02-04 08:38:31+00:00
+REJECTED,,,Signal,13475,completed,wontfix,Deleting a username not freeing it to be reserved by another account,"- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+Deleting a username does not free it to be reserved by another account_x000D_
+_x000D_
+### Steps to reproduce_x000D_
+- delete username reserved on one account_x000D_
+- attempt to claim from a different account_x000D_
+_x000D_
+**Actual result:** username says it's still unavailable_x000D_
+**Expected result:** username is available to reserve from the other account_x000D_
+_x000D_
+### Device info_x000D_
+<!-- replace the examples with your info -->_x000D_
+**Device:** Google Pixel 8 Pro_x000D_
+**",2024-08-12 13:26:15+00:00
+REJECTED,,,Signal,12020,completed,wontfix,During Audio and Video call always shows network failed even with good network connection fix it,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-05-22 12:34:01+00:00
+REJECTED,,,Signal,9270,completed,wontfix,Unable to share images from gallery to Signal,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-03-11 09:03:55+00:00
+REJECTED,,,Signal,10115,completed,wontfix,Disappearing msg timer update to same value sends update in group,"- [X] I have searched open and closed issues for duplicates_x000D_
+- [X] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [X] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [X] This isn't a feature request or a discussion topic_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+When in a (v2) group with an existing disappearing messages timer setting, resetting the setting to the existing value sends an update to the group and shows up as ""<user> updated the group"" on the phone without any actual update_x000D_
+_x000D_
+### Steps to reproduce_x000D_
+- Enter a (v2) group conversation_x000D_
+- Tap the three dot menu_x000D_
+- Tap ""Disappearing messages""_x000D_
+- Leave the time selector as is_x000D_
+- Tap ""Ok""_x000D_
+_x000D_
+**Actual result:** The messa",2022-02-03 16:52:02+00:00
+REJECTED,,,Signal,9931,completed,wontfix,Stickers fail to send / Stickers are corrupted,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2022-07-09 01:24:17+00:00
+REJECTED,,,Signal,13539,completed,wontfix,Height of message with longer quoting keeps changing while being sent,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2025-02-24 07:54:54+00:00
+REJECTED,,,Signal,12581,completed,wontfix,Signal asks for location permission which has already been granted (Huawai device),"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2023-01-11 17:40:50+00:00
+REJECTED,,,AnkiDroid,19186,not_planned,Priority-Low,Add a 'translation test string' in developer options,"> Hello there! I am a translator for the Gothic language on Ankidroid and I wondered if it supports Gothic Unicode to display in the UI. In that case I'll switch the translated strings to gothic unicode
+
+If we had a CrowdIn string which only appears in dev/debug options, we'd be able to allow a translator to self-serve these requests",2025-10-14 18:21:27+00:00
+REJECTED,,,Signal,13136,completed,wontfix,User profile photo is cropped when contact placed on home screen,"<!-- This is a bug report template. By following the instructions below and filling out the sections with your information, you will help the developers get all the necessary data to fix your issue._x000D_
+You can also preview your report before submitting it. You may remove sections that aren't relevant to your particular case._x000D_
+_x000D_
+Before we begin, please note that this tracker is only for issues. It is not for questions, comments, or feature requests._x000D_
+_x000D_
+If you would like to discuss a new feature or submit suggestions, please visit the community forum:_x000D_
+https://community.signalusers.org_x000D_
+_x000D_
+If you are looking for support, please visit our support center:_x000D_
+https://support.signal.org/_x000D_
+or email support@signal.org_x000D_
+_x000D_
+Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ",2024-01-05 06:23:55+00:00
+REJECTED,,,Signal,14417,not_planned,wontfix,The app resets the media visibility option.,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+**Bug Description:**
+The app does not remember the last selected “View once” media setting in a chat. When a user sends a photo or video with the “View Once” option enabled, subsequent media shared in the same chat should automatically use the same setting by default. Currently, the app always resets the media visibility option instead of using the most recently selected preference within that chat.
+
+**Expected Behavior:**
+After sending a “View Once” photo or video in a chat, the next media shared in the same chat should default to “View",2026-04-02 03:11:28+00:00
+REJECTED,,,Signal,14594,not_planned,wontfix,Transfer QR code does not properly display on sufficiently small screens,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+On a small device screen (in my case the kyocera dura vx extreme), the generated QR code to transfer messages and account does not correctly render, due to the low resolution. 
+
+
+### Screenshots
+
+![Image](https://github.com/user-attachments/assets/530fb6e2-f989-4ed8-a21f-43414457b6bb)
+![Image](https://github.com/user-attachments/assets/8a94e5b5-e81b-4ffa-abcf-00eafea01154)
+![Image](https://github.com/user-attachments/assets/54ff0ca1-3b3e-47e5-8c18-ea50b8423a21)
+
+### Device
+
+Kyocera VX Dura Extreme (E4811)
+
+### Android version
+
+10
+
+### Si",2026-04-16 18:29:56+00:00
+REJECTED,,,Signal,10966,completed,wontfix,no webp,"no support for webp animation_x000D_
+only static",2022-02-02 20:17:46+00:00
+REJECTED,,,Signal,13612,completed,wontfix,Backup Restore on Android Fails silently,"- [X] I have searched open and closed issues for duplicates_x000D_
+- [X] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [X] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [X] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+I needed to reset my phone. I did a Backup beforehand and moved that to my PC. After reset now, i installed Signal again and moved the Backupfile back. On First start i say ""Restore"", choose the file and enter the Restore Code. It the starts counting up number of messages. Around 7000 or so it stops and just throws me back to the First launch screen. On that, clicking ""Next"" does nothing. I can tap on Restore and do th",2025-02-09 11:29:01+00:00
+REJECTED,,,Signal,10002,completed,wontfix,Signal doesn't recognize new Android 11 emoji as emoji,"- [x] I have searched open and closed issues for duplicates_x000D_
+- [x] I am submitting a bug report for existing functionality that does not work as intended_x000D_
+- [x] I have read https://github.com/signalapp/Signal-Android/wiki/Submitting-useful-bug-reports_x000D_
+- [x] This isn't a feature request or a discussion topic_x000D_
+_x000D_
+----------------------------------------_x000D_
+_x000D_
+### Bug description_x000D_
+Android 11 [introduced 117 new emoji](https://www.androidpolice.com/2020/09/09/here-are-the-117-new-emoji-youve-got-to-learn-for-android-11/). Signal will display them when used, but does not treat them as emoji by enlarging them when used by themselves. They also prevent regular emoji from being enlarged when used in combination with them._x000D_
+_x000D_
+Note that this is with ""use system emoji"" enabled. When ""use system emoji"" i",2022-01-28 17:32:30+00:00
+REJECTED,,,Signal,14008,completed,wontfix,Link preview images are sometimes too big with description,"### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+When a link preview is generated using OpenGraph tags, on the Android Signal client images are always displayed in a large size when there is a description for the link. Even with preview images that are 100x100 pixels in size, they'll take up the full message width on Android if there's a description as well.
+
+On the Signal iOS app, images smaller than around 300x300 pixels are instead always displayed in a smaller size, off to the side of the title instead of above it. This is the same behaviour that WhatsApp, Telegram and Messenger ha",2025-04-30 13:27:11+00:00
+ABANDONED,,,AnkiDroid,19226,not_planned,Can't reproduce,"[New Study Screen] ""answer"" gestures no longer double as ""show answer"" gestures","### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+I have ""swipe right"" and ""swipe left"" assigned to ""answer again"" and ""answer good"". With the old study screen, swiping right/left on the front of a card will show the back and then swiping on the back will answer the card. With the new study screen, swiping left/right on the front of a card does nothing.
+
+### Expected behaviour
+
+It would be nice if swipe left/right behaved the same as the old study screen
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.23.0alpha4 (fb3fadbdebac9b191096a739e730d47ad9f6db09)  
+Backend Version = 0.1.61-anki25.09 (25.09 539054c34dccf8b",2025-09-12 21:42:29+00:00
+REJECTED,,,AnkiDroid,16005,not_planned,"Bug, Priority-Low, Needs Triage, Stale",[BUG]: LeakCanary - Deck Downloads,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+How to reproduce_x000D_
+> 1. Launch AnkiDroid App_x000D_
+> 2. Select + button_x000D_
+> 3. Click on ""Select Shared Decks""_x000D_
+> 4. Select a category (anyone)_x000D_
+> 4. Select a random deck_x000D_
+> 5. Download it_x000D_
+> 6. Import it_x000D_
+> 7. After import, error message appears: LeakCanary is dumping memory to investigate leaks_x000D_
+
+
+### Expected behaviour
+
+After import there shouldn't be any leak.
+
+### Actual behaviour
+
+_x000D_
+https://github.com/ankidroid/Anki-Android/assets/36805808/581fed36-133c-47bc-9dec-5e65674bc080_x000D_
+_x000D_
+Logs_x000D_
+`_x000D_
+┬───_x000D_
+│ GC Root: System class_x000D_
+│_x000D_
+├─ android.view.WindowManagerGlobal class_x000D_
+│    Leak",2024-07-03 13:36:35+00:00
+REJECTED,,,AnkiDroid,16894,not_planned,"UI, Stale","Position on the ""+"" in the instant add note editor","I think it would be nice if the position of the + in the button, and of the number in the text, was consistent. Either both on top or both on bottom._x000D_
+(Note that, this means that when we use RTL the + symbol should switch to left, to reflect what was done in the UI)",2024-11-24 11:37:44+00:00
+ABANDONED,,,AnkiDroid,18050,completed,"Priority-Low, Needs Author Reply, Stale",Missing search results in settings ,"The """"anki card"" menu"" can't be found from the search bar. Neither typing ""anki"" nor ""context""
+
+![Screenshot_20250304-040946.png](https://github.com/user-attachments/assets/bde080a0-b333-4750-8420-eb178cf406e7)
+
+![Screenshot_20250304-040907.png](https://github.com/user-attachments/assets/0caf4999-1abd-4691-9e65-df48edf1d9b6)
+
+![Screenshot_20250304-040939.png](https://github.com/user-attachments/assets/1bdc297f-9302-4e2b-a7e8-9ba8bd6dfad8)
+
+Also, in French, search ""carte"" shows some things that does not contains the word ""carte"", such as
+
+![Image](https://github.com/user-attachments/assets/c00d1c07-9cc2-46cb-8174-a3403e4425ef)
+
+
+AnkiDroid Version = 2.21alpha13 (86145585b3bb251b13ec31d14920485b13c31c46)
+Backend Version = 0.1.50-anki25.02 (25.02 038d85b1d9e1896e93a3e4a26f600c79ddc33611)
+Andro",2026-03-03 16:43:43+00:00
+ABANDONED,,,AnkiDroid,18442,not_planned,Stale,"""Replay audio"" should be disabled if there is no audio, and maybe changed to ""display video"" or ""display media"" if relevant","It seems bad practice to show a button that does nothing. Instead, either:
+* there should be a snackbar stating that there is no audio (potentially a link to documentation stating what we consider as audio here, because if the card use some non standard javascript to display audio, e.g. from youtube, they could expect it to be the replayed audio and don't understand that we don't control this)
+* or simply disabling the entry. We should not remove it, so that the user that looks at all options know that the option can be available here sometime
+
+Also, I believe we should look at the extension of the files. If it's one we read with video, we should replace audio by video. If there are both audio and video file, we should replace with ""replay media""",2025-09-13 23:36:48+00:00
+ABANDONED,,,AnkiDroid,15675,not_planned,"Needs Author Reply, Sync",Syncing issues,"Hello - I am not a developer, so apologies if this is not appropriately submitted._x000D_
+_x000D_
+I am having some issues with syncing on AnkiDroid. Here is a description of the problems._x000D_
+_x000D_
+1. Sometimes I need to do a full download, and sometimes this takes longer than my phone stays awake. If my phone's screen goes dark, the backup is interrupted. If I touch the screen to keep it alive, the backup is interrupted. Yes, I can set my phone to stay awake, but ... you understand the hassle._x000D_
+_x000D_
+2. When I sync, sometimes there are missing media files (more on this below). Yet, I see no way to access a list of the files that are missing._x000D_
+_x000D_
+3. I see no way to access the media sync log._x000D_
+_x000D_
+4. I am currently having problems where my AnkiDroid devices are not syncing all the media file from AnkiWeb. I have tri",2024-05-11 10:24:26+00:00
+ABANDONED,,,AnkiDroid,18672,not_planned,"Needs Triage, Stale, Card Template Editor",The template editor is too touch (in)sensitive,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+The template editor is sometimes too sensitive or insensitive to touches. This is especially true when you add a lot of text to the template before saving:
+
+(The original recording was 48s but GitHub didn't like that.)
+https://github.com/user-attachments/assets/151c538f-398e-46e0-b176-d87358280423
+
+After saving:
+
+https://github.com/user-attachments/assets/df490942-e9e2-4717-84fb-530709e81994
+
+### Expected behaviour
+
+**Actual behavior:** Swiping up/down is sometimes interpreted as a horizontal swipe. It can also be very insensitive, e.g. it takes many swipes to ge",2025-10-01 15:38:36+00:00
+ABANDONED,,,AnkiDroid,15936,not_planned,"Bug, Stale, JS API",[Bug] An error will be triggered when rating a card while the AnkiDroidJS API is processing `api.ankiSetCardDue()`,"###### Reproduction Steps
+
+I can’t reproduce this error because the timing of triggering is very important. But I have some clues about this Bug and a video of triggering this Bug:
+
+I have a deck for practicing English listening. The script in the card template is set to: automatically display the answer, play the audio on the back of the card twice, and then execute `api.ankiSetCardDue(0)`, Set the card’s due date to today (this can achieve the effect of looping the audio in the deck: you can listen to the audio in the entire deck while doing housework and other free time, you don’t have to rate a single card immediately, and you won’t get stuck on a card; if I can free my hands, I will rate the card that is playing). When the audio playback ends, if I happen to press the rate button ",2024-09-10 08:38:44+00:00
+ABANDONED,,,AnkiDroid,19926,not_planned,Needs Author Reply,AnkiDroid Editor shows image fields as raw HTML when field is wrapped in layout containers (Editor-only WebView rendering bug),"
+---
+
+## **Title**
+
+**AnkiDroid Editor shows image fields as raw HTML when field is wrapped in layout containers (Editor-only WebView rendering bug)**
+
+---
+
+## **Summary**
+
+In **AnkiDroid 2.23.1**, image fields are **not rendered as images in the Editor** when the field is wrapped inside a container that applies layout-relevant CSS (e.g. `position`, `absolute`, `z-index`).
+Instead, the Editor displays the **raw HTML source** (e.g. `<img src=""..."">`).
+
+The **same note type renders correctly** in:
+
+* AnkiDroid **Learning mode**
+* AnkiDroid **Preview**
+* **Anki Desktop** (Editor, Preview, Learning)
+
+This indicates an **Editor-only WebView rendering fallback**, not a template error.
+
+---
+
+## **Environment**
+
+**Anki Desktop (authoring):**
+
+* Version: 25.02.4 (a5c33ad0)
+* Python: 3.9.18
+* Qt: 6.",2026-01-06 01:50:45+00:00
+ABANDONED,,,AnkiDroid,17601,not_planned,"Bug, Needs Triage, Stale",[BUG]: Issue with Displaying Variable Fonts in AnkiDroid,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+I am experiencing an issue with the rendering of variable TrueType fonts (TTF) in AnkiDroid. While the same font displays correctly on AnkiWeb and Windows, with full support for various font weights (e.g., Regular, Semibold, Bold), AnkiDroid seems to only recognize and display the Regular and Bold weights.
+
+I suspect this issue may be related to how AnkiDroid handles variable fonts, as it appears that intermediate weights (such as Semibold) are not displayed. Instead, only the default Regular and Bold options are available.
+
+Could you please look into this issue ",2025-03-25 05:38:38+00:00
+ABANDONED,,,AnkiDroid,16940,not_planned,"Bug, Needs Triage, Stale, 2.18","[BUG]: When Instant editor opens ""Add"" screen, the already-selected note type is not constantly a type of ""Cloze""","### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [X] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+1. ""Share"" some text with ""Instant card""_x000D_
+   (Then, Instant editor is shown)_x000D_
+3. Tap ""Open note editor"" button_x000D_
+   (Then, ""Add"" screen is shown)
+
+### Expected behaviour
+
+I expect that the already-selected note type is (a kind of) ""Cloze"", as in the case of tapping ""Add"" or ""Change editor mode"" in the instant editor.
+
+### Actual behaviour
+
+The already-selected note type is the last-used note type in the app.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.19alpha12 (f720ae030b8920c73f957d64d7044e95242f7719)_x000D_
+_x000D_
+Backend Version = 0.1.40-anki24.06.3 (24.06.3 d678e39350a2d2432",2025-09-23 11:37:09+00:00
+ABANDONED,,,AnkiDroid,15864,not_planned,"Enhancement, Stale",[Enhancement] Crop tool for image occlusion,"**Is your feature request related to a problem? Please describe.**_x000D_
+I want to crop out giveaways in an IO card but to do it I had to delete the card and crop it in my phone and upload as a new card, which also makes me loose the progress of that card_x000D_
+_x000D_
+**Describe the solution you'd like**_x000D_
+A crop tool in the IO editing interface would be nice to have_x000D_
+_x000D_
+**Describe alternatives you've considered**_x000D_
+Creating a New card again._x000D_
+_x000D_
+**Additional context**_x000D_
+Also two finger pan would be nice instead of 4 buttons to zoom in and out._x000D_
+",2024-11-09 02:48:01+00:00
+ABANDONED,,,AnkiDroid,16194,not_planned,Stale,Study shortcut should continue to next deck when current deck is complete,"**Is your feature request related to a problem? Please describe.**_x000D_
+When using the Study shortcut, the app quits immediately when all cards are of the last studied deck are completed. There can be other decks with cards to study, but the Study shortcut won't switch to them._x000D_
+_x000D_
+**Describe the solution you'd like**_x000D_
+I feel it'd be more intuitive if the ""Study"" app icon shortcut continued to the next deck with due cards when the current deck is finished. Then it would only show all studying is completed when all decks are finished completing._x000D_
+_x000D_
+**Describe alternatives you've considered**_x000D_
+The workaround is to open the AnkiDroid app and select the next deck to study. From then on, hitting the Study shortcut will open that deck._x000D_
+_x000D_
+**Additional context**_x000D_
+This seems related to #10840 and #1084",2024-07-23 21:36:49+00:00
+ABANDONED,,,AnkiDroid,17918,not_planned,"Needs Author Reply, Needs Triage","Using Google font ""Noto Nastaliq Urdu"" freezes the review screen","### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+To use Nastaliq script I've added the following to the css of my card type:
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
+.card {
+    font-family: ""Noto Nastaliq Urdu"";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+After this, review any card with arabic script.
+
+### Expected behaviour
+
+When displaying the arabic text, the given font is not used, and the review screen freezes. I can still use the answer buttons, but the card preview will be stuck on the first card that c",2025-02-05 13:37:19+00:00
+ABANDONED,,,AnkiDroid,19555,completed,"Help Wanted, Can't reproduce, Needs Triage, 2.23",[BUG] DeckPicker/Tablet: `onResume` Required value was null,"2.23beta1
+
+https://ankidroid.org/acra/app/1/bug/359978/report/5bf8ff22-f44e-400a-a139-9e2bbd859ac1
+
+Unsure if this stack trace is correct; whiteboard was implied
+
+```
+java.lang.IllegalArgumentException: Required value was null.
+	at com.ichi2.anki.DeckPicker.setupFlows$onStartupResponse(DeckPicker.kt:814)
+	at com.ichi2.anki.DeckPicker.setupFlows$onStartupResponse$46(DeckPicker.kt:851)
+	at com.ichi2.anki.DeckPicker.access$setupFlows$onStartupResponse$46(DeckPicker.kt:238)
+	at com.ichi2.anki.DeckPicker$setupFlows$16.invoke(DeckPicker.java:851)
+	at com.ichi2.anki.DeckPicker$setupFlows$16.invoke(DeckPicker.java:851)
+	at com.ichi2.anki.AnkiActivity$launchCollectionInLifecycleScope$1$1$1.emit(AnkiActivity.java:764)
+	at kotlinx.coroutines.flow.FlowKt__TransformKt$filterNotNull$$inlined$unsafeTrans",2025-11-25 07:33:24+00:00
+ABANDONED,,,AnkiDroid,15738,completed,Stale,The sliderPreference width varies depending of the value number,"The slider width varies depending of the value number, which is actually my fault as the SliderPreference implementer, so I won't ask you to fix that_x000D_
+_x000D_
+[Screen_recording_20240301_103150.webm](https://github.com/ankidroid/Anki-Android/assets/69634269/dcbbe829-1146-4e29-88ef-5444f2855240)_x000D_
+_x000D_
+For fixing it, the `sp` width of a text with the maximum value of the slider can be calculated so the space is reserved._x000D_
+_x000D_
+_Originally posted by @BrayanDSO in https://github.com/ankidroid/Anki-Android/pull/15736#pullrequestreview-1911196119__x000D_
+            ",2024-06-06 14:36:48+00:00
+ABANDONED,,,AnkiDroid,16093,not_planned,"Bug, Needs Triage, Stale",[BUG]: Issues when downloading Shared Decks. Heap Leaking Issue,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [X] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+How to reproduce:_x000D_
+> 1. Launch AnkiDroid App_x000D_
+> 2. Select + button_x000D_
+> 3. Click on ""Select Shared Decks""_x000D_
+> 4. Select a category (anyone)_x000D_
+> 4. Select a random deck_x000D_
+> 5. Download it_x000D_
+> 6. The issue ""Something went wrong, please try again"" should appear. If the issue doesn't appear, start over from **step 3**
+
+### Expected behaviour
+
+Deck should be able to get downloaded and imported to then be used
+
+### Actual behaviour
+
+_x000D_
+https://github.com/ankidroid/Anki-Android/assets/36805808/939c39fc-2070-4b79-862a-31271db04cce_x000D_
+_x000D_
+
+
+### Debug info
+
+```text
+Ankidroid Version: 23.12.1",2024-07-12 20:36:57+00:00
+ABANDONED,,,AnkiDroid,19503,not_planned,"Needs Author Reply, Needs Triage",ktlint pre-commit hook: `cygpath: command not found`,"<img width=""629"" height=""425"" alt=""image"" src=""https://github.com/user-attachments/assets/82ada1f1-c877-4be1-9f03-4c569631dbed"" />_x000D_
+_x000D_
+```_x000D_
+Running ktlint over these files:_x000D_
+AnkiDroid/src/main/java/com/ichi2/anki/FieldEditText.kt_x000D_
+•/gradlew: line 173: cygpath: command not found_x000D_
+-/gradlew: line 175: cygpath: command not found_x000D_
+-/gradlew: line 248: exec: : not found_x000D_
+Completed ktlint run._x000D_
+Completed ktlint hook._x000D_
+ktlint failed_x000D_
+```_x000D_
+_x000D_
+_Originally posted by @7se7en72025 in https://github.com/ankidroid/Anki-Android/issues/19500#issuecomment-3539662709__x000D_
+            ",2025-11-18 00:44:02+00:00
+ABANDONED,,,AnkiDroid,15654,not_planned,Stale,Improve Amazon Listing Description,"> as an aside the Amazon store still lists:_x000D_
+>  spaced repetition (supermemo 2 algorithm)_x000D_
+_x000D_
+- comment on reddit",2024-06-17 12:44:49+00:00
+ABANDONED,,,AnkiDroid,17858,not_planned,Stale,Media fails to sync,"All data syncs. The error is just for media files.
+
+Only info provided by the app:
+
+> java.io.IOException: fstab failed: ENOENT (No such file or directory)
+
+If I put the files manually in collection.media folder they work as spected.
+
+Using Android 14 with the last security path on Samsung, and the AnkiDroid version available on Google Play.
+Everything is updated.",2025-04-30 02:13:03+00:00
+ABANDONED,,,AnkiDroid,17967,completed,"Bug, upstream-issue",[BUG] Close Keyboard on IME DONE,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. GO to Settings.
+2. Search something
+3. Click on Keyboard IME DONE ACTION
+
+Keyboard won't close
+
+https://github.com/user-attachments/assets/ef7bc609-7428-4ce2-9bc0-d9c514a5e235
+
+### Expected behaviour
+
+1. Keyboard should close
+
+### Debug info
+
+```text
+Version: 2.21alpha12-debug
+```
+
+### (Optional) Anything else you want to share?
+
+This issue is from the SearchPreference library used in our project.
+I reported it there: https://github.com/ByteHamster/SearchPreference/issues/37
+
+And reporting it here also, so that others won't waste their time on this.
+
+### Resea",2025-02-15 18:35:27+00:00
+ABANDONED,,,AnkiDroid,18541,not_planned,"Priority-Low, Good First Issue, Stale, Docs",Document `CollectionManager` thrown exceptions,"https://github.com/ankidroid/Anki-Android/blob/main/AnkiDroid/src/main/java/com/ichi2/anki/CollectionManager.kt
+
+In particular: 
+
+* `getColUnsafe`
+* `withCol`
+* `withOpenColOrNull`
+* `getBackend`",2025-10-28 14:40:32+00:00
+ABANDONED,,,AnkiDroid,16561,not_planned,"Bug, Priority-Low, UI, Needs Triage, Stale, Sync",[BUG]: Syncronisation Icon Change On One-Way Sync,"### Checked for duplicates?_x000D_
+_x000D_
+- [X] This issue is not a duplicate_x000D_
+_x000D_
+### Does it also happen in the desktop version?_x000D_
+_x000D_
+- [ ] This bug does not occur in the latest version of Anki_x000D_
+_x000D_
+### What are the steps to reproduce this bug?_x000D_
+_x000D_
+1. Go `settings` —> `sync` and make sure the option `display synchronisation status` is turned on._x000D_
+2. Delete a note type to force a one-way sync to AnkiWeb._x000D_
+3. Click on the sync icon._x000D_
+4. Upload changes to AnkiWeb._x000D_
+_x000D_
+### Expected behaviour_x000D_
+_x000D_
+The icon looks normal after sync._x000D_
+_x000D_
+### Actual behaviour_x000D_
+_x000D_
+The icon has a red dot as if the device is not synced. If we toggle the option I mentioned earlier it gets solved._x000D_
+_x000D_
+### Debug info_x000D_
+_x000D_
+```text_x000D_
+AnkiDroid Version = 2.19alpha4 (a2a109caa87ccfd84d9f49ae3294749712961ac2)_x000D_
+_x000D_
+Backend Version = 0.1.38-anki24.04.1 (",2025-09-12 18:39:35+00:00
+ABANDONED,,,AnkiDroid,15681,completed,"Bug, UI, Tablet, Needs Author Reply, Needs Triage",[Bug] WebView's Background getting black in Tablet,"###### Reproduction Steps_x000D_
+_x000D_
+1. Open the app in a Tablet ( or virtual tablet  )_x000D_
+2. Open Statistics/Deck Options_x000D_
+_x000D_
+_x000D_
+###### Expected Result_x000D_
+The background is not getting black _x000D_
+_x000D_
+_x000D_
+###### Actual Result_x000D_
+Background getting black_x000D_
+_x000D_
+![stats](https://github.com/ankidroid/Anki-Android/assets/65113071/6b5ca632-5b5b-44ae-8fb5-8932cda3b003)_x000D_
+![deck](https://github.com/ankidroid/Anki-Android/assets/65113071/29d94911-577e-4600-9fbb-40f3efb322eb)_x000D_
+_x000D_
+_x000D_
+###### Debug info_x000D_
+AnkiDroid Version = 2.18alpha2-debug (0ab90ba8c1def105b512b507800c823d85bc9af4)_x000D_
+_x000D_
+Backend Version = 0.1.34-anki23.12.1 (23.12.1 1a1d4d5419c6b57ef3baf99c9d2d9cf85d36ae0a)_x000D_
+_x000D_
+Android Version = 9 (SDK 28)_x000D_
+_x000D_
+ProductFlavor = amazon_x000D_
+_x000D_
+Manufacturer = Google_x000D_
+_x000D_
+Model = AOSP on IA Emulator_x000D_
+_x000D_
+Hardware = ranchu_x000D_
+_x000D_
+Webview User Agent = Mo",2024-02-28 14:28:39+00:00
+ABANDONED,,,AnkiDroid,16369,not_planned,"Bug, Needs Triage, Stale",[BUG]: When opening keyboard to type in a flashcard half of the screen gets hidden,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+I downloaded the latest (not-beta) version from Google Play._x000D_
+Started reviewing a type-in flashcard._x000D_
+Opened keyboard and instead of the keyboard opening **over** the screen (and allowing you to scroll) it pushed the whole screen up, **without the possibility to scroll it**, almost as if it is somehow stuck in fullscreen (it is not)._x000D_
+_x000D_
+Before opening keyboard:_x000D_
+![Screenshot_2024-05-10-14-11-00-736_com ichi2 anki](https://github.com/ankidroid/Anki-Android/assets/103900385/807c1f54-027a-4997-a1a3-c135c5e25b7c)_x000D_
+_x000D_
+After opening keyboard:_x000D_
+![Screenshot_2024-05-10-14-11-02-9",2024-08-15 11:37:06+00:00
+ABANDONED,,,AnkiDroid,16744,completed,"Bug, Can't reproduce, Needs Triage",[BUG]: Set due date does not work,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+1. Add a card._x000D_
+2. Select it, and tap on 'Set due date' in the menu._x000D_
+3. Clear the checkbox for 'Set interval to same value'._x000D_
+4. Enter '5' and tap on OK._x000D_
+_x000D_
+ (Cards get rescheduled to appear 5 days later)_x000D_
+_x000D_
+5. Use 'Set due date' again but with a number greater than 6 (for example, 10).
+
+### Expected behaviour
+
+The due date is set to 10 days after today (or whichever number you use at the end).
+
+### Actual behaviour
+
+The due date changes by 1 day. For example, if it was 15th of August, it becomes 16th of August after the next 'Set due date'._x000D_
+_x000D_
+If I try another 'Set due",2024-08-03 17:55:57+00:00
+ABANDONED,,,AnkiDroid,19322,not_planned,"Needs Triage, Stale, Needs reviewer reply",Markdown for deck descriptions is incomplete,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+Currently the markdown support in deck descriptions is quite limited. It's a bit better on Anki Desktop though. For example, if you copy the following into a deck's description...
+
+```md
+# H1
+## H2
+### H3
+*italic* **bold** ~~strike~~ --strike-- ==highlighted== >!spoiler!< sup^4 sub_3 H~2~O
+
+[click me](https://docs.ankiweb.net/troubleshooting.html)
+![hello world](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Whole_world_-_land_and_oceans_12000.jpg/1200px-Whole_world_-_land_and_oceans_12000.jpg)
+<img src='https://upload.wikimedia.org/wikipedia/commons/t",2026-02-15 18:49:46+00:00
+RESOLVED,,,AnkiDroid,17526,completed,"Priority-High, upstream-issue, 2.20","[2.20, German] Statistics: True Retention overflows screen","German locale, 2.20alpha3, statistics page, last table (true retention):
+
+It fits more or less, but you can move it a bit wishing to the left or right. And the title text ""Fehlversuche"" and ""Erfolgsquote"" go beyond their column (while the first colomn has even free space):
+
+![Image](https://github.com/user-attachments/assets/efa5c46f-588a-4d43-b293-278d29e210cd)
+
+
+_Originally posted by @sommerluk in https://github.com/ankidroid/Anki-Android/issues/17366#issuecomment-2509686289_",2025-01-28 16:30:27+00:00
+ABANDONED,,,AnkiDroid,19517,not_planned,upstream-issue,"Selecting a deck incorrectly creates ""Undo Select Deck"" entry in undo stack","### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+ 1. Open AnkiDroid
+ 2. Create a new deck (e.g., ""Test Deck"")
+ 3. Click on the newly created deck to select it
+ 4. Check the undo button
+
+Cause:
+https://github.com/ankidroid/Anki-Android/blob/2ca893e1467b63fb2818e5099a19affbc3a94fa2/libanki/src/main/java/com/ichi2/anki/libanki/Decks.kt#L571
+
+### Expected behaviour
+
+Selecting a deck should not create an undo entry.
+
+  Rationale:
+  - Deck selection is navigation, not a data modification
+
+### Debug info
+
+```text
+na
+```
+
+### (Optional) Anything else you want to share?
+
+https://github.com/user-attachments/assets/e6efc7",2025-11-18 09:54:21+00:00
+ABANDONED,,,AnkiDroid,15978,not_planned,"Bug, Can't reproduce, Needs Triage","[BUG]: Card zooms in sometimes when viewing another app, going to the window manager, then back to Ankidroid.","### Checked for duplicates?_x000D_
+_x000D_
+- [X] This issue is not a duplicate_x000D_
+_x000D_
+### What are the steps to reproduce this bug?_x000D_
+_x000D_
+Review cards on Anki._x000D_
+_x000D_
+Go to another app._x000D_
+_x000D_
+In the window manager, go back to AnkiDroid._x000D_
+_x000D_
+(Doesn't always happen. More often than not it works normally.)_x000D_
+_x000D_
+### Expected behaviour_x000D_
+_x000D_
+See the card, resume studying._x000D_
+_x000D_
+### Actual behaviour_x000D_
+_x000D_
+The card will appear all white. However, if you pinch to zoom in, then scroll up, you can kind of see it. It won't let you go to the very top of the card, though._x000D_
+_x000D_
+Has been an issue since at least 2.16._x000D_
+_x000D_
+![Screenshot_20240323-144217_AnkiDroid](https://github.com/ankidroid/Anki-Android/assets/141907143/c143f6b3-389d-40ca-886c-2b96dfb1d877)_x000D_
+![Screenshot_20240323-144235_AnkiDroid](https://github.com/ankidroid/Anki-Android/assets/",2024-05-11 10:03:33+00:00
+REDIRECTED,,,AnkiDroid,18415,duplicate,Duplicate,[Poor UX] Keyboard pops up on exiting searched note,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+- In the browser, search for any term.
+- Click any of the search results.
+- Press back to exit the note editor.
+- Keyboard pops up.
+
+### Expected behaviour
+
+The keyboard should not pop up after exiting the note editor.
+
+### Debug info
+
+```text
+2.21 alpha 16
+```
+
+### (Optional) Anything else you want to share?
+
+Follow up of https://github.com/ankidroid/Anki-Android/issues/17913
+
+### Research
+
+- [x] I have checked the [manual](https://ankidroid.org/docs/manual.html) and the [FAQ](https://github.com/ankidroid/Anki-Android/wiki/FAQ) and could not find a solution to m",2025-06-03 14:24:38+00:00
+REDIRECTED,,,AnkiDroid,19615,duplicate,Duplicate,[Whiteboard] card contents disappearing when using the whiteboard,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. click on a deck to begin the learning
+2. activate the whiteboard
+3. draw a line (with or without stylus mode)
+
+https://github.com/user-attachments/assets/7617e3f0-29dd-4ef9-99ef-2fe6afb037b3
+
+### Expected behaviour
+
+Drawing the line makes the content of the card disappear. If the line is long enough or a dot (tabbing without movement) is drawn, the content reappears. 
+The content of the card should remain visible. 
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.22.3 (4f2ec681da36b8307a865f05192498b8425adf0f)  
+Backend Version = 0.1.60-anki25.07.5 (25.07.5 7172",2025-11-25 16:31:56+00:00
+REDIRECTED,,,AnkiDroid,16474,not_planned,Duplicate,[BUG]: Tags dialog & deck selection dialog have a grey background in Black theme,"### Checked for duplicates?_x000D_
+_x000D_
+- [X] This issue is not a duplicate_x000D_
+_x000D_
+### Does it also happen in the desktop version?_x000D_
+_x000D_
+- [X] This bug does not occur in the latest version of Anki_x000D_
+_x000D_
+### What are the steps to reproduce this bug?_x000D_
+_x000D_
+0. Enable Black theme_x000D_
+1. Select a card in the browser _x000D_
+2. Choose Edit tags_x000D_
+3. Close the dialog._x000D_
+4. Choose Change deck._x000D_
+_x000D_
+### Expected behaviour_x000D_
+_x000D_
+The dialogs have a black background._x000D_
+_x000D_
+### Actual behaviour_x000D_
+_x000D_
+The dialogs have a grey background._x000D_
+_x000D_
+### Debug info_x000D_
+_x000D_
+```text_x000D_
+2.19 alpha2_x000D_
+```_x000D_
+_x000D_
+_x000D_
+### (Optional) Anything else you want to share?_x000D_
+_x000D_
+This issue was not present in 2.19 alpha 1._x000D_
+_x000D_
+### Research_x000D_
+_x000D_
+- [X] I am reporting a bug specific to AnkiDroid (Android app)_x000D_
+- [X] I have checked the [manual](https://ankidroid.org/docs/manual.html) and the [FA",2024-05-25 21:56:09+00:00
+REDIRECTED,,,AnkiDroid,15830,not_planned,Duplicate,Automatically Play Videos,"Love the new update. Very nice look. However, in the past, videos would automatically play when a card was displayed. Now I have to push play, which slows me down and breaks my rythym. I've looked in all the settings and can't find a way to return it to automatically play videos. It would be nice to give users the option to control whether or not they want videos to play automatically. Thanks!",2024-03-10 11:16:16+00:00
+REDIRECTED,,,AnkiDroid,20841,duplicate,2.24,ManageNoteTypes: RTL issues,"If multiselect is enabled
+
+<img width=""367"" height=""502"" alt=""Image"" src=""https://github.com/user-attachments/assets/579315cc-3a4b-4b8d-961d-f9f93e584daf"" />",2026-04-24 17:40:29+00:00
+REDIRECTED,,,AnkiDroid,19406,duplicate,Needs Triage,Card flickers when drawing on whiteboard at alpha05,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+https://github.com/user-attachments/assets/629fb723-8cd3-4e69-a013-1ae0450897db
+
+### Expected behaviour
+
+Card flickers when drawing on whiteboard at alpha05
+
+### Debug info
+
+```text
+Alpha05
+```
+
+### (Optional) Anything else you want to share?
+
+_No response_
+
+### Research
+
+- [x] I have checked the [manual](https://ankidroid.org/docs/manual.html) and the [FAQ](https://github.com/ankidroid/Anki-Android/wiki/FAQ) and could not find a solution to my issue
+- [x] (Optional) I have confirmed the issue is not resolved in the latest alpha release ([instructions](https://do",2025-11-03 06:10:41+00:00
+REDIRECTED,,,AnkiDroid,18566,duplicate,,"2.21alpha21:  Anki already open, or media currently syncing","https://ankidroid.org/acra/app/1/bug/312451/report/61d1ca10-f2f4-4a00-bb78-b76f78cd378c
+
+```
+net.ankiweb.rsdroid.BackendException$BackendDbException$BackendDbLockedException: Anki already open, or media currently syncing.
+	at net.ankiweb.rsdroid.BackendException$BackendDbException$BackendDbLockedException.<init>(BackendException.kt:74)
+	at net.ankiweb.rsdroid.BackendException$BackendDbException$Companion.fromDbError(BackendException.kt:93)
+	at net.ankiweb.rsdroid.BackendException$Companion.fromError(BackendException.kt:105)
+	at net.ankiweb.rsdroid.BackendKt.unpackResult(Backend.kt:281)
+	at net.ankiweb.rsdroid.BackendKt.access$unpackResult(Backend.kt:1)
+	at net.ankiweb.rsdroid.Backend.runMethodRaw$lambda$1(Backend.kt:118)
+	at net.ankiweb.rsdroid.Backend.withBackend(Backend.kt:131)
+	at net.a",2025-06-23 00:25:19+00:00
+REDIRECTED,,,AnkiDroid,15947,not_planned,"Duplicate, Bug, Home Screen",[BUG]: Japanese text gets cut off on phone with rounded screen corners.,"![Screenshot_20240321-025132_AnkiDroid](https://github.com/ankidroid/Anki-Android/assets/141907143/4624aaa9-d62b-4d6f-bdf8-9358a79dc001)_x000D_
+### Checked for duplicates?_x000D_
+_x000D_
+- [X] This issue is not a duplicate_x000D_
+_x000D_
+### What are the steps to reproduce this bug?_x000D_
+_x000D_
+View the AnkiDroid home screen._x000D_
+At the bottom, in Japanese, it says:_x000D_
+今日は332枚のカードを2.09時間後で学習しています。_x000D_
+_x000D_
+### Expected behaviour_x000D_
+_x000D_
+The 今 kanji should not be half cut off._x000D_
+_x000D_
+### Actual behaviour_x000D_
+_x000D_
+The 今 kanji is half cut off. I don't see a period, either. I don't know if there is one or not, since where it would be is also cut off._x000D_
+_x000D_
+### Debug info_x000D_
+_x000D_
+```text_x000D_
+AnkiDroid Version = 2.17.6 (568538896be943818ca793dd2635822265712def)_x000D_
+_x000D_
+Backend Version = 0.1.34-anki23.12.1 (23.12.1 1a1d4d5419c6b57ef3baf99c9d2d9cf85d36ae0a)_x000D_
+_x000D_
+Android Version ",2024-03-20 18:17:42+00:00
+REDIRECTED,,,AnkiDroid,19935,duplicate,Needs Triage,Check Media Webview not rendering in dark mode,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+- Check media (enable dark mode I was following my system's)
+- Webview is in light mode
+
+<img width=""1080"" height=""2424"" alt=""Image"" src=""https://github.com/user-attachments/assets/9b98f68a-b33b-4b8e-a347-92a4f45e4327"" />
+
+### Expected behaviour
+
+Dark mode
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.24.0alpha0-debug (50628944b14597052342de351a071fdfe3d33495)  
+Backend Version = 0.1.62-anki25.09.2 (25.09.2 3890e12c9e48c028c3f12aa58cb64bd9f8895e30)  
+Android Version = 16 (SDK 36)  
+ProductFlavor = play  
+Device Info = Google | google | frankel | frankel | Pixel ",2025-12-26 18:49:06+00:00
+REDIRECTED,,,AnkiDroid,18134,not_planned,Duplicate,Allow to change multiple notes type from the browser,"This is a feature that exists in anki desktop, and I never realized we didn't have it in AnkiDroid.
+
+If the user select a single card/note, or multiple cards/notes of the same note type, we should offer the user to change the note type. 
+
+![Image](https://github.com/user-attachments/assets/809e53cc-0455-4e95-a45b-e73657bf388a)
+
+We should reuse the view that already allow to change the note type of existing notes, and so may be blocked by #18133.",2025-03-18 21:14:25+00:00
+REDIRECTED,,,AnkiDroid,15694,not_planned,Duplicate,[Bug] Finishing a deck no longer goes to overview,"###### Reproduction Steps_x000D_
+_x000D_
+1. Finish a deck_x000D_
+_x000D_
+###### Expected Result_x000D_
+_x000D_
+Finishing a deck should move me to the deck overview, where I can select the next deck to review._x000D_
+_x000D_
+_x000D_
+###### Actual Result_x000D_
+_x000D_
+Finishing a deck does not return me to the deck summary anymore, but instead some other screen._x000D_
+_x000D_
+###### Debug info_x000D_
+_x000D_
+2.17.1_x000D_
+26 Feb 2024_x000D_
+anki 23.12.1 / 1a1d4d54_x000D_
+_x000D_
+###### Research_x000D_
+*Enter an [x] character to confirm the points below:*_x000D_
+_x000D_
+- [X] I have read the [support page](https://ankidroid.org/docs/help.html) and am reporting a bug or enhancement request specific to AnkiDroid_x000D_
+- [X] I have checked the [manual](https://ankidroid.org/docs/manual.html) and the [FAQ](https://github.com/ankidroid/Anki-Android/wiki/FAQ) and could not find a solution to my issue_x000D_
+- [X] I have searched for sim",2024-02-27 18:29:37+00:00
+REDIRECTED,,,AnkiDroid,18845,duplicate,,Check Media: Light/Dark mode mixup,"![Image](https://github.com/user-attachments/assets/92f6fb77-f421-4fec-925b-96ca72f05eb7)
+
+```
+AnkiDroid Version = 2.22alpha2 (43cfaa60787193495325b5d0f1ec6fedcb8152c0)  
+Backend Version = 0.1.57-anki25.07.1 (25.07.1 a83a6b5928c6563d12e7b66d4f7b7b2f51b6f22b)  
+Android Version = 11 (SDK 30)  
+ProductFlavor = full  
+Device Info = realme | realme | RMX2193 | RMX2193 | RMX2193 | mt6768  
+Webview User Agent = Mozilla/5.0 (Linux; Android 11; RMX2193 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.45 Mobile Safari/537.36  
+ACRA UUID = cf265e01-9693-407f-984d-61ddf9698fac  
+FSRS = 4.1.1 (Enabled: true)  
+Crash Reports Enabled = true
+```",2025-07-11 20:19:35+00:00
+REDIRECTED,,,Signal,14532,duplicate,,"critical, silent failure, not receiving messages on phone only","### Guidelines
+
+- [x] I have searched searched open and closed issues for duplicates
+- [x] I am submitting a bug report for existing functionality that does not work as intended
+- [x] This isn't a feature request or a discussion topic
+
+### Bug description
+
+As of yesterday, messages on my phone can be sent but not received. No error message or other indication that messages are failing to be received.
+
+On desktop, functionality is normal.
+
+### Screenshots
+
+<img width=""918"" height=""2048"" alt=""Image"" src=""https://github.com/user-attachments/assets/1ee051c5-049d-418f-badc-a8bcd81fe7a9"" />
+
+### Device
+
+Pixel 9 Pro
+
+### Android version
+
+16
+
+### Signal version
+
+molly v7.29.4-1-FOSS
+
+### Link to debug log
+
+https://debuglogs.org/android/7.29.4/1cff7f2fb646240f6f0eb7d86cc0ab79e3023ac8c6d5ae35ea01c7a",2026-01-15 19:41:58+00:00
+REDIRECTED,,,AnkiDroid,16187,not_planned,Duplicate,Enhanced Deck Selection for Viewing Statistics,"**Is your feature request related to a problem? Please describe.**_x000D_
+When clicking Statistics, you should have the option to select which deck you want your statistics for, instead of having to enter the name of the desired deck in the search bar. It shouldn't have to be those of the most recently studied deck. This issue is related to functionality and user experience. _x000D_
+_x000D_
+**Describe the solution you'd like**_x000D_
+I would like the Statistics section of the AnkiDroid app to include a feature where users can select which deck they want to view statistics for, perhaps from a dropdown menu. After opening the Statistics page, users should be presented with a list of all their decks, allowing them to choose one or multiple decks for which the statistics will be displayed. This selection should persi",2024-04-15 23:43:10+00:00
+REDIRECTED,,,AnkiDroid,19853,duplicate,,This bug does not occur in the latest version of Anki Desktop,,2025-12-18 15:58:53+00:00
+REDIRECTED,,,AnkiDroid,20432,duplicate,Needs Triage,Previous language remains after switching back to system language,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. set the app language to system language
+2. change the language to another language
+3. change it back to system language
+4. you can find that parts of the UI still remain in the previous language
+
+https://github.com/user-attachments/assets/2ee1fd08-dcfb-40b4-944f-dafd80c8fe71
+
+If the app is restarted the system language is applied correctly.
+This issue doesn't occur between specific languages. It only occurs when switching back to system language.
+Example:
+- English -> Korean -> English: works correctly
+- system language -> Korean -> system language: problem oc",2026-03-10 01:43:55+00:00
+REDIRECTED,,,AnkiDroid,19763,duplicate,Needs Triage,Barra lateral de descida rápida,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+Não estou conseguindo mais usar a barra lateral de descida rápida depois da atualização de hoje 12/12/2025, sempre que clico nela, ela fica azul e não mais clicável, como faço para voltar a ser como era antes?
+
+![Image](https://github.com/user-attachments/assets/763f4787-aa7e-4d2d-be3e-0aa4c8741768)
+
+### Expected behaviour
+
+O certo seria eu conseguir arrastar a barra para descer mais rápido
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.23.0 (4f768aa0be34e254d65fd4ebe19781b84e8efc37)  
+Backend Version = 0.1.62-anki25.09.2 (25.09.2 3890e12c9e48c028c3f12aa58cb64bd9",2025-12-12 22:32:09+00:00
+REDIRECTED,,,AnkiDroid,19380,duplicate,Needs Triage,App never starts saying Backup in progress try again later,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [x] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. Tap the AnkiDroid icon to start the application
+2. App does not start, there is only a notification 'Backup in progress, try again later'
+3. Happened for second day in a row, 24 hours should be enough to perform any backup
+4. Force-stopping AnkiDroid using Android app settings does not help
+
+### Expected behaviour
+
+App starts
+
+### Debug info
+
+```text
+I'm not able to get the debug info, the app does not start
+```
+
+### (Optional) Anything else you want to share?
+
+Version 2.22.3
+
+### Research
+
+- [x] I have checked the [manual](https://ankidroid.org/docs/manual.ht",2025-10-29 08:18:34+00:00
+REDIRECTED,,,AnkiDroid,17040,not_planned,Duplicate,Weird Backspace behavior in Card Browser Search,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1. Go to card browser, search for the term ""early"", and get some results (~30)_x000D_
+2. Refocus search window, switch language to Japanese, and add Japanese characters to end of query (no results)_x000D_
+3. Try to delete previous input using backspace - the input resets back to the previous failed search after every backspace
+
+### Expected behaviour
+
+Should be able to delete previous input using backspace, but in this case the input does not change after trying.
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.19beta1 (6630ff411d643bf03206e106c4d940dc7076e738)_x000D_
+_x000D_
+Backend Vers",2024-09-08 18:24:56+00:00
+REDIRECTED,,,AnkiDroid,16130,not_planned,"Duplicate, Bug, Card Browser",[BUG]: Toggle Cards/Notes,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [X] This bug does not occur in the latest version of Anki
+
+### What are the steps to reproduce this bug?
+
+1. Go to CardBrowser_x000D_
+2. From menu select options_x000D_
+3. Click on notes ( radio button )
+
+### Expected behaviour
+
+### Anki_x000D_
+![WhatsApp Image 2024-04-08 at 7 53 52 AM](https://github.com/ankidroid/Anki-Android/assets/65113071/d94c2907-8c09-498f-a395-5045abc3d418)_x000D_
+
+
+### Actual behaviour
+
+Toggle Cards/Notes not working_x000D_
+_x000D_
+https://github.com/ankidroid/Anki-Android/assets/65113071/4819b192-b50f-4c84-8b57-023c987b5187_x000D_
+_x000D_
+
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.18alpha8-debug (814e9f58a0d27e2ec1d70abf0426468987f34aa1)_x000D_
+_x000D_
+Backend Version = 0.1.36-anki24.04 (24.04 429bc9e14",2024-04-13 16:08:04+00:00
+REDIRECTED,,,AnkiDroid,19806,duplicate,Needs Triage,Card browser scrollbar touch not working on android,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+On Android can't hold the scroller and scroll down/up on Card browser screen.
+
+
+
+### Expected behaviour
+
+Scroller should go up/down on hold 
+
+### Debug info
+
+```text
+The issue started after latest release
+```
+
+### (Optional) Anything else you want to share?
+
+_No response_
+
+### Research
+
+- [x] I have checked the [manual](https://ankidroid.org/docs/manual.html) and the [FAQ](https://github.com/ankidroid/Anki-Android/wiki/FAQ) and could not find a solution to my issue
+- [x] (Optional) I have confirmed the issue is not resolved in the latest alpha release ([instructi",2025-12-14 20:03:04+00:00
+REDIRECTED,,,AnkiDroid,15945,not_planned,Duplicate,Remove or disable congratulations screen,"In the preview ankidroid versions, when I finished my deck, I would automatically go back to my home screen (with an informative snack-bar). This is very convenient for studying multiple decks in a row without any friction._x000D_
+With the newest versions (which the community truly appreciates), I automatically get a congratulations screen. It requires one more click to go back to the home screen, every time I finish a deck. _x000D_
+This can add a lot of friction when I have lots of decks to review._x000D_
+_x000D_
+**Describe the solution you'd like**_x000D_
+For my use, simply removing this screen would be a solution. It doesn't bring value to my use._x000D_
+_x000D_
+**Describe alternatives you've considered**_x000D_
+If this positive reinforcement is useful for some users, an option in the settings to switch it off would be ideal._x000D_
+_x000D_
+**Ad",2024-03-20 11:07:48+00:00
+REDIRECTED,,,AnkiDroid,15782,not_planned,Duplicate,"[BUG]: Deck options menu ""Discard input"" dialog is unintuitive","### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### What are the steps to reproduce this bug?
+
+Open deck options, then (without changing anything) go back.
+
+### Expected behaviour
+
+Go back to previous screen.
+
+### Actual behaviour
+
+I get asked ""Discard current input?""
+
+### Debug info
+
+```text
+AnkiDroid 2.17.0 (anki 23.12.1 / 1a1d4d54)
+```
+
+
+### (Optional) Anything else you want to share?
+
+This issue is about skipping the ""discard changes"" dialog when no changes were made to the deck options (and perhaps other menus, I don't know)._x000D_
+_x000D_
+However I would also propose to change the wording to ""Discard changes?"" in case changes were made, since any user actions in the deck options are rather ""changes"" and not ""input"". Should I open an extra issue for that?
+
+### Research
+
+- [X] I",2024-03-05 16:18:21+00:00
+REDIRECTED,,,AnkiDroid,19376,duplicate,,"When I tap on a deck, the deck list jump to a different position ","![Screenshot_20251028-001928.png](https://github.com/user-attachments/assets/06f33549-8613-4c6f-9e0c-6d6244b5c0ce)
+
+https://github.com/user-attachments/assets/39223093-6fb1-4fa4-8b2e-3f0169f657f3
+
+See attached video. I took a screen shot to show how strange is the screen during the very short time where the reviewer is loading.
+
+It does not impede the use of ankidroid but is a bad visual effect.
+
+
+AnkiDroid Version = 2.23.0alpha5 (248e715ff437c50a407d71c119b1f5b735ee2034)  
+Backend Version = 0.1.62-anki25.09.2 (25.09.2 3890e12c9e48c028c3f12aa58cb64bd9f8895e30)  
+Android Version = 16 (SDK 36)  
+ProductFlavor = play  
+Device Info = Google | google | husky | husky | Pixel 8 Pro | husky  
+Webview User Agent = Mozilla/5.0 (Linux; Android 16; Pixel 8 Pro Build/BP3A.251005.004.B1; wv) AppleWebKit",2025-10-28 12:27:16+00:00
+REDIRECTED,,,AnkiDroid,19150,duplicate,"upstream-issue, Needs Triage",Font Rendering Issues in Card Editor vs Study Mode,"### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+1) Use Card Creator on desktop version. Choose an odd font such as wingdings. 
+
+<img width=""1058"" height=""762"" alt=""Image"" src=""https://github.com/user-attachments/assets/2c2f7e60-5352-48a0-9650-61abd04a53ea"" />
+
+2) Input text in odd font into front and/or back of new card. 
+
+<img width=""333"" height=""352"" alt=""Image"" src=""https://github.com/user-attachments/assets/8b5b6964-3c67-4c48-855f-e357ced47595"" />
+
+3) View card in study mode on desktop and/or mobile. Will not render odd font. 
+
+<img width=""693"" height=""748"" alt=""Image"" src=""https://github.com/user-attachme",2025-11-06 14:43:35+00:00
+REDIRECTED,,,AnkiDroid,19931,duplicate,Needs Triage,"Issue with ""Keep screen on"" in New Study Screen","### Checked for duplicates?
+
+- [x] This issue is not a duplicate
+
+### Does it also happen in the desktop version?
+
+- [ ] This bug does not occur in the latest version of Anki Desktop
+
+### What are the steps to reproduce this bug?
+
+Hi there,
+
+First, I want to express my appreciation for all your hard work in maintaining AnkiDroid.
+
+I am writing to report an issue I’ve encountered, which I couldn't find mentioned in existing reports. When I activate the New Study Screen, the ""Keep screen on"" feature stops working. Consequently, the screen times out according to the system default, rather than staying awake during reviews.
+
+### Expected behaviour
+
+When the 'Keep screen on' setting is enabled, the device screen should remain active and not turn off (sleep) while I am reviewing cards in the New",2025-12-26 10:58:09+00:00
+REDIRECTED,,,AnkiDroid,16103,not_planned,Duplicate,"moving the deck operation from floating button to topbar, and keep floating button only to create cards. ","**Is your feature request related to a problem? Please describe.**_x000D_
+I have been using Ankidroid for many years and one thing that always caught my eye is when I press the floating add button on the deck picker home screen. it shows me 4 options._x000D_
+_x000D_
+* get shared deck_x000D_
+* create filtered deck_x000D_
+* create deck_x000D_
+* create card_x000D_
+_x000D_
+and then I have to press add to create the card. _x000D_
+that makes the friction to two clicks. and over 90% of the time I use this button to just create the card._x000D_
+_x000D_
+**Describe the solution you'd like**_x000D_
+So my suggestion would be to reserve the floating button only to create the card. That would reduce the friction to one click and move the deck-related operations to the topbar with the spinner menu plus button beside the search button on the top bar._x000D_
+so it will be easily acc",2024-04-05 13:30:47+00:00
+REDIRECTED,,,AnkiDroid,15883,not_planned,"Duplicate, Card Browser",[BUG]: Card browser's due date sort not matching new and review order,"### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### What are the steps to reproduce this bug?
+
+Update to the 2.17.5_x000D_
+_x000D_
+Go to card browser_x000D_
+_x000D_
+Change display order_x000D_
+_x000D_
+Select due time (ascending or descending)_x000D_
+_x000D_
+Create only one deck_x000D_
+_x000D_
+Deck options_x000D_
+_x000D_
+Set these orders:_x000D_
+_x000D_
+![Screenshot_2024-03-14-06-01-57-492_com ichi2 anki-edit](https://github.com/ankidroid/Anki-Android/assets/12782347/77d11ba5-0712-4232-b60a-2444b202a27a)_x000D_
+_x000D_
+Now compare the top row with what comes for new or review_x000D_
+_x000D_
+They are completly different
+
+### Expected behaviour
+
+New cards order and review order if set to random and due date should match card browser's sort by due date
+
+### Actual behaviour
+
+They are not related
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.17.5 (1c1aa94ec466f37d33fd2f75020d9f9021",2024-03-14 07:06:00+00:00
+REDIRECTED,,,AnkiDroid,19301,duplicate,,Dynamic Color support,"Please add support for dynamic colors.
+
+https://source.android.com/docs/core/display/dynamic-color
+
+I attached a screenshot.
+Left is tasks and right is an other app with support for dynamc colors.
+
+![Screenshot_20251006-113437.Moto App Launcher.png](https://github.com/user-attachments/assets/c8aa55a8-e9c1-4bdb-9e39-7882230a03cc)
+
+",2025-10-29 20:34:20+00:00
+REDIRECTED,,,AnkiDroid,15791,not_planned,Duplicate,"[BUG]: Can't see the cards in deck, but appears in card browser","### Checked for duplicates?
+
+- [X] This issue is not a duplicate
+
+### What are the steps to reproduce this bug?
+
+Whole subdeck suddenly disappeared and made itself a new deck, with only around 2.5% of cards. When looking at the original location of subdeck, it pops up ""Error deck not found in limits map"". But if I go to Card Browser to view the original deck, all the cards appear.
+
+### Expected behaviour
+
+Subdeck B should have appeared under Deck A
+
+### Actual behaviour
+
+Subdeck B made a new Deck B with little of the original cards. When clicking Deck A, pops up ""Error deck not found in limits map"". But looking at Card Browser of Deck A, I could see the entire contents of subdeck B there
+
+### Debug info
+
+```text
+AnkiDroid Version = 2.17.3 (ca4cb3c2802bcb17e73b051e7e42308993513717)_x000D_
+_x000D_
+Backe",2024-03-10 11:48:31+00:00

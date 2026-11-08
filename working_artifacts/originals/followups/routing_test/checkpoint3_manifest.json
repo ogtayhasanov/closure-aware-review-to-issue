@@ -1,0 +1,46 @@
+{
+  "checkpoint": 3,
+  "lexical_commit": "e163e4403204df517551eb9320b873862994252d",
+  "lexical_version": "routing-lexical-v1-20261031",
+  "lexical_sha256": "6500dc562472e63c4670ece4d1091c488115cefba2c46a044fa850786c8168cc",
+  "lexical_freeze_precedes_scoring": true,
+  "no_model_calls": true,
+  "sheets": [
+    {
+      "model": "GPT-4o-mini",
+      "rows": 69,
+      "unique_cases": 23,
+      "responses_per_arm": 23,
+      "NEEDS_INFO_rows": 48,
+      "REDIRECTED_rows": 21,
+      "shuffle_seed": 20261024,
+      "blind_sheet": "blind_sheet.csv",
+      "key": "blind_key.csv",
+      "sheet_sha256_before_annotation": "c8a470064e06b92555f8dd29b5a590b484f862a14e80444b9ed0b7eb96ef1c14",
+      "key_sha256": "6247690b305d862062a91268b0387ae8bd0ccfedc14561c41d75842fa5b3ecba"
+    },
+    {
+      "model": "Gemma",
+      "rows": 69,
+      "unique_cases": 23,
+      "responses_per_arm": 23,
+      "NEEDS_INFO_rows": 48,
+      "REDIRECTED_rows": 21,
+      "shuffle_seed": 20261025,
+      "blind_sheet": "gemma_blind_sheet.csv",
+      "key": "gemma_blind_key.csv",
+      "sheet_sha256_before_annotation": "1ab8868fdc89a1b09cda4770064874b4674a1f7252490cabc4aed889961dc1e8",
+      "key_sha256": "b02c38d6f46b6ff97675e28f9353cd3de72398552de01457186e870bef3131dc"
+    }
+  ],
+  "total_blind_rows": 138,
+  "total_lexical_records": 138,
+  "lexical_scores_sha256": "dd66274189da384d1ce30e0f95c1cd963dd78c632bd84e28adbc53c71bbcbf67",
+  "unique_blind_ids": 138,
+  "all_primary_annotation_cells_initially_blank": true,
+  "all_sources_unchanged": true,
+  "exclusions": "59 cases listed in exclusions.csv; zero exclusions among the 23 routing cases",
+  "canonical_test_eligible": false,
+  "canonical_gold_target_available": false,
+  "analysis_status": "Waiting for human labels; no outcome summaries or statistical tests performed"
+}

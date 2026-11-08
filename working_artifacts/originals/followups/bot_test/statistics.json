@@ -1,0 +1,108 @@
+{
+  "paired_bot_tests": [
+    {
+      "model": "A",
+      "comparison": "TAXONOMY-V2 vs RAW",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "model": "A",
+      "comparison": "TAXONOMY-V2 vs RAW+CLOSER",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "model": "A",
+      "comparison": "TAXONOMY-V2 vs TAXONOMY-V1",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "model": "B",
+      "comparison": "TAXONOMY-V2 vs RAW",
+      "pairs": 50,
+      "a_only": 7,
+      "b_only": 9,
+      "p_exact_two_sided": 0.803619384765625,
+      "p_holm": 1.0
+    },
+    {
+      "model": "B",
+      "comparison": "TAXONOMY-V2 vs RAW+CLOSER",
+      "pairs": 50,
+      "a_only": 5,
+      "b_only": 8,
+      "p_exact_two_sided": 0.5810546875,
+      "p_holm": 1.0
+    },
+    {
+      "model": "B",
+      "comparison": "TAXONOMY-V2 vs TAXONOMY-V1",
+      "pairs": 50,
+      "a_only": 0,
+      "b_only": 29,
+      "p_exact_two_sided": 3.725290298461914e-09,
+      "p_holm": 1.1175870895385742e-08
+    }
+  ],
+  "main_fix_claim_test": {
+    "pairs": 82,
+    "a_only": 19,
+    "b_only": 0,
+    "p_exact_two_sided": 3.814697265625e-06
+  },
+  "agreement": [
+    {
+      "scope": "bot experiment",
+      "question": "DECLINED",
+      "n": 640,
+      "agreement": 0.996875,
+      "kappa": 0.9878493317132441
+    },
+    {
+      "scope": "bot experiment",
+      "question": "FIX_CLAIM",
+      "n": 640,
+      "agreement": 0.990625,
+      "kappa": -0.00418410041840621
+    },
+    {
+      "scope": "bot experiment",
+      "question": "INACTIVITY",
+      "n": 640,
+      "agreement": 0.9859375,
+      "kappa": 0.0
+    },
+    {
+      "scope": "all scored responses",
+      "question": "DECLINED",
+      "n": 1132,
+      "agreement": 0.9823321554770318,
+      "kappa": 0.9646554846444941
+    },
+    {
+      "scope": "all scored responses",
+      "question": "FIX_CLAIM",
+      "n": 1132,
+      "agreement": 0.9787985865724381,
+      "kappa": 0.8695539443990971
+    },
+    {
+      "scope": "all scored responses",
+      "question": "INACTIVITY",
+      "n": 1132,
+      "agreement": 0.9734982332155477,
+      "kappa": 0.4135120198950004
+    }
+  ]
+}

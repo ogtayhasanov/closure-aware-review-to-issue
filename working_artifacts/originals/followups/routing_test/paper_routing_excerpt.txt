@@ -1,0 +1,61 @@
+1224: The final real-review generation comparison uses the final RRF retriever. All
+1225: three generation conditions receive the same RRF top-ranked issue for each of
+1226: the 82 H{\"a}ring positive-query reviews. The 82 retrieved issues comprise
+1227: 35 RESOLVED, 11 OPEN, and 36 non-resolved closed cases; the latter consist of
+1228: 23 ABANDONED, 7 REDIRECTED, and 6 REJECTED issues.
+1229: 
+1230: \begin{table}[t]
+1231: \centering
+1232: \caption{Human status correctness on the 36 final-RRF non-resolved closed
+1233: issues. Structured and binary responses form the blinded primary paired audit;
+1234: raw metadata was labeled subsequently as a post-hoc exploratory arm.}
+1235: \label{tab:human-status-primary}
+1236: \begin{tabular}{lcc}
+1237: \toprule
+1238: Condition & Human status correct & Evaluation role \\
+1239: \midrule
+1240: Structured closure & \textbf{34/36 (94.4\%)} & primary blinded arm \\
+1241: Raw metadata & \textbf{34/36 (94.4\%)} & post-hoc exploratory arm \\
+1242: Binary state & 1/36 (2.8\%) & primary blinded arm \\
+1243: \bottomrule
+1244: \end{tabular}
+1245: \end{table}
+1246: 
+1247: The primary blinded comparison is large and paired. Structured closure
+1248: reasoning is status-correct on 34/36 cases versus 1/36 for binary-state
+1249: prompting. The 36 pairs contain 33 structured-only successes, no binary-only
+1250: successes, one pair where both responses are correct, and two pairs where both
+1251: are wrong. The exact two-sided McNemar test gives
+1252: $p=2.33\times10^{-10}$, an observed paired difference of 91.7 percentage
+1253: points. By closure class, structured versus binary correctness is 23/23 versus
+1254: 0/23 for ABANDONED, 7/7 versus 1/7 for REDIRECTED, and 4/6 versus 0/6 for
+1255: REJECTED.
+1256: 
+1257: \paragraph{Raw metadata localizes the mechanism.}
+1258: The subsequent human audit of the raw-metadata arm also yields 34/36
+1259: status-correct responses (94.4\%). At the aggregate level it therefore matches
+1260: the structured arm and is dramatically above binary state. We do not claim a
+1261: status-accuracy increment from the four-class taxonomy over raw metadata on
+1262: these 36 cases. Instead, the human result localizes the dominant intervention:
+1263: preserving closure-reason evidence prevents the information loss caused by a
+1264: binary open/closed representation. The taxonomy's additional contribution is
+1265: to convert heterogeneous Bugzilla, Trac, and GitHub signals into a deterministic,
+1266: inspectable Level~1 decision and explicit response action. Because the
+1267: raw-metadata human arm was added post hoc after the structured/binary audit,
+1268: we report its 34/36 rate descriptively rather than attach confirmatory paired
+1269: inference to the structured-versus-raw contrast.
+1270: 
+1271: \paragraph{Action realization distinguishes equal status accuracy from equal behavior.}
+1272: We additionally code two action-specific behaviors descriptively on the same
+1273: 36 cases. For the 16 NEEDS\_INFO cases, an action is counted as realized only
+1274: when the response explicitly asks the user to provide or report further
+1275: diagnostic information; structured generation does so in 16/16 cases, versus
+1276: 4/16 raw-metadata responses. For the 7 REDIRECTED cases, an action is counted
+1277: as realized only when the response explicitly routes the user away from the
+1278: retrieved duplicate---for example, by saying the issue is tracked or addressed
+1279: elsewhere or by directing the user to related tracker discussion. Merely
+1280: stating that an issue is a duplicate does not count. Structured generation
+1281: realizes this routing in 7/7 cases, versus 0/7 raw-metadata responses. This is
+1282: a post-hoc descriptive mechanism audit, not a second confirmatory accuracy
+1283: test, but it directly measures the operational effect that the action selector
+1284: is designed to impose.

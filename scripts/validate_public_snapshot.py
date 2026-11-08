@@ -2,11 +2,14 @@
 from __future__ import annotations
 
 import csv
+import hashlib
+import json
 import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+WORKING_ARTIFACTS = ROOT / "working_artifacts"
 EXCLUDED_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv", "venv"}
 FORBIDDEN_SUFFIXES = {".xlsx", ".xls", ".zip", ".pdf", ".tex", ".bib", ".jsonl"}
 FORBIDDEN_HEADERS = {
@@ -65,9 +68,44 @@ def csv_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def verify_working_artifacts(paths: list[Path]) -> list[str]:
+    if not WORKING_ARTIFACTS.exists():
+        return []
+    manifest_path = WORKING_ARTIFACTS / "SOURCE_MANIFEST.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as error:
+        return [f"Could not read working-artifact checksum inventory: {error}"]
+    entries = manifest.get("files") if isinstance(manifest, dict) else None
+    if not isinstance(entries, dict) or not entries:
+        return ["Missing working-artifact checksum inventory"]
+
+    observed = {path.relative_to(WORKING_ARTIFACTS).as_posix(): path for path in paths}
+    if observed.keys() != entries.keys() | {"README.md", "SOURCE_MANIFEST.json"}:
+        return ["Working artifacts differ from their checksum inventory"]
+    failures = []
+    for name, spec in entries.items():
+        path = observed[name]
+        if path.is_symlink() or not path.resolve().is_relative_to(WORKING_ARTIFACTS):
+            failures.append(f"Unsafe working-artifact path: {name}")
+            continue
+        data = path.read_bytes()
+        if (
+            not isinstance(spec, dict)
+            or len(data) != spec.get("bytes")
+            or hashlib.sha256(data).hexdigest() != spec.get("sha256")
+        ):
+            failures.append(f"Working-artifact checksum mismatch: {name}")
+    if not failures:
+        print(f"PASS SHA-256 integrity for {len(entries)} working-artifact files")
+    return failures
+
+
 def main() -> int:
-    failures: list[str] = []
-    all_files = files()
+    paths = files()
+    working_files = [path for path in paths if path.is_relative_to(WORKING_ARTIFACTS)]
+    failures = verify_working_artifacts(working_files)
+    all_files = [path for path in paths if not path.is_relative_to(WORKING_ARTIFACTS)]
     for path in all_files:
         relative = path.relative_to(ROOT).as_posix()
         if path.suffix.lower() in FORBIDDEN_SUFFIXES:

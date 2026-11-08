@@ -1,0 +1,41 @@
+{
+  "total_case_inputs": 162,
+  "bot_test_switched": 50,
+  "fair_switched": 5,
+  "github_fair_inputs_refetched": 33,
+  "non_github_fair_inputs": 49,
+  "existing_responses_selected": 324,
+  "new_generation_for_switch": 0,
+  "missing_provenance": 0,
+  "extra_bot_names": [
+    "automated-signal"
+  ],
+  "extra_routing_judgments_needed": 187,
+  "fair_switches": [
+    {
+      "case_id": "2f45d9faaa4c91d2b3a64c88448b4fe9af94a17fe12bc3f99acf65786fd34b1d",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "3376"
+    },
+    {
+      "case_id": "472bde4ac60812da5a1f8934752660e3ae68733a3baf38b4c38f776e8a7a822f",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "2555"
+    },
+    {
+      "case_id": "7db4456d397729305abb6f839dc112b924743e32df7b13afd7e16cc3cf82f8ec",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "4054"
+    },
+    {
+      "case_id": "92a1b4b5c533844d8f67cc38b0b0d93091a20b6c01d697376a2f87b4027d7d84",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "4660"
+    },
+    {
+      "case_id": "b21a5a73c9feaba7e06134f111015d2672facadff3472a2dafc82b17cd0c54dc",
+      "repository": "nextcloud/android (GitHub)",
+      "number": "6443"
+    }
+  ]
+}

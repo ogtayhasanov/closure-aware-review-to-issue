@@ -1,0 +1,14 @@
+{
+  "files": 162,
+  "message_sets": 728,
+  "responses": 1456,
+  "credential_scan": "passed",
+  "local_path_scan": "passed",
+  "exported_prompt_hashes": "passed",
+  "exported_response_hashes": "passed",
+  "original_hashes_retained": true,
+  "deidentified_message_sets": 5,
+  "deidentified_response_texts": 0,
+  "human_labels_pending": true,
+  "manifest_sha256": "06747575c1ea746ea110bc135f241694e302603dd21d2c7f95d960dba9a58e74"
+}

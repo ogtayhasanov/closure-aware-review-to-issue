@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-01T10:59:46.339233+00:00",
+  "gpt-4o-mini-2024-07-18": {
+    "status": 200,
+    "data": {
+      "id": "gpt-4o-mini-2024-07-18",
+      "object": "model",
+      "created": 1721172717,
+      "owned_by": "system",
+      "shutdown_date": "2027-01-14"
+    }
+  },
+  "gpt-5.4-nano": {
+    "status": 200,
+    "data": {
+      "id": "gpt-5.4-nano",
+      "object": "model",
+      "created": 1773450870,
+      "owned_by": "system",
+      "shutdown_date": "2027-04-01"
+    }
+  },
+  "gemma-4-26b-a4b-it": {
+    "status": 200,
+    "data": {
+      "name": "models/gemma-4-26b-a4b-it",
+      "version": "001",
+      "displayName": "Gemma 4 26B A4B IT",
+      "description": "Gemma 4 26B A4B IT",
+      "inputTokenLimit": 262144,
+      "outputTokenLimit": 32768,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    }
+  }
+}

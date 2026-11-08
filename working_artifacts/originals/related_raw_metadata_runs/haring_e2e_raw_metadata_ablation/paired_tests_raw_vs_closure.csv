@@ -1,0 +1,4 @@
+system_a,system_b,metric,pairs,a_only_successes,b_only_successes,exact_mcnemar_p
+closure_aware,raw_metadata,judge_status_correct,45,9,2,0.0654296875
+closure_aware,raw_metadata,no_hallucination,45,1,0,1.0
+closure_aware,raw_metadata,judge_relevant_to_review,45,0,0,1.0

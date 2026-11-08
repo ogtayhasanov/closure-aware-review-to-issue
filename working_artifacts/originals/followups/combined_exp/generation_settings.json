@@ -1,0 +1,40 @@
+{
+  "generation": {
+    "A": {
+      "model_requested": "gpt-4o-mini-2024-07-18",
+      "model_ids_returned_in_reference_run": [
+        "gpt-4o-mini-2024-07-18"
+      ],
+      "provider": "OpenAI",
+      "temperature": 0,
+      "max_tokens": 220,
+      "seed": 20261020
+    },
+    "B": {
+      "model_requested": "gemma-4-26b-a4b-it",
+      "model_ids_returned_in_reference_run": [
+        "gemma-4-26b-a4b-it"
+      ],
+      "provider": "Google AI Studio native API",
+      "temperature": 0,
+      "max_tokens": 220,
+      "seed": null,
+      "seed_requested_by_original_script": 20261020,
+      "seed_supported_by_openai_compatibility_endpoint": false,
+      "thinking_level": "minimal",
+      "transport_adapter": "Google native API; identical message texts, temperature and output limit"
+    }
+  },
+  "judge": {
+    "model_requested": "gpt-5.4-nano",
+    "model_ids_returned_in_reference_run": [
+      "gpt-5.4-nano-2026-03-17"
+    ],
+    "provider": "OpenAI",
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_completion_tokens": 80
+  },
+  "system_sha256": "614bb4a0cc94c13957acfb3e0879e8f8a08ffa54d8d50cd4c66c5b6dfbae4d7e",
+  "source_manifest_sha256": "367b507b6b33a57c75dc52da9a8338dab7d1ca0539ba64de245924c1ff5c5ecb"
+}

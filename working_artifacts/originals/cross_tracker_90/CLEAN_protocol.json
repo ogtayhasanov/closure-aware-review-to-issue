@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-08-08T12:25:20.107574+00:00",
+  "n_cases": 90,
+  "sampling": "Same preselected 30 Firefox + 30 VLC + 30 Nextcloud cases from the prior audit; annotations were regenerated from original tracker-native corpora.",
+  "annotator": "isolated OpenAI LLM call",
+  "model_requested": "gpt-4o-mini",
+  "temperature": 0,
+  "prompt_version": "cross-tracker-native-evidence-blind-audit-v1-2026-08-08",
+  "annotation_blinding": {
+    "taxonomy_prediction_visible": false,
+    "action_template_visible": false,
+    "old_annotation_visible": false,
+    "firefox_preextracted_resolution_visible": false,
+    "rule_predictions_computed_after_annotations_frozen": true
+  },
+  "native_evidence": {
+    "Firefox": [
+      "title",
+      "description excerpt",
+      "native status",
+      "raw Bugzilla closure-related history changes"
+    ],
+    "VLC": [
+      "title",
+      "description excerpt",
+      "native status",
+      "native Trac resolution"
+    ],
+    "Nextcloud": [
+      "title",
+      "body excerpt",
+      "historical state",
+      "historical labels",
+      "historical closed_at",
+      "native state_reason only for same closure event"
+    ]
+  },
+  "taxonomy_system_prompt": "You are independently adjudicating closure outcomes of\nsoftware issues from heterogeneous issue trackers.\n\nYou are NOT evaluating a generated response and you are NOT reproducing a\nprovided mapping. You will receive only tracker-native evidence.\n\nAssign exactly one Level-1 outcome:\n\nRESOLVED:\n  The available tracker evidence confirms the issue was fixed, resolved, or\n  completed as an actual resolution.\n\nREJECTED:\n  The issue was deliberately closed without a planned fix, such as invalid,\n  wontfix, by-design, not-a-bug, or not-planned.\n\nABANDONED:\n  The issue was closed without confirmed resolution, including stale/inactive,\n  insufficient information, unable/cannot reproduce, no-response, or\n  upstream/third-party dependency.\n\nREDIRECTED:\n  The issue was closed because it is a duplicate or explicitly tracked/moved\n  elsewhere.\n\nUNRESOLVED:\n  The supplied native evidence is insufficient or genuinely contradictory, so\n  none of the four outcomes can be assigned confidently.\n\nImportant:\n- Do not infer that CLOSED by itself means fixed.\n- Use only the supplied native evidence.\n- Do not invent facts.\n- Do not assume any tracker-specific mapping beyond the meanings visible in\n  the evidence itself.\n\nReturn one JSON object exactly:\n{\"l1_class\":\"RESOLVED|REJECTED|ABANDONED|REDIRECTED|UNRESOLVED\",\n \"subtype\":\"brief subtype or empty\",\n \"confidence\":0.0,\n \"rationale\":\"brief evidence-based explanation\"}\n",
+  "nextcloud_api_failures": [],
+  "github_token_used": false,
+  "important_limitation": "This is blinded LLM verification, not independent human validation. Do not report it as human annotation."
+}

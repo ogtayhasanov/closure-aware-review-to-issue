@@ -1,0 +1,4 @@
+app,file,candidate_bug_reports_used,paper_reported_bug_reports,count_difference_vs_paper,all_original_judged_issue_ids_present
+Firefox,/tmp/haring_modal_pack/df_firefox_issues_android.csv,29941,29941,0,True
+VLC,/tmp/haring_modal_pack/df_vlc_issues.csv,553,553,0,True
+Nextcloud,/tmp/haring_modal_pack/df_nextcloud_issues.csv,2362,2462,-100,True

@@ -1,0 +1,11 @@
+{
+  "rows": 8,
+  "questions_per_response": 1,
+  "keyboard": "passed",
+  "automatic_next": "passed",
+  "progress_restore": "passed",
+  "CSV_export": "passed",
+  "fresh_start_blank": "passed",
+  "arm_fields": 0,
+  "page_errors": []
+}

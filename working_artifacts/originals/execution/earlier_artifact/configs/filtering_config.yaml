@@ -1,0 +1,9 @@
+filter_strategy: bottom_15_percent_llm_quality
+removed_positives: 1405
+original_positives: 9349
+retained_positives: 7944
+filtered_triplets: 62515
+notes: >
+  Filtering removes the lowest-quality synthetic review--issue pairs within
+  each training application before rebuilding BM25 hard-negative triplets.
+

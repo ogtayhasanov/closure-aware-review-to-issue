@@ -1,0 +1,41 @@
+[
+  {
+    "number": 3425,
+    "issue_url": "https://github.com/nextcloud/android/issues/3425",
+    "state": "closed",
+    "current_state_reason": "completed",
+    "final_closed_at": "2019-01-14T06:48:34Z",
+    "final_closed_by": "tobiasKaminsky",
+    "final_closing_commit_id": null,
+    "closure_count": 1,
+    "reopen_count": 0,
+    "timeline_events": 8,
+    "timeline_complete": true,
+    "fetched_date": "2026-11-01",
+    "observed_closure_reason": "Manual closure at the time of maintainer advice to disable Samsung battery restrictions and inspect logs. No linked closing fix commit or PR in the complete timeline.",
+    "supporting_url": "https://github.com/nextcloud/android/issues/3425#issuecomment-453913811",
+    "supporting_comment": "Samsung has special battery handling, please try to remove NC app from this batterystuff.\r\n\r\n@jacquesschenk go to settings -> logs ",
+    "status_for_step5": "UNCERTAIN",
+    "inference_limit": "Configuration-advice context is observable; generic completed status is not proof of a code fix or a native NOT FIXED resolution code."
+  },
+  {
+    "number": 2131,
+    "issue_url": "https://github.com/nextcloud/android/issues/2131",
+    "state": "closed",
+    "current_state_reason": "completed",
+    "final_closed_at": "2019-10-01T09:15:31Z",
+    "final_closed_by": "tobiasKaminsky",
+    "final_closing_commit_id": null,
+    "closure_count": 2,
+    "reopen_count": 1,
+    "timeline_events": 42,
+    "timeline_complete": true,
+    "fetched_date": "2026-11-01",
+    "observed_closure_reason": "Merged fix PR #4470: Normalize local target path in auto upload; explicitly closes #2131.",
+    "supporting_url": "https://github.com/nextcloud/android/pull/4470",
+    "merged_at": "2019-10-01T09:15:30Z",
+    "merge_commit_sha": "a1c28f93d6ace6dbe07e50b69b217fb31c292c94",
+    "status_for_step5": "FIXED",
+    "earlier_bot_closure": "2019-05-23T21:23:11Z; reopened 2019-07-30T05:51:40Z"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "evaluation": "H\u00e4ring known-positive full-corpus rank diagnostic",
+  "rrf_k": 60,
+  "systems": [
+    "BGE-ZS-NOPREFIX-TITLE",
+    "BM25-TITLE",
+    "RRF60-BGE-ZS+BM25-TITLE"
+  ],
+  "summary": [
+    {
+      "app": "Firefox",
+      "model": "BGE-ZS-NOPREFIX-TITLE",
+      "n": 28,
+      "MRR": 0.1922158616576273,
+      "H@1": 0.07142857142857142,
+      "H@5": 0.2857142857142857,
+      "H@10": 0.42857142857142855,
+      "median_gold_rank": 60.0
+    },
+    {
+      "app": "Firefox",
+      "model": "BM25-TITLE",
+      "n": 28,
+      "MRR": 0.17741226053515508,
+      "H@1": 0.14285714285714285,
+      "H@5": 0.21428571428571427,
+      "H@10": 0.21428571428571427,
+      "median_gold_rank": 63.5
+    },
+    {
+      "app": "Firefox",
+      "model": "RRF60-BGE-ZS+BM25-TITLE",
+      "n": 28,
+      "MRR": 0.2571945962733884,
+      "H@1": 0.17857142857142858,
+      "H@5": 0.35714285714285715,
+      "H@10": 0.42857142857142855,
+      "median_gold_rank": 13.0
+    },
+    {
+      "app": "Nextcloud",
+      "model": "BGE-ZS-NOPREFIX-TITLE",
+      "n": 33,
+      "MRR": 0.13162325113768794,
+      "H@1": 0.06060606060606061,
+      "H@5": 0.12121212121212122,
+      "H@10": 0.2727272727272727,
+      "median_gold_rank": 27.0
+    },
+    {
+      "app": "Nextcloud",
+      "model": "BM25-TITLE",
+      "n": 33,
+      "MRR": 0.11286650988912189,
+      "H@1": 0.0,
+      "H@5": 0.15151515151515152,
+      "H@10": 0.36363636363636365,
+      "median_gold_rank": 14.0
+    },
+    {
+      "app": "Nextcloud",
+      "model": "RRF60-BGE-ZS+BM25-TITLE",
+      "n": 33,
+      "MRR": 0.2554197978148476,
+      "H@1": 0.15151515151515152,
+      "H@5": 0.30303030303030304,
+      "H@10": 0.5454545454545454,
+      "median_gold_rank": 8.0
+    },
+    {
+      "app": "VLC",
+      "model": "BGE-ZS-NOPREFIX-TITLE",
+      "n": 21,
+      "MRR": 0.33884061827324236,
+      "H@1": 0.19047619047619047,
+      "H@5": 0.5238095238095238,
+      "H@10": 0.6190476190476191,
+      "median_gold_rank": 4.0
+    },
+    {
+      "app": "VLC",
+      "model": "BM25-TITLE",
+      "n": 21,
+      "MRR": 0.17645716726021668,
+      "H@1": 0.09523809523809523,
+      "H@5": 0.2857142857142857,
+      "H@10": 0.42857142857142855,
+      "median_gold_rank": 25.0
+    },
+    {
+      "app": "VLC",
+      "model": "RRF60-BGE-ZS+BM25-TITLE",
+      "n": 21,
+      "MRR": 0.384556185412354,
+      "H@1": 0.2857142857142857,
+      "H@5": 0.47619047619047616,
+      "H@10": 0.5714285714285714,
+      "median_gold_rank": 6.0
+    },
+    {
+      "app": "POOLED",
+      "model": "BGE-ZS-NOPREFIX-TITLE",
+      "n": 82,
+      "MRR": 0.20538127314262633,
+      "H@1": 0.0975609756097561,
+      "H@5": 0.2804878048780488,
+      "H@10": 0.4146341463414634,
+      "median_gold_rank": 23.5
+    },
+    {
+      "app": "POOLED",
+      "model": "BM25-TITLE",
+      "n": 82,
+      "MRR": 0.1511919345584136,
+      "H@1": 0.07317073170731707,
+      "H@5": 0.2073170731707317,
+      "H@10": 0.32926829268292684,
+      "median_gold_rank": 24.5
+    },
+    {
+      "app": "POOLED",
+      "model": "RRF60-BGE-ZS+BM25-TITLE",
+      "n": 82,
+      "MRR": 0.2890973404537107,
+      "H@1": 0.1951219512195122,
+      "H@5": 0.36585365853658536,
+      "H@10": 0.5121951219512195,
+      "median_gold_rank": 9.0
+    }
+  ],
+  "rrf_vs_bge_movement": {
+    "queries": 82,
+    "rank_improved": 49,
+    "rank_worsened": 24,
+    "rank_unchanged": 9,
+    "moved_into_top1": 10,
+    "moved_out_of_top1": 2,
+    "moved_into_top10": 15,
+    "moved_out_of_top10": 7
+  },
+  "interpretation_guard": "Original H\u00e4ring labels are pool-incomplete. This measures rank of originally known-positive issues, not complete semantic relevance."
+}

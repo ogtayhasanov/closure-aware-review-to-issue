@@ -1,0 +1,7 @@
+{
+  "generation_runner_source_commit": "01b0c0d05530c4a2cad7000688e4197f3cadb408",
+  "generation_runner_sha256": "32b58fb75f7437ac8fd1603514bf0d03ed7596d95c89f23587316a71d89269c6",
+  "generation_runner_snapshot": "scripts/run_final_generation_frozen.py",
+  "scoring_runner_current_sha256": "b00f9345f426438fb57c9c47ce1530c0bd0496a4bb04f80f3020b3732af1b8b7",
+  "note": "Both generation processes loaded the initial runner. Later edits added model-specific scoring resume and additional audit routing only. Actual generation payloads for every response are retained and verified against registered settings."
+}

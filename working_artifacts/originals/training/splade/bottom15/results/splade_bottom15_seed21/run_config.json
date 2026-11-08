@@ -1,0 +1,93 @@
+{
+  "bottom15_dir": "/kaggle/input/datasets/oqtayhasanov/trivlet/kaggle/working/filter_ablation/bottom15_llm",
+  "triplet_sha256": "0f2ea63e8532efd2e90e11cfd8835a9b96290b2f1e9321de92e8bc9610c32de1",
+  "pairs_sha256": "c476252bff38472094ae36b6f22e7c4aad00ebfdce5c4059b2769fd59303db24",
+  "retained_queries": 7944,
+  "removed_queries": 1405,
+  "removed_examples_preview_rows": 20,
+  "triplets": 62515,
+  "filter_counts": {
+    "filter": "bottom15_llm",
+    "model": "gpt-4o-mini",
+    "input_mode": "auto_detect_kaggle",
+    "input_files": {
+      "brave": {
+        "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_brave (1).csv",
+        "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/brave_issues.csv",
+        "review_rows": "4700",
+        "issue_rows": "556"
+      },
+      "signal": {
+        "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_signal.csv",
+        "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/Signal-Android_Mistral_Ready.csv",
+        "review_rows": "2977",
+        "issue_rows": "2977"
+      },
+      "ankidroid": {
+        "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv13/synthetic_reviews_anki.csv",
+        "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/Anki-Android_Mistral_Ready.csv",
+        "review_rows": "2967",
+        "issue_rows": "2967"
+      },
+      "k9": {
+        "review_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/synthetic_reviews_k9.csv",
+        "issue_csv": "/kaggle/input/datasets/oqtayhasanov/spladetrainingv12/k-9_Mistral_Ready.csv",
+        "review_rows": "2935",
+        "issue_rows": "2935"
+      }
+    },
+    "pre_limit_balanced_query_count": 9349,
+    "limit": null,
+    "original_query_count": 9349,
+    "scored_query_count": 9349,
+    "failed_query_count": 0,
+    "retained_query_count": 7944,
+    "removed_query_count": 1405,
+    "removed_percentage": 15.0283,
+    "removed_count_by_app": {
+      "ankidroid": 446,
+      "brave": 71,
+      "k9": 441,
+      "signal": 447
+    },
+    "missing_issue_link_count": 0,
+    "missing_issue_ids": [],
+    "seed": 42,
+    "bm25_depth": 50,
+    "within_app_negatives_per_query": 5,
+    "cross_app_negatives_per_query": 3,
+    "brave_downsampling": "one review per Brave issue, seed 42",
+    "score_cache": "/kaggle/working/filter_ablation/llm_scores/alignment_scores_9348_plus_dummy.jsonl",
+    "error_log": "/kaggle/working/filter_ablation/llm_scores/errors.jsonl",
+    "body_truncation_chars": 3000
+  },
+  "status": "training_complete",
+  "train_seed": 21,
+  "split_seed": 42,
+  "model_name": "naver/splade-cocondenser-ensembledistil",
+  "epochs": 3,
+  "batch_size": 2,
+  "gradient_accumulation": 16,
+  "effective_batch_size": 32,
+  "max_length": 128,
+  "temperature": 1.0,
+  "splade_lambda": 0.0001,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "train_queries": 7150,
+  "valid_queries": 794,
+  "train_triplets": 56257,
+  "valid_triplets": 6258,
+  "optimizer_steps_per_epoch": 1759,
+  "total_optimizer_steps": 5277,
+  "torch_version": "2.10.0+cu128",
+  "transformers_version": "5.0.0",
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "best_epoch": 1,
+  "best_validation_loss": 0.05928724284622652,
+  "completed_optimizer_steps": 5277,
+  "elapsed_minutes": 351.3619787295659
+}

@@ -1,0 +1,2 @@
+system_a,system_b,metric,pairs,a_only_successes,b_only_successes,exact_mcnemar_p,family,analysis_status,multiplicity
+closure_aware,binary_state,judge_status_correct,36,15,2,0.002349853515625,FINAL_RRF_NONRESOLVED_STATUS_PRIMARY,FROZEN_BEFORE_NEW_BINARY_ARM,single_primary_endpoint_no_adjustment

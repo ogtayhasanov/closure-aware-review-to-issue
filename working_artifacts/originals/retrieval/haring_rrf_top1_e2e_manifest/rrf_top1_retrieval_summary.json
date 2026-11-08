@@ -1,0 +1,13 @@
+{
+  "evaluation": "H\u00e4ring known-positive full-corpus RRF top-1 export",
+  "retriever": "RRF60-BGE-ZS+BM25-TITLE",
+  "rrf_k": 60,
+  "document_representation": "title-only",
+  "rows": 82,
+  "known_positive_hit_at_1": 16,
+  "known_positive_hit_at_1_rate": 0.1951219512195122,
+  "hit_at_10": 0.5121951219512195,
+  "MRR": 0.2890973404537107,
+  "median_known_positive_rank": 9.0,
+  "benchmark_caveat": "H\u00e4ring judgments are pool-incomplete. A non-hit at top-1 is not proof of semantic irrelevance."
+}

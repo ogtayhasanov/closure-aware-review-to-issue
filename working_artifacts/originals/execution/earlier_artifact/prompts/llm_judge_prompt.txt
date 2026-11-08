@@ -1,0 +1,11 @@
+Strict response-evaluation rubric.
+
+Judge whether a generated response correctly reflects the retrieved issue's closure outcome.
+
+Primary fields:
+- status_correct: true if the response accurately communicates RESOLVED, REJECTED, ABANDONED, REDIRECTED, or open status.
+- hallucinated_fix_narrative: true if the response invents a fix, release, date, code change, or developer action unsupported by metadata.
+- faithfulness: score or boolean according to the evaluation file schema.
+
+Return strict JSON only when using an LLM judge. Manual verification remains the primary support for the 42 headline cases in the TOSEM paper.
+

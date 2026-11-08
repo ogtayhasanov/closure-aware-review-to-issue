@@ -1,0 +1,5 @@
+rule,accepted_queries,realized_coverage,confirmed_hits_accepted,confirmed_hit1_among_accepted,confirmed_hits_retained_fraction
+rrf_top1_exact_support>=1,35,0.4268292682926829,11,0.3142857142857143,0.6875
+rrf_top1_exact_support>=2,13,0.15853658536585366,5,0.38461538461538464,0.3125
+rrf_top1_exact_support=3,5,0.06097560975609756,2,0.4,0.125
+all_three_base_top1_same,5,0.06097560975609756,2,0.4,0.125

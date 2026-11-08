@@ -1,0 +1,121 @@
+﻿case_id,human_l1,human_subtype,rule_l1,rule_subtype,agreement,app,number,state_reason,labels
+T001,RESOLVED,,RESOLVED,COMPLETED,True,Signal,10999,completed,
+T002,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,19785,completed,
+T003,RESOLVED,,RESOLVED,COMPLETED,True,Signal,9600,completed,
+T004,RESOLVED,,RESOLVED,COMPLETED,True,Signal,12753,completed,
+T005,RESOLVED,,RESOLVED,COMPLETED,True,Signal,14430,completed,
+T006,RESOLVED,,RESOLVED,COMPLETED,True,Signal,13853,completed,
+T007,RESOLVED,,RESOLVED,COMPLETED,True,Signal,13754,completed,
+T008,RESOLVED,,RESOLVED,COMPLETED,True,Signal,12150,completed,
+T009,RESOLVED,,RESOLVED,COMPLETED,True,Signal,10404,completed,
+T010,RESOLVED,,RESOLVED,COMPLETED,True,Signal,10256,completed,
+T011,RESOLVED,,RESOLVED,COMPLETED,True,Signal,14102,completed,
+T012,RESOLVED,,RESOLVED,COMPLETED,True,Signal,14386,completed,
+T013,RESOLVED,,RESOLVED,COMPLETED,True,Signal,13194,completed,
+T014,RESOLVED,,RESOLVED,COMPLETED,True,Signal,14709,completed,
+T015,RESOLVED,,RESOLVED,COMPLETED,True,Signal,12408,completed,acknowledged
+T016,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,17693,completed,Needs Triage
+T017,RESOLVED,,RESOLVED,COMPLETED,True,Signal,14010,completed,
+T018,RESOLVED,,RESOLVED,COMPLETED,True,Signal,13708,completed,
+T019,RESOLVED,,RESOLVED,COMPLETED,True,Signal,11437,completed,
+T020,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,16517,completed,Priority-Low
+T021,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,18555,completed,"UI, 2.20"
+T022,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,18596,completed,2.21
+T023,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,19768,completed,Needs Triage
+T024,RESOLVED,,RESOLVED,COMPLETED,True,Signal,9512,completed,
+T025,RESOLVED,,RESOLVED,COMPLETED,True,Signal,11883,completed,
+T026,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,15790,completed,"Bug, Needs Triage, 2.17"
+T027,RESOLVED,,RESOLVED,COMPLETED,True,Signal,11508,completed,
+T028,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,18586,completed,"Home Screen, 2.21"
+T029,RESOLVED,,RESOLVED,COMPLETED,True,Signal,9256,completed,
+T030,RESOLVED,,RESOLVED,COMPLETED,True,AnkiDroid,20003,completed,Needs Triage
+T031,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,11403,completed,wontfix
+T032,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,12381,completed,wontfix
+T033,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10773,completed,wontfix
+T034,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13503,completed,wontfix
+T035,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,11385,completed,wontfix
+T036,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13048,completed,wontfix
+T037,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10684,completed,wontfix
+T038,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,14183,completed,wontfix
+T039,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10310,completed,wontfix
+T040,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10037,completed,wontfix
+T041,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13707,completed,wontfix
+T042,REJECTED,,REJECTED,NOT_PLANNED,True,AnkiDroid,16119,not_planned,
+T043,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13858,completed,wontfix
+T044,REJECTED,,REJECTED,NOT_PLANNED,True,Signal,14139,not_planned,
+T045,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,9233,completed,wontfix
+T046,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13475,completed,wontfix
+T047,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,12020,completed,wontfix
+T048,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,9270,completed,wontfix
+T049,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10115,completed,wontfix
+T050,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,9931,completed,wontfix
+T051,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13539,completed,wontfix
+T052,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,12581,completed,wontfix
+T053,REJECTED,,REJECTED,NOT_PLANNED,True,AnkiDroid,19186,not_planned,Priority-Low
+T054,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13136,completed,wontfix
+T055,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,14417,not_planned,wontfix
+T056,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,14594,not_planned,wontfix
+T057,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10966,completed,wontfix
+T058,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,13612,completed,wontfix
+T059,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,10002,completed,wontfix
+T060,REJECTED,,REJECTED,EXPLICIT_REJECTION,True,Signal,14008,completed,wontfix
+T061,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,19226,not_planned,Can't reproduce
+T062,REJECTED,,ABANDONED,STALE,False,AnkiDroid,16005,not_planned,"Bug, Priority-Low, Needs Triage, Stale"
+T063,REJECTED,,ABANDONED,STALE,False,AnkiDroid,16894,not_planned,"UI, Stale"
+T064,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,18050,completed,"Priority-Low, Needs Author Reply, Stale"
+T065,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,18442,not_planned,Stale
+T066,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,15675,not_planned,"Needs Author Reply, Sync"
+T067,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,18672,not_planned,"Needs Triage, Stale, Card Template Editor"
+T068,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,15936,not_planned,"Bug, Stale, JS API"
+T069,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,19926,not_planned,Needs Author Reply
+T070,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,17601,not_planned,"Bug, Needs Triage, Stale"
+T071,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,16940,not_planned,"Bug, Needs Triage, Stale, 2.18"
+T072,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,15864,not_planned,"Enhancement, Stale"
+T073,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,16194,not_planned,Stale
+T074,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,17918,not_planned,"Needs Author Reply, Needs Triage"
+T075,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,19555,completed,"Help Wanted, Can't reproduce, Needs Triage, 2.23"
+T076,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,15738,completed,Stale
+T077,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,16093,not_planned,"Bug, Needs Triage, Stale"
+T078,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,19503,not_planned,"Needs Author Reply, Needs Triage"
+T079,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,15654,not_planned,Stale
+T080,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,17858,not_planned,Stale
+T081,ABANDONED,,ABANDONED,UPSTREAM,True,AnkiDroid,17967,completed,"Bug, upstream-issue"
+T082,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,18541,not_planned,"Priority-Low, Good First Issue, Stale, Docs"
+T083,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,16561,not_planned,"Bug, Priority-Low, UI, Needs Triage, Stale, Sync"
+T084,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,15681,completed,"Bug, UI, Tablet, Needs Author Reply, Needs Triage"
+T085,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,16369,not_planned,"Bug, Needs Triage, Stale"
+T086,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,16744,completed,"Bug, Can't reproduce, Needs Triage"
+T087,ABANDONED,,ABANDONED,STALE,True,AnkiDroid,19322,not_planned,"Needs Triage, Stale, Needs reviewer reply"
+T088,RESOLVED,,ABANDONED,UPSTREAM,False,AnkiDroid,17526,completed,"Priority-High, upstream-issue, 2.20"
+T089,ABANDONED,,ABANDONED,UPSTREAM,True,AnkiDroid,19517,not_planned,upstream-issue
+T090,ABANDONED,,ABANDONED,NEEDS_INFO,True,AnkiDroid,15978,not_planned,"Bug, Can't reproduce, Needs Triage"
+T091,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,18415,duplicate,Duplicate
+T092,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19615,duplicate,Duplicate
+T093,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,16474,not_planned,Duplicate
+T094,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15830,not_planned,Duplicate
+T095,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,20841,duplicate,2.24
+T096,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19406,duplicate,Needs Triage
+T097,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,18566,duplicate,
+T098,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15947,not_planned,"Duplicate, Bug, Home Screen"
+T099,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19935,duplicate,Needs Triage
+T100,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,18134,not_planned,Duplicate
+T101,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15694,not_planned,Duplicate
+T102,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,18845,duplicate,
+T103,REDIRECTED,,REDIRECTED,DUPLICATE,True,Signal,14532,duplicate,
+T104,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,16187,not_planned,Duplicate
+T105,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19853,duplicate,
+T106,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,20432,duplicate,Needs Triage
+T107,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19763,duplicate,Needs Triage
+T108,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19380,duplicate,Needs Triage
+T109,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,17040,not_planned,Duplicate
+T110,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,16130,not_planned,"Duplicate, Bug, Card Browser"
+T111,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19806,duplicate,Needs Triage
+T112,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15945,not_planned,Duplicate
+T113,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15782,not_planned,Duplicate
+T114,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19376,duplicate,
+T115,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19150,duplicate,"upstream-issue, Needs Triage"
+T116,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19931,duplicate,Needs Triage
+T117,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,16103,not_planned,Duplicate
+T118,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15883,not_planned,"Duplicate, Card Browser"
+T119,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,19301,duplicate,
+T120,REDIRECTED,,REDIRECTED,DUPLICATE,True,AnkiDroid,15791,not_planned,Duplicate

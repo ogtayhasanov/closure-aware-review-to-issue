@@ -1,0 +1,952 @@
+pair_key,app,query_id,review_text,repository,display_issue_id,issue_title,issue_body,binary_state,issue_url,resolution_signal,labels,closed_at,l1_class,subtype,action_l1,known_positive_hit_at_1,system,response,generation_model_returned,judge_model_returned,judge_faithfulness,judge_hallucination,judge_status_correct,judge_specificity,judge_usefulness,judge_empathy,judge_actionability,judge_relevant_to_review,judge_reasoning
+0ae739d89cd0eed8cb435f7f0b073600ab439d3e3b8144f9edd78513984ccf9b,Firefox,gp:AOqpTOHx5_sRdUgl96nKNQ89_kI5raBS557IDD4hMTl-IC3fdMa4LQcPbAqZnbBwszp4UjcTxPV0mFGPlqrivQ,Bugs . Bad performance. Hangs when loading certain pages while other browsers loads perfectly fine. Such a disappointment.,Mozilla Firefox (Bugzilla),980464,Certain pages freeze for several seconds when loading,"142725    Filing this separately from bug 978497 as it s...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=980464,Bugzilla resolution=DUPLICATE,,2014-03-13T22:15:25Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. I understand your frustration with performance issues and page loading. There was a related issue, Bug #980464, which reported that certain pages freeze for several seconds when loading. This issue has been closed as a duplicate. You can view more details here: [Bug #980464](https://bugzilla.mozilla.org/show_bug.cgi?id=980464). We appreciate your patience as we work to improve performance.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,1.0,0.5,0.5,0.5,True,"The response accurately references the related issue Bug #980464, which is relevant to the user's complaint about performance issues. It correctly identifies the issue as a duplicate and provides a link for more information. However, it lacks specific actionable advice or solutions for the user, which affects its overall usefulness and actionability."
+18b7199a82d48181ffdc0c43a60a2d4a50129864ff4c07b74b8ee717fbc0808a,Nextcloud,gp:AOqpTOGz3f7ubYxk_WFTjWrwhByQapPPubcAvjQReX7O_GDfp79eLf_BWBjrf-C3BrMTeMN7Gj4qm2LYWrsTZzI,"Great & working app. There have been a lot's of improvements and stabilisation. Though, the main feature I use is the (camera) auto upload and there are still holes in the raquette. Indeed sometimes it misses pics. It results in part of the pics only being uploaded. I don't see them in the errors and no way to trigger again the autoupload. An rsync like feature would be handy in such case to be fail safe.",nextcloud/android (GitHub),2972,[3.3.0RC1]  Camera auto upload fails,"### Actual behaviour
+with the xiaomi mi5s the automatic loading of the camera folder does not work correctly. Sometimes you take a picture and upload after a few seconds as in previous versions, and now it is random. You can upload to 10 minutes, 30 minutes or not upload directly until you make another photo. as if it did not detect that there are new photos. obviously always with wifi connection and energy savings and self-execution allowed.
+
+### Expected behaviour
+- Tell us what should happen
+ 
+### Steps to reproduce
+1. take foto
+2. 
+3. 
+
+
+### Environment data
+Android version: 7.0
+
+Device model: xiaomi mi5s
+
+Stock or customized system: miui 9
+
+Nextcloud app version: 3.3.0 rc1
+
+Nextcloud server version: 13.0,6
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/2972,stale label=stale,bug;feature:AutoUpload;stale,2019-05-24T02:23:30Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback! We appreciate your positive comments about the app's improvements. Regarding the camera auto upload feature, we understand that some users have experienced issues, as noted in issue #2972, which was closed due to being marked stale. You can view the details here: [Issue #2972](https://github.com/nextcloud/android/issues/2972). We value your suggestion for an rsync-like feature and will consider it for future updates.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the relevant issue (#2972) and acknowledges the user's feedback, but it lacks specific actionable advice or solutions for the user's problem with the auto upload feature."
+227c631673afe1f96f411871c7c9829fd772e510bafb10b98c42335950dd699f,Firefox,gp:AOqpTOGh06CVE98DHGLUCZyVl1IJeiHHgLBqibzoAXj_cO-gDPt12ZcQ4-bmo7gPpFbgW0emi9ssCj43kNQIrw,"I enjoy using it when it is working, it freezes and crashes quite often",Mozilla Firefox (Bugzilla),980533,"Not reliable, crash or freeze frequently","142762    User Agent: Mozilla/5.0 (Windows NT 6.1; rv:27...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=980533,Bugzilla resolution=INCOMPLETE,,2014-03-06T21:46:34Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand that experiencing freezes and crashes can be frustrating. There was a related issue, [#980533](https://bugzilla.mozilla.org/show_bug.cgi?id=980533), which reported similar reliability concerns. However, it was marked as incomplete and closed in 2014. We appreciate your input and encourage you to report any specific instances to help us improve.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.7,0.4,True,"The response acknowledges the user's frustration and references a related issue, which is relevant to the user's complaint. However, it lacks specific actionable advice and does not fully address the current state of the issue, which is marked as abandoned. The specificity is moderate as it mentions a specific issue but does not provide a clear resolution or next steps."
+233068519193a7f18dd3186820de486c1d1727fe429fd947a0959a534e3ffe8e,Firefox,gp:AOqpTOF6TYtpuThJUGpGTIsTK91dXTre1bwh1JA8Bo6KWXQ04eu9L3heyaOvT_vS0A3eWsuIuv0-sJ2-gui1CA,"Good for privacy as it allows privacy minded extensions but the UI is absolutely terrible from a poweruser's perspective. Simple gestures like drag to reload is missing. No way to copy only the text portion of a link. No way to open a new tab from the detailed context menu when inside the tabs view (can only launch new tab with the + icon), and more.",Mozilla Firefox (Bugzilla),1346589,"Custom tabs: Handle ""Open link in new tab"" context menu and friends","263217    Clicking the ""Switch"" button on the snackbar t...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1346589,Bugzilla resolution=DUPLICATE,,2017-03-29T18:35:39Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback regarding the UI. I understand your frustration with the lack of certain features. There was a related issue, [#1346589](https://bugzilla.mozilla.org/show_bug.cgi?id=1346589), concerning the context menu for opening links in new tabs, but it was marked as a duplicate and closed in 2017. Your input is valuable, and I encourage you to share your suggestions for improvement.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the related issue and its status as a duplicate, aligning with the authoritative metadata. However, it lacks specificity in addressing the user's other concerns and does not provide actionable steps or further engagement."
+2aa6c46a61f08a834f020991bf922bdebc6389c7fb246a70ae54c93d7c3c2acf,Firefox,gp:AOqpTOFSLSgDB0qK8oyy2Q40RU8skiwxZsTyol21agA0nryuvvOYL2xZBC5ipf5VMdSY6fBXjkpBG6gJbuhHCg,"Slow, bad ui, and crashes a LOT. Horrible replacement for chrome in it's current state, Opera is faster and more stable.",Mozilla Firefox (Bugzilla),919099,Slow wesite performance as compared to Chrome etc,"117533    User Agent: Mozilla/5.0 (Android; Mobile; rv:2...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=919099,Bugzilla resolution=INCOMPLETE,,2017-04-25T16:49:59Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. We understand that performance issues can be frustrating. There was a reported issue regarding slow website performance compared to Chrome, documented as issue #919099, which is closed but marked as INCOMPLETE. You can view it here: [Issue #919099](https://bugzilla.mozilla.org/show_bug.cgi?id=919099). We appreciate your input and will continue to work on improving the user experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,False,0.0,0.0,0.0,0.0,True,"The response incorrectly states that the issue is closed but marked as INCOMPLETE, while the authoritative metadata indicates that the issue is classified as ABANDONED. This miscommunication affects the status correctness. Additionally, the response lacks specificity and actionable advice related to the user's complaints."
+2f45d9faaa4c91d2b3a64c88448b4fe9af94a17fe12bc3f99acf65786fd34b1d,Nextcloud,gp:AOqpTOEVIPTOzX4UzEQt3w47ztlVHZYes4rAWmAWXuGz06FwqjQ_R3V0JJjALUQCB7NWxlwH-BNw1HgwedmkE4c,"After repeatedly reporting the issue, it still does not auto-upload my photos unless I manually take the phone out of medium power-saving mode (suicide for any Galaxy S8 owner).",nextcloud/android (GitHub),3376,Galaxy S8 still not auto-uploading in power save,My galaxy S8 still does not auto-upload unless I completely disable power save mode. Mid-power save will not allow me to upload.,closed,https://github.com/nextcloud/android/issues/3376,stale label=stale,bug;needs info/discussion;stale,2019-05-23T23:23:22Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback. I understand your frustration with the auto-upload issue on the Galaxy S8. This has been documented in issue #3376, which is marked as closed but labeled as stale. You can view the details here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). Your experience is important, and we appreciate your patience as we continue to address these concerns.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.8,0.5,0.7,0.3,True,"The response accurately references the issue (#3376) and acknowledges the user's frustration, which shows empathy. However, it lacks actionable advice or a clear resolution, as the issue is marked as abandoned. The specificity is high since it directly relates to the user's complaint about the Galaxy S8 auto-upload issue."
+32f95fec15d2627e7da2939776391625858b1639e2d0232be9b1fc1fab8ee63d,Firefox,gp:AOqpTOGYufZjG_o-kNpIbvpiKoePUugYNGhu-yYSFhqMSO98v5uhZ9rCQIGXq0HyOx9i8fAkNZiQqO-3bgqTPQ,Good browser with great features. The scrolling speed is slow compared to chrome while also dropping fps count.but i use Firefox it Will be great if u cold fix these issues because this will make it perfect,Mozilla Firefox (Bugzilla),1025563,Noticeable slowness in scrolling in Firefox compared to other browser on same system,"158858    I don't much data to back this, but I'm on a N...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1025563,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2014-06-16T13:53:40Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,True,raw_metadata,"Thank you for your feedback! We understand that scrolling speed can be an issue. There was a reported case of noticeable slowness in scrolling compared to other browsers, but it was marked as ""WORKSFORME,"" meaning it could not be reproduced. You can view the details here: [Issue #1025563](https://bugzilla.mozilla.org/show_bug.cgi?id=1025563). We appreciate your input and hope for improvements in future updates!",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response inaccurately states that the issue was marked as 'WORKSFORME,' while the authoritative metadata indicates it is classified as 'ABANDONED' due to a lack of information. The response does not provide actionable advice or specific solutions to the user's complaint about scrolling speed, making it unhelpful."
+3d43e184ce0cf6ee7402083e68b0a057b74bfcb88b8c1138db0248dc06f50e9d,Nextcloud,gp:AOqpTOGizEmBAjkjD9I8oXl9lEatxYuW9zcISVgvyJEwRXwPHQZiSahFkHyeitiKuvw_pk2pnCaBpyXPBnysC7c,"Auto Upload hasn't worked in quite some time.  Even manually moving files to the InstantShared folders has no effect.  Those files aren't even viewable in the app, but are seen there by a file manager.  Would be nice if that was fixed.  Great overall platform though.",nextcloud/android (GitHub),2834,Auto upload doesn't work,"### Actual behaviour
+- When I add or enable a folder in the auto upload list, nothing gets uploaded. In this case, I have a bunch of .md files with notes which I want to be automatically uploaded to the folder 'Notes' in my Nextcloud. They do not get uploaded and no error is shown.
+
+### Expected behaviour
+- Files should be uploaded/synchronized
+ 
+### Steps to reproduce
+1. Set up a folder to automatically upload in the android client
+
+
+### Environment data
+Android version: 7.1.2
+
+Device model: Sony Z1 Compact
+
+Stock or customized system: AICP Android (based on LineageOS)
+
+Nextcloud app version: 3.2.1
+
+Nextcloud server version: 13.0.4",closed,https://github.com/nextcloud/android/issues/2834,stale label=stale,bug;feature:AutoUpload;stale,2020-02-16T00:08:03Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback! We understand that the Auto Upload feature has been problematic. There was a related issue, #2834, which reported that files were not uploading as expected. This issue was marked as closed on February 16, 2020, but it has a stale label, indicating it may not have been fully resolved. You can view the details here: [Issue #2834](https://github.com/nextcloud/android/issues/2834). We appreciate your support and hope for improvements in future updates!",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.5,0.5,0.5,0.5,True,"The response acknowledges the user's issue with the Auto Upload feature and references a related issue that is marked as closed but has a stale label. However, it does not provide a clear resolution or next steps for the user, which affects its overall usefulness and actionability."
+4688de8e73e248e1249c997d0d223f2d832f4c877dfa0f6d865fd7bff9449b77,VLC,gp:AOqpTOF9X-1akfd76GXPnXdSIhzBWw9uK8yB3d9yZzdUeQDrtJt4rBx4I1VqtuisY1zDJGIuAr8Vtv99HQCwyg,"Good app. Good to have Chromecast support. Bug when trying to add song to playlist , tapping on the three dots moves the scroll bar and the song to be added is list from screen view. Fix this bug please and I will bump up the review to 5 stars",VLC Android (Trac),11154,Behaviour of menu button on playlist screen,In modern Android versions it is possible to drag down on a menu overflow button (those buttons with three vertical dots) to open the menu and select a specific item without taking the finger off the screen. This is possible on the main toolbar in VLC for Android 0.9.0 but it is not possible on the playlist/now playing screen. Dragging down this button drags down the whole toolbar and moves to the previous view. While I like the big drag target for moving views that button is special and should work as it always works.,closed,,Trac resolution=wontfix,,,REJECTED,wontfix,REJECTED,True,raw_metadata,"Thank you for your feedback! We understand the frustration with the issue of the menu button on the playlist screen. This behavior has been documented in issue #11154, which is currently marked as ""wontfix."" We appreciate your support and hope to improve your experience in the future.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.0,True,"The response accurately reflects the status of the issue as 'wontfix' and acknowledges the user's frustration, but it lacks specific actionable advice or a path forward for the user. It partially addresses the user's complaint but does not provide a resolution or alternative solutions."
+49849428c4f6aad0eb753d43065f043de2ee98105b466e3654476324e4f59cec,Firefox,gp:AOqpTOGyDx8XgUeWNBwOH97T4AIQe9Vc0gefNPSkkcJRTB5defO2eja_B1tAXnDUBKQp04-YuPdWjNsivw28TQ,"Freezes cannot close application pressing back button. Sometimes, after typing a URL it won't go forward it will stuck to the previous page jsut showing the url. Seriously can't browse any thing, even normal search wont work",Mozilla Firefox (Bugzilla),1238086,pressing back button exits firefox android aurora,"226055    User Agent: Mozilla/5.0 (Windows NT 6.1; Win64...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1238086,Bugzilla resolution=DUPLICATE,,2016-01-08T21:55:19Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. I understand that you're experiencing issues with the back button and browsing functionality. There was a related issue, Bug #1238086, which was marked as a duplicate and closed in 2016. You can view it here: [Bug #1238086](https://bugzilla.mozilla.org/show_bug.cgi?id=1238086). While this specific issue is closed, we appreciate your input as it helps us improve the application.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.0,True,"The response accurately references a related issue that is marked as a duplicate and closed, aligning with the authoritative metadata. However, it lacks actionable advice or specific guidance for the user, which diminishes its usefulness and actionability. The empathy score is moderate as it acknowledges the user's frustration but does not provide a solution."
+4df681362a5a19acecd70894307b88415ab40ffdeb179b9abfef7557f308bf03,Nextcloud,gp:AOqpTOFi2LmpKbLDbulQUpGqDLR71FXTavzqkpab5qra32VZ3RBVG6xaP6oTokGODKOqta5eFofUIfrck8J1pQ4,Absolutely destroys battery life. Phone always lasts all day well past midnight. Had it installed for 3 days and will now go from fully charged at 7am to dead at 5pm with hardly any phone use and no phone calls. Android reporting app responsible for 19% of battery drain. Can't keep it installed like that.,nextcloud/android (GitHub),5802,Battery consumed in half a day,"### Steps to reproduce
+1. Install to android
+2. Connect to server
+3. Get Battery Issues
+
+### Expected behaviour
+- Normal battery consumption expected
+
+### Actual behaviour
+- TWithout an application, the phone lives 1.5 - 2 days. After installing and connecting the application, the phone lives 0.5 days.
+
+### Environment data
+Android version: 10
+
+Device model: Samsung Galaxy S10+
+
+Stock or customized system: hadesRom Q Stock v1.0 for Exynos S10e/S10/S10+
+https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-hadesrom-q-stock-v1-0-exynos-s10e-t4058441
+
+Nextcloud app version: 3.11.0
+
+Nextcloud server version: 18
+![photo_2020-04-04_10-46-03](https://user-images.githubusercontent.com/39026644/78421604-ab88dc80-7661-11ea-82fe-fb11b9a1abce.jpg)
+![photo_2020-04-04_10-46-12](https://user-images.githubusercontent.com/39026644/78421605-acba0980-7661-11ea-8ae4-d5c761e2eab6.jpg)
+![photo_2020-04-04_10-46-17](https://user-images.githubusercontent.com/39026644/78421607-acba0980-7661-11ea-834e-6ee7a2dcd257.jpg)",closed,https://github.com/nextcloud/android/issues/5802,stale label=stale,bug;needs info/discussion;stale,2020-07-29T05:09:51Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback regarding battery drain issues. We understand how frustrating this can be. There was a related issue, #5802, which reported similar battery consumption problems after installing the app. This issue has been closed, but it may still require further discussion or information. You can view it here: [Issue #5802](https://github.com/nextcloud/android/issues/5802). We appreciate your input and encourage you to keep an eye on updates.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.5,0.5,0.5,0.5,True,"The response acknowledges the user's battery drain issue and references a related issue (#5802) that has been closed, indicating it is stale. However, it does not provide actionable steps or solutions to the user's problem, which limits its usefulness and actionability. The empathy is moderate as it recognizes the frustration but lacks a deeper engagement with the user's specific situation."
+4e24753928fd4ff9ae19ffdaca900db8aeccbc38f3da5e4b2b2023a166b0c6d2,Firefox,gp:AOqpTOECEhlSiFFWwD0wWJmJw7acxcTFz3jDRWExKKDGc2tcw5wqBr_0Vb2cUqp1pLx8zEkNnfkxnJzXA-g3MQ,"I'm trying to cast to my roku, but there is no casting tab when I try to browse movies online.",Mozilla Firefox (Bugzilla),1068550,Cast Screen from Firefox for Android to Roku player don't work,"170432    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1068550,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2014-10-06T19:48:01Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand you're having trouble with casting to your Roku. There was a related issue (Bug #1068550) regarding casting from Firefox for Android to Roku, which was marked as ""WORKSFORME"" and closed in 2014. You can view the details here: [Bug 1068550](https://bugzilla.mozilla.org/show_bug.cgi?id=1068550). If you're still experiencing this issue, it may be helpful to check for updates or provide more details about your setup.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,False,0.0,0.0,0.0,0.0,True,"The response incorrectly states that the related issue was marked as 'WORKSFORME', while the authoritative metadata indicates it is classified as 'ABANDONED' due to needing more information. This miscommunication affects the status correctness and overall usefulness of the response."
+4e938d32307a7489440888e3e6638b85b94543feb9baf3fab012cfb8f9e608cf,Nextcloud,gp:AOqpTOH4Jav-oqIY1m3lisCBWWsh03FjYB2nhUQMq4mt3OZZ44hct287qgwci2qIc_Tyh1pR4dWWjUZrxosjeqg,"Having a lot of trouble when trying to auto upload a folder containing multiple sub folders with pictures and video from a SD card. Does not seem to want to sync. I had to send files manually, did not scan the folder apparently. My goal is to move video and photos from the phone to this removable card so I can save some space and backup those to a nas...",nextcloud/android (GitHub),3482,Auto upload fails to upload from mutilpe folders,"### Actual behaviour
+I have several folders set to auto upload and only the top folder in my list seems to be uploaded. New files in the other folders are ignored. These are all separate folders in different patch on the local file system. Some folders are synced to the same path as the folder that does sync, others go to sub folders in that same path on the server.
+
+### Expected behaviour
+All the folders should automatically upload the new content whenever it is created in a monitored folder.
+ 
+### Steps to reproduce
+1. setup multiple folders to sync to InstantUploads and some to Instantuploads/others
+2.  generate new content in those folders
+3. 
+
+
+### Environment data
+Android version: 9
+
+Device model:  Pixel
+
+Stock or customized system: Stock
+
+Nextcloud app version: 3.4.1
+
+Nextcloud server version: 14.0.6
+
+### Logs
+#### Web server error log
+```
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+I did not find any info in the log associated with this error
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/3482,stale label=stale,bug;feature:AutoUpload;stale,2019-05-23T22:23:09Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback. I understand you're experiencing issues with auto-uploading multiple folders from your SD card. This seems to relate to a known issue (#3482) where only the top folder in a list is uploaded, while others are ignored. This issue was marked as stale and closed on May 23, 2019. You can view the details here: [Issue #3482](https://github.com/nextcloud/android/issues/3482). We appreciate your patience as we work to improve this feature.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,False,1.0,0.5,0.5,0.5,True,"The response accurately references the issue (#3482) and provides a link for further details, which is specific to the user's problem. However, it incorrectly states the issue as 'known' when it is actually marked as 'abandoned' due to being stale, which affects the status correctness. The response shows some empathy and offers partial usefulness, but it lacks actionable steps for the user to resolve their issue."
+4fe626f6de54f58e2d81d15fc28eaecc07360df12c5e95b7be626b498b38a63c,Nextcloud,gp:AOqpTOHh0optvaetAMENalmM9zY_ilpsVhId0TPMIrOPFi7pcOBjDG_B2TcCWiQrKYR8U1-rDVZdIlQihGCZr6A,application crashes on clicking Log In,nextcloud/android (GitHub),4660,App crashes on login,"### Actual behaviour
+Keeps crashing afer I logged in on my Nextcloud server. Worked fine before I updated the server from 16 to 17.
+
+Note:
+Dev version also crashes
+
+### Expected behaviour
+I hoped it would not crash
+ 
+### Steps to reproduce
+1.  Install android app
+2.  Login into your account
+3. Wait for 1-2 sec
+
+### Environment data
+Android version:
+9
+Device model: 
+Xiaomi Redmi 7
+Stock or customized system:
+Stock
+Nextcloud app version:
+3.8.0
+Nextcloud server version:
+Stable17
+
+### Logs
+#### Web server error log
+```
+There was nothing in the logs
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Nothing of relevance here either
+```
+
+App crash report
+```
+************ CAUSE OF ERROR ************
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String java.lang.String.substring(int, int)' on a null object reference
+	at com.owncloud.android.datamodel.OCFile.getLocalId(OCFile.java:493)
+	at com.owncloud.android.utils.EncryptionUtils.downloadFolderMetadata(EncryptionUtils.java:221)
+	at com.owncloud.android.operations.RefreshFolderOperation.getDecryptedFolderMetadata(RefreshFolderOperation.java:450)
+	at com.owncloud.android.operations.RefreshFolderOperation.synchronizeData(RefreshFolderOperation.java:395)
+	at com.owncloud.android.operations.RefreshFolderOperation.fetchAndSyncRemoteFolder(RefreshFolderOperation.java:339)
+	at com.owncloud.android.operations.RefreshFolderOperation.run(RefreshFolderOperation.java:224)
+	at com.owncloud.android.lib.common.operations.RemoteOperation.run(RemoteOperation.java:299)
+	at java.lang.Thread.run(Thread.java:764)
+
+************ APP INFORMATION ************
+ID: com.nextcloud.client
+Version: 30080090
+Build flavor: gplay
+
+************ DEVICE INFORMATION ************
+Brand: xiaomi
+Device: onc
+Model: Redmi 7
+Id: PKQ1.181021.001
+Product: onc_eea
+
+************ FIRMWARE ************
+SDK: 28
+Release: 9
+Incremental: V10.3.4.0.PFLEUXM
+```",closed,https://github.com/nextcloud/android/issues/4660,stale label=stale,bug;stale,2020-01-05T18:35:40Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback. I understand that you're experiencing crashes when logging in. This issue has been previously reported as Issue #4660 on GitHub, which is now closed but was marked as stale. You can view the details here: [Issue #4660](https://github.com/nextcloud/android/issues/4660). If the problem persists, please consider checking for updates or reaching out for further assistance.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.8,0.5,0.5,0.5,True,"The response accurately references the relevant issue (#4660) and acknowledges the user's problem with empathy. However, it lacks actionable steps for the user to resolve the issue, as it only suggests checking for updates or reaching out for further assistance without providing specific guidance on what to do next. The specificity is high due to the direct reference to the issue, but the overall usefulness and actionability are limited."
+54a5496847ce11e825f11e6589ee74b76b996b67af20ad13384a1404dfc1caff,Nextcloud,gp:AOqpTOEMBtYHY9n29qaoV9OWliU6XAgN7j0csK4DaULy1zH5A-4Lpqh5BTVJYE5FZDk1xkldtkYQP8sBoi2wTVE,Was great. Now crashes every 30 seconds and takes me out of whatever app I was in.,nextcloud/android (GitHub),5036,Crash at leaving the app,"### Actual behaviour
+- The App crashed
+
+### Expected behaviour
+- It should not crash at leaving the app
+ 
+### Steps to reproduce
+1. 
+2. 
+3. 
+
+
+### Environment data
+Android version:
+
+Device model: 
+
+Stock or customized system:
+
+Nextcloud app version:
+
+Nextcloud server version:
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/5036,needs-info/cannot-reproduce label=needs info/discussion,bug;needs info/discussion,2019-12-20T07:27:59Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand that you're experiencing crashes every 30 seconds. There was a related issue, #5036, regarding crashes when leaving the app, which has been closed but marked as needing more information for further discussion. You can view it here: [Issue #5036](https://github.com/nextcloud/android/issues/5036). If you have additional details about your environment or steps to reproduce the crash, please share them to help us investigate further.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the related issue (#5036) and its status, which is relevant to the user's complaint about crashes. However, it lacks specific actionable advice or solutions to the user's problem, and the empathy could be improved by acknowledging the frustration caused by the crashes more directly."
+57da253e4bb38ef03ac9c6bb960a5212b52b90c98d1a02cbaee224988420eed5,Firefox,gp:AOqpTOHIM12DGTc-RW_cv7lcf7pfK5NeUssgRE2cDXuXcA2gvzEMeajCXyZFV4vMqTmon0oIhAh8AqK2ZzGoiw,Hurry up and wait. This app is incredibly slow. Photos and videos take forever to load and when they do load the quality is very poor.,Mozilla Firefox (Bugzilla),1360093,slow loading in android,"268278    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1360093,Bugzilla resolution=INCOMPLETE,,2017-05-12T21:19:40Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. We understand that slow loading times can be frustrating. There was a related issue, [#1360093](https://bugzilla.mozilla.org/show_bug.cgi?id=1360093), regarding slow loading on Android, which has been closed but marked as INCOMPLETE. We appreciate your patience as we continue to work on improving performance.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,False,0.0,0.0,0.0,0.0,True,"The response incorrectly states that the related issue is marked as INCOMPLETE, while the authoritative metadata indicates that it is closed and classified as ABANDONED_NEEDS_INFO. This miscommunication affects the status correctness and overall usefulness of the response."
+6884211eca8ea2cf2ef94c5fb5c08c7284035fb0c54c4900890714608c53f0df,Nextcloud,gp:AOqpTOHpdpAJVO3CaRksqY6pvmd0tie_xbrgkS7zlSo2oc4UTTO2_d3Mpk6TC-WImDDaf17SK4s5b6wgvVuefkY,"After downloaded it, I've trying to login in, it's prompt me enter URL, password and account, but all I can do is just enter URL, after enter URL, it said wrong account and password, but nothing I can do to enter both...",nextcloud/android (GitHub),5174,can't login,"### Steps to reproduce
+1.installed nextcloud app
+2. Enter the server address
+3. Crashed
+
+### Expected behaviour
+- Authorize login
+
+### Actual behaviour
+- crashed
+
+### Environment data
+Android version: 9
+
+Device model:Huawei  p20 lite
+
+Stock or customized system: custom rom.(Omni 9.2 from openkirin
+
+Nextcloud app version: 
+
+Nextcloud server version:
+
+************ CAUSE OF ERROR ************
+
+android.view.InflateException: Binary XML file line #7: Binary XML file line #7: Error inflating class android.webkit.WebView
+Caused by: android.view.InflateException: Binary XML file line #7: Error inflating class android.webkit.WebView
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:647)
+	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:720)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:788)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:730)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:863)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:824)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:515)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:374)
+	at androidx.appcompat.app.AppCompatDelegateImpl.setContentView(AppCompatDelegateImpl.java:555)
+	at androidx.appcompat.app.AppCompatActivity.setContentView(AppCompatActivity.java:161)
+	at com.owncloud.android.authentication.AuthenticatorActivity.onGetServerInfoFinish(AuthenticatorActivity.java:1310)
+	at com.owncloud.android.authentication.AuthenticatorActivity.onRemoteOperationFinish(AuthenticatorActivity.java:1209)
+	at com.owncloud.android.services.OperationsService.lambda$dispatchResultToOperationListeners$0(OperationsService.java:727)
+	at com.owncloud.android.services.-$$Lambda$OperationsService$2BVgsxDpOpa4JqgzeD7OGZBLSiI.run(Unknown Source:6)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6718)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+Caused by: android.util.AndroidRuntimeException: android.webkit.WebViewFactory$MissingWebViewPackageException: Failed to load WebView provider: No WebView installed
+	at android.webkit.WebViewFactory.getProviderClass(WebViewFactory.java:471)
+	at android.webkit.WebViewFactory.getProvider(WebViewFactory.java:251)
+	at android.webkit.WebView.getFactory(WebView.java:2424)
+	at android.webkit.WebView.ensureProviderCreated(WebView.java:2419)
+	at android.webkit.WebView.setOverScrollMode(WebView.java:2484)
+	at android.view.View.<init>(View.java:4807)
+	at android.view.View.<init>(View.java:4948)
+	at android.view.ViewGroup.<init>(ViewGroup.java:659)
+	at android.widget.AbsoluteLayout.<init>(AbsoluteLayout.java:55)
+	at android.webkit.WebView.<init>(WebView.java:403)
+	at android.webkit.WebView.<init>(WebView.java:348)
+	at android.webkit.WebView.<init>(WebView.java:331)
+	at android.webkit.WebView.<init>(WebView.java:318)
+	... 25 more
+Caused by: android.webkit.WebViewFactory$MissingWebViewPackageException: Failed to load WebView provider: No WebView installed
+	at android.webkit.WebViewFactory.getWebViewContextAndSetProvider(WebViewFactory.java:376)
+	at android.webkit.WebViewFactory.getProviderClass(WebViewFactory.java:439)
+	... 37 more
+
+************ APP INFORMATION ************
+ID: com.nextcloud.client
+Version: 30090290
+Build flavor: generic
+
+************ DEVICE INFORMATION ************
+Brand: HUAWEI
+Device: HWANE
+Model: ANE-AL00
+Id: PQ3A.190705.003
+Product: ANE-AL00
+
+************ FIRMWARE ************
+SDK: 28
+Release: 9
+Incremental: eng.chris.20190721.140716
+
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/5174,needs-info/cannot-reproduce label=needs info/discussion,bug;needs info/discussion,2020-01-23T17:39:14Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand you're having trouble logging in to the Nextcloud app. There was a related issue (#5174) where users experienced crashes during login, but it was marked as needing more information and was closed without a resolution. You can view the details here: [Issue #5174](https://github.com/nextcloud/android/issues/5174). If you continue to face this problem, please consider providing more details to help us investigate further.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response references a related issue but fails to address the user's specific login problem directly. It does not provide actionable advice or empathy, and the issue cited is marked as abandoned, which does not help the user resolve their current issue."
+69f2cdc8370692213f892447a46d239c7aceb33ee28d82dadc0a8af15ca95945,Firefox,gp:AOqpTOFEdVZ38XMYOyNzcfKP9DIblzyhimELe44ToT0C3t45VyFCG9lfwaJpoPKUyd2e9nz_NOeNPwuDvIwEUA,"When I type into the search box's it type's random words on it's own even when I delete the random words it adds words in, it's not my prediction keyboard that's messing up it only happens on Firefox. Also can't arrange your pinned top sites in the order you want.",Mozilla Firefox (Bugzilla),757175,"Typing search terms in ""awesome bar"" sends you randomly to a page having to do with the results, not google search","45549    Steps to reproduce?\n\nTyped search terms ( e....
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=757175,Bugzilla resolution=DUPLICATE,,2012-05-21T22:14:37Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. It seems you are experiencing issues with typing in the search box on Firefox. There is a related issue, Bug #757175, which discusses similar behavior where typing search terms leads to unexpected results. This issue was marked as a duplicate and closed in 2012. You can view more details here: [Bug #757175](https://bugzilla.mozilla.org/show_bug.cgi?id=757175). We appreciate your input and encourage you to report any ongoing problems.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references a related issue (Bug #757175) that is relevant to the user's complaint about typing issues in Firefox. It correctly identifies the issue as a duplicate and closed, aligning with the authoritative metadata. However, it lacks specificity in addressing the user's second complaint about arranging pinned top sites, which diminishes its overall usefulness and actionability."
+6b9101bdc920ad1e0d148740a628f7427fb4fa9e094b151886ccbec5a823be06,Firefox,gp:AOqpTOFoBQjEsPgEBzbnMU20ZfS4f3HTv4_crGuv7MzVfUUA_EhakMAuR8fA4laJv6RhkcsGIpOqN0mu9YRFCA,"Restore tabs are buggy, my tabs won't close properly and they always come back next time I open Firefox.",Mozilla Firefox (Bugzilla),1093644,"Tabs restored after a crash are still displayed after quitting Firefox with ""Don't restore tabs"" and ""Don't keep activities"" enabled","177768    Steps to reproduce:\n1. Open Settings -> Custo...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1093644,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2016-07-30T21:46:20Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,True,raw_metadata,"Thank you for your feedback regarding the tab restore issue. We understand how frustrating this can be. There was a related issue, [#1093644](https://bugzilla.mozilla.org/show_bug.cgi?id=1093644), which was marked as ""WORKSFORME,"" indicating that it could not be reproduced. If you're still experiencing this problem, please consider providing more details to help us investigate further.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response acknowledges the user's issue but fails to provide specific guidance or actionable steps based on the authoritative metadata, which indicates the issue is abandoned and needs more information. The mention of the related issue does not help the user resolve their current problem."
+6e9616c5c867a22222ac48dc1e25230f982f95fe8ea5fecdb4c7d45486405e3d,Firefox,gp:AOqpTOG3sb-6WDuHEOra7vee991nfoRPddy6JUUWIGSmxqkpHcthwWSm70n2TdxdghmYlsfXba4TXcSQ2eAyHQ,1. The menu of the selected text does not show all options which the google chrome does. 2. the Pul-down to refresh doesn't work.,Mozilla Firefox (Bugzilla),1338142,Text selection menu is missing or only a part of it is displayed,"260972    Environment: \nDevices:  \n- Huawei Honor 5x (...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1338142,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2018-10-26T12:42:37Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand your concerns regarding the text selection menu and the pull-down to refresh feature. There is a related issue, [#1338142](https://bugzilla.mozilla.org/show_bug.cgi?id=1338142), which was closed with a resolution of ""WORKSFORME,"" indicating that it could not be reproduced. We appreciate your input and encourage you to report any specific instances you encounter.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response acknowledges the user's concerns but fails to provide specific information about the authoritative outcome of the related issue, which is marked as ABANDONED_NEEDS_INFO. It does not address the user's complaints directly or offer actionable advice, making it unhelpful."
+7f49da916aa380fa3816c02b5ce52e0efafedea1f14d6670eb5da15100524dd6,Firefox,gp:AOqpTOFulvp8EP-LEmSrYJE3QjW7MoJB_YZWDWv7hbigBKBvCRgeV7jns8fk7Jikyp8NeoQ2lr8SFAzTmKpbEw,Good browser but it is not possible tochange default download folder to external sd. Too bad.,Mozilla Firefox (Bugzilla),1096638,No option to choose default download folder,"178729    There doesn't seem to be an option in Firefox ...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1096638,Bugzilla resolution=DUPLICATE,,2014-11-10T23:54:06Z,REDIRECTED,duplicate,REDIRECTED,True,raw_metadata,"Thank you for your feedback. I understand the frustration regarding the inability to change the default download folder to an external SD card. This issue has been documented in Bugzilla as issue #1096638, which is marked as a duplicate and was closed on November 10, 2014. You can view more details here: [Issue #1096638](https://bugzilla.mozilla.org/show_bug.cgi?id=1096638).",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,1.0,0.5,0.5,0.5,True,"The response accurately reflects the authoritative metadata, correctly identifies the issue as a duplicate, and provides a link for further details. However, it lacks actionable advice or alternative solutions for the user, which affects its overall usefulness and empathy."
+831b81c4aee8f36eb9d3b3c22614b6b6536d90b4974b7a033f210e423d61deb9,VLC,gp:AOqpTOElORMxZeNrRCwC6dMv6lgGSehGk7t9CBuaXgNrlhKGQTiE1nixctk3MPx9RF0Pu2c0PsOBh3UY-n329w,"Occasionally glitches in terms of playback and refreshing new content added to my phone, but otherwise works well. Been using it for years.",VLC Android (Trac),16142,Android: Playback error,"{{{
+VLC encountered an error with this media. 
+
+Please try refreshing the media library. 
+
+}}}
+
+'''Steps to reproduce:'''
+
+1. Save an mp3 as offline file in Google Drive
+2. Open the offline mp3 file
+3. VLC will show this error message
+
+The error does not occur if the same mp3 file is opened once again.
+
+'''Testing environment:'''
+
+* VLC 1.7.2
+* Fairphone with Android 4.2.2",closed,,Trac resolution=notvlc,,,REJECTED,notvlc,REJECTED,False,raw_metadata,"Thank you for your feedback! We understand that playback issues can be frustrating. There was a reported playback error in VLC for Android (Issue #16142), which involved refreshing the media library. While this issue is closed, it may not have been fully resolved for all scenarios. We appreciate your continued use of the app and encourage you to keep us updated on your experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response references a specific issue (Issue #16142) but incorrectly states that it may not have been fully resolved, while the authoritative metadata indicates that the issue is rejected. The response lacks specificity and actionable advice related to the user's current experience."
+8f054f08d225baf5ce48541dff963c4615e90ed5b80afefd1c757cd9f1327e00,VLC,gp:AOqpTOHhhRnuxok0L1AUhdUQ5P02wCE0maG761D4e0MJiGW9Onp7m81jm4z50TKIIxkum6jFIP1IpeTomK23Zg,Too slow...it takes lot of time to load the videos and video thumbnail doesn't load,VLC Android (Trac),14180,"Change Playback speed as low and restore,the video will not play smoothly","[HW Environment] 
+BYT TN  sample 
+
+[SW Environment] 
+Android v5.0 
+Build number: TR10RS1_i_Buddie12_userdebug.R07A 
+VLC Media Player 1.1.2 
+
+[Reproduce Steps] 
+1. Launch the VLC. 
+2. Select video to play 
+3. Change the Playback speed as lower than normal and close the setting dialog to verify the playing video. 
+4. Open the setting dialog and tap ""1x"" to restore the default playback speed. 
+5. Close the setting dialog and verify the playing video. 
+
+[Expected Result]   
+The video will be playing normally. 
+
+[Actual Result] 
+The video will not be playing smoothly. 
+
+[More Info] 
+If swipe the bar to 1.00 in Playback speed, the video will be playing smoothly.",closed,,Trac resolution=worksforme (cannot reproduce/confirm),,,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback regarding video loading times and thumbnail issues. We understand how frustrating this can be. There is a related issue, #14180, which discussed playback speed affecting video smoothness, but it was marked as ""worksforme,"" indicating it could not be reproduced. While this may not directly address your concerns, we appreciate your input and encourage you to share more details if possible.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.5,0.0,True,"The response acknowledges the user's concerns but fails to provide specific actionable advice or relevant information from the retrieved issue. It mentions a related issue that was marked as 'worksforme,' which does not directly address the user's complaint about slow loading times and thumbnail issues. The empathy is moderate as it recognizes the user's frustration."
+9237225ab940946dad779658870641678cb039f38b7e95536e9a2a356dbd0d82,Firefox,gp:AOqpTOH5iZfXhjmXYAXi5aDlvl188045EgaOPNSh1iQcQHdQhG3xIWTKXsC8LOBJTsVl4_s8Ma6-OUsUGabLyw,crashes nearly every time I use it for an extended period.,Mozilla Firefox (Bugzilla),1170165,Repeated crashes,"202069    User Agent: Mozilla/5.0 (Android; Mobile; rv:3...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1170165,Bugzilla resolution=DUPLICATE,,2015-06-08T22:53:32Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. I understand that experiencing crashes can be frustrating. There was a related issue, Bug #1170165, regarding repeated crashes, which has been marked as a duplicate and closed. You can view it [here](https://bugzilla.mozilla.org/show_bug.cgi?id=1170165). If you continue to face this problem, please consider reporting it to help us improve the experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the related issue and its status as a duplicate, which aligns with the authoritative metadata. However, it lacks specific actionable advice or next steps for the user, which affects its overall usefulness and actionability."
+926ca19d4130bb35d4ab1f870fe36569c53449642c21f32b28d21bfc9c97884e,Nextcloud,gp:AOqpTOFXOuIlP0yKi_-zNRvf33uuhA9Bjx0h-o1_rlCTUcXPOaFIDPZfSMGdSHcgBvKudHaYk60aJL2uaF1xe-k,"Keeps forgetting the account data. Then tries to auto-upload and fails, but keeps trying, burning battery. Use the account service, for crying out loud.",nextcloud/android (GitHub),4815,"AutoUpload not working, battery optimization bug","### Actual behaviour
+- When I want to enable auto upload feature is displayed info to disable battery optimization for NextCloud app, but this function is disabled, and sync not working.
+
+### Expected behaviour
+- Auto upload should works.
+
+### Environment data
+Android version:
+Android 9
+Device model: 
+Xiaomi Mi A2 Lite
+Stock or customized system:
+Lineage OS 16
+Nextcloud app version:
+3.9.0 & dev 20191102
+Nextcloud server version:
+16.0.3
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```",closed,https://github.com/nextcloud/android/issues/4815,historical closed snapshot + no confirmed resolution signal,bug;feature:AutoUpload,2020-03-25T16:27:58Z,ABANDONED,OTHER,ABANDONED,False,raw_metadata,"Thank you for your feedback. We understand that the auto-upload feature may not be functioning as expected, which can lead to issues like battery drain. This has been noted in issue #4815, which is closed but lacks a confirmed resolution. You can view the details here: [Issue #4815](https://github.com/nextcloud/android/issues/4815). We appreciate your patience as we continue to improve the app.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.8,0.6,0.5,0.4,True,"The response accurately references the relevant issue (#4815) and acknowledges the user's concerns about the auto-upload feature and battery drain. However, it lacks a clear resolution or actionable steps for the user, which affects its usefulness and actionability."
+9920a67cc2c7baddab403c50482c8f48ea2b85d87b5e6a7591ff6fd0e1147b78,Nextcloud,gp:AOqpTOHodreEF9nmj_03c-KpbeUJJ4iZK2fC9pdn_ch2gFWRecHX6iftwmizShwlYSD5NpMVGM9fsJYnsb94pt8,"Good app, but instant upload reports failed because of connectivity issues (on wifi) .   Would report the issue but can not find your Bugzilla.  Keep up the great work.",nextcloud/android (GitHub),2558,Autoupload doesn't recognise WiFi,"### Actual behaviour
+Changed for a reason from ""only WiFi"" to mobile data, then used BT for a short period - after switching back to ""only WiFi"" (same as before) it no longer uploads anything (Statusmessage: Waiting for WiFi - manual retry doesn't work either) if deactivating ""only WiFi"" again and use mobile data new files are uploaded but no ""old"" ones.
+
+### Expected behaviour
+Upload as selected ...
+ 
+### Steps to reproduce
+Can't list, there seems to be no way to get my phones/nextcloud working again with WiFi & reproduce it, sorry. (Cleared cache/userdata, created new account, even reinstalled App)
+
+### Environment data
+Android version:
+7.1.2 & 7.1.1
+Device model: 
+BQ M5 / U
+Stock or customized system:
+7.1.2 = lineageOS 14.1 from 05/05
+7.1.1 = stock
+Nextcloud app version:
+3.1.0
+Nextcloud server version:
+13 (unable to update hangs on step 4)
+### Logs
+#### Web server error log
+-none available-
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+-none available-Insert your Nextcloud log here
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/2558,stale label=stale,bug;feature:AutoUpload;stale,2019-05-24T02:23:09Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback! We understand that connectivity issues can be frustrating, especially with instant uploads. There was a related issue (#2558) regarding the app not recognizing WiFi, which has been marked as stale and closed. You can view it here: [Issue #2558](https://github.com/nextcloud/android/issues/2558). We appreciate your support and will continue to improve the app!",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.5,0.5,0.5,0.5,True,"The response acknowledges the user's connectivity issue and references a related issue, but it inaccurately states that the issue is closed while it is marked as abandoned. The response is somewhat specific but lacks detailed actionable advice for the user. It shows empathy and appreciation for the user's feedback, but the overall usefulness is limited due to the misclassification of the issue."
+9b946a97dd6df61a9587020fc3fdc088dfb850ccc5290c5bf1dc8c5133ff425c,Nextcloud,gp:AOqpTOHdbdQOmYRRIkrBhnZlgshZFMiqywn1Ul0apuNymIt8_p2orB0Di9zGJKVp_XEw23BLlce-dBNL1yHr7gQ,"App works only few hours, next - problems with login. Can't login, must reinstall app again, and again!😠",nextcloud/android (GitHub),2939,Login failed on the app,"### Actual behaviour
+- Tell us what happens
+I install the last version of nextcloud 13 today as a server.
+I login successfully with my user created by the web interface. I deconnect and after impossible to connect. On the web interface all word find (admin account and the other account). In the log i have a login failed. The app detect correctly the nextcloud instance.
+That was strange because i made only one connexion and after nothing.
+I reinstall the app and delete data but its the same problem
+
+### Expected behaviour
+- Tell us what should happen
+ 
+### Steps to reproduce
+1. Connect with a user
+2. Delete the account
+3. Recreate an other account and it is here the crash to connect
+
+
+### Environment data
+Android version: 7.0
+
+Device model: blackview bv6000
+
+Stock or customized system: stock + official update
+
+Nextcloud app version: 3.2.3
+
+Nextcloud server version: 13.0.5.2
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+
+#### Nextcloud log (data/nextcloud.log)
+```
+{""reqId"":""naIuGGC8JZvE3Cv6RIQA"",""level"":2,""time"":""2018-08-29T19:48:39+00:00"",""remoteAddr"":""10.8.0.2"",""user"":""--"",""app"":""core"",""method"":""POST"",""url"":""\/nextcloud\/index.php\/login?redirect_rl=\/nextcloud\/index.php\/login\/flow\/redirect%3FstateToken%3Dhmn5wiw1MIYRQFpBq7JIuoy6EDl21Ite8gV9vQAiGGd9IvbrjEZXVVA8XrkfdxG5%26clientIdentifier%3D"",""message"":""Login failed: 'admin' (Reote IP: '10.8.0.2')"",""userAgent"":""Blackview BV6000"",""version"":""13.0.5.2""}
+
+```
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate",closed,https://github.com/nextcloud/android/issues/2939,stale label=stale,bug;stale,2019-05-24T01:23:14Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"I'm sorry to hear you're experiencing login issues with the app. There was a related issue, #2939, regarding login failures that has been marked as stale and closed since May 2019. You can view it here: [Issue #2939](https://github.com/nextcloud/android/issues/2939). While this may not directly resolve your problem, it indicates that similar concerns have been noted. We appreciate your feedback and encourage you to check for any updates or further support options.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.2,0.3,0.5,0.2,True,"The response acknowledges the user's login issues and references a related issue that is closed and marked as stale. However, it lacks actionable advice or a direct resolution to the user's current problem, making it less useful. The empathy shown is moderate, but the specificity is low as it does not provide tailored guidance based on the user's specific situation."
+9bb21000c4203803b7e0c5365cca3993c7a1e3070b12e6f0fbefee993585a101,VLC,gp:AOqpTOH7DSBy_iqoxWdOMCAc-N0QvoT5O2wSLtb07E3xL51DM2BRXnlZqri1Tef7tstL1wGhZS8XF4rz9YRy9Q,It was 100x better before this new update. Now it's slow! Takes years to load videos and no categories,VLC Android (Trac),14180,"Change Playback speed as low and restore,the video will not play smoothly","[HW Environment] 
+BYT TN  sample 
+
+[SW Environment] 
+Android v5.0 
+Build number: TR10RS1_i_Buddie12_userdebug.R07A 
+VLC Media Player 1.1.2 
+
+[Reproduce Steps] 
+1. Launch the VLC. 
+2. Select video to play 
+3. Change the Playback speed as lower than normal and close the setting dialog to verify the playing video. 
+4. Open the setting dialog and tap ""1x"" to restore the default playback speed. 
+5. Close the setting dialog and verify the playing video. 
+
+[Expected Result]   
+The video will be playing normally. 
+
+[Actual Result] 
+The video will not be playing smoothly. 
+
+[More Info] 
+If swipe the bar to 1.00 in Playback speed, the video will be playing smoothly.",closed,,Trac resolution=worksforme (cannot reproduce/confirm),,,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand that you're experiencing slow video loading and missing categories after the recent update. While we have a closed issue (#14180) related to playback speed not functioning smoothly, it was marked as ""worksforme,"" indicating that the problem could not be reproduced. We appreciate your input and will continue to monitor performance issues.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.3,0.4,0.5,0.3,True,"The response acknowledges the user's concerns about slow video loading and missing categories, which aligns with the user's review. However, it references a closed issue that does not directly address the user's specific complaint about the current update's performance. The response lacks actionable advice or a clear resolution path, making it less useful."
+9d8e6d4e31d7c8701fbdfb7b2047358ef68e36db52c80ed3abae83722d55a3c1,Nextcloud,gp:AOqpTOH7BiU00zY3JMN9UIOyS_84c3NrTE5W5-dhr5BmO5QE1m75_zvuqENt7VBcspk1MvExgu9E4A8AcC-Bp5Q,"Nextcloud as a service is amazing, but this mobile client is not so much. The interface is rather unstable and I encounter crashes or bugs while moving from image preview to image preview. I actually have no issues with auto upload, but sync leaves a bit to be desired; you can't configure the location of syncs. Every sync will land in a single directory, which is inconvenient.",nextcloud/android (GitHub),4033,Nextcloud keeps crashing when syncing a big folder,"First time I post on github, sorry in advance if I'm doing anything wrong. Also: Im sorry for this generic title but I can't realy put my finger on what it is related to. My guess is the fact that my external 128GB micro SD card is formated as internal storage and nextcloud is moved to it. I hope I can change the title to something more appropriate if we find out what this issue is related to.
+
+### Actual behaviour
+I start the app, go to all files and pick my documents folder for example (~17GB). It starts the sync / downloading but every few seconds I get the window ""Nextcloud reagiert nicht"" ""App schließen / Warten"" (nextcloud stopped working, close app, wait). When I keep answering ""Warten"" (wait) it works as it should. When my screen turns itself off after the configured time of 10s it can happen, that the sync stops. This means I can see a file downloaded to i.e. 45% and it's stuck there. After that the filesystem seems to be in a wierd state. Sometimes I can't save new files, this includes taking a picture and saving it to DCIM (which normally happes automaticly.
+
+Important: Sometimes it works as intended. Exspecially when the folder to sync is smaller.
+
+### Expected behaviour
+- Start a sync of a folder (size shouldn't matter)
+- No popup windows like ""stopped working""
+
+ 
+### Steps to reproduce
+1. Format SD card as internal storage
+2. Start nextcloud app and pick a (big) folder to sync
+3. wait for the Crash windows to pop up
+
+
+### Environment data
+Android version: 9
+
+Device model: HTC 10 / pme
+
+Stock or customized system: customized, unoffical version of LineageOS 16 ([link](https://forum.xda-developers.com/htc-10/development/rom-lineageos-16-1-unofficial-builds-pme-t3851614))
+
+Nextcloud app version: 3.6.0 (f-droid)
+
+Nextcloud server version: 16.0.0
+
+Since I think it's related to the SD card: [SanDisk Extreme 128GB microSDXC](https://www.amazon.de/dp/B07FCMKK5X)
+
+### Logs
+#### Android logcat output
+```
+05-16 14:25:25.216  3236  4381 D FileContentProvider: applied batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57
+05-16 14:25:25.227  3236  4381 V SynchronizeFolderOperation: Starting content synchronization... 
+05-16 14:25:25.229  3236  4381 D OperationsService: Called 0 listeners
+05-16 14:25:25.230  3236  4381 D SyncFolderHandler: Stopping after command with id 616
+05-16 14:25:25.250  3236  4381 D SynchronizeFolderOperation: Checking changes in <URL>/Documents/<FOLDER>/
+05-16 14:25:25.251  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/
+05-16 14:25:25.253  3236  4381 D AdvancedSslSocketFactory: Creating SSL Socket with remote <URL>:443, local null:0, params: org.apache.commons.httpclient.params.HttpConnectionParams@b004347
+05-16 14:25:25.253  3236  4381 D AdvancedSslSocketFactory:  ... with connection timeout 5000 and socket timeout 60000
+05-16 14:25:25.257  3236  4381 I ServerNameIndicator: SSLSocket implementation: com.android.org.conscrypt.Java8FileDescriptorSocket
+05-16 14:25:25.257  3236  4381 I ServerNameIndicator: SNI done, hostname: <URL>
+05-16 14:25:25.346  3236  4381 I SynchronizeFolderOperation: Checked <URL>/Documents/<FOLDER>/ : changed
+05-16 14:25:25.347  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/
+05-16 14:25:25.441  1338  1789 I CwMcuSensor: processEvent: Reporting mPendingEvent.light = 110.000 139.000
+05-16 14:25:25.468  3236  4381 I ReadFolderRemoteOperation: Synchronized /Documents/<FOLDER>/: Operation finished with HTTP status code 207 (success)
+05-16 14:25:25.468  3236  4381 D SynchronizeFolderOperation: Synchronizing <URL>/Documents/<FOLDER>/
+05-16 14:25:25.468  3236  4381 D SynchronizeFolderOperation: Remote folder /Documents/<FOLDER>/ changed - starting update of local data 
+05-16 14:25:25.491  3236  3236 D OperationsService: Starting command with id 963
+05-16 14:25:25.495  3236  3236 D OperationsService: Starting command with id 964
+05-16 14:25:25.496  3236  4381 D FileDataStorageManager: Saving folder /Documents/<FOLDER>/ with 3 children and 0 files to remove
+05-16 14:25:25.499  3236  3236 D OperationsService: Starting command with id 965
+05-16 14:25:25.558  3236  4381 D FileDataStorageManager: Sending 4 operations to FileContentProvider
+05-16 14:25:25.558  3236  4381 D FileContentProvider: applying batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57 (temporary: false)
+05-16 14:25:25.613  3236  4381 D FileContentProvider: applied batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57
+05-16 14:25:25.613  3236  4381 V SynchronizeFolderOperation: Starting content synchronization... 
+05-16 14:25:25.615  3236  4381 D OperationsService: Called 0 listeners
+05-16 14:25:25.615  3236  4381 D SyncFolderHandler: Stopping after command with id 617
+05-16 14:25:25.634  3236  4381 D SynchronizeFolderOperation: Checking changes in <URL>/Documents/<FOLDER>/fpga/.qsys_edit/
+05-16 14:25:25.635  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/fpga/.qsys_edit/
+05-16 14:25:25.725  3236  4381 I SynchronizeFolderOperation: Checked <URL>/Documents/<FOLDER>/fpga/.qsys_edit/ : changed
+05-16 14:25:25.727  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/fpga/.qsys_edit/
+05-16 14:25:25.828  3236  4381 I ReadFolderRemoteOperation: Synchronized /Documents/<FOLDER>/fpga/.qsys_edit/: Operation finished with HTTP status code 207 (success)
+05-16 14:25:25.828  3236  4381 D SynchronizeFolderOperation: Synchronizing <URL>/Documents/<FOLDER>/fpga/.qsys_edit/
+05-16 14:25:25.828  3236  4381 D SynchronizeFolderOperation: Remote folder /Documents/<FOLDER>/fpga/.qsys_edit/ changed - starting update of local data 
+05-16 14:25:25.857  3236  4381 D FileDataStorageManager: Saving folder /Documents/<FOLDER>/fpga/.qsys_edit/ with 2 children and 0 files to remove
+05-16 14:25:25.897  3236  4381 D FileDataStorageManager: Sending 3 operations to FileContentProvider
+05-16 14:25:25.897  3236  4381 D FileContentProvider: applying batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57 (temporary: false)
+05-16 14:25:25.898  1338  1417 I system_server: libdebuggerd_client: started dumping process 3236
+05-16 14:25:25.901  1107  1107 I /system/bin/tombstoned: registered intercept for pid 3236 and type kDebuggerdJavaBacktrace
+05-16 14:25:25.901  3236  3242 I extcloud.clien: Thread[3,tid=3242,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13880138,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:25.901  3236  3242 I extcloud.clien: 
+05-16 14:25:26.062  3236  4381 D FileContentProvider: applied batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57
+05-16 14:25:26.062  3236  4381 V SynchronizeFolderOperation: Starting content synchronization... 
+05-16 14:25:26.093  3236  3236 D FileDownloader: Starting command with id 3471
+05-16 14:25:26.095  3236  4381 I SynchronizeFileOperation: Synchronizing <URL>, file /Documents/<file>: Operation finished with HTTP status code -1 (success)
+05-16 14:25:26.119  3236  3236 D FileDownloader: Starting command with id 3472
+05-16 14:25:26.119  3236  4381 I SynchronizeFileOperation: Synchronizing <URL>, file /Documents/<file>: Operation finished with HTTP status code -1 (success)
+05-16 14:25:26.121  3236  4381 D OperationsService: Called 0 listeners
+05-16 14:25:26.121  3236  4381 D SyncFolderHandler: Stopping after command with id 618
+05-16 14:25:26.139  3236  4381 D SynchronizeFolderOperation: Checking changes in <URL>/Documents/<FOLDER>/
+05-16 14:25:26.141  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/
+05-16 14:25:26.173  1107  1107 I /system/bin/tombstoned: received crash request for pid 3236
+05-16 14:25:26.173  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 3236 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.175  3236  3242 I extcloud.clien: Wrote stack traces to '[tombstoned]'
+05-16 14:25:26.176  1338  1417 I system_server: libdebuggerd_client: done dumping process 3236
+05-16 14:25:26.176  1338  1417 I system_server: libdebuggerd_client: started dumping process 1338
+05-16 14:25:26.177  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1338 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.178  1338  1344 I system_server: Thread[2,tid=1344,WaitingInMainSignalCatcherLoop,Thread*=0x73d140e000,peer=0x14680108,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:26.178  1338  1344 I system_server: 
+05-16 14:25:26.235  3236  4381 I SynchronizeFolderOperation: Checked <URL>/Documents/<FOLDER>/ : changed
+05-16 14:25:26.237  3236  4381 D OwnCloudClient #0: REQUEST PROPFIND /remote.php/webdav/Documents/<FOLDER>/
+05-16 14:25:26.334  1338  1812 I HidlSensorManager: hidl_ssvc_poll: spurious wake up, back to work
+05-16 14:25:26.432  3236  3246 I extcloud.clien: Background concurrent copying GC freed 377319(15MB) AllocSpace objects, 31(620KB) LOS objects, 50% free, 17MB/34MB, paused 94us total 291.974ms
+05-16 14:25:26.442  1338  1789 I CwMcuSensor: processEvent: Reporting mPendingEvent.light = 110.000 139.000
+05-16 14:25:26.640  1338  1789 I CwMcuSensor: offset changed, id = 0, offset = -249624416948
+05-16 14:25:26.653  1107  1107 I /system/bin/tombstoned: received crash request for pid 1338
+05-16 14:25:26.653  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1338 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.661  1338  1344 I system_server: Wrote stack traces to '[tombstoned]'
+05-16 14:25:26.661  1338  1417 I system_server: libdebuggerd_client: done dumping process 1338
+05-16 14:25:26.661  1338  1417 I system_server: libdebuggerd_client: started dumping process 1902
+05-16 14:25:26.662  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1902 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.665  1902  1911 I putmethod.lati: Thread[3,tid=1911,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x12e40138,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:26.665  1902  1911 I putmethod.lati: 
+05-16 14:25:26.778  3236  4381 I ReadFolderRemoteOperation: Synchronized /Documents/<FOLDER>/: Operation finished with HTTP status code 207 (success)
+05-16 14:25:26.778  3236  4381 D SynchronizeFolderOperation: Synchronizing <URL>/Documents/<FOLDER>/
+05-16 14:25:26.778  3236  4381 D SynchronizeFolderOperation: Remote folder /Documents/<FOLDER>/ changed - starting update of local data 
+05-16 14:25:26.810  3236  4381 D FileDataStorageManager: Saving folder /Documents/<FOLDER>/ with 78 children and 0 files to remove
+05-16 14:25:26.816  1107  1107 I /system/bin/tombstoned: received crash request for pid 1902
+05-16 14:25:26.816  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1902 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.818  1902  1911 I putmethod.lati: Wrote stack traces to '[tombstoned]'
+05-16 14:25:26.818  1338  1417 I system_server: libdebuggerd_client: done dumping process 1902
+05-16 14:25:26.818  1338  1417 I system_server: libdebuggerd_client: started dumping process 2806
+05-16 14:25:26.819  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2806 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.820  2806  2821 I neageos.audiof: Thread[3,tid=2821,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x138c0020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:26.820  2806  2821 I neageos.audiof: 
+05-16 14:25:26.879  1107  1107 I /system/bin/tombstoned: received crash request for pid 2806
+05-16 14:25:26.879  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2806 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.882  2806  2821 I neageos.audiof: Wrote stack traces to '[tombstoned]'
+05-16 14:25:26.882  1338  1417 I system_server: libdebuggerd_client: done dumping process 2806
+05-16 14:25:26.882  1338  1417 I system_server: libdebuggerd_client: started dumping process 2792
+05-16 14:25:26.883  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2792 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.883  2792  2813 I com.android.se: Thread[3,tid=2813,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13800020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:26.883  2792  2813 I com.android.se: 
+05-16 14:25:26.940  1107  1107 I /system/bin/tombstoned: received crash request for pid 2792
+05-16 14:25:26.940  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2792 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.941  2792  2813 I com.android.se: Wrote stack traces to '[tombstoned]'
+05-16 14:25:26.941  1338  1417 I system_server: libdebuggerd_client: done dumping process 2792
+05-16 14:25:26.941  1338  1417 I system_server: libdebuggerd_client: started dumping process 2782
+05-16 14:25:26.942  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2782 and type kDebuggerdJavaBacktrace
+05-16 14:25:26.944  2782  2798 I s.settings.doz: Thread[3,tid=2798,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13780020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:26.944  2782  2798 I s.settings.doz: 
+05-16 14:25:27.018  1107  1107 I /system/bin/tombstoned: received crash request for pid 2782
+05-16 14:25:27.018  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2782 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.023  2782  2798 I s.settings.doz: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.023  1338  1417 I system_server: libdebuggerd_client: done dumping process 2782
+05-16 14:25:27.024  1338  1417 I system_server: libdebuggerd_client: started dumping process 2767
+05-16 14:25:27.025  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2767 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.025  2767  2771 I com.android.nf: Thread[3,tid=2771,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13700020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.025  2767  2771 I com.android.nf: 
+05-16 14:25:27.149  1107  1107 I /system/bin/tombstoned: received crash request for pid 2767
+05-16 14:25:27.149  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2767 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.151  2767  2771 I com.android.nf: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.151  1338  1417 I system_server: libdebuggerd_client: done dumping process 2767
+05-16 14:25:27.151  1338  1417 I system_server: libdebuggerd_client: started dumping process 2124
+05-16 14:25:27.153  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2124 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.153  2124  2158 I m.android.phon: Thread[3,tid=2158,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x14a418a0,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.153  2124  2158 I m.android.phon: 
+05-16 14:25:27.299  1107  1107 I /system/bin/tombstoned: received crash request for pid 2124
+05-16 14:25:27.299  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2124 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.300  2124  2158 I m.android.phon: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.302  1338  1417 I system_server: libdebuggerd_client: done dumping process 2124
+05-16 14:25:27.303  1338  1417 I system_server: libdebuggerd_client: started dumping process 2115
+05-16 14:25:27.303  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2115 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.303  2115  2150 I settings.devic: Thread[3,tid=2150,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13100020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.303  2115  2150 I settings.devic: 
+05-16 14:25:27.425  1107  1107 I /system/bin/tombstoned: received crash request for pid 2115
+05-16 14:25:27.425  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2115 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.426  2115  2150 I settings.devic: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.426  1338  1417 I system_server: libdebuggerd_client: done dumping process 2115
+05-16 14:25:27.426  1338  1417 I system_server: libdebuggerd_client: started dumping process 2097
+05-16 14:25:27.427  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2097 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.427  2097  2125 I elephonyservic: Thread[3,tid=2125,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13080020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.427  2097  2125 I elephonyservic: 
+05-16 14:25:27.440  1338  1789 I CwMcuSensor: processEvent: Reporting mPendingEvent.light = 114.000 139.000
+05-16 14:25:27.440  1338  1789 I CwMcuSensor: offset changed, id = 3, offset = -249624416948
+05-16 14:25:27.487  1107  1107 I /system/bin/tombstoned: received crash request for pid 2097
+05-16 14:25:27.487  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2097 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.488  2097  2125 I elephonyservic: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.488  1338  1417 I system_server: libdebuggerd_client: done dumping process 2097
+05-16 14:25:27.488  1338  1417 I system_server: libdebuggerd_client: started dumping process 2089
+05-16 14:25:27.490  1107  1107 I /system/bin/tombstoned: registered intercept for pid 2089 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.490  2089  2107 I .dataservices: Thread[3,tid=2107,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x12fc0020,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.491  2089  2107 I .dataservices: 
+05-16 14:25:27.579  1107  1107 I /system/bin/tombstoned: received crash request for pid 2089
+05-16 14:25:27.579  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 2089 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.582  1338  1417 I system_server: libdebuggerd_client: done dumping process 2089
+05-16 14:25:27.582  1338  1417 I system_server: libdebuggerd_client: started dumping process 1917
+05-16 14:25:27.582  2089  2107 I .dataservices: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.583  1917  1929 I ndroid.systemu: Thread[3,tid=1929,WaitingInMainSignalCatcherLoop,Thread*=0x73d7c16400,peer=0x13c80908,""Signal Catcher""]: reacting to signal 3
+05-16 14:25:27.583  1917  1929 I ndroid.systemu: 
+05-16 14:25:27.583  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1917 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.930  1107  1107 I /system/bin/tombstoned: received crash request for pid 1917
+05-16 14:25:27.930  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1917 and type kDebuggerdJavaBacktrace
+05-16 14:25:27.934  1917  1929 I ndroid.systemu: Wrote stack traces to '[tombstoned]'
+05-16 14:25:27.936  1338  1417 I system_server: libdebuggerd_client: done dumping process 1917
+05-16 14:25:27.936  1338  1417 I system_server: libdebuggerd_client: started dumping process 926
+05-16 14:25:27.937  1107  1107 I /system/bin/tombstoned: registered intercept for pid 926 and type kDebuggerdNativeBacktrace
+05-16 14:25:27.938   926   926 I libc    : Requested dump for tid 926 (audioserver)
+05-16 14:25:27.989  7023  7023 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:27.990  1107  1107 I /system/bin/tombstoned: received crash request for pid 926
+05-16 14:25:27.990  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 926 and type kDebuggerdNativeBacktrace
+05-16 14:25:27.992  7023  7023 I crash_dump32: performing dump of process 926 (target tid = 926)
+05-16 14:25:28.071  1338  1417 I system_server: libdebuggerd_client: done dumping process 926
+05-16 14:25:28.072  1338  1417 I system_server: libdebuggerd_client: started dumping process 932
+05-16 14:25:28.074  1107  1107 I /system/bin/tombstoned: registered intercept for pid 932 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.077   932   932 I libc    : Requested dump for tid 932 (surfaceflinger)
+05-16 14:25:28.126  7028  7028 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.130  1107  1107 I /system/bin/tombstoned: received crash request for pid 932
+05-16 14:25:28.130  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 932 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.131  7028  7028 I crash_dump64: performing dump of process 932 (target tid = 932)
+05-16 14:25:28.164  1338  1417 I system_server: libdebuggerd_client: done dumping process 932
+05-16 14:25:28.164  1338  1417 I system_server: libdebuggerd_client: started dumping process 989
+05-16 14:25:28.165  1107  1107 I /system/bin/tombstoned: registered intercept for pid 989 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.166   989   989 I libc    : Requested dump for tid 989 (cameraserver)
+05-16 14:25:28.200  7036  7036 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.201  1107  1107 I /system/bin/tombstoned: received crash request for pid 989
+05-16 14:25:28.201  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 989 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.201  7036  7036 I crash_dump32: performing dump of process 989 (target tid = 989)
+05-16 14:25:28.224  1338  1417 I system_server: libdebuggerd_client: done dumping process 989
+05-16 14:25:28.224  1338  1417 I system_server: libdebuggerd_client: started dumping process 992
+05-16 14:25:28.225  1107  1107 I /system/bin/tombstoned: registered intercept for pid 992 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.226   992   992 I libc    : Requested dump for tid 992 (drmserver)
+05-16 14:25:28.263  7041  7041 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.264  1107  1107 I /system/bin/tombstoned: received crash request for pid 992
+05-16 14:25:28.265  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 992 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.265  7041  7041 I crash_dump32: performing dump of process 992 (target tid = 992)
+05-16 14:25:28.293  1338  1417 I system_server: libdebuggerd_client: done dumping process 992
+05-16 14:25:28.294  1338  1417 I system_server: libdebuggerd_client: started dumping process 999
+05-16 14:25:28.297  1107  1107 I /system/bin/tombstoned: registered intercept for pid 999 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.299   999   999 I libc    : Requested dump for tid 999 (mediadrmserver)
+05-16 14:25:28.330  7046  7046 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.331  1107  1107 I /system/bin/tombstoned: received crash request for pid 999
+05-16 14:25:28.331  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 999 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.331  7046  7046 I crash_dump64: performing dump of process 999 (target tid = 999)
+05-16 14:25:28.347  1338  1417 I system_server: libdebuggerd_client: done dumping process 999
+05-16 14:25:28.347  1338  1417 I system_server: libdebuggerd_client: started dumping process 1000
+05-16 14:25:28.349  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1000 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.350  1107  1107 I /system/bin/tombstoned: received crash request for pid 1000
+05-16 14:25:28.350  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1000 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.442  1338  1789 I CwMcuSensor: processEvent: Reporting mPendingEvent.light = 106.000 139.000
+05-16 14:25:28.449  1338  1417 I system_server: libdebuggerd_client: done dumping process 1000
+05-16 14:25:28.450  1338  1417 I system_server: libdebuggerd_client: started dumping process 1001
+05-16 14:25:28.450  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1001 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.451  1001  1001 I libc    : Requested dump for tid 1001 (mediametrics)
+05-16 14:25:28.489  7051  7051 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.489  1107  1107 I /system/bin/tombstoned: received crash request for pid 1001
+05-16 14:25:28.490  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1001 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.490  7051  7051 I crash_dump64: performing dump of process 1001 (target tid = 1001)
+05-16 14:25:28.513  3236  4381 D FileDataStorageManager: Sending 79 operations to FileContentProvider
+05-16 14:25:28.514  3236  4381 D FileContentProvider: applying batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57 (temporary: false)
+05-16 14:25:28.525  1338  1417 I system_server: libdebuggerd_client: done dumping process 1001
+05-16 14:25:28.525  1338  1417 I system_server: libdebuggerd_client: started dumping process 1013
+05-16 14:25:28.527  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1013 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.527  1013  1013 I libc    : Requested dump for tid 1013 (mediaserver)
+05-16 14:25:28.571  7057  7057 I crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+05-16 14:25:28.572  1107  1107 I /system/bin/tombstoned: received crash request for pid 1013
+05-16 14:25:28.572  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1013 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.573  7057  7057 I crash_dump32: performing dump of process 1013 (target tid = 1013)
+05-16 14:25:28.606  1338  1417 I system_server: libdebuggerd_client: done dumping process 1013
+05-16 14:25:28.607  1338  1417 I system_server: libdebuggerd_client: started dumping process 1020
+05-16 14:25:28.607  1107  1107 I /system/bin/tombstoned: registered intercept for pid 1020 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.613  1107  1107 I /system/bin/tombstoned: received crash request for pid 1020
+05-16 14:25:28.613  1107  1107 I /system/bin/tombstoned: found intercept fd 512 for pid 1020 and type kDebuggerdNativeBacktrace
+05-16 14:25:28.760  1338  1417 I system_server: libdebuggerd_client: done dumping process 1020
+05-16 14:25:28.763  1338  1417 E ActivityManager: ANR in com.nextcloud.client
+05-16 14:25:28.763  1338  1417 E ActivityManager: PID: 3236
+05-16 14:25:28.763  1338  1417 E ActivityManager: Reason: Context.startForegroundService() did not then call Service.startForeground(): ServiceRecord{ff0f4db u0 com.nextcloud.client/com.owncloud.android.services.OperationsService}
+05-16 14:25:28.763  1338  1417 E ActivityManager: Load: 5.35 / 4.53 / 3.49
+05-16 14:25:28.763  1338  1417 E ActivityManager: CPU usage from 14746ms to 0ms ago (2019-05-16 14:25:10.321 to 2019-05-16 14:25:25.068) with 99% awake:
+05-16 14:25:28.763  1338  1417 E ActivityManager:   84% 3236/com.nextcloud.client: 44% user + 39% kernel / faults: 9157 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   28% 1338/system_server: 16% user + 12% kernel / faults: 9911 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   5.5% 932/surfaceflinger: 2.3% user + 3.2% kernel / faults: 687 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   4.5% 1917/com.android.systemui: 2.9% user + 1.5% kernel / faults: 4265 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   3.9% 623/cfinteractive: 0% user + 3.9% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   3.1% 3/ksoftirqd/0: 0% user + 3.1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   3% 4336/mdss_fb0: 0% user + 3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   2.4% 902/android.hardware.graphics.composer@2.1-service: 0.9% user + 1.4% kernel / faults: 3 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   2.1% 31214/com.android.terminal: 1.8% user + 0.2% kernel / faults: 57 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1.8% 1902/com.android.inputmethod.latin: 1.4% user + 0.4% kernel / faults: 2035 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1.4% 5291/kworker/u8:9: 0% user + 1.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1.4% 25708/kworker/u8:15: 0% user + 1.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1.2% 797/logd: 0.4% user + 0.8% kernel / faults: 3 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1.2% 2124/com.android.phone: 0.8% user + 0.4% kernel / faults: 971 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 5225/kworker/0:3: 0% user + 0.6% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1% 728/irq/439-synapti: 0% user + 1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   1% 542/spi2: 0% user + 1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.9% 50/smem_native_rpm: 0% user + 0.9% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.9% 1020/media.codec: 0.4% user + 0.5% kernel / faults: 1947 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.9% 6282/kworker/u9:0: 0% user + 0.9% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.8% 7/rcu_preempt: 0% user + 0.8% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.8% 31514/kworker/u9:2: 0% user + 0.8% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.7% 2767/com.android.nfc: 0.3% user + 0.4% kernel / faults: 1021 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 2115/org.lineageos.settings.device: 0.4% user + 0.2% kernel / faults: 1945 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 769/jbd2/mmcblk0p63: 0% user + 0.6% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 1526/kworker/u9:5: 0% user + 0.6% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 2239/android.ext.services: 0.2% user + 0.4% kernel / faults: 1828 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.6% 3281/kworker/u8:14: 0% user + 0.6% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.5% 1000/media.extractor: 0.2% user + 0.3% kernel / faults: 1646 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.5% 6877/logcat: 0.2% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 2089/.dataservices: 0.3% user + 0.1% kernel / faults: 787 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 8/rcu_sched: 0% user + 0.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 23/ksoftirqd/2: 0% user + 0.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 2782/org.lineageos.settings.doze: 0.2% user + 0.2% kernel / faults: 728 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 2806/org.lineageos.audiofx: 0.2% user + 0.2% kernel / faults: 686 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 2851/com.android.launcher3: 0.2% user + 0.2% kernel / faults: 933 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 4839/kworker/0:0: 0% user + 0.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.4% 29193/kworker/3:2: 0% user + 0.4% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 17/ksoftirqd/1: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 55/irq/219-cpr3: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 139/kswapd0: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 647/mmc-cmdqd/0: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 2097/com.qualcomm.qti.telephonyservice: 0.1% user + 0.2% kernel / faults: 818 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 2792/com.android.se: 0.2% user + 0.1% kernel / faults: 675 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 2869/kworker/1:3: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 2936/irq/20-408000.q: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.3% 4331/irq/597-CwMcuSe: 0% user + 0.3% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 511/kgsl_worker_thr: 0% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 919/vendor.qti.hardware.perf@1.0-service: 0% user + 0.2% kernel / faults: 74 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 3684/org.shadowice.flocke.andotp: 0.1% user + 0.1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 3824/kworker/0:0H: 0% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.1% 5942/kworker/1:2H: 0% user + 0.1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 27702/kworker/u8:13: 0% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 798/servicemanager: 0% user + 0.1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 826/logcat: 0% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.2% 31708/kworker/1:1H: 0% user + 0.2% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.1% 29/ksoftirqd/3: 0% user + 0.1% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.1% 831/netd: 0% user + 0% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0% 845/ip6tables-restore: 0% user + 0% kernel / faults: 692 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0% 1001/media.metrics: 0% user + 0% kernel / faults: 55 minor
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.1% 1107/tombstoned: 0% user + 0% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0.1% 3533/com.android.keepass: 0% user + 0% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0% 10/rcuc/0: 0% user + 0% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0% 12/migration/0: 0% user + 0% kernel
+05-16 14:25:28.763  1338  1417 E ActivityManager:   0% 15/migration/
+05-16 14:25:28.863  1338  3563 I OpenGLRenderer: Initialized EGL, version 1.4
+05-16 14:25:28.864  1338  3563 D OpenGLRenderer: Swap behavior 2
+05-16 14:25:29.077  1338  1348 I system_server: Background concurrent copying GC freed 252569(9MB) AllocSpace objects, 8(2MB) LOS objects, 42% free, 16MB/28MB, paused 291us total 305.906ms
+05-16 14:25:29.444  1338  1789 I CwMcuSensor: processEvent: Reporting mPendingEvent.light = 102.000 139.000
+05-16 14:25:29.754  1338  3563 D OpenGLRenderer: endAllActiveAnimators on 0x73a8a5d200 (RippleDrawable) with handle 0x73b94b6640
+05-16 14:25:29.939   932  2638 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+05-16 14:25:29.939   932  2638 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - mAboveAppWindowsContainers#0
+05-16 14:25:29.945  1338  1779 E AppOps  : Operation not started: uid=1000 pkg=android op=SYSTEM_ALERT_WINDOW
+05-16 14:25:29.949   932   972 W SurfaceFlinger: Attempting to destroy on removed layer: eb60ba5 Application Not Responding: com.nextcloud.client#0
+05-16 14:25:29.962  3236  4381 D FileContentProvider: applied batch in provider com.owncloud.android.providers.FileContentProvider@b1c9d57
+05-16 14:25:29.964  3236  4381 V SynchronizeFolderOperation: Starting content synchronization... 
+05-16 14:25:29.987  3236  3236 D FileDownloader: Starting command with id 3473
+(...)
+```",closed,https://github.com/nextcloud/android/issues/4033,stale label=stale,bug;stale,2019-07-03T18:24:32Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback on the Nextcloud mobile client. We understand that you are experiencing crashes and issues with syncing. There was a related issue, #4033, which involved crashes during syncing large folders. This issue has been marked as closed, but we recognize that problems can still persist. You can view the details here: [Issue #4033](https://github.com/nextcloud/android/issues/4033). We appreciate your input and will continue to work on improving the app's stability and functionality.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,False,0.5,0.5,0.5,0.5,True,"The response acknowledges the user's feedback and references a related issue, but it incorrectly states that the issue is closed without addressing the fact that it has been marked as stale, which indicates it is abandoned. The response is somewhat specific but does not fully address the user's concerns about the mobile client interface and sync configuration limitations."
+ac8f3e274a64f06f086dfd93e3e87ea1dfcd7054018aa2da1c46197b8a77a4c8,Firefox,gp:AOqpTOFKhbTZeuW9M8Ixj2jembUm_ld19-p3rdlMamtweurBkLMilr4S0z_h1CuEU_fpteIIKv07fBlhkF9mkg,"Not the best browser, struggles to download, display video properly in player, ect unlike chrome does. Only reason I'll keep using it is adblock support",Mozilla Firefox (Bugzilla),1362349,youtube video content is downloaded but i can't play it,"268865    User Agent: Mozilla/5.0 (Windows NT 6.1; rv:50...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1362349,Bugzilla resolution=INACTIVE,,2018-07-26T23:04:42Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback. I understand your concerns about video playback issues. There was a related issue, [#1362349](https://bugzilla.mozilla.org/show_bug.cgi?id=1362349), regarding video content that was downloaded but could not be played. This issue is marked as closed, but it may not have resolved all related problems. We appreciate your patience and support for adblock features.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.0,True,"The response accurately references a related issue and acknowledges the user's concerns, but it does not provide actionable steps or a clear resolution, which limits its usefulness and actionability."
+ac939e395b90cbebbd903de354dc0431102066dc0a3568b22ebaa6bd46a5d101,Firefox,gp:AOqpTOG9ZiPHHBKIsB5szfBlbz6qm_os9w9fLYdqn0kYXjN5fXHESaqcViYm3gHI8AwhZJ-wIWMnIpqFZn05HA,Latest update started consuming over 80% battery. Had to uninstall to even charge the phone!,Mozilla Firefox (Bugzilla),1458441,Huge battery drain,"294656    User Agent: Mozilla/5.0 (Android 8.0.0; Mobile...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1458441,Bugzilla resolution=DUPLICATE,,2018-06-27T13:46:22Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. We understand that battery drain can be frustrating. There was a related issue, Bug #1458441, regarding huge battery drain, which has been marked as a duplicate and closed. You can view it here: [Bug #1458441](https://bugzilla.mozilla.org/show_bug.cgi?id=1458441). We appreciate your patience as we work to improve the experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,1.0,0.5,0.5,0.0,True,"The response accurately references the related issue and its status as a duplicate, which aligns with the authoritative metadata. However, it lacks actionable advice for the user experiencing battery drain and does not provide a resolution or next steps, limiting its usefulness and actionability."
+ae277b146b27d83ea5e8036dcbd8212f121e0530c136cc0b771651e5980228ae,VLC,gp:AOqpTOEaqOxSS4V8a6DfGCOEuvBf3rG4acuKobtmhbXxg46OT-eJGTZ4aXjsw7vuWMHWUbL8BjXEzVaXvUFa-g,"I've been using VLC for years, desktop and android versions. Since the latest update, i've been having a little trouble with screen ratio not auto adjusting on my Acer Chromebook 15. Once I load a video it will play but the bottom of the screen is cut off (where the play button is) in which I have to manually press pause than play again to fix the aspect ratio of the screen size. (Not a big deal and I hope it makes sense the way I explained, I can send a picture however)",VLC Android (Trac),14391,VLC player in Android app showing green bar at bottom of video. Also showing some distrotion.,"Hello, I am developing one video player app using VLC library. It is playing video correctly but at the bottom I am observing green bar / distortions. I checked this all the aspect ratios. Can you please help me in this issue?",closed,,Trac resolution=incomplete,,,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback regarding the screen ratio issue on your Acer Chromebook 15. I understand how frustrating this can be. I found a related issue (Issue #14391) regarding video playback distortions in the VLC Android app, but it was marked as incomplete. While this may not directly address your concern, it indicates that similar problems have been noted. We appreciate your patience as we work to improve the experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.5,0.0,True,"The response acknowledges the user's issue but fails to provide specific guidance or actionable steps. It references a related issue that is not directly applicable, which diminishes its usefulness. While it expresses some empathy, it does not address the user's specific complaint effectively."
+b3a905edbbedd9169d7729b9a98c91306b34847a6ce75ece8056dbbd186dc2f4,Firefox,gp:AOqpTOHIJrH92QH1JGRQJttEdnTPUclXjHreIu3BqFGwG2SqpVKWvZd_pV_Ed3FXRFoVF_CtP-tDdjST95n82w,"Check your ""permissions"" folks. This is not the browser it used to be. Firefox Can (among other things: -Read your Web Bookmarks and History -Find accounts on the device -Add or remove accounts -Approximate location -Precise location -Modify or delete the contents of your SD card -Take pictures and videos -Record Audio -Connect and Disconnect from WiFi -Change audio settings -Toggle sync on and off -Use accounts on the Device -Create accounts and set passwords -Control near field communication",Mozilla Firefox (Bugzilla),1488932,Firefox requests Camera and Microphone permissions,"299243    User Agent: Mozilla/5.0 (Windows NT 10.0; Win6...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1488932,Bugzilla resolution=DUPLICATE,,2018-09-06T06:46:13Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback regarding permissions in Firefox. We understand your concerns. There was a related issue, [#1488932](https://bugzilla.mozilla.org/show_bug.cgi?id=1488932), which addressed requests for camera and microphone permissions. This issue was marked as a duplicate and closed on September 6, 2018. We appreciate your input as we continue to improve user experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references a related issue about permissions in Firefox, which is relevant to the user's concerns. However, it lacks specific actionable advice or a deeper engagement with the user's feedback, making it somewhat generic."
+b9f630507cdf433f9f89dccc3f701cc815fa9f835e9c0c9f6917ea4f686fb321,Nextcloud,gp:AOqpTOEDakYgOQm_k7b5x6LPXXB1ZIDF0qTqfJlqkrwuDknky6k6OPVQjMb4g5ZP5EdP8r95W5ST8SJGj1ovZ24,"Hello, Autoupload doesn't work. I manually created folder on the server using web browser, and checked in the app to create year folder and month. It gives ""connection error"" in uploads queue. So the app is almost useless for me",nextcloud/android (GitHub),2834,Auto upload doesn't work,"### Actual behaviour
+- When I add or enable a folder in the auto upload list, nothing gets uploaded. In this case, I have a bunch of .md files with notes which I want to be automatically uploaded to the folder 'Notes' in my Nextcloud. They do not get uploaded and no error is shown.
+
+### Expected behaviour
+- Files should be uploaded/synchronized
+ 
+### Steps to reproduce
+1. Set up a folder to automatically upload in the android client
+
+
+### Environment data
+Android version: 7.1.2
+
+Device model: Sony Z1 Compact
+
+Stock or customized system: AICP Android (based on LineageOS)
+
+Nextcloud app version: 3.2.1
+
+Nextcloud server version: 13.0.4",closed,https://github.com/nextcloud/android/issues/2834,stale label=stale,bug;feature:AutoUpload;stale,2020-02-16T00:08:03Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback regarding the auto upload feature. I understand how frustrating it can be when it doesn't work as expected. There was a related issue, #2834, which reported similar problems with auto uploads not functioning correctly. This issue has been marked as closed, but it is labeled as stale, indicating it may not have been fully resolved. You can view the issue here: [Issue #2834](https://github.com/nextcloud/android/issues/2834). We appreciate your patience as we work to improve the app.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.5,0.5,0.7,0.3,True,"The response acknowledges the user's frustration and references a related issue, but it inaccurately states that the issue is closed while it is marked as abandoned. The response is somewhat specific but lacks actionable advice for the user, and the empathy shown is moderate."
+ba120d570088e90794caf389ad534449d2adf316a4ae190fcc8e087d2f87472a,Firefox,gp:AOqpTOFypb9brqf-n36vM5hOnKeqYmquQj-l9pZqgo_xAbMiEOo2XuB42U0Dax4f-JH8J1KfY8PJFZ5leEdmKA,"There is no Home button and Menu buttons anywhere in the opened web pages. Also, pulling down page is not reloading the web page.",Mozilla Firefox (Bugzilla),1180834,Drop-down menu not working only on a website home page and only on android Firefox,"205948    User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=1180834,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2016-01-09T02:42:20Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand your concerns about the missing Home and Menu buttons, as well as the page not reloading. There was a related issue, [#1180834](https://bugzilla.mozilla.org/show_bug.cgi?id=1180834), regarding drop-down menus on a website's home page in Android Firefox, which was marked as ""works for me"" and closed in 2016. Unfortunately, we couldn't reproduce the issue you described. Your experience is important, and we appreciate your input.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.5,False,True,0.3,0.4,0.6,0.2,True,"The response acknowledges the user's concerns and references a related issue, but it inaccurately states that the issue was closed as 'works for me' without addressing the specific nature of the user's complaint. The response lacks actionable advice and does not provide a clear resolution path, which diminishes its usefulness."
+bd1533c8e6c90b4664c379c3e1b6916f73fe62f42bcfc999adb89a406de48c17,Nextcloud,gp:AOqpTOGmKcdptM2pp9rby3LUBACX39z8ERKLUfu8mNaW0Wh6xvQ3hoT9Bktg1h9otwlnRczFHRLEWWAHy4k68yA,"I kinda like that you have to be real particular about selecting folders to upload, but until there's an auto-sync, I'll be using Syncthing. a little more detail: you can select ""auto-upload"" and specify a local folder, a remote folder, and some other stuff (defaults are probably fine). It will then _upload_ _new_ files in that local directory (but not subdirectories, which is important for music). So all those existing files, never touched. And if you delete a file, that doesn't propagate out to your server, and therefore to your other devices. And if a file is changed/created/etc on the server, you'll never know about it until you manually sync that folder.",nextcloud/android (GitHub),2611,Auto upload folders (remote/local) are not selectable/not stored,"### Actual behaviour
+I can't set folders for the auto upload setting. When I select local/remote folder the folder selection screens open but when I select a folder, the folder is not stored and I only see ""Select a local folder""/""Select a remote folder"". I have the same issues with predefined settings (where I just can choose the remote folder). There I see e.g. ""/InstantUpload/Camara"" but not my selected one.
+
+### Expected behaviour
+Folder's name are displayed as expected when selection is done and the upload put the files to this location.
+ 
+### Steps to reproduce
+1.  Open app
+2.  Go to auto upload settings
+3.  Select one local folder (or click on manual selected local folder in the top)
+4.  Selecting remote (or local + remote for case*) via opened window
+5.  Local or remote path aren't displayed on the new window and I have ""Select a remote folder"" (or ""select the local folder"" *) again. There are no changes.
+
+This happens with every stable version (3.0.3 and 3.1.0). On my tablet it's working flawless.
+
+### Environment data
+Android version:
+7.1.2
+Device model: 
+LG G5
+Stock or customized system:
+LineageOS 14.1-20180510-NIGHTLY-h850
+Nextcloud app version:
+3.0.3 and 3.1.0",closed,https://github.com/nextcloud/android/issues/2611,stale label=stale,bug;feature:AutoUpload;stale,2019-05-24T03:23:13Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback regarding the auto-upload feature. We understand the importance of having a reliable sync option. There was a related issue, #2611, where users experienced problems with selecting and storing folders for auto-upload. This issue was closed on May 24, 2019, but it appears that the functionality may still not meet your needs. You can view the details here: [Issue #2611](https://github.com/nextcloud/android/issues/2611). We appreciate your input as we continue to improve the app.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,False,0.0,0.0,0.0,0.0,True,"The response incorrectly states that the issue is related to the user's feedback about auto-upload functionality, but the authoritative metadata indicates that the issue is marked as ABANDONED due to being stale. The response does not accurately reflect the status of the issue or provide actionable insights for the user, making it unhelpful."
+c6cded71760e2189a5f069aaf0a92c4be71701ecc063bfd72f34e87b00d7189e,Firefox,gp:AOqpTOFP2RuEtHtN1dr-IcXh8tiIQkYnSWALlYHBtLmuTAviU7PVHSyDCFDmlqQjXuFEIYq8TsspSptOsE5DMw,"The browser always crash for no reason, this version is whacked I swear.",Mozilla Firefox (Bugzilla),772168,Crash at libxul.so@0xebdc08 when visiting browserid.org,"55835    STR:\n 0. Have Fennec nightly installed from h...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=772168,Bugzilla resolution=DUPLICATE,,2012-07-09T20:01:56Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. I understand that crashes can be frustrating. There was a related issue, Bug #772168, which involved crashes when visiting certain sites. This issue has been marked as a duplicate and was closed in 2012. You can find more details here: [Bug #772168](https://bugzilla.mozilla.org/show_bug.cgi?id=772168). If you're still experiencing crashes, please consider reporting it to help us investigate further.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references a related issue (Bug #772168) that is relevant to the user's complaint about crashes. It correctly identifies the issue as a duplicate and provides a link for more information. However, it lacks specific actionable advice for the user to resolve their current crashing issue, which affects its overall usefulness and actionability."
+d1cf840710370bf2c017cb08f4afbe9e37778d0320fc04d8c195f0f4a763457e,Nextcloud,gp:AOqpTOF7K1Bid-C4CsxLZ6tNpyPjXjDm2xEPukpPP1PtNhxEk9AV46CtIFUnnXY8s80juZ-bgSCeTPQy8h-ePCs,"Not working for me, I can log, manual upload but if I want tu upload more then 10 photos, after a few stops uploading them. Auto upload is not working as well. I disable battery performance, I added all the permissions, etc. I am on android 9.",nextcloud/android (GitHub),430,AutoUpload not working with multiple photo's,"### Actual behaviour
+Finally: InstantUpload is back :D But... after taking multiple photo's (example: 3 photo's in 2-3 seconds) only the first photo will be uploaded when i'm connected to wifi (only upload with wifi-connection turned on). When i'm not connected, all photo's will be uploaded when i connect to wifi. The photo's won't also not appear in Uploads in the app.
+
+### Expected behaviour
+Upload all the photo's i shoot, when i'm connected to wifi or not.
+ 
+### Steps to reproduce
+1. Install new version of the app
+2. Take photo's (fast after each other)
+
+### Environment data
+Android version: 7.1.1
+Device model: Nexus 5x
+
+Stock or customized system: Stock
+
+Nextcloud app version: 1.4.0
+
+Nextcloud server version: 10.0.0.1",closed,https://github.com/nextcloud/android/issues/430,needs-info/cannot-reproduce label=needs info/discussion,bug;feature:AutoUpload;needs info/discussion,2017-09-25T13:25:07Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand you're experiencing issues with uploading multiple photos and auto-upload on Android 9. There was a related issue (#430) regarding auto-upload not working with multiple photos, but it was marked as needing more information and was closed without a resolution. You can view it here: [Issue #430](https://github.com/nextcloud/android/issues/430). We appreciate your patience as we continue to improve the app.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.8,0.6,0.5,0.4,True,"The response accurately references the related issue (#430) and its status, which is relevant to the user's complaint about uploading multiple photos. However, it lacks specific actionable advice or solutions for the user, and the empathy could be improved by acknowledging the user's frustration more directly."
+e1dc18281b1fd927ddecacf12be2d032b38eb47a1a23a186bb42481e486f47a4,VLC,gp:AOqpTOF00xF82PVK8yXtZPJ7fr0vIigRcmGyjPPdvRj-UAewGLM1JoVSNPYepePuNf7m7wk_KqeUV-UIHz1TUA,Audio stops all of a sudden. Problem occurs while playing high quality and high FPS videos.,VLC Android (Trac),9456,"While playing files, either mp4 or flv, the player randomly stops","Randomly the player stops playing files (mp4 or flv tried so far) and goes back to main screen. It does not remember the point in time being played, which it does when stopped manually.
+Running VLC for Android v0.1.3 (2013-07-29) on Asus Transformer TF700T (Android v4.0.3)NVIDIA® Tegra® 3 Quad-core CPU",closed,,Trac resolution=incomplete,,,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. We understand that audio can stop unexpectedly while playing high-quality videos. This issue is similar to Issue #9456, where the player randomly stops and returns to the main screen. However, it is marked as incomplete, indicating that it may not have been fully resolved. We appreciate your patience as we continue to address these concerns.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,False,0.0,0.0,0.0,0.0,True,"The response incorrectly states that Issue #9456 is similar and implies it is still being addressed, while the authoritative metadata indicates it is marked as abandoned and needs more information. The response lacks specificity and does not provide actionable advice or empathy."
+e38e7b7b2852c6ed58b29c614f7d6302f3eaf2cb5a08fa5b7d265eb53ae83e68,Firefox,gp:AOqpTOHbrNhlH359MIPvpzSGH4l2qkE86AdtYfP77VyU0aTrooapnt77vm3pPXZnYSbvMPuzIovJjWz9ydoGhQ,"Been using Firefox since version 3 on windows and was happy to see they made the Android version as I rather stick to a browser I already know and trust. Best thing about this is being able to sync my tabs between my PC and smartphone and it's as fast on my phone even with multiple tabs open and does not drain my battery. Disappointed that no add-ons I installed works so far, but maybe that will improve in the future.",Mozilla Firefox (Bugzilla),934585,Firefox won't sync open tabs from desktop to Android,"122069    User Agent: Mozilla/5.0 (X11; Linux x86_64) Ap...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=934585,Bugzilla resolution=DUPLICATE,,2013-11-04T21:46:35Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback! It's great to hear that you're enjoying Firefox on Android. Regarding your concern about syncing open tabs, there was an issue (Bug #934585) related to this that has been marked as a duplicate and closed. You can find more details here: [Bug #934585](https://bugzilla.mozilla.org/show_bug.cgi?id=934585). We appreciate your patience as we continue to improve the experience, including support for add-ons in the future.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the issue about syncing tabs, which is relevant to the user's feedback. However, it lacks specificity regarding the user's concern about add-ons, and the mention of the issue being closed as a duplicate may not provide a clear path forward for the user."
+e969e9760cb7ed01b95a6f64bdaa552b2e4fbf251db458bdc1ed308aebae1af4,VLC,gp:AOqpTOHJIuOTFOK5IPK89ZDu4w8QDo7tZ4cH6fPnxLa8f_9dV-7O_ghzdQ6o42uUM0HXgXa7qGLqly_uH5UvEA,"Its a great app, no doubt but I have an issue or lemme say I have some stuffs that's always happening in which I don't like. 1. Once I minimize my VLC in which I was using to watch a movie to attend to another app and I end up going back to it, VLC just stops and makes me start my movie all over again. 2. Why does the app just stop just like that all of a sudden after I've opened it if it's gets minimized? BTW I use an Infinix Note 4 Pro",VLC Android (Trac),14281,VLC Android always restarts,"Hi admin(jb)  :) 
+
+Here look please:
+https://www.dropbox.com/s/xy51dt5rd8fslai/Crashed%20SD%20Card%2064gb.mp4?dl=0
+
+Test with VLC Android from Google Play Store(1.2.1) and nighlies build(28.03.2015)
+
+With 32gb sd card not crashed!!! 
+Sorry crash log does not exist. Crazy bug xD",closed,,Trac resolution=notvlc,,,REJECTED,notvlc,REJECTED,False,raw_metadata,"Thank you for your feedback on VLC. I understand your frustration with the app restarting when minimized. There is a related issue, #14281, which discusses VLC Android always restarting. However, it is marked as closed with a resolution of ""notvlc,"" indicating it may not be a VLC-specific problem. We appreciate your input and encourage you to check for updates or provide more details for further assistance.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,0.5,0.5,0.5,0.5,True,"The response accurately references the related issue (#14281) and its resolution status, which is relevant to the user's complaint. However, it lacks specific actionable advice or empathy towards the user's frustration, and the specificity could be improved by directly addressing the user's specific issues."
+eab7140a989ff80483fed11502c6db7a3602d2141dd012952ad65067328d4d8a,Firefox,gp:AOqpTOEvdfHHlAIhRAYQ9W7BHmAFUbRmZ5_YNG_JPRAbTLjhB848_Iyj_WlIe1HCgCrdUOYysOZQ_Wqc2CJlBg,"Extremely high battery drain on my device. There are multiple people on forums everywhere complaining about this, I tried reinstalling, but that was a waste of time and, lost all my FF data because Sync didn't really synchronize my data. Back to finding another browser ffs.",Mozilla Firefox (Bugzilla),720231,Sync runs continuously - drains battery,"20109    Device: Samsung Galaxy S2\n\nWhat happened:\nI...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=720231,Bugzilla resolution=DUPLICATE,,2012-01-30T21:28:30Z,REDIRECTED,duplicate,REDIRECTED,False,raw_metadata,"Thank you for your feedback. I understand your frustration with the battery drain issue. There was a reported issue regarding continuous Sync causing battery drain, documented as issue #720231, which has since been closed as a duplicate. You can view more details here: [Bug 720231](https://bugzilla.mozilla.org/show_bug.cgi?id=720231). We appreciate your patience as we work to improve the experience.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,True,1.0,0.5,0.5,0.5,True,"The response accurately references the specific issue (#720231) related to battery drain and acknowledges the user's frustration, but it lacks actionable advice or solutions for the user to address their current problem."
+f9fe422f5974e5eec636791382cb70b908cf7dc1bfdf134ed596b6cdf8271be2,Firefox,gp:AOqpTOHvcxFdQw37mgnHcF5a9zU3acEVriRIfHUwR8n2yL55rhSML15mTKM05HJL6HxFxU5yiVu1I4r4nWz8Fg,"Good app when it works, but it constantly crashes when starting up.",Mozilla Firefox (Bugzilla),716500,App crashes on startup,"17205    User Agent: Mozilla/5.0 (Macintosh; Intel Mac ...
+Name: raw_text, dtype: object",closed,https://bugzilla.mozilla.org/show_bug.cgi?id=716500,Bugzilla resolution=WORKSFORME (cannot reproduce/confirm),,2012-01-09T23:46:10Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. I understand that experiencing crashes can be frustrating. There is a related issue, [#716500](https://bugzilla.mozilla.org/show_bug.cgi?id=716500), which was closed with a resolution of ""WORKSFORME,"" indicating that the issue could not be reproduced. If you continue to face this problem, please consider providing more details to help us investigate further.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,True,False,0.0,0.0,0.5,0.0,True,The response incorrectly states the resolution of the related issue as 'WORKSFORME' without acknowledging that it is classified as ABANDONED and needs more information. This misrepresents the status of the issue and does not provide actionable advice for the user experiencing crashes.
+fcfc695485f1ad0ed20bf23cf5bf0a43cba54154bda2f7174584f0dd60728956,Nextcloud,gp:AOqpTOHfOjWdNSBFubT-iJHFCCEjpGIgkRWXYpdSTfbSWLBVu0nLMprLkwDi8wKpxV1hM7-kk-Gbb8iFI8DceF4,App keep crashing when i try to make changes im auto upload. Hope there will be a quick update to fix it.,nextcloud/android (GitHub),6279,App crashes while auto-uploading,"### Steps to reproduce
+1. Have the app auto-upload an image folder 
+
+### Expected behaviour
+- It uploads the images
+
+### Actual behaviour
+- If run in the background it just stops uploading after a few images, if run in the foreground it becomes inresponsive and crashes after a few  seconds.
+[error.txt](https://github.com/nextcloud/android/files/4769553/error.txt)",closed,https://github.com/nextcloud/android/issues/6279,needs-info/cannot-reproduce label=needs info/discussion,bug;needs info/discussion,2020-07-03T14:03:26Z,ABANDONED,NEEDS_INFO,ABANDONED_NEEDS_INFO,False,raw_metadata,"Thank you for your feedback. We understand that the app crashes during auto-upload, which is a known issue documented in [Issue #6279](https://github.com/nextcloud/android/issues/6279). This issue was closed with a status of ""needs info/discussion,"" indicating that further information was required to reproduce the problem. We appreciate your patience as we work towards a resolution.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,1.0,False,False,0.5,0.5,0.5,0.0,True,"The response accurately references the issue and its status, but it incorrectly states that the issue is a known problem when it is actually categorized as abandoned due to lack of information. The specificity is moderate as it mentions the issue number but does not provide actionable steps or a clear resolution timeline. The empathy and usefulness are limited as it does not offer a solution or express understanding of the user's frustration."
+feb1a52e9be26c6b80fae94c778dcaa4a01c720fb1f2959bc5a7b1cd56076c41,Nextcloud,gp:AOqpTOE0b57sCcIhfkhtKQL4HVWN76XsuMeYrHYUtvGuajltz7C0qRqpMuyNR4zFIpAcLLfK31a_PJo8kpYGLz4,"App is nice for data sync. If you are using a version of the app that works, I strongly recommend disabling auto update to prevent the app from breaking as just happened with v3.0.0 in Feb 2018",nextcloud/android (GitHub),2710,3.2.0 automatic synch broken,"might be related to  #285  #2691 and maybe more
+automatic upload once again broken by update.
+
+To fix it, one again, had to cut/past all pics in DCIM to another location.
+Stop the app, clear the cache.
+cut/past back the files.
+Restart the app.",closed,https://github.com/nextcloud/android/issues/2710,stale label=stale,bug;feature:AutoUpload;stale,2019-05-24T02:23:07Z,ABANDONED,STALE,ABANDONED,False,raw_metadata,"Thank you for your feedback. We understand your concerns regarding automatic sync issues. There was a reported problem with automatic upload in version 3.2.0, which has since been closed as stale (Issue #2710: https://github.com/nextcloud/android/issues/2710). We recommend being cautious with updates if you find a version that works well for you. Your experience is valuable, and we appreciate your input.",gpt-4o-mini-2024-07-18,gpt-4o-mini-2024-07-18,0.0,False,True,0.0,0.0,0.0,0.0,True,"The response references a different version (3.2.0) than the user's concern (3.0.0) and does not address the user's specific experience or provide actionable advice related to their issue. It also misrepresents the state of the issue as 'stale' without clarifying that it is abandoned, which could mislead the user."

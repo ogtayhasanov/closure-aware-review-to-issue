@@ -1,0 +1,315 @@
+﻿sheet_id,issue_url,tracker_evidence,response,NO_FALSE_FIX,STATES_OUTCOME,ASKS_DETAILS,SAYS_DUPLICATE,notes
+A133,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback on Firefox for Android. The issue you mentioned regarding slow and laggy tab animations was tracked under issue #1272867, which has been closed with a resolution of ""Works for Me."" If you're still experiencing performance issues, please provide reproduction steps, your app version, device model, and any logs you may have. Your input is valuable in helping us improve!",,,,NA,
+A071,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it is when the autoupload feature isn't working as expected. The issue you mentioned is tracked under issue #2555 on GitHub, but it has been closed due to inactivity and is not currently being addressed. You can view it here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). If you have any additional details or reproduction steps, please share them, as they could help in further investigations.",,,NA,NA,
+A135,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #927492
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-10-21T03:44:41Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned about crashes in Firefox 24 has been closed as ""incomplete"" because more information was needed. Unfortunately, we couldn't proceed without additional details. If you could provide reproduction steps, your app version, device, and any logs, it would greatly help us investigate further.",,,,NA,
+A137,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand that you're experiencing slow scrolling speeds and dropped FPS in Firefox. The issue you mentioned is tracked under issue #1056619, but it has been closed as abandoned due to a lack of information. If you could provide reproduction steps, your app version, device details, and any logs, it would help us investigate further. Your input is valuable, and we appreciate your support!",,,,NA,
+A104,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback on Firefox for Android. I understand your frustration with the slow performance. The issue you mentioned, related to slow and laggy tab animations, is currently closed as abandoned because more information was needed to reproduce it. If you could provide reproduction steps, your app version, device details, and any logs, it would be helpful for further investigation. Your input is valuable to us!",,,,NA,
+A070,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1290694
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2016-08-04T22:58:27Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when the app is slow and the quality of photos and videos is poor. The issue you mentioned is tracked under Mozilla Firefox Bugzilla issue #1290694, which is currently closed. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. Your input can help us address these concerns more effectively.",,,,NA,
+A009,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #927492
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-10-21T03:44:41Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding crashes in Firefox 24 has been closed as ""incomplete,"" meaning more information was needed to investigate further. If you could provide reproduction steps, your app version, device details, and any logs, it would greatly help in addressing the problem. Your experience is important to us!",,,,NA,
+A088,,"Tracker: VLC Android (Trac)
+Retrieved issue: #19811
+Raw tracker closure fields from frozen evidence: {""resolution"": ""invalid"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when the app doesn't work as expected. The issue you mentioned about video not showing has been closed as rejected, meaning it was deemed out of scope or invalid. If you have more details about your experience, such as reproduction steps, app version, device, and logs, please share them. Your input could help us better understand the problem.",,,NA,NA,
+A114,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1317269
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-08-07T12:01:56Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it is when the app keeps crashing. The issue you mentioned is tracked under Mozilla Firefox Bug #1317269, which has been closed. Unfortunately, it seems that the problem persists for some users. If you have any additional details, such as reproduction steps, app version, device, or logs, please share them to help us investigate further.",,,,NA,
+A018,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1388188
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-11-19T23:52:20Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is tracked under Mozilla Firefox Bug #1388188, which has been closed. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. This information can help us understand your experience better.",,,NA,,
+A016,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #920918
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-09-26T08:46:16Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand your disappointment regarding the add-ons not working on Firefox for Android. The issue you mentioned is tracked under issue #920918, which is currently closed. If you have specific details about the add-ons that aren't functioning, please share them, including reproduction steps, your app version, device, and any logs. This information can help us address the concerns more effectively.",,,NA,NA,
+A034,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! It seems your issue is related to audio playback stopping when the phone locks, which is tracked under issue #20548 in our VLC Android tracker. This issue has been closed, but if you have additional details or specific reproduction steps, please share them. Your experience is important to us!",,,NA,NA,
+A063,https://github.com/nextcloud/android/issues/5910,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #5910
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-07-04T05:07:39Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding auto-upload and local storage has been closed as it was marked stale and requires further discussion. Unfortunately, it seems that it was not addressed. If you could provide reproduction steps, your app version, device details, and any logs, it would help in investigating this further. You can track the original issue here: [Issue #5910](https://github.com/nextcloud/android/issues/5910).",,,NA,NA,
+A059,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #927492
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-10-21T03:44:41Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when the app freezes and crashes. The issue you mentioned is tracked under Bugzilla issue #927492, but it has been closed because more information was needed to reproduce it. If you could provide reproduction steps, your app version, device details, and any logs, it would be helpful for further investigation.",,,,NA,
+A003,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #700842
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2011-11-09T14:56:56Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you reported about crashes has been closed as a duplicate of another report. Unfortunately, I can't provide a specific URL for you to check. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. Your input can help us address the issue more effectively.",,,NA,,
+A047,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1028740
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-01-31T09:47:55Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding tabs not closing properly has been tracked as issue #1028740, which was closed with a resolution of ""WORKSFORME"" on January 31, 2017. Unfortunately, we cannot provide further assistance on this specific issue. If you're still experiencing problems, please consider checking for updates or providing more details about your situation.",,,,NA,
+A074,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1085326
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-03-01T22:58:24Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when an app crashes. The issue you mentioned is tracked under Bugzilla as issue #1085326, which was closed with a ""WORKSFORME"" resolution. This means that more information was needed to investigate further. If you could provide reproduction steps, your app version, device details, and any logs, it would be helpful for us to look into this issue again.",,,,NA,
+A054,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #756915
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-22T14:01:42Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is tracked under Mozilla Firefox Bug #756915, which has been closed. Unfortunately, I cannot provide further details as the URL is not available. If you have additional information or specific reproduction steps, please share them, and we can look into it further.",,,,NA,
+A101,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1317269
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-08-07T12:01:56Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it is when the app keeps crashing. The issue you mentioned is tracked under Bugzilla issue #1317269, which was closed with a resolution of ""WORKSFORME."" Unfortunately, this means it was not reproducible at the time. If you have additional details, such as reproduction steps, app version, device, and logs, please share them so we can investigate further.",,,,NA,
+A066,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue you mentioned regarding slow and laggy tab animation in Firefox mobile is tracked under issue #1272867, which has been closed. If you have any additional details or specific experiences you'd like to share, please let us know! Your input is valuable in helping us improve.",,,,NA,
+A093,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1381369
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-07-31T18:25:33Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding battery drain has been tracked under Bug #1381369, but it was closed as ""invalid"" on July 31, 2017. Unfortunately, this means it won't be addressed further. If you have additional details or specific reproduction steps, please share them, as they could help us understand the issue better. We appreciate your patience.",,,NA,NA,
+A136,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1511562
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-12-21T15:17:40Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It seems that your issue with video playback has been tracked in Bugzilla under issue #1511562, which is currently closed. If you have additional details or specific reproduction steps, please share them so we can better understand your experience. Your input is valuable to us!",,,,NA,
+A046,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20777
+Raw tracker closure fields from frozen evidence: {""resolution"": ""duplicate"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback regarding the playlist issues in VLC. I understand how frustrating it can be to deal with duplicated entries and other glitches. The issue you mentioned is tracked under VLC Android issue #20777, but it has been closed. If you have additional details or reproduction steps, please share them, including your app version, device, and any logs. Your input can help us improve the experience.",,,NA,,
+A069,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1028740
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-01-31T09:47:55Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned about tabs not closing properly was tracked as issue #1028740, which was closed with a resolution of ""Works for Me."" Unfortunately, it seems that more information was needed to address the problem effectively. If you could provide reproduction steps, your app version, device details, and any logs, it would help us investigate further.",,,,NA,
+A050,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1290694
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2016-08-04T22:58:27Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when an app is slow and the quality of media is poor. The issue you mentioned is tracked under Mozilla Firefox Bug #1290694, which was closed with a resolution of ""WORKSFORME"" on August 4, 2016. If you continue to experience these problems, please provide more details about your device, app version, and any logs, so we can better assist you.",,,,NA,
+A011,https://github.com/nextcloud/android/issues/2879,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2879
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-10-31T19:37:19Z"", ""labels"": [""bug"", ""needs info/discussion""], ""state"": ""closed""}
+Last retained close event: actor=AndyScherzinger; actor type=User; closed_at=2018-10-31T19:37:19Z.
+Linked closer: PullRequest; reference=PR#3207.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. It seems your issue is related to a known problem where the app is not asking for fingerprint verification and only requests a PIN instead. This issue is tracked as #2879 on GitHub: [Issue #2879](https://github.com/nextcloud/android/issues/2879). If you have any additional details or reproduction steps, please share them, as they can help us understand the problem better.",,,,NA,
+A006,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It seems that your issue is related to a known problem with VLC Android, tracked as issue #9834. This issue has been closed, but it appears to involve crashes when streaming specific files. If you have more details about your situation, such as reproduction steps, your app version, device, and any logs, please share them. Your input could help us understand the problem better.",,,,NA,
+A128,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating it can be when features don't work as expected. The issue you reported regarding the Galaxy S8 not auto-uploading in medium power-saving mode is tracked under issue #3376 on GitHub. Unfortunately, it has been closed as abandoned, meaning it hasn't been addressed and no further action is planned at this time. You can view the issue here: [Issue #3376](https://github.com/nextcloud/android/issues/3376).",,,NA,NA,
+A073,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1388188
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-11-19T23:52:20Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It appears that your issue regarding the absence of Home and Menu buttons, as well as the page not reloading, is tracked under a closed issue (#1388188) in Mozilla Firefox, which was marked as a duplicate. Unfortunately, we cannot provide further assistance on this specific matter. If you have additional details or a different issue, please let us know!",,,NA,,
+A078,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1272867
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-07-19T13:10:14Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue you mentioned regarding slow and laggy tab animation in Firefox mobile was tracked under issue #1272867, which has been closed with a resolution of ""WORKSFORME."" If you're still experiencing performance issues, please consider providing more details about your device and app version so we can better understand the situation.",,,,NA,
+A085,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1028740
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-01-31T09:47:55Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you’re experiencing with restoring tabs has been tracked as issue #1028740, which is currently closed. If you have additional details or specific reproduction steps, please share them, including your app version and device. This information can help us understand the problem better.",,,,NA,
+A064,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It appears that your issue is similar to a previously reported one (Issue #9834) regarding crashes while streaming. This issue has been closed as ""works for me,"" indicating it may not be a widespread problem. If you're still experiencing crashes, please provide reproduction steps, your app version, device details, and any logs. Your input can help us understand the issue better.",,,,NA,
+A041,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand that you're experiencing crashes while streaming videos from YouTube. The issue you mentioned is similar to one we have tracked (Issue #9834), but it has been closed because we need more information to investigate further. Could you please provide the app version, your device model, and any logs if possible? This will help us better understand the problem. Thank you!",,,,NA,
+A099,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1336784
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-02-07T13:16:30Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be to experience battery issues after an update. The issue you mentioned is tracked elsewhere as a duplicate of another report. If you have any additional details or specific reproduction steps, please share them, including your app version and device information. This will help us investigate further.",,,NA,,
+A112,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue you mentioned regarding scrolling speed is tracked under issue #1056619 in our Bugzilla system. However, it has been closed, which means it may not be actively addressed at this time. We appreciate your input and encourage you to share any additional details or experiences you have.",,,,NA,
+A102,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #920918
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-09-26T08:46:16Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand your disappointment regarding the add-ons not working on Firefox for Android. The issue you mentioned is tracked as issue #920918, which has been closed with an ""INVALID"" resolution. Unfortunately, this means it won't be addressed further. We appreciate your continued support and hope for improvements in the future!",,,NA,NA,
+A019,https://github.com/nextcloud/android/issues/815,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #815
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-09-25T13:24:35Z"", ""labels"": [""bug"", ""feature:AutoUpload"", ""needs info/discussion""], ""state"": ""closed""}
+Last retained close event: actor=tobiasKaminsky; actor type=User; closed_at=2017-09-25T13:24:35Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback! The issue with auto-upload not working has been closed because more information was needed to reproduce it. We would appreciate it if you could provide the steps to reproduce the issue, your app version, device model, and any relevant logs. Your input will help us investigate further. You can also track the issue here: [Issue #815](https://github.com/nextcloud/android/issues/815).",,,,NA,
+A123,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1290694
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2016-08-04T22:58:27Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when the app is slow and the quality of photos and videos is poor. The issue you mentioned is tracked under Mozilla Firefox Bug #1290694, which has been closed with a resolution of ""Works for Me."" If you have additional details or specific reproduction steps, please share them, as they could help us investigate further.",,,,NA,
+A100,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #920918
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-09-26T08:46:16Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand your disappointment regarding the add-ons not working on Firefox for Android. The issue you mentioned is tracked under issue #920918, which has been closed as it was deemed out of scope. We appreciate your support and hope for improvements in the future. If you have any further concerns or suggestions, feel free to share!",,,NA,NA,
+A080,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue regarding scrolling speed, tracked as Issue #1056619, was closed with a resolution of ""Works for Me."" This means that it may not have been reproducible under certain conditions. If you have specific reproduction steps, your app version, device details, and any logs, please share them so we can investigate further. Your input is valuable in improving Firefox!",,,,NA,
+A031,https://github.com/nextcloud/android/issues/5174,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #5174
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2020-01-23T17:39:14Z"", ""labels"": [""bug"", ""needs info/discussion""], ""state"": ""closed""}
+Last retained close event: actor=4n3y3; actor type=User; closed_at=2020-01-23T17:39:14Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=2; reopen events=1. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you encountered with logging in has been tracked as Issue #5174 on GitHub, which is now closed due to needing more information. If you could provide the steps to reproduce the issue, your app version, device details, and any logs, it would be helpful for further investigation. You can view the issue here: [Issue #5174](https://github.com/nextcloud/android/issues/5174).",,,,NA,
+A042,https://github.com/nextcloud/android/issues/3376,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #3376
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-23T23:23:22Z"", ""labels"": [""bug"", ""needs info/discussion"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-23T23:23:22Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand how frustrating this issue can be. The problem with auto-uploading photos on the Galaxy S8 while in medium power-saving mode has been tracked as issue #3376 on GitHub. However, it has been closed, indicating that it may not be actively addressed. You can view the details here: [Issue #3376](https://github.com/nextcloud/android/issues/3376). If you have any additional information or reproduction steps, please share them, as it could help in further discussions.",,,NA,NA,
+A067,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1381369
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-07-31T18:25:33Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding high battery drain is tracked under Bug #1381369, which is currently closed. It is related to another issue, Bug #1124369. If you have additional details or reproduction steps, please share them, including your app version, device, and any logs. Your input can help us understand the problem better.",,,NA,NA,
+A131,,"Tracker: VLC Android (Trac)
+Retrieved issue: #17037
+Raw tracker closure fields from frozen evidence: {""resolution"": ""invalid"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you encountered is related to a previously reported problem (Issue #17037) that has been closed as it was deemed out of scope. Unfortunately, we cannot provide a fix for this at the moment. If you have additional details, such as reproduction steps, your app version, device, and logs, please share them to help us understand the issue better.",,,NA,NA,
+A015,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9456
+Raw tracker closure fields from frozen evidence: {""resolution"": ""incomplete"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. It appears that your issue is similar to a previously reported one, tracked under issue #9456 in the VLC Android tracker. This issue has been closed, but if you have additional details or specific reproduction steps, please share them. Your input could help us understand the problem better.",,,,NA,
+A075,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #700842
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2011-11-09T14:56:56Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned is tracked under Mozilla Firefox Bug #700842, which has been closed. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. This information can help us understand the problem better.",,,NA,,
+A062,,"Tracker: VLC Android (Trac)
+Retrieved issue: #11913
+Raw tracker closure fields from frozen evidence: {""resolution"": ""duplicate"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you're experiencing with VLC for Android hanging when scanning a large media library is tracked as issue #11913. It has been closed, but it appears to be a known problem related to handling large audio libraries. If you have any additional details, such as reproduction steps, your app version, device model, or logs, please share them to help us understand the issue better.",,,NA,,
+A113,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #920918
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-09-26T08:46:16Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand your disappointment regarding the add-ons not working on Firefox for Android. The issue you mentioned is tracked under issue #920918, which has been closed as invalid. While I can't provide specific updates on add-ons, your input is valuable for future improvements. If you have any further concerns or suggestions, feel free to share!",,,NA,NA,
+A087,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1317269
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-08-07T12:01:56Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it is when the app keeps crashing. The issue you mentioned is tracked as #1317269 in the Mozilla Firefox Bugzilla, but it has been closed with a resolution of ""WORKSFORME."" If you're still experiencing this problem, could you please provide reproduction steps, your app version, device details, and any logs? This information would be helpful for further investigation.",,,,NA,
+A013,,"Tracker: VLC Android (Trac)
+Retrieved issue: #19811
+Raw tracker closure fields from frozen evidence: {""resolution"": ""invalid"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding video playback has been tracked under issue #19811, which is now closed. If you are experiencing similar problems, please provide reproduction steps, your app version, device details, and any logs. This information will help us investigate further.",,,NA,NA,
+A095,https://github.com/nextcloud/android/issues/4054,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4054
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-07-11T05:40:54Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-07-11T05:40:54Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback regarding the Nextcloud app's performance over OpenVPN. I understand how frustrating this can be. The issue you mentioned is tracked under issue #4054 on GitHub, which is currently closed due to a lack of information. If you could provide reproduction steps, your app version, device model, and any relevant logs, it would greatly help in addressing this behavior. You can view the issue here: [Issue #4054](https://github.com/nextcloud/android/issues/4054).",,,NA,NA,
+A109,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1056619
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-01-12T18:39:28Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue regarding scrolling speed has been closed as ""Works for Me"" in our tracking system. Unfortunately, we cannot make changes based on this report alone. If you have specific details about your experience, such as reproduction steps, app version, device, and logs, please share them. Your input could help us investigate further.",,,,NA,
+A049,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #927492
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-10-21T03:44:41Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when the browser crashes unexpectedly. The issue you mentioned is tracked under Bugzilla issue #927492, which has been closed. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. This information can help us investigate further.",,,,NA,
+A065,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1096638
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2014-11-10T23:54:06Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! The issue you mentioned about not being able to change the default download folder is tracked as issue #1096638 in our system. Please note that this issue is currently closed. If you have any additional details or specific reproduction steps, feel free to share them, as they can help us understand the situation better.",,,NA,,
+A110,https://github.com/nextcloud/android/issues/2555,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #2555
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-05-24T03:23:18Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-05-24T03:23:18Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. I understand that you're experiencing issues with the autoupload feature, resulting in a ""connection error."" This issue is tracked as #2555 on our GitHub, which you can view here: [Issue #2555](https://github.com/nextcloud/android/issues/2555). It has been closed, but if you have additional details or reproduction steps, please share your app version, device model, and any relevant logs. Your input can help us address this better.",,,NA,NA,
+A053,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #751651
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-05-04T02:48:31Z"", ""resolution"": ""DUPLICATE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand your frustration with the UI and the missing features for power users. The issue you mentioned regarding accessing tabs from other devices is tracked under issue #751651, but it has been closed. If you have specific suggestions or additional details about your experience, please share them, as they can help us improve.",,,NA,,
+A032,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1085326
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-03-01T22:58:24Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand how frustrating it can be when an app crashes. The issue you mentioned is tracked under issue #1085326 in Mozilla Firefox's Bugzilla, but it has been closed. If you have additional details or specific reproduction steps, please share them, including your app version, device, and any logs. This information can help us investigate further.",,,,NA,
+A039,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1085326
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2015-03-01T22:58:24Z"", ""resolution"": ""WORKSFORME"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand how frustrating it can be when an app crashes. The issue you mentioned is tracked under Mozilla Firefox Bug #1085326, which was closed with a resolution of ""WORKSFORME."" If you're still experiencing crashes, please provide more details about your device, app version, and any logs you may have. This information can help us investigate further.",,,,NA,
+A029,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #1511562
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-12-21T15:17:40Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand your frustration with video playback issues in Firefox. The related issue, #1511562, has been closed because more information was needed to reproduce it. If you could provide reproduction steps, your app version, device details, and any logs, it would greatly help in investigating further. Your input is valuable to us!",,,,NA,
+A119,,"Tracker: VLC Android (Trac)
+Retrieved issue: #11913
+Raw tracker closure fields from frozen evidence: {""resolution"": ""duplicate"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you described about VLC for Android hanging when scanning a large media library has been tracked as a duplicate of another report. Unfortunately, we cannot provide a direct resolution at this time. If you have any additional details or specific reproduction steps, please share them, as they could help in addressing the issue more effectively.",,,NA,,
+A060,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #825487
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-12-30T10:03:08Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned regarding typing in the Firefox search box is tracked under issue #825487, which has been closed. If you have additional details or can reproduce the issue, please provide steps to replicate it, your app version, device, and any logs. This information can help us investigate further.",,,NA,NA,
+A012,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20777
+Raw tracker closure fields from frozen evidence: {""resolution"": ""duplicate"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback regarding the playlist issues in VLC. I understand how frustrating it can be to deal with duplicated entries and other glitches. Your concerns are noted, and I want to inform you that a similar issue is tracked elsewhere under issue #20777. Unfortunately, it has been closed as a duplicate. If you have additional details or specific reproduction steps, please share them, as they can help improve the app.",,,NA,,
+A108,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #927492
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2013-10-21T03:44:41Z"", ""resolution"": ""INCOMPLETE"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you mentioned about Firefox crashing was tracked as issue #927492, but it was closed due to needing more information. If you could provide reproduction steps, your app version, device details, and any logs, it would help us understand the problem better. Your experience is important to us!",,,,NA,
+A024,https://github.com/nextcloud/android/issues/815,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #815
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2017-09-25T13:24:35Z"", ""labels"": [""bug"", ""feature:AutoUpload"", ""needs info/discussion""], ""state"": ""closed""}
+Last retained close event: actor=tobiasKaminsky; actor type=User; closed_at=2017-09-25T13:24:35Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback! The issue with auto-upload not working is tracked as Issue #815 on GitHub: [Autoupload not working](https://github.com/nextcloud/android/issues/815). It has been closed, but we would appreciate more details to help us understand your experience better. Could you please provide the steps to reproduce the issue, your app version, device model, and any relevant logs? Your input is valuable in improving the app!",,,,NA,
+A125,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! I understand that you're experiencing playback glitches. The issue you mentioned is similar to Issue #20548, which has been closed as it was deemed out of scope. Unfortunately, there isn't a fix available for this specific problem. If you have more details about your experience, such as reproduction steps, app version, device, and logs, please share them, and we can look into it further.",,,NA,NA,
+A017,,"Tracker: VLC Android (Trac)
+Retrieved issue: #17037
+Raw tracker closure fields from frozen evidence: {""resolution"": ""invalid"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you’re experiencing with subtitles is related to a previously reported problem (Issue #17037) that has been closed. It seems to be linked to another issue that was supposed to be fixed. If you continue to face this problem, please provide reproduction steps, your app version, device details, and any logs you may have. This information will help us investigate further.",,,NA,NA,
+A036,https://github.com/nextcloud/android/issues/1514,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #1514
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2018-01-15T06:24:45Z"", ""labels"": [""bug"", ""feature:AutoUpload"", ""needs info/discussion""], ""state"": ""closed""}
+Last retained close event: actor=Dozecloud-llc; actor type=Organization; closed_at=2018-01-15T06:24:45Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback. The issue you mentioned regarding battery drain is tracked under issue #1514 on GitHub, which has been closed. You can view it here: [Battery drain issue](https://github.com/nextcloud/android/issues/1514). If you have additional details, such as reproduction steps, app version, device model, and logs, please share them to help us understand your experience better.",,,,NA,
+A092,,"Tracker: VLC Android (Trac)
+Retrieved issue: #9834
+Raw tracker closure fields from frozen evidence: {""resolution"": ""worksforme"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. I understand that you're experiencing crashes while streaming videos from YouTube. The issue you mentioned is tracked under issue #9834, which has been closed as it was determined to work for some users. However, it seems more information is needed to address your specific case. Could you please provide the app version, device details, and any logs? This will help us investigate further.",,,,NA,
+A106,,"Tracker: Mozilla Firefox (Bugzilla)
+Retrieved issue: #825487
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2012-12-30T10:03:08Z"", ""resolution"": ""INVALID"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you reported regarding typing in the Firefox search box has been closed as rejected, meaning it was deemed invalid or out of scope. Unfortunately, we cannot provide a fix for this at this time. If you have further details or specific reproduction steps, please share them, as they could help us understand the issue better.",,,NA,NA,
+A122,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! It seems that your issue is similar to a previously reported one, specifically issue #20548, which has been closed as it was determined to be outside the scope of VLC. We appreciate your long-term support and encourage you to share any additional details about your experience, such as reproduction steps, app version, device, and logs, to help us understand better.",,,NA,NA,
+A081,https://github.com/nextcloud/android/issues/4054,"Tracker: nextcloud/android (GitHub)
+Retrieved issue: #4054
+Raw tracker closure fields from frozen evidence: {""closed_at"": ""2019-07-11T05:40:54Z"", ""labels"": [""bug"", ""stale""], ""state"": ""closed""}
+Last retained close event: actor=stale; actor type=Bot; closed_at=2019-07-11T05:40:54Z.
+Linked closer: none recorded; reference=none recorded.
+Retained close events=1; reopen events=0. These counts are limited by the scan timeline window.","Thank you for your feedback regarding the Nextcloud app's performance over OpenVPN. I understand how frustrating this can be. The issue you mentioned is currently open and tracked under issue #4054 on GitHub. Unfortunately, it was closed due to inactivity and is not being actively addressed. You can view it here: [Issue #4054](https://github.com/nextcloud/android/issues/4054). If you have any additional details or reproduction steps, please share them, as they could help in further investigations.",,,NA,NA,
+A086,,"Tracker: VLC Android (Trac)
+Retrieved issue: #20548
+Raw tracker closure fields from frozen evidence: {""resolution"": ""notvlc"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback! It seems that your issue is related to audio playback stopping when the phone locks, which is tracked under issue #20548 in the VLC Android tracker. This issue has been closed with a resolution of ""not VLC."" If you have any additional details or specific reproduction steps, please share them, as they could help us understand your experience better.",,,NA,NA,
+A118,,"Tracker: VLC Android (Trac)
+Retrieved issue: #11913
+Raw tracker closure fields from frozen evidence: {""resolution"": ""duplicate"", ""state"": ""closed""}
+Closer/linked fix: not retained in this source; absence of evidence is not proof of no fix.","Thank you for your feedback. The issue you're experiencing with VLC for Android hanging when scanning a large media library has been closed as a duplicate and is tracked in another issue. We appreciate your understanding and encourage you to check for updates or related discussions. If you have any further details to share, please let us know!",,,NA,,

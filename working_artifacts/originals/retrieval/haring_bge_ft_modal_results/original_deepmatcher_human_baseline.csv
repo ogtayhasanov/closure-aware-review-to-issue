@@ -1,0 +1,4 @@
+app,n_reviews,n_judged_pairs,n_relevant_pairs,semantic_Hit@3,Precision@3
+Firefox,50,150,38,0.56,0.2533333333333333
+Nextcloud,50,150,59,0.66,0.39333333333333337
+VLC,50,150,26,0.42,0.1733333333333333

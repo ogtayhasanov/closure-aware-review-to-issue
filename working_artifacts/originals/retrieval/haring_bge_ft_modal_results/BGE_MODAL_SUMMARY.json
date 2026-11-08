@@ -1,0 +1,22 @@
+{
+  "frozen_checkpoint": "/vol/bge_ft_seed42_controlled/best_model",
+  "frozen_best_epoch": 2,
+  "frozen_internal_dev_MRR": 0.8351395954814675,
+  "queries": 150,
+  "original_haring_judgments": 450,
+  "original_haring_relevant_pairs": 123,
+  "models": [
+    "BGE-FT-E2-NOPREFIX-TITLE",
+    "BGE-ZS-NOPREFIX-TITLE",
+    "BGE-ZS-PREFIX-TITLE"
+  ],
+  "retrieval_rows": 1350,
+  "unique_new_pairs_needing_annotation": 761,
+  "zs_no_prefix_vs_ft_top3_overlap": {
+    "mean_shared_of_3": 1.3133333333333332,
+    "median_shared_of_3": 1.0,
+    "queries_same_top3_set": 16,
+    "queries_zero_shared": 32
+  },
+  "IMPORTANT": "Do NOT report BGE semantic Hit@3/P@3 until all newly retrieved pairs have resolved human relevance labels."
+}
