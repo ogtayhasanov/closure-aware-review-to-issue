@@ -20,7 +20,7 @@
 | BGE synthetic-development comparison | 794 paired ranks for zero-shot and the selected epoch-2 checkpoint | Reproduced |
 | DeepMatcher cached-vector and expanded relevance audit | [Appendix C archives](../working_artifacts/originals/deepmatcher_appendix_c/DeepMatcher_Supplementary_2026-11-03.zip) | 82 reproduction ranks and 796 frozen AI decisions with reasons |
 | External BGE-FT | [82 paired query scores with BGE-FT ranks](../working_artifacts/index/retrieval_query_scores_82_with_bge_ft.csv) | MRR 0.202, Hit@1 9/82, Hit@10 35/82, median rank 20.5 |
-| Table 8 RAW METADATA human audit | [36 completed verdicts](../working_artifacts/index/raw_metadata_labels_completed_36.csv) | 34 correct and two incorrect |
+| Table 8 RAW METADATA human audit | [36 verdicts, re-labeled 8 Nov 2026](../working_artifacts/index/raw_metadata_labels_completed_36.csv) | 34 correct and two incorrect |
 | Clean cross-tracker audit and controlled synthetic generation | [90 scored cases](../working_artifacts/originals/cross_tracker_90/CLEAN_scored_90.csv) and [700 original responses](../working_artifacts/originals/synthetic_benchmark/closure_reason_results.csv) | Frozen case-level evidence |
 | Expansion and cross-encoder diagnostics | [Working artifact inventory](../working_artifacts/README.md) | See the recovered retrieval scripts and query-expansion outputs |
 

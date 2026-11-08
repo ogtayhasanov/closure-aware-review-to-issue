@@ -19,7 +19,7 @@ flowchart TD
 | --- | ---: |
 | Closure taxonomy validation | 117/120 correct; macro-F1 0.9747; Cohen's kappa 0.9667 |
 | Blinded human status evaluation | Closure-aware 34/36 vs binary-state 1/36 |
-| Historical RAW METADATA human audit | 34/36 correct across the Table 8 cases |
+| RAW METADATA human audit (re-labeled 8 Nov 2026; original labels not retained) | 34/36 correct |
 | Paired significance | Exact two-sided McNemar p = 2.33e-10 |
 | Original post-hoc action audit | NEEDS_INFO 16/16 vs 4/16 and REDIRECTED 7/7 vs 0/7, closure-aware vs raw |
 | Shared-prompt outcome audit, GPT-4o-mini | Raw 33/35, closure-aware 30/35, binary 20/35 |

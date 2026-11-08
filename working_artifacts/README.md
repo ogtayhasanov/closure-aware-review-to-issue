@@ -8,7 +8,7 @@ The `originals/` directory holds byte-for-byte copies of local run files and arc
 | Main 246 responses and rationales | Complete. All three original arms contain 82 responses and all 246 rows have a saved `judge_reasoning` value. Both the generator and judge returned `gpt-4o-mini-2024-07-18`. | `originals/main_246/rrf_threeway_responses_and_judgments.csv` and `api_progress.jsonl` in the same directory |
 | Follow-up 1,780 responses and judge logs | All response texts and boolean judge outputs recovered. Written judge rationales were never requested or returned by the saved calls. | `index/followup_judgments_1780_with_text.csv` and `originals/followups/` |
 | Table 5 and Figure 5 synthetic responses | Complete. All 175 rows contain the four original response fields `resp_ca`, `resp_sa`, `resp_rag` and `resp_zs`. | `originals/synthetic_benchmark/closure_reason_results.csv` |
-| Table 8 RAW METADATA human labels | Complete. The supplied workbook matches all 36 archived cases and records 34 correct and two incorrect human verdicts. | `originals/human_status/completed/raw_metadata_status_annotation_36_FORMATTED.xlsx`, `index/raw_metadata_labels_completed_36.csv`, and `index/raw_metadata_audit_36_crosswalk.csv` |
+| Table 8 RAW METADATA human labels | Re-annotated. The original case-level labels were not retained, so the first author re-labeled all 36 responses on 8 November 2026 with the same rubric: 34 correct and two incorrect. | `originals/human_status/completed/raw_metadata_status_annotation_36_FORMATTED.xlsx`, `index/raw_metadata_labels_completed_36.csv`, and `index/raw_metadata_audit_36_crosswalk.csv` |
 | BGE-FT full ranks for 82 real queries | Complete. Both supplied exports agree on all 82 BGE-FT and BGE-ZS ranks. The joined table includes `bge_ft_rank` for each public query ID. | `originals/retrieval/bge_fullrank/` and `index/retrieval_query_scores_82_with_bge_ft.csv` |
 | Taxonomy 120 and Table 3 cross-tracker 90 | Complete. The 120 native state reasons and the labels field are restored beside the frozen predictions. The 90-row file contains native evidence, model rationales and rule predictions. | `index/taxonomy_predictions_120_with_tracker_fields.csv` and `originals/cross_tracker_90/CLEAN_scored_90.csv` |
 | Appendix C DeepMatcher and 796-pair AI audit | Complete. The supplied archive contains the original cached-document reproduction and all 796 frozen judgments and reasons. | `originals/deepmatcher_appendix_c/DeepMatcher_Supplementary_2026-11-03.zip` |
@@ -21,9 +21,9 @@ The follow-up judge was `gpt-5.4-nano-2026-03-17`. Its saved payloads returned b
 
 `lexical_states_outcome` is populated for the 140 GPT-4o-mini audit responses originally scored with that rule in `originals/followups/final_exp/audit_primary_scores.csv`. It is blank on the other 1,640 rows because the rule was only applied to that subset. The later combined-arm analysis specified judge-only scoring for STATES_OUTCOME. `judge_states_outcome` is populated for 280 responses. Blank cells indicate missing scores.
 
-## Historical human status and routing
+## Human status and routing
 
-The supplied completed RAW METADATA workbook matches all 36 annotation IDs, evidence fields and responses in the archived blank worksheet. It records 34 correct and two incorrect human verdicts for Table 8. The separate historical LLM status verdicts are 27 true and nine false. The completed 72 human judgments cover the structured and binary arms.
+The RAW METADATA workbook, re-labeled on 8 November 2026, matches all 36 annotation IDs, evidence fields and responses in the archived blank worksheet. It records 34 correct and two incorrect human verdicts for Table 8. The separate historical LLM status verdicts are 27 true and nine false. The completed 72 human judgments cover the structured and binary arms.
 
 The action-routing audit overlaps 23 of the 36 RAW METADATA cases. That includes all eight WORKSFORME cases, seven on Bugzilla and one on Trac. Those action codes record whether the response asks for more information or redirects. The crosswalk keeps action codes, original LLM status verdicts and completed human verdicts in separate columns.
 

@@ -26,4 +26,4 @@ The external retrieval export preserves the frozen positive-subset ranks for BM2
 
 ## Interpretation boundary
 
-The public tables reproduce statistical calculations from frozen, text-free decisions. They do not allow re-annotation of the original language. Raw records remain outside this repository pending a redistribution decision; this boundary is documented rather than obscured.
+The public tables reproduce statistical calculations from frozen, text-free decisions. The original texts are in working_artifacts/.
