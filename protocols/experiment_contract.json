@@ -1,5 +1,5 @@
 {
-  "artifact_version": "1.0.0",
+  "artifact_version": "0.1.0",
   "external_haring": {
     "projects": {"Firefox": 28, "VLC": 21, "Nextcloud": 33},
     "positive_queries": 82,
@@ -28,8 +28,9 @@
     "real_review_cases": 82,
     "primary_human_population": "36 final-RRF non-resolved closed issues",
     "primary_human_conditions": ["closure_aware", "binary_state"],
-    "raw_metadata_human_status": "post-hoc exploratory",
-    "automated_judge": "gpt-4o-mini alias; secondary descriptive evidence; immutable snapshot not retained"
+    "raw_metadata_human_status": "post-hoc exploratory; first-author re-annotation on 2026-11-08; original labels not retained",
+    "automated_judge": "Requested gpt-4o-mini; all 246 archived rows record returned model gpt-4o-mini-2024-07-18. Results are secondary descriptive evidence.",
+    "firefox_body_limitation": "For the 28 Firefox cases, all 84 condition rows contain a truncated pandas Series representation rather than the issue description. The 36-case human audit contains 18 Firefox cases. Historical scores describe these actual inputs and have not been replaced by a corrected run."
   },
   "splade_training": {
     "retained_queries": 7944,

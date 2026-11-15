@@ -1,28 +1,9 @@
-# Data availability
+# Data availability and attribution
 
-This public snapshot follows a data-minimization boundary.
+The current snapshot contains text-free derived evidence: opaque case identifiers, categorical closure labels and tracker fields, human and automated decisions, ranks, scores, aggregate counts, protocols, and path-sanitized historical scripts. The offline verifier reproduces the results listed in [Results and evidence status](docs/RESULTS.md). Historical working files containing review or issue text, direct platform identifiers, private working notes, workbooks, and a manuscript archive are not distributed in the current snapshot. See the [curated working-artifact inventory](working_artifacts/README.md) for the evidence that remains and the limits of the archived scripts.
 
-## Included
+## Third-party sources
 
-- author-created source code and protocols;
-- opaque case identifiers;
-- categorical closure labels and deterministic mapping rules;
-- binary human and automated judgments;
-- numeric evaluation scores, hashes, and aggregate results;
-- opaque paired retrieval ranks and frozen confidence scores;
-- sanitized follow-up decisions and actor-category provenance, plus the shared system and judge instructions authored for the experiment.
+The external review-to-issue benchmark and its original judgments are due to Häring and colleagues. The DeepMatcher comparison also used issue-noun vectors from Arthur Pilone, Paulo Meirelles, Walid Maalej, and Fabio Kon, *A replication package for “Multilingual Crowd-Based Requirements Engineering Using Large Language Models”*, Zenodo, 2024, [doi:10.5281/zenodo.13773021](https://doi.org/10.5281/zenodo.13773021). The Zenodo record lists Creative Commons Attribution 4.0 International (CC BY 4.0), while its included `LICENSE.txt` contains the Mozilla Public License 2.0. Consult both notices and the specific source files for applicable terms. The retained public files here contain derived labels and ranks, not that record's original datasets or model vectors.
 
-## Not redistributed
-
-- app-review text or source review identifiers;
-- issue titles, bodies, or comments;
-- generated developer-facing responses;
-- filled user prompts, evidence bundles, raw tracker timelines, and provider request/response logs;
-- annotation workbooks that reproduce any of that text;
-- model weights or external platform exports.
-
-The omitted source records originate from public software and app-review platforms, but public accessibility does not by itself establish a blanket downstream redistribution license. The complete internal evidence archive is retained for controlled verification; any later release will depend on source terms, author approval, and an appropriate acquisition or access mechanism.
-
-The text-free tables in `data/derived/` preserve the pairings and decisions needed to recompute the public headline statistics without reconstructing or exposing the underlying text.
-
-The reproduction commands recalculate statistics from archived scores, ranks, and labels. Verification of individual source texts, fresh judging, and end-to-end model runs require controlled access to the internal archives and source data. The manuscript's DeepMatcher appendix counts have a separate reported-only record. [Evidence coverage](docs/RESULTS.md)
+Individual public issue trackers and app-review sources can have separate reuse and privacy terms. The repository's own licensing status is stated in [LICENSE.md](LICENSE.md); it does not override third-party terms.

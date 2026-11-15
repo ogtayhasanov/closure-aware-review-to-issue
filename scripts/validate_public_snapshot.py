@@ -2,12 +2,17 @@
 from __future__ import annotations
 
 import csv
+import hashlib
+import json
+import math
 import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv", "venv"}
+WORKING_ARTIFACTS = ROOT / "working_artifacts"
+EXCLUDED_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv", "venv", "build", "dist"}
+EXCLUDED_FILES = {".DS_Store"}
 FORBIDDEN_SUFFIXES = {".xlsx", ".xls", ".zip", ".pdf", ".tex", ".bib", ".jsonl"}
 FORBIDDEN_HEADERS = {
     "review_text", "user review", "issue_title", "issue_body", "issue body",
@@ -52,11 +57,15 @@ FOLLOWUP_SCHEMAS = {
 }
 
 
-def files() -> list[Path]:
+def files(root: Path | None = None) -> list[Path]:
+    root = root or ROOT
     found: list[Path] = []
-    for directory, dirnames, filenames in os.walk(ROOT):
-        dirnames[:] = sorted(name for name in dirnames if name not in EXCLUDED_DIRS)
-        found.extend(Path(directory) / name for name in sorted(filenames))
+    for directory, dirnames, filenames in os.walk(root):
+        dirnames[:] = sorted(name for name in dirnames if name not in EXCLUDED_DIRS and not name.endswith(".egg-info"))
+        found.extend(
+            Path(directory) / name for name in sorted(filenames)
+            if name not in EXCLUDED_FILES and Path(name).suffix not in {".pyc", ".pyo", ".pyd"}
+        )
     return sorted(found)
 
 
@@ -65,10 +74,46 @@ def csv_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def verify_working_artifacts(paths: list[Path]) -> list[str]:
+    if not WORKING_ARTIFACTS.exists():
+        return ["Missing curated working artifacts"]
+    manifest_path = WORKING_ARTIFACTS / "SOURCE_MANIFEST.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as error:
+        return [f"Could not read working-artifact checksum inventory: {error}"]
+    entries = manifest.get("files") if isinstance(manifest, dict) else None
+    if not isinstance(entries, dict) or not entries:
+        return ["Missing working-artifact checksum inventory"]
+
+    observed = {path.relative_to(WORKING_ARTIFACTS).as_posix(): path for path in paths}
+    missing = (entries.keys() | {"README.md", "SOURCE_MANIFEST.json"}) - observed.keys()
+    if missing:
+        return [f"Missing working artifacts from the checksum inventory: {sorted(missing)}"]
+    failures = []
+    for name, spec in entries.items():
+        path = observed[name]
+        if path.is_symlink() or not path.resolve().is_relative_to(WORKING_ARTIFACTS):
+            failures.append(f"Unsafe working-artifact path: {name}")
+            continue
+        data = path.read_bytes()
+        if (
+            not isinstance(spec, dict)
+            or len(data) != spec.get("bytes")
+            or hashlib.sha256(data).hexdigest() != spec.get("sha256")
+        ):
+            failures.append(f"Working-artifact checksum mismatch: {name}")
+    if not failures:
+        print(f"PASS SHA-256 integrity for {len(entries)} working-artifact files")
+    return failures
+
+
 def main() -> int:
-    failures: list[str] = []
-    all_files = files()
-    for path in all_files:
+    paths = files()
+    working_files = [path for path in paths if path.is_relative_to(WORKING_ARTIFACTS)]
+    failures = verify_working_artifacts(working_files)
+    all_files = [path for path in paths if not path.is_relative_to(WORKING_ARTIFACTS)]
+    for path in paths:
         relative = path.relative_to(ROOT).as_posix()
         if path.suffix.lower() in FORBIDDEN_SUFFIXES:
             failures.append(f"Prohibited binary/raw artifact file: {relative}")
@@ -84,6 +129,11 @@ def main() -> int:
                 failures.append(f"Potential source app-review identifier in {relative}")
             if re.search(r"[A-Za-z]:[/\\]{1,2}Users[/\\]{1,2}", text, re.IGNORECASE):
                 failures.append(f"Local Windows path in {relative}")
+            if re.search(r"\b[A-Za-z0-9._%+-]{1,64}@[A-Za-z0-9.-]{1,255}\.[A-Za-z]{2,}\b", text):
+                failures.append(f"Email address in {relative}; review before publishing")
+            private_notes = ("KEEP " + "PRIVATE", "approved by the " + "user in this conversation", "available " + "balance")
+            if any(note.lower() in text.lower() for note in private_notes):
+                failures.append(f"Possible private working note in {relative}")
 
     expected = {
         "data/derived/human_status_72.csv": 72,
@@ -125,6 +175,36 @@ def main() -> int:
                     if row[field] not in {"", "0", "1"}:
                         failures.append(f"{relative}:{row_number} expected a binary or unavailable label in {field}")
 
+    def same_result_value(left: object, right: object) -> bool:
+        if type(left) is not type(right):
+            return False
+        if isinstance(left, dict):
+            return left.keys() == right.keys() and all(same_result_value(left[k], right[k]) for k in left)
+        if isinstance(left, list):
+            return len(left) == len(right) and all(same_result_value(a, b) for a, b in zip(left, right))
+        if left == right:
+            return True
+        try:
+            numeric = not isinstance(left, (bool, int))
+            if isinstance(left, str):
+                numeric = any(mark in left.lower() for mark in (".", "e"))
+            return numeric and math.isclose(float(left), float(right), rel_tol=1e-12)
+        except (TypeError, ValueError):
+            return False
+
+    def is_saved_result_copy(path: Path) -> bool:
+        """Allow an unchanged regenerated result under a local data directory."""
+        reference = ROOT / "results" / "generated" / path.name
+        if not reference.is_file() or path.suffix.lower() not in {".csv", ".json"}:
+            return False
+        try:
+            if path.suffix.lower() == ".json":
+                return same_result_value(json.loads(path.read_text(encoding="utf-8")), json.loads(reference.read_text(encoding="utf-8")))
+            with path.open(encoding="utf-8", newline="") as left, reference.open(encoding="utf-8", newline="") as right:
+                return same_result_value(list(csv.reader(left)), list(csv.reader(right)))
+        except (OSError, UnicodeError, ValueError, csv.Error):
+            return False
+
     unexpected_data = [
         path.relative_to(ROOT).as_posix()
         for path in all_files
@@ -132,6 +212,7 @@ def main() -> int:
         and path.is_file()
         and path.relative_to(ROOT).as_posix() not in expected
         and path != ROOT / "data" / "README.md"
+        and not is_saved_result_copy(path)
     ]
     if unexpected_data:
         failures.append(f"Data outside the public allowlist: {unexpected_data}")

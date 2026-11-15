@@ -3,7 +3,6 @@ message: "If you use this research snapshot, please cite the associated manuscri
 title: "Closure-Aware Review-to-Issue Intelligence"
 type: software
 version: 0.1.0
-date-released: 2026-08-13
 repository-code: "https://github.com/ogtayhasanov/closure-aware-review-to-issue"
 authors:
   - family-names: Hasanov
@@ -12,6 +11,8 @@ authors:
   - family-names: Ezzini
     given-names: Saad
     affiliation: King Fahd University of Petroleum and Minerals
+  - family-names: Luqman
+    given-names: Hamzah
   - family-names: Tang
     given-names: Xunzhu
     affiliation: University of Luxembourg / SnT TruX

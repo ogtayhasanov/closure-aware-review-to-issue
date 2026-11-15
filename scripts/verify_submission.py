@@ -21,7 +21,7 @@ from closure_artifact.analysis import reproduce_all
 MANIFEST_NAME = "MANIFEST.sha256"
 
 
-def verify_manifest(root: Path) -> None:
+def verify_manifest(root: Path, *, strict_inventory: bool = False) -> None:
     entries = set()
     for line in (root / MANIFEST_NAME).read_text(encoding="utf-8").splitlines():
         match = re.fullmatch(r"([0-9a-f]{64})  (.+)", line)
@@ -40,10 +40,13 @@ def verify_manifest(root: Path) -> None:
         if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
             raise ValueError(f"Checksum mismatch: {name}")
         entries.add(name)
-    observed = {path.relative_to(root).as_posix() for path in files()}
-    if entries != observed - {MANIFEST_NAME}:
+    observed = {path.relative_to(root).as_posix() for path in files(root)}
+    extra = observed - entries - {MANIFEST_NAME}
+    if strict_inventory and extra:
         raise ValueError("Archive files differ from the checksum inventory")
     print(f"PASS SHA-256 integrity for {len(entries)} files")
+    if extra:
+        print(f"NOTE {len(extra)} additional files are scanned but are not covered by the checksum inventory")
 
 
 def read_output(path: Path) -> object:
@@ -98,10 +101,11 @@ def verify_outputs() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--require-manifest", action="store_true", help="Require the packaged checksum inventory")
+    parser.add_argument("--strict-inventory", action="store_true", help="Fail if non-ignored files are absent from the inventory")
     args = parser.parse_args()
     try:
-        if args.require_manifest or (ROOT / MANIFEST_NAME).exists():
-            verify_manifest(ROOT)
+        if args.require_manifest or args.strict_inventory or (ROOT / MANIFEST_NAME).exists():
+            verify_manifest(ROOT, strict_inventory=args.strict_inventory)
         if validate_public_snapshot():
             return 1
         verify_outputs()

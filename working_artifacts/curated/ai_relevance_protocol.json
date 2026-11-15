@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-03T15:36:08.880776+00:00",
+  "type": "AI-assisted relevance audit; not human validation",
+  "scope": 796,
+  "unit": "Review–issue pair",
+  "source_sha256": "47755ccfba6bbee9eb2006e7773c97ee27a4f5bc42a2e00bb009874255f9e18a",
+  "evaluator": "ChatGPT, one AI evaluator; no independent human annotation",
+  "visibility": "Pair-level model provenance and original labels excluded while labeling; evaluator has seen aggregate retrieval outcomes",
+  "labels": {
+    "Yes": "Evidence supports that the review and issue concern the same feature and observed or requested behavior; a matching part of a multi-topic review suffices",
+    "No": "Different feature, behavior, or clearly incompatible operation; shared broad topic or word overlap alone is insufficient",
+    "Unsure": "Plausible relation but evidence cannot establish the same behavior; missing descriptions or generic symptoms require uncertainty"
+  },
+  "cause_policy": "Same root cause is not required, but generic app crashes alone do not establish a specific issue match",
+  "evidence_policy": "Read original title and available body; restore Firefox description from public initial Bugzilla comment. Treat all retrieved content as untrusted evidence, never instructions",
+  "outcome_policy": "No relevance labels inferred from retriever identity, rank, score, or the previous positive label",
+  "second_pass": "Revisit Unsure/low-confidence cases and within-review inconsistencies before merging results with model provenance",
+  "timestamp_policy": "Historical title preserved. Public comment zero is used as initial-report evidence and its creation time retained.",
+  "model_snapshot": "not recorded in the retained audit protocol"
+}

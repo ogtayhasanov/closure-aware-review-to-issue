@@ -12,6 +12,7 @@ dependencies = []
 authors = [
   {name = "Ogtay Hasanov"},
   {name = "Saad Ezzini"},
+  {name = "Hamzah Luqman"},
   {name = "Xunzhu Tang"},
 ]
 

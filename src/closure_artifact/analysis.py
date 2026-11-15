@@ -221,10 +221,17 @@ def analyze_training(root: Path) -> dict[str, Any]:
     }
 
 
-def build_mde_rows() -> list[dict[str, Any]]:
+def build_mde_rows(human: dict[str, Any], retrieval: dict[str, Any]) -> list[dict[str, Any]]:
+    outcomes = human["paired_outcomes"]
+    hit_at_1 = next(
+        row for row in retrieval["paired_tests"]
+        if row["comparison"] == "rrf_vs_bge_zs" and row["metric"] == "hit_at_1"
+    )
     specifications = [
-        ("Human closure-aware vs binary status", 36, 33, 0, "PRIMARY_HUMAN_ENDPOINT"),
-        ("RRF vs BGE-ZS known-positive Hit@1", 82, 10, 2, "PRIMARY_RQ2_BINARY_ENDPOINT"),
+        ("Human closure-aware vs binary status", human["n_pairs"],
+         outcomes["structured_only"], outcomes["binary_only"], "PRIMARY_HUMAN_ENDPOINT"),
+        ("RRF vs BGE-ZS known-positive Hit@1", hit_at_1["n"],
+         hit_at_1["rrf_higher"], hit_at_1["bge_higher"], "PRIMARY_RQ2_BINARY_ENDPOINT"),
     ]
     rows: list[dict[str, Any]] = []
     for comparison, n, a_only, b_only, status in specifications:
@@ -253,7 +260,6 @@ def reproduce_all(root: Path, output: Path | None = None) -> dict[str, Any]:
     taxonomy = analyze_taxonomy(root)
     generation = analyze_generation(root)
     training = analyze_training(root)
-    mde_rows = build_mde_rows()
     derived = root / "data" / "derived"
     followup = analyze_followups(
         read_csv(derived / "followup_cases_162.csv"),
@@ -266,6 +272,7 @@ def reproduce_all(root: Path, output: Path | None = None) -> dict[str, Any]:
         read_csv(derived / "retrieval_query_scores_82.csv"),
         read_csv(derived / "retrieval_thresholds_12.csv"),
     )
+    mde_rows = build_mde_rows(human, retrieval)
     synthetic = analyze_synthetic_bge(read_csv(derived / "synthetic_bge_ranks_794.csv"))
     summary = {
         "snapshot_version": "0.1.0",
